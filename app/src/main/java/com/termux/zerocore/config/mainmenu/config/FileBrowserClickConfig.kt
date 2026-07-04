@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.config.mainmenu.config
+package com.termux.ai.zerocore.config.mainmenu.config
 
 import android.content.Context
 import android.content.Intent
@@ -10,10 +10,10 @@ import android.text.TextUtils
 import android.view.View
 import com.example.xh_lib.utils.LogUtils
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.ai.R
-import com.termux.ai.ai.app.TermuxActivity
-import com.termux.ai.ai.zerocore.url.FileUrl
-import com.termux.ai.ai.zerocore.zero.engine.ZeroCoreManage
+import com.termux.ai.R
+import com.termux.ai.app.TermuxActivity
+import com.termux.ai.zerocore.url.FileUrl
+import com.termux.ai.zerocore.zero.engine.ZeroCoreManage
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

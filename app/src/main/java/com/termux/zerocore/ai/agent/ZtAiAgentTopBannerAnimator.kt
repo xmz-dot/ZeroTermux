@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.ai.agent
+package com.termux.ai.zerocore.ai.agent
 
 import android.animation.AnimatorListenerAdapter
 import android.animation.ValueAnimator

@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.config.mainmenu.config
+package com.termux.ai.zerocore.config.mainmenu.config
 
 import android.content.Context
 import android.graphics.drawable.Drawable
@@ -6,11 +6,11 @@ import android.text.TextUtils
 import android.view.View
 import com.example.xh_lib.utils.LogUtils
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.ai.R
-import com.termux.ai.ai.zerocore.dialog.YesNoDialog
-import com.termux.ai.ai.zerocore.url.FileUrl
-import com.termux.ai.ai.zerocore.utils.FileIOUtils
-import com.termux.ai.ai.zerocore.utils.XinhaoStoragePath
+import com.termux.ai.R
+import com.termux.ai.zerocore.dialog.YesNoDialog
+import com.termux.ai.zerocore.url.FileUrl
+import com.termux.ai.zerocore.utils.FileIOUtils
+import com.termux.ai.zerocore.utils.XinhaoStoragePath
 import java.io.File
 
 class MyUsedSoftLinksDataClickConfig: BaseMenuClickConfig() {

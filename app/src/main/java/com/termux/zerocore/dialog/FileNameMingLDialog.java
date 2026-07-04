@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.dialog;
+package com.termux.ai.zerocore.dialog;
 
 import android.content.Context;
 import android.os.Environment;
@@ -9,7 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.ai.R;
+import com.termux.ai.R;
 
 import java.io.File;
 

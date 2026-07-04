@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.editor.lsp
+package com.termux.ai.zerocore.editor.lsp
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.termux.ai.ai.R
+import com.termux.ai.R
 
 class EditorLspServerAdapter(
     private val manager: EditorLspManager,

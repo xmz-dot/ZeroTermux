@@ -1,10 +1,10 @@
-package com.termux.ai.ai.zerocore.utils
+package com.termux.ai.zerocore.utils
 
 import android.system.Os
 import com.example.xh_lib.utils.LogUtils
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.ai.R
-import com.termux.ai.ai.zerocore.url.FileUrl
+import com.termux.ai.R
+import com.termux.ai.zerocore.url.FileUrl
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.MainScope

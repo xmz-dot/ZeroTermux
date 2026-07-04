@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.config.mainmenu
+package com.termux.ai.zerocore.config.mainmenu
 
 data class MenuUpdateSource(
     val id: String,

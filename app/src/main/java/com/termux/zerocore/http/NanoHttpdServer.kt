@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.http
+package com.termux.ai.zerocore.http
 
 class NanoHttpdServer {
 }

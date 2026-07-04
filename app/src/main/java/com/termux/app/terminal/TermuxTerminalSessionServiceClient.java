@@ -1,14 +1,14 @@
-package com.termux.ai.ai.app.terminal;
+package com.termux.ai.app.terminal;
 
 import android.app.Service;
 
 import androidx.annotation.NonNull;
 
-import com.termux.ai.ai.app.TermuxService;
-import com.termux.ai.ai.shared.termux.shell.command.runner.terminal.TermuxSession;
-import com.termux.ai.ai.shared.termux.terminal.TermuxTerminalSessionClientBase;
-import com.termux.ai.ai.terminal.TerminalSession;
-import com.termux.ai.ai.terminal.TerminalSessionClient;
+import com.termux.ai.app.TermuxService;
+import com.termux.ai.shared.termux.shell.command.runner.terminal.TermuxSession;
+import com.termux.ai.shared.termux.terminal.TermuxTerminalSessionClientBase;
+import com.termux.ai.terminal.TerminalSession;
+import com.termux.ai.terminal.TerminalSessionClient;
 
 /** The {@link TerminalSessionClient} implementation that may require a {@link Service} for its interface methods. */
 public class TermuxTerminalSessionServiceClient extends TermuxTerminalSessionClientBase {

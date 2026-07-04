@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.dialog;
+package com.termux.ai.zerocore.dialog;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,8 +8,8 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.ai.R;
-import com.termux.ai.ai.zerocore.config.ztcommand.config.ConfirmedDialogConfig;
+import com.termux.ai.R;
+import com.termux.ai.zerocore.config.ztcommand.config.ConfirmedDialogConfig;
 
 public class ShowDialogActivity extends AppCompatActivity {
     public static final String EXTRA_TITLE = "dialog_title";

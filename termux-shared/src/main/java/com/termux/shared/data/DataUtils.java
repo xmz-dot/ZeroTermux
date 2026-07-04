@@ -1,4 +1,4 @@
-package com.termux.ai.ai.shared.data;
+package com.termux.ai.shared.data;
 
 import android.os.Bundle;
 

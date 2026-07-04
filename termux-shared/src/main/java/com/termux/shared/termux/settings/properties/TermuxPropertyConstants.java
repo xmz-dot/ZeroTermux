@@ -1,15 +1,15 @@
-package com.termux.ai.ai.shared.termux.settings.properties;
+package com.termux.ai.shared.termux.settings.properties;
 
 import com.google.common.collect.ImmutableBiMap;
-import com.termux.ai.ai.shared.termux.shell.am.TermuxAmSocketServer;
-import com.termux.ai.ai.shared.theme.NightMode;
-import com.termux.ai.ai.shared.file.FileUtils;
-import com.termux.ai.ai.shared.file.filesystem.FileType;
-import com.termux.ai.ai.shared.settings.properties.SharedProperties;
-import com.termux.ai.ai.shared.termux.TermuxConstants;
-import com.termux.ai.ai.shared.logger.Logger;
-import com.termux.ai.ai.terminal.TerminalEmulator;
-import com.termux.ai.ai.view.TerminalView;
+import com.termux.ai.shared.termux.shell.am.TermuxAmSocketServer;
+import com.termux.ai.shared.theme.NightMode;
+import com.termux.ai.shared.file.FileUtils;
+import com.termux.ai.shared.file.filesystem.FileType;
+import com.termux.ai.shared.settings.properties.SharedProperties;
+import com.termux.ai.shared.termux.TermuxConstants;
+import com.termux.ai.shared.logger.Logger;
+import com.termux.ai.terminal.TerminalEmulator;
+import com.termux.ai.view.TerminalView;
 
 import java.io.File;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package com.termux.ai.ai.app.activities;
+package com.termux.ai.app.activities;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -9,22 +9,22 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceFragmentCompat;
 
-import com.termux.ai.ai.R;
-import com.termux.ai.ai.shared.activities.ReportActivity;
-import com.termux.ai.ai.shared.file.FileUtils;
-import com.termux.ai.ai.shared.models.ReportInfo;
-import com.termux.ai.ai.app.models.UserAction;
-import com.termux.ai.ai.shared.interact.ShareUtils;
-import com.termux.ai.ai.shared.android.PackageUtils;
-import com.termux.ai.ai.shared.termux.settings.preferences.TermuxAPIAppSharedPreferences;
-import com.termux.ai.ai.shared.termux.settings.preferences.TermuxFloatAppSharedPreferences;
-import com.termux.ai.ai.shared.termux.settings.preferences.TermuxTaskerAppSharedPreferences;
-import com.termux.ai.ai.shared.termux.settings.preferences.TermuxWidgetAppSharedPreferences;
-import com.termux.ai.ai.shared.android.AndroidUtils;
-import com.termux.ai.ai.shared.termux.TermuxConstants;
-import com.termux.ai.ai.shared.termux.TermuxUtils;
-import com.termux.ai.ai.shared.activity.media.AppCompatActivityUtils;
-import com.termux.ai.ai.shared.theme.NightMode;
+import com.termux.ai.R;
+import com.termux.ai.shared.activities.ReportActivity;
+import com.termux.ai.shared.file.FileUtils;
+import com.termux.ai.shared.models.ReportInfo;
+import com.termux.ai.app.models.UserAction;
+import com.termux.ai.shared.interact.ShareUtils;
+import com.termux.ai.shared.android.PackageUtils;
+import com.termux.ai.shared.termux.settings.preferences.TermuxAPIAppSharedPreferences;
+import com.termux.ai.shared.termux.settings.preferences.TermuxFloatAppSharedPreferences;
+import com.termux.ai.shared.termux.settings.preferences.TermuxTaskerAppSharedPreferences;
+import com.termux.ai.shared.termux.settings.preferences.TermuxWidgetAppSharedPreferences;
+import com.termux.ai.shared.android.AndroidUtils;
+import com.termux.ai.shared.termux.TermuxConstants;
+import com.termux.ai.shared.termux.TermuxUtils;
+import com.termux.ai.shared.activity.media.AppCompatActivityUtils;
+import com.termux.ai.shared.theme.NightMode;
 
 public class SettingsActivity extends AppCompatActivity {
 

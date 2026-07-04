@@ -1,4 +1,4 @@
-package com.termux.ai.ai.app;
+package com.termux.ai.app;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -13,19 +13,19 @@ import android.view.WindowManager;
 
 import com.example.xh_lib.utils.LogUtils;
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.ai.R;
-import com.termux.ai.ai.shared.file.FileUtils;
-import com.termux.ai.ai.shared.termux.crash.TermuxCrashUtils;
-import com.termux.ai.ai.shared.termux.file.TermuxFileUtils;
-import com.termux.ai.ai.shared.interact.MessageDialogUtils;
-import com.termux.ai.ai.shared.logger.Logger;
-import com.termux.ai.ai.shared.markdown.MarkdownUtils;
-import com.termux.ai.ai.shared.errors.Error;
-import com.termux.ai.ai.shared.android.PackageUtils;
-import com.termux.ai.ai.shared.termux.TermuxConstants;
-import com.termux.ai.ai.shared.termux.TermuxUtils;
-import com.termux.ai.ai.shared.termux.shell.command.environment.TermuxShellEnvironment;
-import com.termux.ai.ai.zerocore.dialog.LoadingOsInstallDialog;
+import com.termux.ai.R;
+import com.termux.ai.shared.file.FileUtils;
+import com.termux.ai.shared.termux.crash.TermuxCrashUtils;
+import com.termux.ai.shared.termux.file.TermuxFileUtils;
+import com.termux.ai.shared.interact.MessageDialogUtils;
+import com.termux.ai.shared.logger.Logger;
+import com.termux.ai.shared.markdown.MarkdownUtils;
+import com.termux.ai.shared.errors.Error;
+import com.termux.ai.shared.android.PackageUtils;
+import com.termux.ai.shared.termux.TermuxConstants;
+import com.termux.ai.shared.termux.TermuxUtils;
+import com.termux.ai.shared.termux.shell.command.environment.TermuxShellEnvironment;
+import com.termux.ai.zerocore.dialog.LoadingOsInstallDialog;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
@@ -355,7 +355,7 @@ public final class TermuxInstaller {
                     // https://cs.android.com/android/platform/superproject/+/android-12.0.0_r32:frameworks/base/services/core/java/com/android/server/StorageManagerService.java;l=3796
                     // https://cs.android.com/android/platform/superproject/+/android-7.0.0_r36:frameworks/base/services/core/java/com/android/server/MountService.java;l=3053
 
-                    // Create "Android/data/com.termux" symlinks
+                    // Create "Android/data/com.termux.ai" symlinks
                     File[] dirs = context.getExternalFilesDirs(null);
                     if (dirs != null && dirs.length > 0) {
                         for (int i = 0; i < dirs.length; i++) {
@@ -367,7 +367,7 @@ public final class TermuxInstaller {
                         }
                     }
 
-                    // Create "Android/media/com.termux" symlinks
+                    // Create "Android/media/com.termux.ai" symlinks
                     dirs = context.getExternalMediaDirs();
                     if (dirs != null && dirs.length > 0) {
                         for (int i = 0; i < dirs.length; i++) {

@@ -1,10 +1,10 @@
-package com.termux.ai.ai.zerocore.data
+package com.termux.ai.zerocore.data
 
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.ai.R
-import com.termux.ai.ai.app.TermuxInstaller
-import com.termux.ai.ai.zerocore.bean.ZeroRunCommandBean
-import com.termux.ai.ai.zerocore.url.FileUrl
+import com.termux.ai.R
+import com.termux.ai.app.TermuxInstaller
+import com.termux.ai.zerocore.bean.ZeroRunCommandBean
+import com.termux.ai.zerocore.url.FileUrl
 import java.io.File
 
 object LinuxCommandData {

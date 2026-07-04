@@ -1,10 +1,10 @@
-package com.termux.ai.ai.zerocore.aidebug
+package com.termux.ai.zerocore.aidebug
 
 import android.content.Context
 import android.content.Intent
 import com.google.gson.Gson
-import com.termux.ai.ai.shared.termux.TermuxConstants
-import com.termux.ai.ai.zerocore.editor.EditorVncEnvironment
+import com.termux.ai.shared.termux.TermuxConstants
+import com.termux.ai.zerocore.editor.EditorVncEnvironment
 import java.io.File
 
 object ZtAiDebugVncHelper {

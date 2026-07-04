@@ -1,17 +1,17 @@
-package com.termux.ai.ai.zerocore.dialog.adapter
+package com.termux.ai.zerocore.dialog.adapter
 
 import android.content.Context
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.ai.R
-import com.termux.ai.ai.zerocore.back.bean.DataBean
-import com.termux.ai.ai.zerocore.back.listener.RestoreFileDataListener
-import com.termux.ai.ai.zerocore.back.listener.RestoreRefreshFileListener
-import com.termux.ai.ai.zerocore.back.viewholder.RestoreViewHolder
-import com.termux.ai.ai.zerocore.dialog.SwitchDialog
-import com.termux.ai.ai.zerocore.dialog.view_holder.ItemMenuViewHolder
-import com.termux.ai.ai.zerocore.utils.FileIOUtils
+import com.termux.ai.R
+import com.termux.ai.zerocore.back.bean.DataBean
+import com.termux.ai.zerocore.back.listener.RestoreFileDataListener
+import com.termux.ai.zerocore.back.listener.RestoreRefreshFileListener
+import com.termux.ai.zerocore.back.viewholder.RestoreViewHolder
+import com.termux.ai.zerocore.dialog.SwitchDialog
+import com.termux.ai.zerocore.dialog.view_holder.ItemMenuViewHolder
+import com.termux.ai.zerocore.utils.FileIOUtils
 
 class ModuleAdapter: RecyclerView.Adapter<RestoreViewHolder> {
     private var mList: ArrayList<DataBean>? = null

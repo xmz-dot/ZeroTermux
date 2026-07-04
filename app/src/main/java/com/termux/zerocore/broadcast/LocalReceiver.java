@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.broadcast;
+package com.termux.ai.zerocore.broadcast;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -12,13 +12,13 @@ import com.example.xh_lib.utils.LogUtils;
 import com.example.xh_lib.utils.SaveData;
 import com.example.xh_lib.utils.UUtils;
 import com.termux.ai.BuildConfig;
-import com.termux.ai.ai.R;
-import com.termux.ai.ai.app.TermuxActivity;
-import com.termux.ai.ai.terminal.Logger;
-import com.termux.ai.ai.zerocore.bosybox.BusyBoxManager;
-import com.termux.ai.ai.zerocore.developer.DeveloperActivity;
-import com.termux.ai.ai.zerocore.utils.FileHttpUtils;
-import com.termux.ai.ai.zerocore.utils.Z7ExtracatUtils;
+import com.termux.ai.R;
+import com.termux.ai.app.TermuxActivity;
+import com.termux.ai.terminal.Logger;
+import com.termux.ai.zerocore.bosybox.BusyBoxManager;
+import com.termux.ai.zerocore.developer.DeveloperActivity;
+import com.termux.ai.zerocore.utils.FileHttpUtils;
+import com.termux.ai.zerocore.utils.Z7ExtracatUtils;
 import com.zp.z_file.zerotermux.ZTConfig;
 
 import java.io.File;

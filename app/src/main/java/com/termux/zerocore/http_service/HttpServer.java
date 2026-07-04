@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.http_service;
+package com.termux.ai.zerocore.http_service;
 
 import static android.os.Build.VERSION_CODES.R;
 
@@ -6,10 +6,10 @@ import android.os.Environment;
 import android.util.Log;
 
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.ai.R;
-import com.termux.ai.ai.shared.termux.TermuxConstants;
-import com.termux.ai.ai.zerocore.url.FileUrl;
-import com.termux.ai.ai.zerocore.utils.FileIOUtils;
+import com.termux.ai.R;
+import com.termux.ai.shared.termux.TermuxConstants;
+import com.termux.ai.zerocore.url.FileUrl;
+import com.termux.ai.zerocore.utils.FileIOUtils;
 
 import org.apache.commons.fileupload.FileItemIterator;
 import org.apache.commons.fileupload.FileItemStream;

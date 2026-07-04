@@ -1,4 +1,4 @@
-package com.termux.ai.ai.app.activities;
+package com.termux.ai.app.activities;
 
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
@@ -13,7 +13,7 @@ import android.widget.RelativeLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.termux.ai.ai.shared.termux.TermuxConstants;
+import com.termux.ai.shared.termux.TermuxConstants;
 
 /** Basic embedded browser for viewing help pages. */
 public final class HelpActivity extends AppCompatActivity {

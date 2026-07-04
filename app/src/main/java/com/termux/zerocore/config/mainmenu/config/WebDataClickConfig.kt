@@ -1,15 +1,15 @@
-package com.termux.ai.ai.zerocore.config.mainmenu.config
+package com.termux.ai.zerocore.config.mainmenu.config
 
 import android.app.Activity
 import android.content.Context
 import android.graphics.drawable.Drawable
 import android.view.View
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.ai.R
-import com.termux.ai.ai.app.TermuxActivity
-import com.termux.ai.ai.zerocore.data.CommendShellData
-import com.termux.ai.ai.zerocore.dialog.SwitchDialog
-import com.termux.ai.ai.zerocore.utils.FileIOUtils
+import com.termux.ai.R
+import com.termux.ai.app.TermuxActivity
+import com.termux.ai.zerocore.data.CommendShellData
+import com.termux.ai.zerocore.dialog.SwitchDialog
+import com.termux.ai.zerocore.utils.FileIOUtils
 
 class WebDataClickConfig: BaseMenuClickConfig() {
     override fun getIcon(context: Context?): Drawable? {

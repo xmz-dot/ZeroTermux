@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.config;
+package com.termux.ai.zerocore.config;
 
 public interface BaseConfig {
 }

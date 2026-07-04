@@ -1,14 +1,14 @@
-package com.termux.ai.ai.shared.termux.shell.command.environment;
+package com.termux.ai.shared.termux.shell.command.environment;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import com.termux.ai.ai.shared.shell.command.ExecutionCommand;
-import com.termux.ai.ai.shared.shell.command.environment.ShellCommandShellEnvironment;
-import com.termux.ai.ai.shared.shell.command.environment.ShellEnvironmentUtils;
-import com.termux.ai.ai.shared.termux.settings.preferences.TermuxAppSharedPreferences;
-import com.termux.ai.ai.shared.termux.shell.TermuxShellManager;
+import com.termux.ai.shared.shell.command.ExecutionCommand;
+import com.termux.ai.shared.shell.command.environment.ShellCommandShellEnvironment;
+import com.termux.ai.shared.shell.command.environment.ShellEnvironmentUtils;
+import com.termux.ai.shared.termux.settings.preferences.TermuxAppSharedPreferences;
+import com.termux.ai.shared.termux.shell.TermuxShellManager;
 
 import java.util.HashMap;
 

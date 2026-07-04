@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.ai.deepseek.data;
+package com.termux.ai.zerocore.ai.deepseek.data;
 
 import java.util.List;
 

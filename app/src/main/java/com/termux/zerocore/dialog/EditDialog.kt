@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.dialog
+package com.termux.ai.zerocore.dialog
 
 import android.content.Context
 import android.text.Editable
@@ -9,9 +9,9 @@ import android.widget.TextView
 import com.example.xh_lib.utils.SaveData.getStringOther
 import com.example.xh_lib.utils.UUtils
 import com.google.gson.Gson
-import com.termux.ai.ai.R
-import com.termux.ai.ai.zerocore.bean.EditPromptBean
-import com.termux.ai.ai.zerocore.popuwindow.EditPromptWindow
+import com.termux.ai.R
+import com.termux.ai.zerocore.bean.EditPromptBean
+import com.termux.ai.zerocore.popuwindow.EditPromptWindow
 import java.util.ArrayList
 
 class EditDialog : BaseDialogCentre {

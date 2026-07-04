@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.shell;
+package com.termux.ai.zerocore.shell;
 
 import android.util.Log;
 

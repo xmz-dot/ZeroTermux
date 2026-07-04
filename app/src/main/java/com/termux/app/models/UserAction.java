@@ -1,4 +1,4 @@
-package com.termux.ai.ai.app.models;
+package com.termux.ai.app.models;
 
 public enum UserAction {
 

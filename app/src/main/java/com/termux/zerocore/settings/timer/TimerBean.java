@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.settings.timer;
+package com.termux.ai.zerocore.settings.timer;
 
 public class TimerBean {
     public static final int TIMER_30_SECOND = 30 * 1000;

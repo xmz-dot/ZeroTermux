@@ -1,4 +1,4 @@
-package com.termux.ai.ai.shared.shell.command;
+package com.termux.ai.shared.shell.command;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -6,15 +6,15 @@ import android.net.Uri;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.termux.ai.ai.shared.data.IntentUtils;
-import com.termux.ai.ai.shared.shell.command.result.ResultConfig;
-import com.termux.ai.ai.shared.shell.command.result.ResultData;
-import com.termux.ai.ai.shared.errors.Error;
-import com.termux.ai.ai.shared.logger.Logger;
-import com.termux.ai.ai.shared.markdown.MarkdownUtils;
-import com.termux.ai.ai.shared.data.DataUtils;
-import com.termux.ai.ai.shared.shell.command.runner.app.AppShell;
-import com.termux.ai.ai.terminal.TerminalSession;
+import com.termux.ai.shared.data.IntentUtils;
+import com.termux.ai.shared.shell.command.result.ResultConfig;
+import com.termux.ai.shared.shell.command.result.ResultData;
+import com.termux.ai.shared.errors.Error;
+import com.termux.ai.shared.logger.Logger;
+import com.termux.ai.shared.markdown.MarkdownUtils;
+import com.termux.ai.shared.data.DataUtils;
+import com.termux.ai.shared.shell.command.runner.app.AppShell;
+import com.termux.ai.terminal.TerminalSession;
 
 import java.util.Collections;
 import java.util.List;

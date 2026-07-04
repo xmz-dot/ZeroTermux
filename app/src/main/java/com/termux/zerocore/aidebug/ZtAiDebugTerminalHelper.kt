@@ -1,8 +1,8 @@
-package com.termux.ai.ai.zerocore.aidebug
+package com.termux.ai.zerocore.aidebug
 
-import com.termux.ai.ai.shared.shell.ShellUtils
-import com.termux.ai.ai.shared.termux.settings.preferences.TermuxAppSharedPreferences
-import com.termux.ai.ai.terminal.TerminalSession
+import com.termux.ai.shared.shell.ShellUtils
+import com.termux.ai.shared.termux.settings.preferences.TermuxAppSharedPreferences
+import com.termux.ai.terminal.TerminalSession
 
 object ZtAiDebugTerminalHelper {
 

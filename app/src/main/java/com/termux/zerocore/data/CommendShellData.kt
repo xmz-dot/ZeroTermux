@@ -1,8 +1,8 @@
-package com.termux.ai.ai.zerocore.data
+package com.termux.ai.zerocore.data
 
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.ai.R
-import com.termux.ai.ai.zerocore.utils.XinhaoStoragePath
+import com.termux.ai.R
+import com.termux.ai.zerocore.utils.XinhaoStoragePath
 import java.io.File
 
 object CommendShellData {

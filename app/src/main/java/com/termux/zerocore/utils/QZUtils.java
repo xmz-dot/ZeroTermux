@@ -1,12 +1,12 @@
-package com.termux.ai.ai.zerocore.utils;
+package com.termux.ai.zerocore.utils;
 
 import android.util.Log;
 import android.widget.Toast;
 
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.ai.zerocore.activity.utils.CreateSystemUtils;
-import com.termux.ai.ai.zerocore.dialog.MyDialog;
-import com.termux.ai.ai.zerocore.fragment.RestoreFragment;
+import com.termux.ai.zerocore.activity.utils.CreateSystemUtils;
+import com.termux.ai.zerocore.dialog.MyDialog;
+import com.termux.ai.zerocore.fragment.RestoreFragment;
 
 import java.io.File;
 

@@ -1,10 +1,10 @@
-package com.termux.ai.ai.shared.net.socket.local;
+package com.termux.ai.shared.net.socket.local;
 
 import androidx.annotation.NonNull;
 
-import com.termux.ai.ai.shared.file.FileUtils;
-import com.termux.ai.ai.shared.logger.Logger;
-import com.termux.ai.ai.shared.markdown.MarkdownUtils;
+import com.termux.ai.shared.file.FileUtils;
+import com.termux.ai.shared.logger.Logger;
+import com.termux.ai.shared.markdown.MarkdownUtils;
 
 import java.io.Serializable;
 import java.nio.charset.StandardCharsets;

@@ -1,7 +1,7 @@
-package com.termux.ai.ai.zerocore.ai.agent
+package com.termux.ai.zerocore.ai.agent
 
-import com.termux.ai.ai.zerocore.ai.config.ZtAiConfigTools
-import com.termux.ai.ai.zerocore.ai.config.ZtAiStrings
+import com.termux.ai.zerocore.ai.config.ZtAiConfigTools
+import com.termux.ai.zerocore.ai.config.ZtAiStrings
 import org.json.JSONArray
 import org.json.JSONObject
 

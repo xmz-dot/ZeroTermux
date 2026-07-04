@@ -1,4 +1,4 @@
-package com.termux.ai.ai.shared.models;
+package com.termux.ai.shared.models;
 
 import android.graphics.Color;
 import android.graphics.Typeface;
@@ -6,8 +6,8 @@ import android.graphics.Typeface;
 import androidx.annotation.Keep;
 import androidx.annotation.NonNull;
 
-import com.termux.ai.ai.shared.activities.TextIOActivity;
-import com.termux.ai.ai.shared.data.DataUtils;
+import com.termux.ai.shared.activities.TextIOActivity;
+import com.termux.ai.shared.data.DataUtils;
 
 import java.io.Serializable;
 

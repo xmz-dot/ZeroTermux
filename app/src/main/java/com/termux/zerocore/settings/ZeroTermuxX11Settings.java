@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.settings;
+package com.termux.ai.zerocore.settings;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,16 +14,16 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.ai.R;
-import com.termux.ai.ai.app.TermuxService;
-import com.termux.ai.ai.x11.LoriePreferences;
-import com.termux.ai.ai.zerocore.activity.SwitchActivity;
-import com.termux.ai.ai.zerocore.bean.ZTUserBean;
-import com.termux.ai.ai.zerocore.dialog.LoadingDialog;
-import com.termux.ai.ai.zerocore.dialog.SwitchDialog;
-import com.termux.ai.ai.zerocore.ftp.utils.UserSetManage;
-import com.termux.ai.ai.zerocore.url.FileUrl;
-import com.termux.ai.ai.zerocore.utils.UUUtils;
+import com.termux.ai.R;
+import com.termux.ai.app.TermuxService;
+import com.termux.ai.x11.LoriePreferences;
+import com.termux.ai.zerocore.activity.SwitchActivity;
+import com.termux.ai.zerocore.bean.ZTUserBean;
+import com.termux.ai.zerocore.dialog.LoadingDialog;
+import com.termux.ai.zerocore.dialog.SwitchDialog;
+import com.termux.ai.zerocore.ftp.utils.UserSetManage;
+import com.termux.ai.zerocore.url.FileUrl;
+import com.termux.ai.zerocore.utils.UUUtils;
 import com.zp.z_file.util.ZFileUUtils;
 
 import java.io.File;

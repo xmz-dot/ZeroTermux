@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.config.other;
+package com.termux.ai.zerocore.config.other;
 
 import android.os.Message;
 import android.text.TextUtils;
@@ -27,8 +27,8 @@ import com.lzy.okgo.model.Response;
 import com.lzy.okgo.request.base.Request;
 import com.lzy.okgo.utils.HttpUtils;
 import com.termux.ai.BuildConfig;
-import com.termux.ai.ai.zerocore.config.other.data.VersionBean;
-import com.termux.ai.ai.zerocore.http.HTTPIP;
+import com.termux.ai.zerocore.config.other.data.VersionBean;
+import com.termux.ai.zerocore.http.HTTPIP;
 
 import java.util.HashMap;
 

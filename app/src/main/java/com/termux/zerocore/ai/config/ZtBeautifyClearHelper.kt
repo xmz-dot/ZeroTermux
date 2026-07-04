@@ -1,12 +1,12 @@
-package com.termux.ai.ai.zerocore.ai.config
+package com.termux.ai.zerocore.ai.config
 
 import android.graphics.Color
 import com.example.xh_lib.utils.UUtils
 import com.google.gson.Gson
-import com.termux.ai.ai.shared.termux.extrakeys.ExtraKeysView
-import com.termux.ai.ai.view.TerminalRenderer
-import com.termux.ai.ai.zerocore.config.ztcommand.navigation.ZtForegroundActivityHolder
-import com.termux.ai.ai.zerocore.utils.FileIOUtils
+import com.termux.ai.shared.termux.extrakeys.ExtraKeysView
+import com.termux.ai.view.TerminalRenderer
+import com.termux.ai.zerocore.config.ztcommand.navigation.ZtForegroundActivityHolder
+import com.termux.ai.zerocore.utils.FileIOUtils
 
 /**
  * 与左侧菜单「清空美化」相同：清除 SaveData 美化项、背景图/视频，并重置终端 UI。

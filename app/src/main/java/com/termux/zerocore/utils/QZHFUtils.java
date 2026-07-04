@@ -1,15 +1,15 @@
-package com.termux.ai.ai.zerocore.utils;
+package com.termux.ai.zerocore.utils;
 
 import android.util.Log;
 import android.widget.Toast;
 
 import com.example.xh_lib.utils.UUtils;
 import com.google.gson.Gson;
-import com.termux.ai.ai.R;
-import com.termux.ai.ai.app.TermuxActivity;
-import com.termux.ai.ai.zerocore.activity.BackNewActivity;
-import com.termux.ai.ai.zerocore.dialog.MyDialog;
-import com.termux.ai.ai.zerocore.fragment.BackupFragment;
+import com.termux.ai.R;
+import com.termux.ai.app.TermuxActivity;
+import com.termux.ai.zerocore.activity.BackNewActivity;
+import com.termux.ai.zerocore.dialog.MyDialog;
+import com.termux.ai.zerocore.fragment.BackupFragment;
 
 import java.io.File;
 import java.io.FileOutputStream;

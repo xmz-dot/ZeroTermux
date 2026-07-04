@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.ai.llm;
+package com.termux.ai.zerocore.ai.llm;
 
 import android.content.Context;
 import android.content.Intent;
@@ -23,17 +23,17 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.xh_lib.utils.LogUtils;
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.ai.R;
-import com.termux.ai.ai.zerocore.ai.llm.data.ChatDatabaseHelper;
-import com.termux.ai.ai.zerocore.ai.llm.data.ChatMessage;
-import com.termux.ai.ai.zerocore.ai.llm.data.ChatMessageAdapter;
-import com.termux.ai.ai.zerocore.ai.llm.data.ChatSession;
-import com.termux.ai.ai.zerocore.ai.llm.model.Config;
-import com.termux.ai.ai.zerocore.ai.llm.model.RequestMessageItem;
-import com.termux.ai.ai.zerocore.ai.model.AIClient;
-import com.termux.ai.ai.zerocore.ai.model.ProviderProfile;
-import com.termux.ai.ai.zerocore.ai.provider.AIProvider;
-import com.termux.ai.ai.zerocore.ftp.utils.UserSetManage;
+import com.termux.ai.R;
+import com.termux.ai.zerocore.ai.llm.data.ChatDatabaseHelper;
+import com.termux.ai.zerocore.ai.llm.data.ChatMessage;
+import com.termux.ai.zerocore.ai.llm.data.ChatMessageAdapter;
+import com.termux.ai.zerocore.ai.llm.data.ChatSession;
+import com.termux.ai.zerocore.ai.llm.model.Config;
+import com.termux.ai.zerocore.ai.llm.model.RequestMessageItem;
+import com.termux.ai.zerocore.ai.model.AIClient;
+import com.termux.ai.zerocore.ai.model.ProviderProfile;
+import com.termux.ai.zerocore.ai.provider.AIProvider;
+import com.termux.ai.zerocore.ftp.utils.UserSetManage;
 
 import java.util.ArrayList;
 import java.util.List;

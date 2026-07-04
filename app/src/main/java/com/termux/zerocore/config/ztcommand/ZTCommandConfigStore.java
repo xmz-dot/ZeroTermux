@@ -1,29 +1,29 @@
-package com.termux.ai.ai.zerocore.config.ztcommand;
+package com.termux.ai.zerocore.config.ztcommand;
 
 
 import android.util.SparseArray;
 
-import com.termux.ai.ai.zerocore.config.ztcommand.config.AVncConfig;
-import com.termux.ai.ai.zerocore.config.ztcommand.config.ConfirmedDialogConfig;
-import com.termux.ai.ai.zerocore.config.ztcommand.config.ForWardOpenLeftConfig;
-import com.termux.ai.ai.zerocore.config.ztcommand.config.ForWardOpenRightConfig;
-import com.termux.ai.ai.zerocore.config.ztcommand.config.HelpConfig;
-import com.termux.ai.ai.zerocore.config.ztcommand.config.KnowConfig;
-import com.termux.ai.ai.zerocore.config.ztcommand.config.LnConfig;
-import com.termux.ai.ai.zerocore.config.ztcommand.config.OpenPageConfig;
-import com.termux.ai.ai.zerocore.config.ztcommand.config.QRCodeEncoderConfig;
-import com.termux.ai.ai.zerocore.config.ztcommand.config.RebootConfig;
-import com.termux.ai.ai.zerocore.config.ztcommand.config.ToastConfig;
-import com.termux.ai.ai.zerocore.config.ztcommand.config.VersionConfig;
-import com.termux.ai.ai.zerocore.config.ztcommand.config.X11CommandHideConfig;
-import com.termux.ai.ai.zerocore.config.ztcommand.config.X11CommandShowConfig;
-import com.termux.ai.ai.zerocore.config.ztcommand.config.X11KeyBoardHideConfig;
-import com.termux.ai.ai.zerocore.config.ztcommand.config.X11KeyBoardShowConfig;
-import com.termux.ai.ai.zerocore.config.ztcommand.config.X11StatusConfig;
-import com.termux.ai.ai.zerocore.config.ztcommand.config.XmlMenuConfig;
-import com.termux.ai.ai.zerocore.config.ztcommand.config.ZTBackgroundImageConfig;
-import com.termux.ai.ai.zerocore.config.ztcommand.config.ZTConfig;
-import com.termux.ai.ai.zerocore.config.ztcommand.config.ZTKeyConstants;
+import com.termux.ai.zerocore.config.ztcommand.config.AVncConfig;
+import com.termux.ai.zerocore.config.ztcommand.config.ConfirmedDialogConfig;
+import com.termux.ai.zerocore.config.ztcommand.config.ForWardOpenLeftConfig;
+import com.termux.ai.zerocore.config.ztcommand.config.ForWardOpenRightConfig;
+import com.termux.ai.zerocore.config.ztcommand.config.HelpConfig;
+import com.termux.ai.zerocore.config.ztcommand.config.KnowConfig;
+import com.termux.ai.zerocore.config.ztcommand.config.LnConfig;
+import com.termux.ai.zerocore.config.ztcommand.config.OpenPageConfig;
+import com.termux.ai.zerocore.config.ztcommand.config.QRCodeEncoderConfig;
+import com.termux.ai.zerocore.config.ztcommand.config.RebootConfig;
+import com.termux.ai.zerocore.config.ztcommand.config.ToastConfig;
+import com.termux.ai.zerocore.config.ztcommand.config.VersionConfig;
+import com.termux.ai.zerocore.config.ztcommand.config.X11CommandHideConfig;
+import com.termux.ai.zerocore.config.ztcommand.config.X11CommandShowConfig;
+import com.termux.ai.zerocore.config.ztcommand.config.X11KeyBoardHideConfig;
+import com.termux.ai.zerocore.config.ztcommand.config.X11KeyBoardShowConfig;
+import com.termux.ai.zerocore.config.ztcommand.config.X11StatusConfig;
+import com.termux.ai.zerocore.config.ztcommand.config.XmlMenuConfig;
+import com.termux.ai.zerocore.config.ztcommand.config.ZTBackgroundImageConfig;
+import com.termux.ai.zerocore.config.ztcommand.config.ZTConfig;
+import com.termux.ai.zerocore.config.ztcommand.config.ZTKeyConstants;
 
 import java.util.HashMap;
 import java.util.Map;

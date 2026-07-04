@@ -1,4 +1,4 @@
-package com.termux.ai.ai.shared.activities;
+package com.termux.ai.shared.activities;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -24,11 +24,11 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import com.termux.ai.ai.shared.interact.ShareUtils;
-import com.termux.ai.ai.shared.logger.Logger;
-import com.termux.ai.ai.shared.R;
-import com.termux.ai.ai.shared.models.TextIOInfo;
-import com.termux.ai.ai.shared.view.KeyboardUtils;
+import com.termux.ai.shared.interact.ShareUtils;
+import com.termux.ai.shared.logger.Logger;
+import com.termux.ai.shared.R;
+import com.termux.ai.shared.models.TextIOInfo;
+import com.termux.ai.shared.view.KeyboardUtils;
 
 import org.jetbrains.annotations.NotNull;
 

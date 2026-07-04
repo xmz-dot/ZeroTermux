@@ -1,9 +1,9 @@
-package com.termux.ai.ai.zerocore.filetype
+package com.termux.ai.zerocore.filetype
 
 import android.widget.ImageView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
-import com.termux.ai.ai.R
+import com.termux.ai.R
 import com.zp.z_file.listener.ZFileImageListener
 
 import java.io.File

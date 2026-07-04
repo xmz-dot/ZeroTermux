@@ -1,6 +1,6 @@
-package com.termux.ai.ai.shared.file;
+package com.termux.ai.shared.file;
 
-import com.termux.ai.ai.shared.errors.Errno;
+import com.termux.ai.shared.errors.Errno;
 
 import java.util.HashMap;
 import java.util.Map;

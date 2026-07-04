@@ -1,8 +1,8 @@
-package com.termux.ai.ai.zerocore.ai.agent
+package com.termux.ai.zerocore.ai.agent
 
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.ai.shared.termux.settings.preferences.TermuxAppSharedPreferences
-import com.termux.ai.ai.zerocore.ai.config.ZtAiStrings
+import com.termux.ai.shared.termux.settings.preferences.TermuxAppSharedPreferences
+import com.termux.ai.zerocore.ai.config.ZtAiStrings
 
 object ZtTerminalAiSnapshot {
 

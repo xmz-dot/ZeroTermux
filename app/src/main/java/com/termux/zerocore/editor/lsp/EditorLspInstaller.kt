@@ -1,12 +1,12 @@
-package com.termux.ai.ai.zerocore.editor.lsp
+package com.termux.ai.zerocore.editor.lsp
 
 import android.content.Context
 import android.os.Handler
 import android.os.Looper
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.ai.shared.termux.TermuxConstants
-import com.termux.ai.ai.shared.termux.shell.command.environment.TermuxShellEnvironment
-import com.termux.ai.ai.zerocore.utils.SingletonCommunicationUtils
+import com.termux.ai.shared.termux.TermuxConstants
+import com.termux.ai.shared.termux.shell.command.environment.TermuxShellEnvironment
+import com.termux.ai.zerocore.utils.SingletonCommunicationUtils
 import java.io.BufferedReader
 import java.io.File
 import java.io.InputStreamReader

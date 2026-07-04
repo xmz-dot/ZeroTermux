@@ -1,4 +1,4 @@
-package com.termux.ai.ai.shared.termux;
+package com.termux.ai.shared.termux;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -11,20 +11,20 @@ import android.net.Uri;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.termux.ai.ai.shared.R;
-import com.termux.ai.ai.shared.android.AndroidUtils;
-import com.termux.ai.ai.shared.data.DataUtils;
-import com.termux.ai.ai.shared.file.FileUtils;
-import com.termux.ai.ai.shared.reflection.ReflectionUtils;
-import com.termux.ai.ai.shared.shell.command.runner.app.AppShell;
-import com.termux.ai.ai.shared.termux.file.TermuxFileUtils;
-import com.termux.ai.ai.shared.logger.Logger;
-import com.termux.ai.ai.shared.markdown.MarkdownUtils;
-import com.termux.ai.ai.shared.shell.command.ExecutionCommand;
-import com.termux.ai.ai.shared.errors.Error;
-import com.termux.ai.ai.shared.android.PackageUtils;
-import com.termux.ai.ai.shared.termux.TermuxConstants.TERMUX_APP;
-import com.termux.ai.ai.shared.termux.shell.command.environment.TermuxShellEnvironment;
+import com.termux.ai.shared.R;
+import com.termux.ai.shared.android.AndroidUtils;
+import com.termux.ai.shared.data.DataUtils;
+import com.termux.ai.shared.file.FileUtils;
+import com.termux.ai.shared.reflection.ReflectionUtils;
+import com.termux.ai.shared.shell.command.runner.app.AppShell;
+import com.termux.ai.shared.termux.file.TermuxFileUtils;
+import com.termux.ai.shared.logger.Logger;
+import com.termux.ai.shared.markdown.MarkdownUtils;
+import com.termux.ai.shared.shell.command.ExecutionCommand;
+import com.termux.ai.shared.errors.Error;
+import com.termux.ai.shared.android.PackageUtils;
+import com.termux.ai.shared.termux.TermuxConstants.TERMUX_APP;
+import com.termux.ai.shared.termux.shell.command.environment.TermuxShellEnvironment;
 
 import org.apache.commons.io.IOUtils;
 
@@ -144,9 +144,9 @@ public class TermuxUtils {
      * Check if Termux app is installed and enabled. This can be used by external apps that don't
      * share `sharedUserId` with the Termux app.
      *
-     * If your third-party app is targeting sdk `30` (android `11`), then it needs to add `com.termux`
+     * If your third-party app is targeting sdk `30` (android `11`), then it needs to add `com.termux.ai`
      * package to the `queries` element or request `QUERY_ALL_PACKAGES` permission in its
-     * `AndroidManifest.xml`. Otherwise it will get `PackageSetting{...... com.termux/......} BLOCKED`
+     * `AndroidManifest.xml`. Otherwise it will get `PackageSetting{...... com.termux.ai/......} BLOCKED`
      * errors in `logcat` and `RUN_COMMAND` won't work.
      * Check [package-visibility](https://developer.android.com/training/basics/intents/package-visibility#package-name),
      * `QUERY_ALL_PACKAGES` [googleplay policy](https://support.google.com/googleplay/android-developer/answer/10158779

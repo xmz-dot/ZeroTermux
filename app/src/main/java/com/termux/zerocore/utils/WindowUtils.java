@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.utils;
+package com.termux.ai.zerocore.utils;
 
 import android.app.Activity;
 import android.os.Build;
@@ -7,7 +7,7 @@ import android.view.WindowManager;
 
 import com.gyf.immersionbar.BarHide;
 import com.gyf.immersionbar.ImmersionBar;
-import com.termux.ai.ai.app.TermuxActivity;
+import com.termux.ai.app.TermuxActivity;
 
 public class WindowUtils {
 

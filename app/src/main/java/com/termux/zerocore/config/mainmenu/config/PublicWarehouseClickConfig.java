@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.config.mainmenu.config;
+package com.termux.ai.zerocore.config.mainmenu.config;
 
 import static com.termux.ai.zerocore.config.mainmenu.MainMenuConfig.CODE_ONLINE_FEATURES;
 
@@ -8,9 +8,9 @@ import android.view.View;
 import android.widget.EditText;
 
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.ai.R;
-import com.termux.ai.ai.app.TermuxActivity;
-import com.termux.ai.ai.zerocore.dialog.EditDialog;
+import com.termux.ai.R;
+import com.termux.ai.app.TermuxActivity;
+import com.termux.ai.zerocore.dialog.EditDialog;
 
 public class PublicWarehouseClickConfig extends BaseMenuClickConfig {
     @Override

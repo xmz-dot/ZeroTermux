@@ -1,8 +1,8 @@
-package com.termux.ai.ai.zerocore.utils
+package com.termux.ai.zerocore.utils
 
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.ai.zerocore.http_service.HttpServer
-import com.termux.ai.ai.zerocore.url.FileUrl
+import com.termux.ai.zerocore.http_service.HttpServer
+import com.termux.ai.zerocore.url.FileUrl
 import com.zp.z_file.util.LogUtils
 import java.io.File
 import java.io.IOException

@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.activity;
+package com.termux.ai.zerocore.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,15 +12,15 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.cardview.widget.CardView;
 
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.ai.R;
-import com.termux.ai.ai.app.TermuxService;
-import com.termux.ai.ai.shared.termux.TermuxConstants;
-import com.termux.ai.ai.zerocore.activity.adapter.CreateSystemAdapter;
-import com.termux.ai.ai.zerocore.activity.utils.CreateSystemUtils;
-import com.termux.ai.ai.zerocore.bean.ReadSystemBean;
-import com.termux.ai.ai.zerocore.dialog.MyDialog;
-import com.termux.ai.ai.zerocore.settings.BaseTitleActivity;
-import com.termux.ai.ai.zerocore.utils.SingletonCommunicationUtils;
+import com.termux.ai.R;
+import com.termux.ai.app.TermuxService;
+import com.termux.ai.shared.termux.TermuxConstants;
+import com.termux.ai.zerocore.activity.adapter.CreateSystemAdapter;
+import com.termux.ai.zerocore.activity.utils.CreateSystemUtils;
+import com.termux.ai.zerocore.bean.ReadSystemBean;
+import com.termux.ai.zerocore.dialog.MyDialog;
+import com.termux.ai.zerocore.settings.BaseTitleActivity;
+import com.termux.ai.zerocore.utils.SingletonCommunicationUtils;
 
 import java.util.ArrayList;
 import java.util.List;

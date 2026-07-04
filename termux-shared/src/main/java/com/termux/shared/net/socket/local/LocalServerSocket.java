@@ -1,11 +1,11 @@
-package com.termux.ai.ai.shared.net.socket.local;
+package com.termux.ai.shared.net.socket.local;
 
 import androidx.annotation.NonNull;
 
-import com.termux.ai.ai.shared.errors.Error;
-import com.termux.ai.ai.shared.file.FileUtils;
-import com.termux.ai.ai.shared.jni.models.JniResult;
-import com.termux.ai.ai.shared.logger.Logger;
+import com.termux.ai.shared.errors.Error;
+import com.termux.ai.shared.file.FileUtils;
+import com.termux.ai.shared.jni.models.JniResult;
+import com.termux.ai.shared.logger.Logger;
 
 import java.io.Closeable;
 import java.io.File;

@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.http_service;
+package com.termux.ai.zerocore.http_service;
 
 import com.example.xh_lib.utils.LogUtils;
 import com.example.xh_lib.utils.UUtils;

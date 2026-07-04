@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.activity.adapter;
+package com.termux.ai.zerocore.activity.adapter;
 
 import android.app.Activity;
 import android.view.View;
@@ -9,13 +9,13 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.xh_lib.utils.UUtils;
 import com.google.gson.Gson;
-import com.termux.ai.ai.R;
-import com.termux.ai.ai.app.TermuxActivity;
-import com.termux.ai.ai.zerocore.activity.view_holder.MinLViewHolder;
-import com.termux.ai.ai.zerocore.bean.MinLBean;
-import com.termux.ai.ai.zerocore.dialog.MingLShowDialog;
-import com.termux.ai.ai.zerocore.dialog.MinglingDialog;
-import com.termux.ai.ai.zerocore.utils.SaveData;
+import com.termux.ai.R;
+import com.termux.ai.app.TermuxActivity;
+import com.termux.ai.zerocore.activity.view_holder.MinLViewHolder;
+import com.termux.ai.zerocore.bean.MinLBean;
+import com.termux.ai.zerocore.dialog.MingLShowDialog;
+import com.termux.ai.zerocore.dialog.MinglingDialog;
+import com.termux.ai.zerocore.utils.SaveData;
 
 import java.util.List;
 

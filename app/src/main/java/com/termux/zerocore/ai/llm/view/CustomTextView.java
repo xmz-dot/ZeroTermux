@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.ai.llm.view;
+package com.termux.ai.zerocore.ai.llm.view;
 
 // CustomTextView.java
 import android.content.Context;
@@ -15,8 +15,8 @@ import android.view.MenuItem;
 import androidx.appcompat.widget.AppCompatTextView;
 
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.ai.R;
-import com.termux.ai.ai.app.TermuxActivity;
+import com.termux.ai.R;
+import com.termux.ai.app.TermuxActivity;
 
 public class CustomTextView extends AppCompatTextView {
 

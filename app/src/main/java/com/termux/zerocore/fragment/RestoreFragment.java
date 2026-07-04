@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.fragment;
+package com.termux.ai.zerocore.fragment;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -17,19 +17,19 @@ import android.widget.Toast;
 
 import com.example.xh_lib.utils.UUtils;
 import com.github.mjdev.libaums.fs.UsbFile;
-import com.termux.ai.ai.R;
-import com.termux.ai.ai.app.TermuxActivity;
-import com.termux.ai.ai.app.TermuxInstaller;
-import com.termux.ai.ai.app.TermuxService;
-import com.termux.ai.ai.shared.termux.TermuxConstants;
-import com.termux.ai.ai.zerocore.activity.BackNewActivity;
-import com.termux.ai.ai.zerocore.activity.adapter.RestoreAdapter;
-import com.termux.ai.ai.zerocore.data.UsbFileData;
-import com.termux.ai.ai.zerocore.dialog.MyDialog;
-import com.termux.ai.ai.zerocore.dialog.YesNoDialog;
-import com.termux.ai.ai.zerocore.shell.ExeCommand;
-import com.termux.ai.ai.zerocore.utils.QZUtils;
-import com.termux.ai.ai.zerocore.utils.SaveData;
+import com.termux.ai.R;
+import com.termux.ai.app.TermuxActivity;
+import com.termux.ai.app.TermuxInstaller;
+import com.termux.ai.app.TermuxService;
+import com.termux.ai.shared.termux.TermuxConstants;
+import com.termux.ai.zerocore.activity.BackNewActivity;
+import com.termux.ai.zerocore.activity.adapter.RestoreAdapter;
+import com.termux.ai.zerocore.data.UsbFileData;
+import com.termux.ai.zerocore.dialog.MyDialog;
+import com.termux.ai.zerocore.dialog.YesNoDialog;
+import com.termux.ai.zerocore.shell.ExeCommand;
+import com.termux.ai.zerocore.utils.QZUtils;
+import com.termux.ai.zerocore.utils.SaveData;
 
 import java.io.File;
 import java.io.FileOutputStream;

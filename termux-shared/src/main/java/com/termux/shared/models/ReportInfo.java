@@ -1,9 +1,9 @@
-package com.termux.ai.ai.shared.models;
+package com.termux.ai.shared.models;
 
 import androidx.annotation.Keep;
 
-import com.termux.ai.ai.shared.markdown.MarkdownUtils;
-import com.termux.ai.ai.shared.android.AndroidUtils;
+import com.termux.ai.shared.markdown.MarkdownUtils;
+import com.termux.ai.shared.android.AndroidUtils;
 
 import java.io.Serializable;
 

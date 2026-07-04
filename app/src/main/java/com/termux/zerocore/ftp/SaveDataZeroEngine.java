@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.ftp;
+package com.termux.ai.zerocore.ftp;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -6,7 +6,7 @@ import android.text.TextUtils;
 
 import com.example.xh_lib.utils.LogUtils;
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.ai.zerocore.ftp.server.FtpUser;
+import com.termux.ai.zerocore.ftp.server.FtpUser;
 
 
 public class SaveDataZeroEngine {

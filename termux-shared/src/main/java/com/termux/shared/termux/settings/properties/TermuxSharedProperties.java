@@ -1,14 +1,14 @@
-package com.termux.ai.ai.shared.termux.settings.properties;
+package com.termux.ai.shared.termux.settings.properties;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import com.termux.ai.ai.shared.logger.Logger;
-import com.termux.ai.ai.shared.data.DataUtils;
-import com.termux.ai.ai.shared.settings.properties.SharedProperties;
-import com.termux.ai.ai.shared.settings.properties.SharedPropertiesParser;
-import com.termux.ai.ai.shared.termux.TermuxConstants;
+import com.termux.ai.shared.logger.Logger;
+import com.termux.ai.shared.data.DataUtils;
+import com.termux.ai.shared.settings.properties.SharedProperties;
+import com.termux.ai.shared.settings.properties.SharedPropertiesParser;
+import com.termux.ai.shared.termux.TermuxConstants;
 
 import java.io.File;
 import java.util.HashMap;

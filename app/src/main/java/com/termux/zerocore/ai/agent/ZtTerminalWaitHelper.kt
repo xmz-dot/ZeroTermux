@@ -1,6 +1,6 @@
-package com.termux.ai.ai.zerocore.ai.agent
+package com.termux.ai.zerocore.ai.agent
 
-import com.termux.ai.ai.zerocore.ai.config.ZtAiStrings
+import com.termux.ai.zerocore.ai.config.ZtAiStrings
 
 /**
  * 等待终端命令完成：在 shell 提示符、确认提示或达到 maxWaitMs 时返回。

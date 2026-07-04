@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.gui
+package com.termux.ai.zerocore.gui
 
 import android.opengl.GLES20
 import android.opengl.GLSurfaceView

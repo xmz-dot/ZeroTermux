@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.ftp.new_ftp.services;
+package com.termux.ai.zerocore.ftp.new_ftp.services;
 
 import android.annotation.TargetApi;
 import android.app.Notification;
@@ -13,8 +13,8 @@ import android.service.quicksettings.TileService;
 
 import androidx.core.app.NotificationCompat;
 
-import com.termux.ai.ai.R;
-import com.termux.ai.ai.app.TermuxActivity;
+import com.termux.ai.R;
+import com.termux.ai.app.TermuxActivity;
 
 
 @TargetApi(24)

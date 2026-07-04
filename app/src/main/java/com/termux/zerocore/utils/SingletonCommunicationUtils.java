@@ -1,8 +1,8 @@
-package com.termux.ai.ai.zerocore.utils;
+package com.termux.ai.zerocore.utils;
 
 import com.example.xh_lib.utils.LogUtils;
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.ai.R;
+import com.termux.ai.R;
 
 public class SingletonCommunicationUtils {
     private static final String TAG = SingletonCommunicationUtils.class.getSimpleName();

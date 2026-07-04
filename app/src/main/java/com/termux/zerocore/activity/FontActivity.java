@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.activity;
+package com.termux.ai.zerocore.activity;
 
 import android.content.Intent;
 import android.graphics.Typeface;
@@ -15,15 +15,15 @@ import androidx.core.content.ContextCompat;
 import com.example.xh_lib.activity.BaseThemeActivity;
 import com.example.xh_lib.statusBar.StatusBarCompat;
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.ai.R;
-import com.termux.ai.ai.app.TermuxService;
-import com.termux.ai.ai.shared.termux.TermuxConstants;
-import com.termux.ai.ai.zerocore.activity.adapter.ListBaseAdapter;
-import com.termux.ai.ai.zerocore.activity.view_holder.ViewHolder;
-import com.termux.ai.ai.zerocore.dialog.SwitchDialog;
-import com.termux.ai.ai.zerocore.ftp.utils.UserSetManage;
-import com.termux.ai.ai.zerocore.url.FileUrl;
-import com.termux.ai.ai.zerocore.utils.FileIOUtils;
+import com.termux.ai.R;
+import com.termux.ai.app.TermuxService;
+import com.termux.ai.shared.termux.TermuxConstants;
+import com.termux.ai.zerocore.activity.adapter.ListBaseAdapter;
+import com.termux.ai.zerocore.activity.view_holder.ViewHolder;
+import com.termux.ai.zerocore.dialog.SwitchDialog;
+import com.termux.ai.zerocore.ftp.utils.UserSetManage;
+import com.termux.ai.zerocore.url.FileUrl;
+import com.termux.ai.zerocore.utils.FileIOUtils;
 
 import org.jetbrains.annotations.NotNull;
 

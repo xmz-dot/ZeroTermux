@@ -71,7 +71,7 @@
         <item tag="JumpAction"
             name="JumpToAction"
             icon=""
-            intentData="data@@com.termux"
+            intentData="data@@com.termux.ai"
             packageName="com.android.settings"
             click="actionActivity:android.settings.WIRELESS_SETTINGS" />
         <!--List

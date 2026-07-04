@@ -1,10 +1,10 @@
-package com.termux.ai.ai.shared.file.filesystem;
+package com.termux.ai.shared.file.filesystem;
 
 import android.system.Os;
 
 import androidx.annotation.NonNull;
 
-import com.termux.ai.ai.shared.logger.Logger;
+import com.termux.ai.shared.logger.Logger;
 
 import java.io.File;
 

@@ -1,9 +1,9 @@
-package com.termux.ai.ai.zerocore.ai.config
+package com.termux.ai.zerocore.ai.config
 
 import android.content.Context
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.ai.R
-import com.termux.ai.ai.zerocore.config.mainmenu.XMLMainMenuConfig
+import com.termux.ai.R
+import com.termux.ai.zerocore.config.mainmenu.XMLMainMenuConfig
 import org.json.JSONArray
 import org.json.JSONObject
 import org.w3c.dom.Element
@@ -236,7 +236,7 @@ object ZtAiLeftMenuXmlGuide {
             .put(clickType(
                 "actionActivity:",
                 ZtAiStrings.str(R.string.zt_ai_click_actionactivity_desc),
-                """click="actionActivity:android.settings.WIRELESS_SETTINGS" packageName="com.android.settings" intentData="data@@com.termux"""",
+                """click="actionActivity:android.settings.WIRELESS_SETTINGS" packageName="com.android.settings" intentData="data@@com.termux.ai"""",
                 ZtAiStrings.str(R.string.zt_ai_click_actionactivity_note)
             ))
             .put(clickType(

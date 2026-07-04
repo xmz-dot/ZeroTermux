@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.loader
+package com.termux.ai.zerocore.loader
 
 import android.widget.ImageView
 import com.bumptech.glide.Glide
@@ -6,7 +6,7 @@ import com.bumptech.glide.load.DecodeFormat
 import com.bumptech.glide.request.RequestOptions
 import com.example.xh_lib.utils.UUtils
 import com.lcw.library.imagepicker.utils.ImageLoader
-import com.termux.ai.ai.R
+import com.termux.ai.R
 
 class ZeroTermuxImageLoader :  ImageLoader{
 

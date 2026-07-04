@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.config.ztcommand.navigation
+package com.termux.ai.zerocore.config.ztcommand.navigation
 
 import android.app.Activity
 import android.content.Context
@@ -7,9 +7,9 @@ import android.os.Looper
 import android.util.Log
 import android.widget.Toast
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.ai.R
-import com.termux.ai.ai.zerocore.guide.TermuxGuideActivity
-import com.termux.ai.ai.zerocore.utils.ZtLocaleStrings
+import com.termux.ai.R
+import com.termux.ai.zerocore.guide.TermuxGuideActivity
+import com.termux.ai.zerocore.utils.ZtLocaleStrings
 import org.json.JSONArray
 import org.json.JSONObject
 import java.util.concurrent.CountDownLatch

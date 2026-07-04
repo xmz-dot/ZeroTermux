@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.back
+package com.termux.ai.zerocore.back
 
 import android.content.Context
 import android.view.View
@@ -10,21 +10,21 @@ import com.example.xh_lib.utils.UUtils
 import com.hjq.permissions.OnPermissionCallback
 import com.hjq.permissions.Permission
 import com.hjq.permissions.XXPermissions
-import com.termux.ai.ai.R
-import com.termux.ai.ai.app.TermuxActivity
-import com.termux.ai.ai.app.TermuxInstaller
-import com.termux.ai.ai.zerocore.back.adapter.BackupAdapter
-import com.termux.ai.ai.zerocore.back.constant.BackRestoreConstant
-import com.termux.ai.ai.zerocore.back.listener.BackupClickListener
-import com.termux.ai.ai.zerocore.back.listener.BackupStoreDialogCloseListener
-import com.termux.ai.ai.zerocore.back.listener.CreateConversationListener
-import com.termux.ai.ai.zerocore.bean.ItemMenuBean
-import com.termux.ai.ai.zerocore.data.CommendShellData
-import com.termux.ai.ai.zerocore.dialog.LoadingDialog
-import com.termux.ai.ai.zerocore.dialog.SwitchDialog
-import com.termux.ai.ai.zerocore.ftp.utils.UserSetManage
-import com.termux.ai.ai.zerocore.utils.FileIOUtils
-import com.termux.ai.ai.zerocore.utils.WindowsUtils
+import com.termux.ai.R
+import com.termux.ai.app.TermuxActivity
+import com.termux.ai.app.TermuxInstaller
+import com.termux.ai.zerocore.back.adapter.BackupAdapter
+import com.termux.ai.zerocore.back.constant.BackRestoreConstant
+import com.termux.ai.zerocore.back.listener.BackupClickListener
+import com.termux.ai.zerocore.back.listener.BackupStoreDialogCloseListener
+import com.termux.ai.zerocore.back.listener.CreateConversationListener
+import com.termux.ai.zerocore.bean.ItemMenuBean
+import com.termux.ai.zerocore.data.CommendShellData
+import com.termux.ai.zerocore.dialog.LoadingDialog
+import com.termux.ai.zerocore.dialog.SwitchDialog
+import com.termux.ai.zerocore.ftp.utils.UserSetManage
+import com.termux.ai.zerocore.utils.FileIOUtils
+import com.termux.ai.zerocore.utils.WindowsUtils
 import kotlinx.coroutines.*
 
 class BackViewModel : BackupClickListener {

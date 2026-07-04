@@ -1,4 +1,4 @@
-package com.termux.ai.ai.shared.termux.extrakeys;
+package com.termux.ai.shared.termux.extrakeys;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -34,11 +34,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.google.android.material.button.MaterialButton;
-import com.termux.ai.ai.shared.R;
-import com.termux.ai.ai.shared.termux.terminal.io.TerminalExtraKeys;
-import com.termux.ai.ai.shared.theme.ThemeUtils;
-import com.termux.ai.ai.terminal.TerminalSession;
-import com.termux.ai.ai.view.TerminalView;
+import com.termux.ai.shared.R;
+import com.termux.ai.shared.termux.terminal.io.TerminalExtraKeys;
+import com.termux.ai.shared.theme.ThemeUtils;
+import com.termux.ai.terminal.TerminalSession;
+import com.termux.ai.view.TerminalView;
 
 /**
  * A {@link View} showing extra keys (such as Escape, Ctrl, Alt) not normally available on an Android soft

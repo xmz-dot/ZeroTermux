@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.editor.lsp
+package com.termux.ai.zerocore.editor.lsp
 
 import android.os.Bundle
 import io.github.rosemoe.sora.lang.Language

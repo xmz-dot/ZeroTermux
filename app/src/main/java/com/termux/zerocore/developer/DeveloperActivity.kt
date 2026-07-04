@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.developer
+package com.termux.ai.zerocore.developer
 
 import android.os.Bundle
 import android.system.Os
@@ -11,12 +11,12 @@ import com.billy.android.swipe.SmartSwipeWrapper
 import com.billy.android.swipe.consumer.DrawerConsumer
 import com.billy.android.swipe.consumer.SlidingConsumer
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.ai.R
-import com.termux.ai.ai.shared.file.FileUtils
-import com.termux.ai.ai.zerocore.adb.dialog.AdbWindowsDialog
-import com.termux.ai.ai.zerocore.url.FileUrl
-import com.termux.ai.ai.zerocore.zip.ZipUtils
-import com.termux.ai.ai.zerocore.zip.ZipUtils.ZipNameListener
+import com.termux.ai.R
+import com.termux.ai.shared.file.FileUtils
+import com.termux.ai.zerocore.adb.dialog.AdbWindowsDialog
+import com.termux.ai.zerocore.url.FileUrl
+import com.termux.ai.zerocore.zip.ZipUtils
+import com.termux.ai.zerocore.zip.ZipUtils.ZipNameListener
 import org.alfresco.jlan.server.config.ServerConfiguration
 import org.alfresco.jlan.smb.server.SMBServer
 import java.io.File

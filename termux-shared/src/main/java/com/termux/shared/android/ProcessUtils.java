@@ -1,4 +1,4 @@
-package com.termux.ai.ai.shared.android;
+package com.termux.ai.shared.android;
 
 import android.app.ActivityManager;
 import android.content.Context;
@@ -6,7 +6,7 @@ import android.content.Context;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.termux.ai.ai.shared.logger.Logger;
+import com.termux.ai.shared.logger.Logger;
 
 import java.util.List;
 

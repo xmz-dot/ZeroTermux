@@ -1,17 +1,17 @@
-package com.termux.ai.ai.shared.termux.settings.preferences;
+package com.termux.ai.shared.termux.settings.preferences;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.termux.ai.ai.shared.android.PackageUtils;
-import com.termux.ai.ai.shared.settings.preferences.AppSharedPreferences;
-import com.termux.ai.ai.shared.settings.preferences.SharedPreferenceUtils;
-import com.termux.ai.ai.shared.termux.TermuxConstants;
-import com.termux.ai.ai.shared.termux.TermuxUtils;
-import com.termux.ai.ai.shared.termux.settings.preferences.TermuxPreferenceConstants.TERMUX_TASKER_APP;
-import com.termux.ai.ai.shared.logger.Logger;
+import com.termux.ai.shared.android.PackageUtils;
+import com.termux.ai.shared.settings.preferences.AppSharedPreferences;
+import com.termux.ai.shared.settings.preferences.SharedPreferenceUtils;
+import com.termux.ai.shared.termux.TermuxConstants;
+import com.termux.ai.shared.termux.TermuxUtils;
+import com.termux.ai.shared.termux.settings.preferences.TermuxPreferenceConstants.TERMUX_TASKER_APP;
+import com.termux.ai.shared.logger.Logger;
 
 public class TermuxTaskerAppSharedPreferences extends AppSharedPreferences {
 

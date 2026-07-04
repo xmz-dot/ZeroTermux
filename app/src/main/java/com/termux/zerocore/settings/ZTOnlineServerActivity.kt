@@ -1,11 +1,11 @@
-package com.termux.ai.ai.zerocore.settings
+package com.termux.ai.zerocore.settings
 
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import com.google.gson.Gson
-import com.termux.ai.ai.R
-import com.termux.ai.ai.zerocore.ftp.utils.UserSetManage
+import com.termux.ai.R
+import com.termux.ai.zerocore.ftp.utils.UserSetManage
 
 /**
  *  此类未完成，后期需要重新继续此需求

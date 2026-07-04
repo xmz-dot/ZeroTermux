@@ -1,13 +1,13 @@
-package com.termux.ai.ai.zerocore.utils
+package com.termux.ai.zerocore.utils
 
 import android.system.Os
 import com.example.xh_lib.utils.SaveData
 import com.example.xh_lib.utils.UUtils
 import com.example.xh_lib.utils.UUtils.FileCallback
-import com.termux.ai.ai.R
-import com.termux.ai.ai.app.TermuxActivity
-import com.termux.ai.ai.zerocore.code.CodeString
-import com.termux.ai.ai.zerocore.url.FileUrl
+import com.termux.ai.R
+import com.termux.ai.app.TermuxActivity
+import com.termux.ai.zerocore.code.CodeString
+import com.termux.ai.zerocore.url.FileUrl
 import java.io.File
 
 object StartRunCommandUtils {

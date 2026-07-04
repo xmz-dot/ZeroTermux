@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.ai.deepseek.data;
+package com.termux.ai.zerocore.ai.deepseek.data;
 
 import android.content.Context;
 import android.content.Intent;
@@ -15,8 +15,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.xh_lib.utils.LogUtils;
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.ai.R;
-import com.termux.ai.ai.zerocore.ai.deepseek.DeepSeekTransitFragment;
+import com.termux.ai.R;
+import com.termux.ai.zerocore.ai.deepseek.DeepSeekTransitFragment;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

@@ -1,8 +1,8 @@
-package com.termux.ai.ai.zerocore.url
+package com.termux.ai.zerocore.url
 
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.ai.shared.termux.TermuxConstants
-import com.termux.ai.ai.zerocore.utils.XinhaoStoragePath
+import com.termux.ai.shared.termux.TermuxConstants
+import com.termux.ai.zerocore.utils.XinhaoStoragePath
 import java.io.File
 
 

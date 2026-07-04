@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.dialog
+package com.termux.ai.zerocore.dialog
 
 import android.app.Activity
 import android.content.Context
@@ -10,10 +10,10 @@ import androidx.recyclerview.widget.RecyclerView
 import com.blockchain.ub.util.custom.dialog.BaseDialogDown
 import com.example.xh_lib.utils.UUtils
 import com.google.gson.Gson
-import com.termux.ai.ai.R
-import com.termux.ai.ai.zerocore.activity.adapter.MinLAdapter
-import com.termux.ai.ai.zerocore.bean.MinLBean
-import com.termux.ai.ai.zerocore.utils.SaveData
+import com.termux.ai.R
+import com.termux.ai.zerocore.activity.adapter.MinLAdapter
+import com.termux.ai.zerocore.bean.MinLBean
+import com.termux.ai.zerocore.utils.SaveData
 
 class BoomCommandDialog : BaseDialogDown {
 

@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.ai.deepseek.model;
+package com.termux.ai.zerocore.ai.deepseek.model;
 
 public class Model {
     private String baseUrl = "";

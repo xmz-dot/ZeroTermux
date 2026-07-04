@@ -1,4 +1,4 @@
-package com.termux.ai.ai.shared.termux.settings.preferences;
+package com.termux.ai.shared.termux.settings.preferences;
 
 /*
  * Version: v0.16.0
@@ -71,7 +71,7 @@ package com.termux.ai.ai.shared.termux.settings.preferences;
  *          `KEY_APP_SHELL_NUMBER_SINCE_BOOT` and `KEY_TERMINAL_SESSION_NUMBER_SINCE_BOOT`.
  */
 
-import com.termux.ai.ai.shared.shell.command.ExecutionCommand;
+import com.termux.ai.shared.shell.command.ExecutionCommand;
 
 /**
  * A class that defines shared constants of the SharedPreferences used by Termux app and its plugins.

@@ -1,8 +1,8 @@
-package com.termux.ai.ai.zerocore.ai.config
+package com.termux.ai.zerocore.ai.config
 
-import com.termux.ai.ai.zerocore.ai.agent.ZtAgentAiChatClient
-import com.termux.ai.ai.zerocore.command.ZtCommandDefHelper
-import com.termux.ai.ai.zerocore.config.ztcommand.navigation.ZtNavigationHelper
+import com.termux.ai.zerocore.ai.agent.ZtAgentAiChatClient
+import com.termux.ai.zerocore.command.ZtCommandDefHelper
+import com.termux.ai.zerocore.config.ztcommand.navigation.ZtNavigationHelper
 import org.json.JSONArray
 import org.json.JSONObject
 

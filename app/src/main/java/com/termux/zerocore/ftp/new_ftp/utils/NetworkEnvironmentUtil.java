@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.ftp.new_ftp.utils;
+package com.termux.ai.zerocore.ftp.new_ftp.utils;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

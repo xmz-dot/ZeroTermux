@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.dialog
+package com.termux.ai.zerocore.dialog
 
 import android.content.Context
 import android.content.Intent
@@ -12,13 +12,13 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.blockchain.ub.util.custom.dialog.BaseDialogDown
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.ai.R
-import com.termux.ai.ai.app.TermuxActivity
-import com.termux.ai.ai.zerocore.bean.ClipboardBean
-import com.termux.ai.ai.zerocore.bean.ItemMenuBean
-import com.termux.ai.ai.zerocore.dialog.adapter.CommonCommandsAdapter
-import com.termux.ai.ai.zerocore.settings.ZeroTermuxSettingsActivity
-import com.termux.ai.ai.zerocore.utils.FileIOUtils
+import com.termux.ai.R
+import com.termux.ai.app.TermuxActivity
+import com.termux.ai.zerocore.bean.ClipboardBean
+import com.termux.ai.zerocore.bean.ItemMenuBean
+import com.termux.ai.zerocore.dialog.adapter.CommonCommandsAdapter
+import com.termux.ai.zerocore.settings.ZeroTermuxSettingsActivity
+import com.termux.ai.zerocore.utils.FileIOUtils
 
 class CommonCommandsDialog : BaseDialogDown {
 

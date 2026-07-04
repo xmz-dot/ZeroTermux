@@ -1,4 +1,4 @@
-package com.termux.ai.ai.shared.shell.command.runner.app;
+package com.termux.ai.shared.shell.command.runner.app;
 
 import android.content.Context;
 import android.system.ErrnoException;
@@ -9,17 +9,17 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.google.common.base.Joiner;
-import com.termux.ai.ai.shared.R;
-import com.termux.ai.ai.shared.data.DataUtils;
-import com.termux.ai.ai.shared.shell.command.ExecutionCommand;
-import com.termux.ai.ai.shared.shell.command.environment.ShellEnvironmentUtils;
-import com.termux.ai.ai.shared.shell.command.result.ResultData;
-import com.termux.ai.ai.shared.errors.Errno;
-import com.termux.ai.ai.shared.logger.Logger;
-import com.termux.ai.ai.shared.shell.command.ExecutionCommand.ExecutionState;
-import com.termux.ai.ai.shared.shell.command.environment.IShellEnvironment;
-import com.termux.ai.ai.shared.shell.ShellUtils;
-import com.termux.ai.ai.shared.shell.StreamGobbler;
+import com.termux.ai.shared.R;
+import com.termux.ai.shared.data.DataUtils;
+import com.termux.ai.shared.shell.command.ExecutionCommand;
+import com.termux.ai.shared.shell.command.environment.ShellEnvironmentUtils;
+import com.termux.ai.shared.shell.command.result.ResultData;
+import com.termux.ai.shared.errors.Errno;
+import com.termux.ai.shared.logger.Logger;
+import com.termux.ai.shared.shell.command.ExecutionCommand.ExecutionState;
+import com.termux.ai.shared.shell.command.environment.IShellEnvironment;
+import com.termux.ai.shared.shell.ShellUtils;
+import com.termux.ai.shared.shell.StreamGobbler;
 
 import java.io.DataOutputStream;
 import java.io.File;

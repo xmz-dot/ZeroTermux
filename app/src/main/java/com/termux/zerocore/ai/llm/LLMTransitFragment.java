@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.ai.llm;
+package com.termux.ai.zerocore.ai.llm;
 
 import android.content.Context;
 import android.content.Intent;
@@ -14,7 +14,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.example.xh_lib.utils.LogUtils;
-import com.termux.ai.ai.R;
+import com.termux.ai.R;
 
 public class LLMTransitFragment extends Fragment {
     private static final String TAG = LLMTransitFragment.class.getSimpleName();

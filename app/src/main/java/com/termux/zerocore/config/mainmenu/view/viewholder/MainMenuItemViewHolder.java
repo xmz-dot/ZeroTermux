@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.config.mainmenu.view.viewholder;
+package com.termux.ai.zerocore.config.mainmenu.view.viewholder;
 
 import android.view.View;
 import android.widget.ImageView;
@@ -8,7 +8,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.termux.ai.ai.R;
+import com.termux.ai.R;
 
 public class MainMenuItemViewHolder extends RecyclerView.ViewHolder {
     public ImageView mCodeImage;

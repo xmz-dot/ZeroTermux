@@ -13,9 +13,9 @@ import android.view.ViewParent;
 import android.view.WindowManager;
 import android.widget.PopupWindow;
 
-import com.termux.ai.ai.view.R;
-import com.termux.ai.ai.view.TerminalView;
-import com.termux.ai.ai.view.support.PopupWindowCompatGingerbread;
+import com.termux.ai.view.R;
+import com.termux.ai.view.TerminalView;
+import com.termux.ai.view.support.PopupWindowCompatGingerbread;
 
 @SuppressLint("ViewConstructor")
 public class TextSelectionHandleView extends View {

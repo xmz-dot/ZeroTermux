@@ -1,12 +1,12 @@
-package com.termux.ai.ai.shared.android.resource;
+package com.termux.ai.shared.android.resource;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.termux.ai.ai.shared.data.DataUtils;
-import com.termux.ai.ai.shared.logger.Logger;
+import com.termux.ai.shared.data.DataUtils;
+import com.termux.ai.shared.logger.Logger;
 
 public class ResourceUtils {
 

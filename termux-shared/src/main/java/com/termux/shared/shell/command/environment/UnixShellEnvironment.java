@@ -1,12 +1,12 @@
-package com.termux.ai.ai.shared.shell.command.environment;
+package com.termux.ai.shared.shell.command.environment;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.termux.ai.ai.shared.shell.ShellUtils;
-import com.termux.ai.ai.shared.shell.command.ExecutionCommand;
+import com.termux.ai.shared.shell.ShellUtils;
+import com.termux.ai.shared.shell.command.ExecutionCommand;
 
 import java.util.HashMap;
 

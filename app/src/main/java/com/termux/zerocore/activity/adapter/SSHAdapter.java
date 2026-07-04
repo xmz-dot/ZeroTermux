@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.activity.adapter;
+package com.termux.ai.zerocore.activity.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,8 +10,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.termux.ai.ai.R;
-import com.termux.ai.ai.zerocore.bean.SSHDeviceBean;
+import com.termux.ai.R;
+import com.termux.ai.zerocore.bean.SSHDeviceBean;
 import com.zp.z_file.util.LogUtils;
 
 import java.util.List;

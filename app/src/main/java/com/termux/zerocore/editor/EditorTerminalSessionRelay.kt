@@ -1,6 +1,6 @@
-package com.termux.ai.ai.zerocore.editor
+package com.termux.ai.zerocore.editor
 
-import com.termux.ai.ai.terminal.TerminalSession
+import com.termux.ai.terminal.TerminalSession
 
 /**
  * Forwards terminal screen updates from [com.termux.ai.app.terminal.TermuxTerminalSessionActivityClient]

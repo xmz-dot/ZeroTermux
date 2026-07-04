@@ -1,11 +1,11 @@
-package com.termux.ai.ai.zerocore.config.mainmenu.config;
+package com.termux.ai.zerocore.config.mainmenu.config;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.text.TextUtils;
 import android.view.View;
 
-import com.termux.ai.ai.R;
+import com.termux.ai.R;
 
 public class XMLClickConfig extends BaseMenuClickConfig {
     private String mName;

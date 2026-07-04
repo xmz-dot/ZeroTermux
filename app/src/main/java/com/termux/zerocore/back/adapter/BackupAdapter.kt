@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.back.adapter
+package com.termux.ai.zerocore.back.adapter
 
 import android.content.Context
 import android.text.TextUtils
@@ -7,11 +7,11 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.xh_lib.utils.LogUtils
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.ai.R
-import com.termux.ai.ai.zerocore.back.listener.BackupClickListener
-import com.termux.ai.ai.zerocore.bean.ItemMenuBean
-import com.termux.ai.ai.zerocore.dialog.view_holder.ItemMenuViewHolder
-import com.termux.ai.ai.zerocore.zero.engine.ZeroCoreManage
+import com.termux.ai.R
+import com.termux.ai.zerocore.back.listener.BackupClickListener
+import com.termux.ai.zerocore.bean.ItemMenuBean
+import com.termux.ai.zerocore.dialog.view_holder.ItemMenuViewHolder
+import com.termux.ai.zerocore.zero.engine.ZeroCoreManage
 
 class BackupAdapter : RecyclerView.Adapter<ItemMenuViewHolder>{
     private var mList:ArrayList<ItemMenuBean.Data>? = null

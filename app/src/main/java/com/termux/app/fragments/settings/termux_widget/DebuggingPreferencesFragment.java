@@ -1,4 +1,4 @@
-package com.termux.ai.ai.app.fragments.settings.termux_widget;
+package com.termux.ai.app.fragments.settings.termux_widget;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -12,8 +12,8 @@ import androidx.preference.PreferenceDataStore;
 import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.PreferenceManager;
 
-import com.termux.ai.ai.R;
-import com.termux.ai.ai.shared.termux.settings.preferences.TermuxWidgetAppSharedPreferences;
+import com.termux.ai.R;
+import com.termux.ai.shared.termux.settings.preferences.TermuxWidgetAppSharedPreferences;
 
 @Keep
 public class DebuggingPreferencesFragment extends PreferenceFragmentCompat {

@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.bean;
+package com.termux.ai.zerocore.bean;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -6,7 +6,7 @@ import android.text.TextUtils;
 
 import com.example.xh_lib.utils.LogUtils;
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.ai.zerocore.utils.FileIOUtils;
+import com.termux.ai.zerocore.utils.FileIOUtils;
 
 public class SaveDataZeroEngine {
     public static int FTP_START_SUCCESS = 8000;

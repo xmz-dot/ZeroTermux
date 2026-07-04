@@ -1,11 +1,11 @@
-package com.termux.ai.ai.zerocore.config.ztcommand.config;
+package com.termux.ai.zerocore.config.ztcommand.config;
 
 import static com.termux.ai.zerocore.config.ztcommand.config.ZTKeyConstants.ZT_ID_REBOOT;
 
 import android.content.Context;
 import android.content.Intent;
 
-import com.termux.ai.ai.app.TermuxService;
+import com.termux.ai.app.TermuxService;
 
 public class RebootConfig extends BaseOkJsonConfig {
     @Override

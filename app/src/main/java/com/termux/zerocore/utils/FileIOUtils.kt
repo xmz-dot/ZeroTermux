@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.utils
+package com.termux.ai.zerocore.utils
 
 import android.content.Context
 import android.os.Environment
@@ -7,14 +7,14 @@ import android.widget.Toast
 import com.example.xh_lib.utils.LogUtils
 import com.example.xh_lib.utils.UUtils
 import com.google.gson.Gson
-import com.termux.ai.ai.R
-import com.termux.ai.ai.zerocore.bean.ClipboardBean
-import com.termux.ai.ai.zerocore.bean.CreateSystemBean
-import com.termux.ai.ai.zerocore.bean.MinLBean
-import com.termux.ai.ai.zerocore.bean.MinLBean.DataNum
-import com.termux.ai.ai.zerocore.command.ZtCommandDefHelper
-import com.termux.ai.ai.zerocore.ftp.utils.UserSetManage
-import com.termux.ai.ai.zerocore.url.FileUrl
+import com.termux.ai.R
+import com.termux.ai.zerocore.bean.ClipboardBean
+import com.termux.ai.zerocore.bean.CreateSystemBean
+import com.termux.ai.zerocore.bean.MinLBean
+import com.termux.ai.zerocore.bean.MinLBean.DataNum
+import com.termux.ai.zerocore.command.ZtCommandDefHelper
+import com.termux.ai.zerocore.ftp.utils.UserSetManage
+import com.termux.ai.zerocore.url.FileUrl
 import java.io.*
 import java.nio.file.Files
 import java.nio.file.StandardCopyOption

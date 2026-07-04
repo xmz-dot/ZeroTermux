@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.config.mainmenu.config;
+package com.termux.ai.zerocore.config.mainmenu.config;
 
 import static com.termux.ai.zerocore.config.mainmenu.MainMenuConfig.CODE_X11_FEATURES;
 
@@ -7,8 +7,8 @@ import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.view.View;
 
-import com.termux.ai.ai.R;
-import com.termux.ai.ai.zerocore.settings.ZTInstallActivity;
+import com.termux.ai.R;
+import com.termux.ai.zerocore.settings.ZTInstallActivity;
 
 public class InstallX11ClickConfig extends BaseMenuClickConfig {
     @Override

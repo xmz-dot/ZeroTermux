@@ -1,4 +1,4 @@
-package com.termux.ai.ai.shared.android;
+package com.termux.ai.shared.android;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -9,10 +9,10 @@ import android.os.Build;
 import androidx.annotation.NonNull;
 
 import com.google.common.base.Joiner;
-import com.termux.ai.ai.shared.R;
-import com.termux.ai.ai.shared.data.DataUtils;
-import com.termux.ai.ai.shared.logger.Logger;
-import com.termux.ai.ai.shared.markdown.MarkdownUtils;
+import com.termux.ai.shared.R;
+import com.termux.ai.shared.data.DataUtils;
+import com.termux.ai.shared.logger.Logger;
+import com.termux.ai.shared.markdown.MarkdownUtils;
 
 import java.io.BufferedReader;
 import java.io.IOException;

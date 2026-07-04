@@ -1,4 +1,4 @@
-package com.termux.ai.ai.shared.theme;
+package com.termux.ai.shared.theme;
 
 import android.app.Activity;
 import android.content.Context;

@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.editor
+package com.termux.ai.zerocore.editor
 
 import android.app.Activity
 import android.content.ComponentName
@@ -9,18 +9,18 @@ import android.graphics.Typeface
 import android.os.IBinder
 import android.view.MotionEvent
 import android.view.View
-import com.termux.ai.ai.app.TermuxService
-import com.termux.ai.ai.R
-import com.termux.ai.ai.shared.logger.Logger
-import com.termux.ai.ai.shared.termux.TermuxConstants
-import com.termux.ai.ai.shared.termux.settings.preferences.TermuxAppSharedPreferences
-import com.termux.ai.ai.shared.termux.settings.properties.TermuxAppSharedProperties
-import com.termux.ai.ai.shared.termux.extrakeys.ExtraKeysView
-import com.termux.ai.ai.terminal.TerminalColors
-import com.termux.ai.ai.terminal.TerminalSession
-import com.termux.ai.ai.terminal.TextStyle
-import com.termux.ai.ai.view.TerminalView
-import com.termux.ai.ai.zerocore.ai.agent.ZtTerminalAiSnapshot
+import com.termux.ai.app.TermuxService
+import com.termux.ai.R
+import com.termux.ai.shared.logger.Logger
+import com.termux.ai.shared.termux.TermuxConstants
+import com.termux.ai.shared.termux.settings.preferences.TermuxAppSharedPreferences
+import com.termux.ai.shared.termux.settings.properties.TermuxAppSharedProperties
+import com.termux.ai.shared.termux.extrakeys.ExtraKeysView
+import com.termux.ai.terminal.TerminalColors
+import com.termux.ai.terminal.TerminalSession
+import com.termux.ai.terminal.TextStyle
+import com.termux.ai.view.TerminalView
+import com.termux.ai.zerocore.ai.agent.ZtTerminalAiSnapshot
 import java.io.File
 import java.io.FileInputStream
 import java.util.Properties

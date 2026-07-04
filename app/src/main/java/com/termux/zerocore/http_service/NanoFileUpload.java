@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.http_service;
+package com.termux.ai.zerocore.http_service;
 
 /*
  * #%L

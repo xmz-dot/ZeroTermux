@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.ai.config
+package com.termux.ai.zerocore.ai.config
 
 import android.graphics.Color
 import com.example.xh_lib.utils.SaveData

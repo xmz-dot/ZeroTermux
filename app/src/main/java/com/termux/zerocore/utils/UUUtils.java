@@ -1,9 +1,9 @@
-package com.termux.ai.ai.zerocore.utils;
+package com.termux.ai.zerocore.utils;
 
 import android.app.DownloadManager;
 
 
-import com.termux.ai.ai.zerocore.bean.EditPromptBean;
+import com.termux.ai.zerocore.bean.EditPromptBean;
 
 import java.io.BufferedReader;
 import java.io.File;

@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.view;
+package com.termux.ai.zerocore.view;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -28,18 +28,18 @@ import com.example.xh_lib.utils.UUtils;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.google.common.net.InetAddresses;
-import com.termux.ai.ai.R;
-import com.termux.ai.ai.app.TermuxActivity;
-import com.termux.ai.ai.zerocore.activity.adapter.BoomMinLAdapter;
-import com.termux.ai.ai.zerocore.activity.adapter.SSHAdapter;
-import com.termux.ai.ai.zerocore.bean.MinLBean;
-import com.termux.ai.ai.zerocore.bean.SSHDeviceBean;
-import com.termux.ai.ai.zerocore.code.CodeString;
-import com.termux.ai.ai.zerocore.dialog.CommandDialog;
-import com.termux.ai.ai.zerocore.url.FileUrl;
-import com.termux.ai.ai.zerocore.utils.SaveData;
-import com.termux.ai.ai.zerocore.utils.WindowsUtils;
-import com.termux.ai.ai.zerocore.utils.SSHKeyUtils;
+import com.termux.ai.R;
+import com.termux.ai.app.TermuxActivity;
+import com.termux.ai.zerocore.activity.adapter.BoomMinLAdapter;
+import com.termux.ai.zerocore.activity.adapter.SSHAdapter;
+import com.termux.ai.zerocore.bean.MinLBean;
+import com.termux.ai.zerocore.bean.SSHDeviceBean;
+import com.termux.ai.zerocore.code.CodeString;
+import com.termux.ai.zerocore.dialog.CommandDialog;
+import com.termux.ai.zerocore.url.FileUrl;
+import com.termux.ai.zerocore.utils.SaveData;
+import com.termux.ai.zerocore.utils.WindowsUtils;
+import com.termux.ai.zerocore.utils.SSHKeyUtils;
 
 import java.io.File;
 import java.lang.reflect.Type;

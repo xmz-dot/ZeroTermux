@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.libsu;
+package com.termux.ai.zerocore.libsu;
 
 import android.content.Context;
 import android.os.Handler;
@@ -10,10 +10,10 @@ import androidx.annotation.NonNull;
 
 import com.example.xh_lib.utils.UUtils;
 import com.termux.ai.BuildConfig;
-import com.termux.ai.ai.R;
-import com.termux.ai.ai.zerocore.settings.timer.TimerExecutionLog;
-import com.termux.ai.ai.zerocore.url.FileUrl;
-import com.termux.ai.ai.zerocore.utils.FileIOUtils;
+import com.termux.ai.R;
+import com.termux.ai.zerocore.settings.timer.TimerExecutionLog;
+import com.termux.ai.zerocore.url.FileUrl;
+import com.termux.ai.zerocore.utils.FileIOUtils;
 import com.topjohnwu.superuser.CallbackList;
 import com.topjohnwu.superuser.Shell;
 import com.topjohnwu.superuser.internal.MainShell;

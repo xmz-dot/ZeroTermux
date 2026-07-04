@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.dialog
+package com.termux.ai.zerocore.dialog
 
 import android.content.Context
 import android.os.Environment
@@ -13,13 +13,13 @@ import com.example.xh_lib.utils.LogUtils
 import com.example.xh_lib.utils.UUtils
 import com.github.iielse.switchbutton.SwitchView
 import com.github.iielse.switchbutton.SwitchView.OnStateChangedListener
-import com.termux.ai.ai.R
-import com.termux.ai.ai.zerocore.bean.SaveDataZeroEngine
-import com.termux.ai.ai.zerocore.ftp.FsService
-import com.termux.ai.ai.zerocore.ftp.new_ftp.Constants
-import com.termux.ai.ai.zerocore.ftp.new_ftp.config.FTP_CONFIG
-import com.termux.ai.ai.zerocore.ftp.new_ftp.services.FtpService
-import com.termux.ai.ai.zerocore.url.FileUrl.mainFilesUrl
+import com.termux.ai.R
+import com.termux.ai.zerocore.bean.SaveDataZeroEngine
+import com.termux.ai.zerocore.ftp.FsService
+import com.termux.ai.zerocore.ftp.new_ftp.Constants
+import com.termux.ai.zerocore.ftp.new_ftp.config.FTP_CONFIG
+import com.termux.ai.zerocore.ftp.new_ftp.services.FtpService
+import com.termux.ai.zerocore.url.FileUrl.mainFilesUrl
 import kotlinx.coroutines.*
 
 class FtpWindowsDialog : BaseDialogCentre {

@@ -1,4 +1,4 @@
-package com.termux.ai.ai.shared.termux.shell.command.environment;
+package com.termux.ai.shared.termux.shell.command.environment;
 
 import android.content.Context;
 import android.content.pm.PackageInfo;
@@ -6,10 +6,10 @@ import android.content.pm.PackageInfo;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.termux.ai.ai.shared.android.PackageUtils;
-import com.termux.ai.ai.shared.shell.command.environment.ShellEnvironmentUtils;
-import com.termux.ai.ai.shared.termux.TermuxConstants;
-import com.termux.ai.ai.shared.termux.TermuxUtils;
+import com.termux.ai.shared.android.PackageUtils;
+import com.termux.ai.shared.shell.command.environment.ShellEnvironmentUtils;
+import com.termux.ai.shared.termux.TermuxConstants;
+import com.termux.ai.shared.termux.TermuxUtils;
 
 import java.util.HashMap;
 

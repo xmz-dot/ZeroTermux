@@ -1,10 +1,10 @@
-package com.termux.ai.ai.zerocore.settings
+package com.termux.ai.zerocore.settings
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.cardview.widget.CardView
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.ai.R
+import com.termux.ai.R
 
 class ZTAboutActivity : BaseTitleActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

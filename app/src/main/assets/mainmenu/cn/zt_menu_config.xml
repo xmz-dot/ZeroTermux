@@ -73,7 +73,7 @@
         <item tag="跳转action"
             name="跳转Action"
             icon=""
-            intentData="data@@com.termux"
+            intentData="data@@com.termux.ai"
             packageName="com.android.settings"
             click="actionActivity:android.settings.WIRELESS_SETTINGS" />
         <!--List列表

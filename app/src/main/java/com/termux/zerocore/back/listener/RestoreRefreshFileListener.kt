@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.back.listener
+package com.termux.ai.zerocore.back.listener
 
 interface RestoreRefreshFileListener {
     fun refresh()

@@ -1,10 +1,10 @@
-package com.termux.ai.ai.zerocore.ai.config
+package com.termux.ai.zerocore.ai.config
 
 import androidx.annotation.ArrayRes
 import androidx.annotation.StringRes
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.ai.R
-import com.termux.ai.ai.zerocore.utils.ZtLocaleStrings
+import com.termux.ai.R
+import com.termux.ai.zerocore.utils.ZtLocaleStrings
 
 /** AI 能力文案：随系统语言切换（values / values-en）。 */
 object ZtAiStrings {

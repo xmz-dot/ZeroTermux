@@ -1,12 +1,12 @@
-package com.termux.ai.ai.zerocore.ai.config
+package com.termux.ai.zerocore.ai.config
 
 import android.content.Intent
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.ai.app.TermuxService
-import com.termux.ai.ai.shared.termux.TermuxConstants
-import com.termux.ai.ai.zerocore.activity.utils.CreateSystemUtils
-import com.termux.ai.ai.zerocore.bean.ReadSystemBean
-import com.termux.ai.ai.zerocore.utils.SingletonCommunicationUtils
+import com.termux.ai.app.TermuxService
+import com.termux.ai.shared.termux.TermuxConstants
+import com.termux.ai.zerocore.activity.utils.CreateSystemUtils
+import com.termux.ai.zerocore.bean.ReadSystemBean
+import com.termux.ai.zerocore.utils.SingletonCommunicationUtils
 import org.json.JSONArray
 import org.json.JSONObject
 import java.io.File

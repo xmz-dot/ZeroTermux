@@ -1,12 +1,12 @@
-package com.termux.ai.ai.shared.shell.command.result;
+package com.termux.ai.shared.shell.command.result;
 
 import androidx.annotation.NonNull;
 
-import com.termux.ai.ai.shared.data.DataUtils;
-import com.termux.ai.ai.shared.logger.Logger;
-import com.termux.ai.ai.shared.markdown.MarkdownUtils;
-import com.termux.ai.ai.shared.errors.Errno;
-import com.termux.ai.ai.shared.errors.Error;
+import com.termux.ai.shared.data.DataUtils;
+import com.termux.ai.shared.logger.Logger;
+import com.termux.ai.shared.markdown.MarkdownUtils;
+import com.termux.ai.shared.errors.Errno;
+import com.termux.ai.shared.errors.Error;
 
 import java.io.Serializable;
 import java.util.ArrayList;

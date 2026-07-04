@@ -14,11 +14,11 @@ import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 
-import com.termux.ai.ai.terminal.TerminalBuffer;
-import com.termux.ai.ai.terminal.WcWidth;
-import com.termux.ai.ai.view.R;
-import com.termux.ai.ai.view.TerminalView;
-import com.termux.ai.ai.view.zerotermux.SaveData;
+import com.termux.ai.terminal.TerminalBuffer;
+import com.termux.ai.terminal.WcWidth;
+import com.termux.ai.view.R;
+import com.termux.ai.view.TerminalView;
+import com.termux.ai.view.zerotermux.SaveData;
 
 public class TextSelectionCursorController implements CursorController {
 

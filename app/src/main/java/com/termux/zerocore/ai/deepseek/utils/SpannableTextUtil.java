@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.ai.deepseek.utils;
+package com.termux.ai.zerocore.ai.deepseek.utils;
 
 import android.text.SpannableStringBuilder;
 import android.text.Spanned;
@@ -15,10 +15,10 @@ import androidx.annotation.NonNull;
 
 import com.example.xh_lib.utils.LogUtils;
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.ai.R;
-import com.termux.ai.ai.app.TermuxActivity;
-import com.termux.ai.ai.zerocore.ai.deepseek.model.Config;
-import com.termux.ai.ai.zerocore.ftp.utils.UserSetManage;
+import com.termux.ai.R;
+import com.termux.ai.app.TermuxActivity;
+import com.termux.ai.zerocore.ai.deepseek.model.Config;
+import com.termux.ai.zerocore.ftp.utils.UserSetManage;
 
 public class SpannableTextUtil {
 

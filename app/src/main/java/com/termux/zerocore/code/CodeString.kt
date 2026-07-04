@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.code
+package com.termux.ai.zerocore.code
 
 
 /**

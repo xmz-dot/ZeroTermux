@@ -1,12 +1,12 @@
-package com.termux.ai.ai.zerocore.utils
+package com.termux.ai.zerocore.utils
 
 import android.content.Context
 import android.os.Environment
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.ai.R
-import com.termux.ai.ai.zerocore.ftp.utils.UserSetManage
-import com.termux.ai.ai.zerocore.url.FileUrl
-import com.termux.ai.ai.shared.termux.TermuxConstants
+import com.termux.ai.R
+import com.termux.ai.zerocore.ftp.utils.UserSetManage
+import com.termux.ai.zerocore.url.FileUrl
+import com.termux.ai.shared.termux.TermuxConstants
 import java.io.File
 
 /**

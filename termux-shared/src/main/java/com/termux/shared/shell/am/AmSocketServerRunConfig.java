@@ -1,13 +1,13 @@
-package com.termux.ai.ai.shared.shell.am;
+package com.termux.ai.shared.shell.am;
 
 import android.Manifest;
 
 import androidx.annotation.NonNull;
 
-import com.termux.ai.ai.shared.logger.Logger;
-import com.termux.ai.ai.shared.markdown.MarkdownUtils;
-import com.termux.ai.ai.shared.net.socket.local.ILocalSocketManager;
-import com.termux.ai.ai.shared.net.socket.local.LocalSocketRunConfig;
+import com.termux.ai.shared.logger.Logger;
+import com.termux.ai.shared.markdown.MarkdownUtils;
+import com.termux.ai.shared.net.socket.local.ILocalSocketManager;
+import com.termux.ai.shared.net.socket.local.LocalSocketRunConfig;
 
 import java.io.Serializable;
 

@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.config.mainmenu.config;
+package com.termux.ai.zerocore.config.mainmenu.config;
 
 import static com.termux.ai.zerocore.config.mainmenu.MainMenuConfig.CODE_ZT_FEATURES;
 
@@ -12,10 +12,10 @@ import com.example.xh_lib.utils.UUtils;
 import com.gaurav.avnc.model.ServerProfile;
 import com.gaurav.avnc.ui.home.HomeActivity;
 import com.gaurav.avnc.ui.vnc.VncActivity;
-import com.termux.ai.ai.R;
-import com.termux.ai.ai.app.TermuxActivity;
-import com.termux.ai.ai.zerocore.dialog.VNCConnectionDialog;
-import com.termux.ai.ai.zerocore.popuwindow.MenuLeftPopuListWindow;
+import com.termux.ai.R;
+import com.termux.ai.app.TermuxActivity;
+import com.termux.ai.zerocore.dialog.VNCConnectionDialog;
+import com.termux.ai.zerocore.popuwindow.MenuLeftPopuListWindow;
 
 import org.jetbrains.annotations.Nullable;
 

@@ -24,7 +24,7 @@ along with SwiFTP.  If not, see <http://www.gnu.org/licenses/>.
  * of output.
  */
 
-package com.termux.ai.ai.zerocore.ftp.server;
+package com.termux.ai.zerocore.ftp.server;
 
 
 

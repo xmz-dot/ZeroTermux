@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.guide
+package com.termux.ai.zerocore.guide
 
 import android.app.Activity
 import android.content.Intent
@@ -14,17 +14,17 @@ import com.example.xh_lib.utils.UUtils
 import com.hjq.permissions.OnPermissionCallback
 import com.hjq.permissions.Permission
 import com.hjq.permissions.XXPermissions
-import com.termux.ai.ai.R
-import com.termux.ai.ai.app.TermuxActivity
-import com.termux.ai.ai.zerocore.dialog.SwitchDialog
-import com.termux.ai.ai.zerocore.ftp.utils.UserSetManage
-import com.termux.ai.ai.zerocore.settings.BaseTitleActivity
-import com.termux.ai.ai.zerocore.utils.FileIOUtils
-import com.termux.ai.ai.zerocore.utils.XinhaoStoragePath
-import com.termux.ai.ai.zerocore.utils.FileIOUtils.HTML_PATH
-import com.termux.ai.ai.zerocore.utils.FileIOUtils.HTML_ZT_LINK_PATH
-import com.termux.ai.ai.zerocore.utils.FileIOUtils.XINHAO_PATH
-import com.termux.ai.ai.zerocore.utils.FileIOUtils.getHomePath
+import com.termux.ai.R
+import com.termux.ai.app.TermuxActivity
+import com.termux.ai.zerocore.dialog.SwitchDialog
+import com.termux.ai.zerocore.ftp.utils.UserSetManage
+import com.termux.ai.zerocore.settings.BaseTitleActivity
+import com.termux.ai.zerocore.utils.FileIOUtils
+import com.termux.ai.zerocore.utils.XinhaoStoragePath
+import com.termux.ai.zerocore.utils.FileIOUtils.HTML_PATH
+import com.termux.ai.zerocore.utils.FileIOUtils.HTML_ZT_LINK_PATH
+import com.termux.ai.zerocore.utils.FileIOUtils.XINHAO_PATH
+import com.termux.ai.zerocore.utils.FileIOUtils.getHomePath
 import java.io.File
 
 class TermuxGuideActivity: BaseTitleActivity() {

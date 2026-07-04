@@ -1,15 +1,15 @@
-package com.termux.ai.ai.zerocore.editor
+package com.termux.ai.zerocore.editor
 
 import android.app.Activity
 import android.view.KeyEvent
 import android.view.View
 import com.google.android.material.button.MaterialButton
 import com.gaurav.avnc.ui.vnc.EmbeddedVncFragment
-import com.termux.ai.ai.shared.termux.extrakeys.ExtraKeyButton
-import com.termux.ai.ai.shared.termux.extrakeys.ExtraKeysConstants
-import com.termux.ai.ai.shared.termux.extrakeys.ExtraKeysInfo
-import com.termux.ai.ai.shared.termux.extrakeys.ExtraKeysView
-import com.termux.ai.ai.shared.termux.extrakeys.SpecialButton
+import com.termux.ai.shared.termux.extrakeys.ExtraKeyButton
+import com.termux.ai.shared.termux.extrakeys.ExtraKeysConstants
+import com.termux.ai.shared.termux.extrakeys.ExtraKeysInfo
+import com.termux.ai.shared.termux.extrakeys.ExtraKeysView
+import com.termux.ai.shared.termux.extrakeys.SpecialButton
 import org.json.JSONException
 
 class EditorVncExtraKeys(

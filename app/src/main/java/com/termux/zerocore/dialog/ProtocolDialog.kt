@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.dialog
+package com.termux.ai.zerocore.dialog
 
 import android.content.Context
 import android.content.Intent
@@ -7,12 +7,12 @@ import android.widget.TextView
 import com.example.xh_lib.utils.LogUtils
 import com.example.xh_lib.utils.SaveData
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.ai.R
-import com.termux.ai.ai.app.TermuxService
-import com.termux.ai.ai.shared.termux.TermuxConstants
-import com.termux.ai.ai.zerocore.ftp.utils.UserSetManage
-import com.termux.ai.ai.zerocore.utils.ViewBackUtils
-import com.termux.ai.ai.zerocore.view.CustomScrollView
+import com.termux.ai.R
+import com.termux.ai.app.TermuxService
+import com.termux.ai.shared.termux.TermuxConstants
+import com.termux.ai.zerocore.ftp.utils.UserSetManage
+import com.termux.ai.zerocore.utils.ViewBackUtils
+import com.termux.ai.zerocore.view.CustomScrollView
 import kotlinx.coroutines.Runnable
 import java.lang.RuntimeException
 

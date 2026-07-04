@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.config.ztcommand.config;
+package com.termux.ai.zerocore.config.ztcommand.config;
 
 import android.content.Context;
 import android.widget.Toast;

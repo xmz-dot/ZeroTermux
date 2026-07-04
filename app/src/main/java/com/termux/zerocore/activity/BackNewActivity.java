@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.activity;
+package com.termux.ai.zerocore.activity;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -13,10 +13,10 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.ai.R;
-import com.termux.ai.ai.zerocore.fragment.BackupFragment;
-import com.termux.ai.ai.zerocore.fragment.RestoreFragment;
-import com.termux.ai.ai.zerocore.fragment.SettingFragment;
+import com.termux.ai.R;
+import com.termux.ai.zerocore.fragment.BackupFragment;
+import com.termux.ai.zerocore.fragment.RestoreFragment;
+import com.termux.ai.zerocore.fragment.SettingFragment;
 
 
 public class BackNewActivity extends AppCompatActivity implements View.OnClickListener {

@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.popuwindow
+package com.termux.ai.zerocore.popuwindow
 
 import android.content.Context
 import android.util.AttributeSet
@@ -6,7 +6,7 @@ import android.view.View
 import com.github.iielse.switchbutton.SwitchView
 
 
-import com.termux.ai.ai.R
+import com.termux.ai.R
 
 class NginxPopuWindow : BasePuPuWindow {
 

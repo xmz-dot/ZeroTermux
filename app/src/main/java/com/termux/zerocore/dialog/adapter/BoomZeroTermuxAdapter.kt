@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.dialog.adapter
+package com.termux.ai.zerocore.dialog.adapter
 
 import android.app.Activity
 import android.content.Intent
@@ -7,12 +7,12 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.ai.R
-import com.termux.ai.ai.app.TermuxActivity
-import com.termux.ai.ai.zerocore.bean.ZeroRunCommandBean
-import com.termux.ai.ai.zerocore.dialog.LoadingDialog
-import com.termux.ai.ai.zerocore.dialog.view_holder.BoomZeroTermuxViewHolder
-import com.termux.ai.ai.zerocore.url.FileUrl.mainHomeUrl
+import com.termux.ai.R
+import com.termux.ai.app.TermuxActivity
+import com.termux.ai.zerocore.bean.ZeroRunCommandBean
+import com.termux.ai.zerocore.dialog.LoadingDialog
+import com.termux.ai.zerocore.dialog.view_holder.BoomZeroTermuxViewHolder
+import com.termux.ai.zerocore.url.FileUrl.mainHomeUrl
 import java.io.File
 
 class BoomZeroTermuxAdapter : RecyclerView.Adapter<BoomZeroTermuxViewHolder> {

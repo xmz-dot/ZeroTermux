@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.zip;
+package com.termux.ai.zerocore.zip;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -17,7 +17,7 @@ import androidx.annotation.RequiresApi;
 import com.example.xh_lib.utils.UUtils;
 import com.hzy.lib7z.IExtractCallback;
 import com.hzy.lib7z.Z7Extractor;
-import com.termux.ai.ai.app.TermuxApplication;
+import com.termux.ai.app.TermuxApplication;
 
 
 import java.io.File;

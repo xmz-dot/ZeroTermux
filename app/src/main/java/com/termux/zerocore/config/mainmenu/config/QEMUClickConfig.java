@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.config.mainmenu.config;
+package com.termux.ai.zerocore.config.mainmenu.config;
 
 import static com.termux.ai.zerocore.config.mainmenu.MainMenuConfig.CODE_COMMON_FUNCTIONS;
 
@@ -12,14 +12,14 @@ import com.example.xh_lib.utils.UUtils;
 import com.hjq.permissions.OnPermissionCallback;
 import com.hjq.permissions.Permission;
 import com.hjq.permissions.XXPermissions;
-import com.termux.ai.ai.R;
-import com.termux.ai.ai.app.TermuxActivity;
-import com.termux.ai.ai.zerocore.code.CodeString;
-import com.termux.ai.ai.zerocore.dialog.LoadingDialog;
-import com.termux.ai.ai.zerocore.dialog.SwitchDialog;
-import com.termux.ai.ai.zerocore.popuwindow.MenuLeftPopuListWindow;
-import com.termux.ai.ai.zerocore.url.FileUrl;
-import com.termux.ai.ai.zerocore.utermux_windows.qemu.activity.RunWindowActivity;
+import com.termux.ai.R;
+import com.termux.ai.app.TermuxActivity;
+import com.termux.ai.zerocore.code.CodeString;
+import com.termux.ai.zerocore.dialog.LoadingDialog;
+import com.termux.ai.zerocore.dialog.SwitchDialog;
+import com.termux.ai.zerocore.popuwindow.MenuLeftPopuListWindow;
+import com.termux.ai.zerocore.url.FileUrl;
+import com.termux.ai.zerocore.utermux_windows.qemu.activity.RunWindowActivity;
 
 import org.jetbrains.annotations.Nullable;
 

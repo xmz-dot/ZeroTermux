@@ -1,4 +1,4 @@
-package com.termux.ai.ai.shared.activities;
+package com.termux.ai.shared.activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
@@ -16,18 +16,18 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-import com.termux.ai.ai.shared.R;
-import com.termux.ai.ai.shared.activity.media.AppCompatActivityUtils;
-import com.termux.ai.ai.shared.data.DataUtils;
-import com.termux.ai.ai.shared.file.FileUtils;
-import com.termux.ai.ai.shared.file.filesystem.FileType;
-import com.termux.ai.ai.shared.logger.Logger;
-import com.termux.ai.ai.shared.errors.Error;
-import com.termux.ai.ai.shared.termux.TermuxConstants;
-import com.termux.ai.ai.shared.markdown.MarkdownUtils;
-import com.termux.ai.ai.shared.interact.ShareUtils;
-import com.termux.ai.ai.shared.models.ReportInfo;
-import com.termux.ai.ai.shared.theme.NightMode;
+import com.termux.ai.shared.R;
+import com.termux.ai.shared.activity.media.AppCompatActivityUtils;
+import com.termux.ai.shared.data.DataUtils;
+import com.termux.ai.shared.file.FileUtils;
+import com.termux.ai.shared.file.filesystem.FileType;
+import com.termux.ai.shared.logger.Logger;
+import com.termux.ai.shared.errors.Error;
+import com.termux.ai.shared.termux.TermuxConstants;
+import com.termux.ai.shared.markdown.MarkdownUtils;
+import com.termux.ai.shared.interact.ShareUtils;
+import com.termux.ai.shared.models.ReportInfo;
+import com.termux.ai.shared.theme.NightMode;
 
 import org.commonmark.node.FencedCodeBlock;
 import org.jetbrains.annotations.NotNull;

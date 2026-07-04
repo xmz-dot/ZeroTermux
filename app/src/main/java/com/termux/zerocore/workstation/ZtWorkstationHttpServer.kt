@@ -1,10 +1,10 @@
-package com.termux.ai.ai.zerocore.workstation
+package com.termux.ai.zerocore.workstation
 
 import android.content.Context
 import com.google.gson.Gson
 import com.google.gson.JsonObject
 import com.google.gson.JsonParser
-import com.termux.ai.ai.zerocore.http_service.NanoFileUpload
+import com.termux.ai.zerocore.http_service.NanoFileUpload
 import fi.iki.elonen.NanoHTTPD
 import fi.iki.elonen.NanoWSD
 import org.apache.commons.fileupload.FileItemIterator

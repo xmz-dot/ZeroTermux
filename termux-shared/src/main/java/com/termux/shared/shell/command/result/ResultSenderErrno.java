@@ -1,6 +1,6 @@
-package com.termux.ai.ai.shared.shell.command.result;
+package com.termux.ai.shared.shell.command.result;
 
-import com.termux.ai.ai.shared.errors.Errno;
+import com.termux.ai.shared.errors.Errno;
 
 /** The {@link Class} that defines ResultSender error messages and codes. */
 public class ResultSenderErrno extends Errno {

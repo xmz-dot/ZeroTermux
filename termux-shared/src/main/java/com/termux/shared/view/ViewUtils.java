@@ -1,4 +1,4 @@
-package com.termux.ai.ai.shared.view;
+package com.termux.ai.shared.view;
 
 import android.app.Activity;
 import android.content.Context;
@@ -16,7 +16,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.termux.ai.ai.shared.logger.Logger;
+import com.termux.ai.shared.logger.Logger;
 
 public class ViewUtils {
 

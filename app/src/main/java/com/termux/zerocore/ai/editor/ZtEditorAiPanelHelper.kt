@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.ai.editor
+package com.termux.ai.zerocore.ai.editor
 
 import android.view.Gravity
 import android.view.LayoutInflater
@@ -12,12 +12,12 @@ import android.widget.EditText
 import android.widget.LinearLayout
 import android.widget.ScrollView
 import android.widget.TextView
-import com.termux.ai.ai.R
-import com.termux.ai.ai.zerocore.ai.agent.ZtAgentAiChatClient
-import com.termux.ai.ai.zerocore.ai.agent.ZtAgentAiConfigHelper
-import com.termux.ai.ai.zerocore.ai.agent.ZtAgentMarkwon
-import com.termux.ai.ai.zerocore.ai.agent.ZtAgentSelectionLinkMovementMethod
-import com.termux.ai.ai.zerocore.ai.deepseek.utils.SpannableTextUtil
+import com.termux.ai.R
+import com.termux.ai.zerocore.ai.agent.ZtAgentAiChatClient
+import com.termux.ai.zerocore.ai.agent.ZtAgentAiConfigHelper
+import com.termux.ai.zerocore.ai.agent.ZtAgentMarkwon
+import com.termux.ai.zerocore.ai.agent.ZtAgentSelectionLinkMovementMethod
+import com.termux.ai.zerocore.ai.deepseek.utils.SpannableTextUtil
 import io.noties.markwon.Markwon
 import kotlin.math.abs
 

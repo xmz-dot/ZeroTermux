@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.ai.agent
+package com.termux.ai.zerocore.ai.agent
 
 import android.text.Selection
 import android.text.Spannable

@@ -11,8 +11,8 @@ import android.provider.DocumentsContract.Root;
 import android.provider.DocumentsProvider;
 import android.webkit.MimeTypeMap;
 
-import com.termux.ai.ai.R;
-import com.termux.ai.ai.shared.termux.TermuxConstants;
+import com.termux.ai.R;
+import com.termux.ai.shared.termux.TermuxConstants;
 
 import java.io.File;
 import java.io.FileNotFoundException;

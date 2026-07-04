@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.ai.deepseek;
+package com.termux.ai.zerocore.ai.deepseek;
 
 import android.content.Context;
 import android.content.Intent;
@@ -20,15 +20,15 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.xh_lib.utils.LogUtils;
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.ai.R;
-import com.termux.ai.ai.zerocore.ai.deepseek.data.ChatDatabaseHelper;
-import com.termux.ai.ai.zerocore.ai.deepseek.data.ChatMessage;
-import com.termux.ai.ai.zerocore.ai.deepseek.data.ChatMessageAdapter;
-import com.termux.ai.ai.zerocore.ai.deepseek.data.ChatSession;
-import com.termux.ai.ai.zerocore.ai.deepseek.model.Config;
-import com.termux.ai.ai.zerocore.ai.deepseek.model.DeepSeekClient;
-import com.termux.ai.ai.zerocore.ai.deepseek.model.RequestMessageItem;
-import com.termux.ai.ai.zerocore.ftp.utils.UserSetManage;
+import com.termux.ai.R;
+import com.termux.ai.zerocore.ai.deepseek.data.ChatDatabaseHelper;
+import com.termux.ai.zerocore.ai.deepseek.data.ChatMessage;
+import com.termux.ai.zerocore.ai.deepseek.data.ChatMessageAdapter;
+import com.termux.ai.zerocore.ai.deepseek.data.ChatSession;
+import com.termux.ai.zerocore.ai.deepseek.model.Config;
+import com.termux.ai.zerocore.ai.deepseek.model.DeepSeekClient;
+import com.termux.ai.zerocore.ai.deepseek.model.RequestMessageItem;
+import com.termux.ai.zerocore.ftp.utils.UserSetManage;
 
 import java.util.ArrayList;
 import java.util.List;

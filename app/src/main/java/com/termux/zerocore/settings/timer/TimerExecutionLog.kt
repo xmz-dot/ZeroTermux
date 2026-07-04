@@ -1,6 +1,6 @@
-package com.termux.ai.ai.zerocore.settings.timer
+package com.termux.ai.zerocore.settings.timer
 
-import com.termux.ai.ai.zerocore.url.FileUrl
+import com.termux.ai.zerocore.url.FileUrl
 import java.io.File
 import java.io.RandomAccessFile
 

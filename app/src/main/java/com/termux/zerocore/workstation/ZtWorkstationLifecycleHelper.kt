@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.workstation
+package com.termux.ai.zerocore.workstation
 
 import android.app.Activity
 import android.app.Application

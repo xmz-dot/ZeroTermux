@@ -1,9 +1,9 @@
-package com.termux.ai.ai.zerocore.back.viewholder
+package com.termux.ai.zerocore.back.viewholder
 
 import android.view.View
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.termux.ai.ai.R
+import com.termux.ai.R
 
 class RestoreViewHolder: RecyclerView.ViewHolder {
     public var mDataName: TextView? = null

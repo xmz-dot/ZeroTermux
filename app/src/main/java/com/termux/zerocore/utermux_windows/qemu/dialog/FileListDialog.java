@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.utermux_windows.qemu.dialog;
+package com.termux.ai.zerocore.utermux_windows.qemu.dialog;
 
 import android.content.Context;
 import android.os.Environment;
@@ -16,7 +16,7 @@ import com.blockchain.ub.util.custom.dialog.BaseDialogCentre;
 import com.example.xh_lib.base.ListBaseAdapter;
 import com.example.xh_lib.base.ViewHolder;
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.ai.R;
+import com.termux.ai.R;
 
 import java.io.File;
 import java.util.ArrayList;

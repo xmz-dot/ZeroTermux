@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.background.utils;
+package com.termux.ai.zerocore.background.utils;
 
 import android.content.Context;
 

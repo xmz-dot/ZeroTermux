@@ -1,4 +1,4 @@
-package com.termux.ai.ai.shared;
+package com.termux.ai.shared;
 
 import android.content.Context;
 

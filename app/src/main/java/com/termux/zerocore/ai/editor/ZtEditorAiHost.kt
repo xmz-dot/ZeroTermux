@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.ai.editor
+package com.termux.ai.zerocore.ai.editor
 
 interface ZtEditorAiHost {
     fun isEditorReady(): Boolean

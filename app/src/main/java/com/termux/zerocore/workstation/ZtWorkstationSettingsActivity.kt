@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.workstation
+package com.termux.ai.zerocore.workstation
 
 import android.os.Bundle
 import android.view.View
@@ -11,9 +11,9 @@ import com.example.xh_lib.utils.UUtils
 import com.hjq.permissions.OnPermissionCallback
 import com.hjq.permissions.Permission
 import com.hjq.permissions.XXPermissions
-import com.termux.ai.ai.R
-import com.termux.ai.ai.zerocore.ftp.utils.UserSetManage
-import com.termux.ai.ai.zerocore.settings.BaseTitleActivity
+import com.termux.ai.R
+import com.termux.ai.zerocore.ftp.utils.UserSetManage
+import com.termux.ai.zerocore.settings.BaseTitleActivity
 
 class ZtWorkstationSettingsActivity : BaseTitleActivity() {
 

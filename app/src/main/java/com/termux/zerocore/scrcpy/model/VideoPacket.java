@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.scrcpy.model;
+package com.termux.ai.zerocore.scrcpy.model;
 
 import java.nio.ByteBuffer;
 

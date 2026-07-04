@@ -1,4 +1,4 @@
-package com.termux.ai.ai.shared.termux.crash;
+package com.termux.ai.shared.termux.crash;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -11,23 +11,23 @@ import android.os.Environment;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.termux.ai.ai.shared.activities.ReportActivity;
-import com.termux.ai.ai.shared.android.AndroidUtils;
-import com.termux.ai.ai.shared.crash.CrashHandler;
-import com.termux.ai.ai.shared.data.DataUtils;
-import com.termux.ai.ai.shared.errors.Error;
-import com.termux.ai.ai.shared.file.FileUtils;
-import com.termux.ai.ai.shared.logger.Logger;
-import com.termux.ai.ai.shared.markdown.MarkdownUtils;
-import com.termux.ai.ai.shared.models.ReportInfo;
-import com.termux.ai.ai.shared.notification.NotificationUtils;
-import com.termux.ai.ai.shared.termux.TermuxConstants;
-import com.termux.ai.ai.shared.termux.TermuxConstants.TERMUX_APP;
-import com.termux.ai.ai.shared.termux.TermuxUtils;
-import com.termux.ai.ai.shared.termux.models.UserAction;
-import com.termux.ai.ai.shared.termux.notification.TermuxNotificationUtils;
-import com.termux.ai.ai.shared.termux.settings.preferences.TermuxAppSharedPreferences;
-import com.termux.ai.ai.shared.termux.settings.preferences.TermuxPreferenceConstants;
+import com.termux.ai.shared.activities.ReportActivity;
+import com.termux.ai.shared.android.AndroidUtils;
+import com.termux.ai.shared.crash.CrashHandler;
+import com.termux.ai.shared.data.DataUtils;
+import com.termux.ai.shared.errors.Error;
+import com.termux.ai.shared.file.FileUtils;
+import com.termux.ai.shared.logger.Logger;
+import com.termux.ai.shared.markdown.MarkdownUtils;
+import com.termux.ai.shared.models.ReportInfo;
+import com.termux.ai.shared.notification.NotificationUtils;
+import com.termux.ai.shared.termux.TermuxConstants;
+import com.termux.ai.shared.termux.TermuxConstants.TERMUX_APP;
+import com.termux.ai.shared.termux.TermuxUtils;
+import com.termux.ai.shared.termux.models.UserAction;
+import com.termux.ai.shared.termux.notification.TermuxNotificationUtils;
+import com.termux.ai.shared.termux.settings.preferences.TermuxAppSharedPreferences;
+import com.termux.ai.shared.termux.settings.preferences.TermuxPreferenceConstants;
 
 import java.nio.charset.Charset;
 

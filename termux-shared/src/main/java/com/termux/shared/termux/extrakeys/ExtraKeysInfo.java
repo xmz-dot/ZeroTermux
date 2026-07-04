@@ -1,4 +1,4 @@
-package com.termux.ai.ai.shared.termux.extrakeys;
+package com.termux.ai.shared.termux.extrakeys;
 
 import android.view.View;
 import android.widget.Button;
@@ -6,8 +6,8 @@ import android.widget.Button;
 import androidx.annotation.NonNull;
 
 import com.google.android.material.button.MaterialButton;
-import com.termux.ai.ai.shared.termux.extrakeys.ExtraKeysConstants.EXTRA_KEY_DISPLAY_MAPS;
-import com.termux.ai.ai.shared.termux.terminal.io.TerminalExtraKeys;
+import com.termux.ai.shared.termux.extrakeys.ExtraKeysConstants.EXTRA_KEY_DISPLAY_MAPS;
+import com.termux.ai.shared.termux.terminal.io.TerminalExtraKeys;
 
 import org.json.JSONArray;
 import org.json.JSONException;

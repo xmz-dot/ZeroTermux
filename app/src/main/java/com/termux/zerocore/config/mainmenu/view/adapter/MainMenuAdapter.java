@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.config.mainmenu.view.adapter;
+package com.termux.ai.zerocore.config.mainmenu.view.adapter;
 
 import android.content.Context;
 import android.util.Log;
@@ -10,10 +10,10 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.termux.ai.ai.R;
-import com.termux.ai.ai.zerocore.config.mainmenu.data.MainMenuCategoryData;
-import com.termux.ai.ai.zerocore.config.mainmenu.view.viewholder.MainMenuViewHolder;
-import com.termux.ai.ai.zerocore.ftp.utils.UserSetManage;
+import com.termux.ai.R;
+import com.termux.ai.zerocore.config.mainmenu.data.MainMenuCategoryData;
+import com.termux.ai.zerocore.config.mainmenu.view.viewholder.MainMenuViewHolder;
+import com.termux.ai.zerocore.ftp.utils.UserSetManage;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,11 +1,11 @@
-package com.termux.ai.ai.zerocore.config.ztcommand.config;
+package com.termux.ai.zerocore.config.ztcommand.config;
 
 import static com.termux.ai.zerocore.config.ztcommand.config.ZTKeyConstants.ZT_ID_MENU;
 
 import android.content.Context;
 
 import com.example.xh_lib.utils.LogUtils;
-import com.termux.ai.ai.zerocore.config.ztcommand.ZTSocketService;
+import com.termux.ai.zerocore.config.ztcommand.ZTSocketService;
 
 // zt menu update 更新左菜单
 // zt menu reset 恢复默认菜单

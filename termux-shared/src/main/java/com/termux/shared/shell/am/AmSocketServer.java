@@ -1,4 +1,4 @@
-package com.termux.ai.ai.shared.shell.am;
+package com.termux.ai.shared.shell.am;
 
 import android.Manifest;
 import android.app.Application;
@@ -8,19 +8,19 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.termux.ai.am.Am;
-import com.termux.ai.ai.shared.R;
-import com.termux.ai.ai.shared.android.PackageUtils;
-import com.termux.ai.ai.shared.android.PermissionUtils;
-import com.termux.ai.ai.shared.errors.Error;
-import com.termux.ai.ai.shared.logger.Logger;
-import com.termux.ai.ai.shared.net.socket.local.ILocalSocketManager;
-import com.termux.ai.ai.shared.net.socket.local.LocalClientSocket;
-import com.termux.ai.ai.shared.net.socket.local.LocalServerSocket;
-import com.termux.ai.ai.shared.net.socket.local.LocalSocketManager;
-import com.termux.ai.ai.shared.net.socket.local.LocalSocketManagerClientBase;
-import com.termux.ai.ai.shared.net.socket.local.LocalSocketRunConfig;
-import com.termux.ai.ai.shared.shell.ArgumentTokenizer;
-import com.termux.ai.ai.shared.shell.command.ExecutionCommand;
+import com.termux.ai.shared.R;
+import com.termux.ai.shared.android.PackageUtils;
+import com.termux.ai.shared.android.PermissionUtils;
+import com.termux.ai.shared.errors.Error;
+import com.termux.ai.shared.logger.Logger;
+import com.termux.ai.shared.net.socket.local.ILocalSocketManager;
+import com.termux.ai.shared.net.socket.local.LocalClientSocket;
+import com.termux.ai.shared.net.socket.local.LocalServerSocket;
+import com.termux.ai.shared.net.socket.local.LocalSocketManager;
+import com.termux.ai.shared.net.socket.local.LocalSocketManagerClientBase;
+import com.termux.ai.shared.net.socket.local.LocalSocketRunConfig;
+import com.termux.ai.shared.shell.ArgumentTokenizer;
+import com.termux.ai.shared.shell.command.ExecutionCommand;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;

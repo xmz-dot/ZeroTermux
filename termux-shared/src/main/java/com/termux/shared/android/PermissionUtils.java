@@ -1,4 +1,4 @@
-package com.termux.ai.ai.shared.android;
+package com.termux.ai.shared.android;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -20,12 +20,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
 import com.google.common.base.Joiner;
-import com.termux.ai.ai.shared.R;
-import com.termux.ai.ai.shared.file.FileUtils;
-import com.termux.ai.ai.shared.logger.Logger;
-import com.termux.ai.ai.shared.errors.Error;
-import com.termux.ai.ai.shared.errors.FunctionErrno;
-import com.termux.ai.ai.shared.activity.ActivityUtils;
+import com.termux.ai.shared.R;
+import com.termux.ai.shared.file.FileUtils;
+import com.termux.ai.shared.logger.Logger;
+import com.termux.ai.shared.errors.Error;
+import com.termux.ai.shared.errors.FunctionErrno;
+import com.termux.ai.shared.activity.ActivityUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,6 +1,6 @@
-package com.termux.ai.ai.zerocore.editor
+package com.termux.ai.zerocore.editor
 
-import com.termux.ai.ai.R
+import com.termux.ai.R
 import java.io.File
 import java.util.Locale
 

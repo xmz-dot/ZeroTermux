@@ -1,7 +1,7 @@
-package com.termux.ai.ai.zerocore.workstation
+package com.termux.ai.zerocore.workstation
 
 import com.google.gson.Gson
-import com.termux.ai.ai.shared.termux.TermuxConstants
+import com.termux.ai.shared.termux.TermuxConstants
 import java.io.File
 import java.io.FileInputStream
 import java.io.FileOutputStream

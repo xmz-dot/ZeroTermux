@@ -1,4 +1,4 @@
-package com.termux.ai.ai.app.terminal;
+package com.termux.ai.app.terminal;
 
 import android.content.Context;
 import android.graphics.Rect;
@@ -19,12 +19,12 @@ import androidx.annotation.Nullable;
 import androidx.core.view.WindowInsetsCompat;
 
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.ai.app.TermuxActivity;
-import com.termux.ai.ai.shared.logger.Logger;
-import com.termux.ai.ai.shared.view.ViewUtils;
-import com.termux.ai.ai.R;
-import com.termux.ai.ai.x11.MainActivity;
-import com.termux.ai.ai.zerocore.view.ZeroTermuxBackLayout;
+import com.termux.ai.app.TermuxActivity;
+import com.termux.ai.shared.logger.Logger;
+import com.termux.ai.shared.view.ViewUtils;
+import com.termux.ai.R;
+import com.termux.ai.x11.MainActivity;
+import com.termux.ai.zerocore.view.ZeroTermuxBackLayout;
 
 /**
  * The {@link TermuxActivity} relies on {@link android.view.WindowManager.LayoutParams#SOFT_INPUT_ADJUST_RESIZE)}

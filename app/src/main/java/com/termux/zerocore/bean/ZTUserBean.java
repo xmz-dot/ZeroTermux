@@ -1,6 +1,6 @@
-package com.termux.ai.ai.zerocore.bean;
+package com.termux.ai.zerocore.bean;
 
-import com.termux.ai.ai.shared.termux.settings.properties.TermuxPropertyConstants;
+import com.termux.ai.shared.termux.settings.properties.TermuxPropertyConstants;
 
 public class ZTUserBean {
     // 是否打开ZT下载服务器

@@ -1,8 +1,8 @@
-package com.termux.ai.ai.zerocore.settings
+package com.termux.ai.zerocore.settings
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.termux.ai.ai.R
+import com.termux.ai.R
 
 class ContainerSettingsMainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

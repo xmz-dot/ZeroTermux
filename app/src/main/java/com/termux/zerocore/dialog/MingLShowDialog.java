@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.dialog;
+package com.termux.ai.zerocore.dialog;
 
 import android.content.Context;
 import android.view.View;
@@ -13,10 +13,10 @@ import androidx.cardview.widget.CardView;
 
 import com.example.xh_lib.utils.UUtils;
 import com.google.gson.Gson;
-import com.termux.ai.ai.R;
-import com.termux.ai.ai.zerocore.bean.MinLBean;
-import com.termux.ai.ai.zerocore.utils.FileIOUtils;
-import com.termux.ai.ai.zerocore.utils.SaveData;
+import com.termux.ai.R;
+import com.termux.ai.zerocore.bean.MinLBean;
+import com.termux.ai.zerocore.utils.FileIOUtils;
+import com.termux.ai.zerocore.utils.SaveData;
 
 import java.util.ArrayList;
 import java.util.List;

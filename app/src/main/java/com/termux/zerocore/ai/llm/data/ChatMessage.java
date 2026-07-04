@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.ai.llm.data;
+package com.termux.ai.zerocore.ai.llm.data;
 
 public class ChatMessage {
     private String messageText;

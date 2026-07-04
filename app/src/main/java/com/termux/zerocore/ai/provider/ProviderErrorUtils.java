@@ -1,8 +1,8 @@
-package com.termux.ai.ai.zerocore.ai.provider;
+package com.termux.ai.zerocore.ai.provider;
 
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.ai.R;
-import com.termux.ai.ai.zerocore.ai.llm.utils.CodeStringUtils;
+import com.termux.ai.R;
+import com.termux.ai.zerocore.ai.llm.utils.CodeStringUtils;
 
 
 final class ProviderErrorUtils {

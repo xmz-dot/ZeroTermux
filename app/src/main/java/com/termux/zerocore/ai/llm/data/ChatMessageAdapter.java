@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.ai.llm.data;
+package com.termux.ai.zerocore.ai.llm.data;
 
 import android.content.Context;
 import android.text.Spanned;
@@ -12,9 +12,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.termux.ai.ai.R;
-import com.termux.ai.ai.zerocore.ai.llm.markdown.MarkDownAPI;
-import com.termux.ai.ai.zerocore.ai.llm.utils.SpannableTextUtil;
+import com.termux.ai.R;
+import com.termux.ai.zerocore.ai.llm.markdown.MarkDownAPI;
+import com.termux.ai.zerocore.ai.llm.utils.SpannableTextUtil;
 
 
 import java.text.SimpleDateFormat;

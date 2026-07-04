@@ -1,12 +1,12 @@
-package com.termux.ai.ai.shared.shell;
+package com.termux.ai.shared.shell;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.termux.ai.ai.shared.file.FileUtils;
-import com.termux.ai.ai.terminal.TerminalBuffer;
-import com.termux.ai.ai.terminal.TerminalEmulator;
-import com.termux.ai.ai.terminal.TerminalSession;
+import com.termux.ai.shared.file.FileUtils;
+import com.termux.ai.terminal.TerminalBuffer;
+import com.termux.ai.terminal.TerminalEmulator;
+import com.termux.ai.terminal.TerminalSession;
 
 import java.lang.reflect.Field;
 

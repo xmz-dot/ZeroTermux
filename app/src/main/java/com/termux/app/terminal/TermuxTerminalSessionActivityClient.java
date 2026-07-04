@@ -1,4 +1,4 @@
-package com.termux.ai.ai.app.terminal;
+package com.termux.ai.app.terminal;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -16,24 +16,24 @@ import android.widget.ListView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.termux.ai.ai.R;
-import com.termux.ai.ai.shared.interact.ShareUtils;
-import com.termux.ai.ai.shared.termux.shell.command.runner.terminal.TermuxSession;
-import com.termux.ai.ai.shared.termux.interact.TextInputDialogUtils;
-import com.termux.ai.ai.app.TermuxActivity;
-import com.termux.ai.ai.shared.termux.terminal.TermuxTerminalSessionClientBase;
-import com.termux.ai.ai.shared.termux.TermuxConstants;
-import com.termux.ai.ai.app.TermuxService;
-import com.termux.ai.ai.shared.termux.settings.properties.TermuxPropertyConstants;
-import com.termux.ai.ai.shared.termux.terminal.io.BellHandler;
-import com.termux.ai.ai.shared.logger.Logger;
-import com.termux.ai.ai.terminal.TerminalColors;
-import com.termux.ai.ai.terminal.TerminalSession;
+import com.termux.ai.R;
+import com.termux.ai.shared.interact.ShareUtils;
+import com.termux.ai.shared.termux.shell.command.runner.terminal.TermuxSession;
+import com.termux.ai.shared.termux.interact.TextInputDialogUtils;
+import com.termux.ai.app.TermuxActivity;
+import com.termux.ai.shared.termux.terminal.TermuxTerminalSessionClientBase;
+import com.termux.ai.shared.termux.TermuxConstants;
+import com.termux.ai.app.TermuxService;
+import com.termux.ai.shared.termux.settings.properties.TermuxPropertyConstants;
+import com.termux.ai.shared.termux.terminal.io.BellHandler;
+import com.termux.ai.shared.logger.Logger;
+import com.termux.ai.terminal.TerminalColors;
+import com.termux.ai.terminal.TerminalSession;
 // ZeroTermux add {@
-import com.termux.ai.ai.zerocore.editor.EditorTerminalSessionRelay;
+import com.termux.ai.zerocore.editor.EditorTerminalSessionRelay;
 //@}
-import com.termux.ai.ai.terminal.TerminalSessionClient;
-import com.termux.ai.ai.terminal.TextStyle;
+import com.termux.ai.terminal.TerminalSessionClient;
+import com.termux.ai.terminal.TextStyle;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -300,7 +300,7 @@ public class TermuxTerminalSessionActivityClient extends TermuxTerminalSessionCl
             try {
                 mBellSoundId = mBellSoundPool.load(mActivity, R.raw.bell, 1);
             } catch (Exception e){
-                // Catch java.lang.RuntimeException: Unable to resume activity {com.termux/com.termux.ai.app.TermuxActivity}: android.content.res.Resources$NotFoundException: File res/raw/bell.ogg from drawable resource ID
+                // Catch java.lang.RuntimeException: Unable to resume activity {com.termux.ai/com.termux.ai.app.TermuxActivity}: android.content.res.Resources$NotFoundException: File res/raw/bell.ogg from drawable resource ID
                 Logger.logStackTraceWithMessage(LOG_TAG, "Failed to load bell sound pool", e);
             }
         }

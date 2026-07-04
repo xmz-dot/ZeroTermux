@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.config.mainmenu.config
+package com.termux.ai.zerocore.config.mainmenu.config
 
 import android.app.Activity
 import android.content.Context
@@ -12,11 +12,11 @@ import android.view.View
 import android.widget.Toast
 import com.example.xh_lib.utils.LogUtils
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.ai.R
-import com.termux.ai.ai.app.TermuxActivity
-import com.termux.ai.ai.zerocore.dialog.SwitchDialog
-import com.termux.ai.ai.zerocore.utils.FileIOUtils
-import com.termux.ai.ai.zerocore.zero.engine.ZeroCoreManage
+import com.termux.ai.R
+import com.termux.ai.app.TermuxActivity
+import com.termux.ai.zerocore.dialog.SwitchDialog
+import com.termux.ai.zerocore.utils.FileIOUtils
+import com.termux.ai.zerocore.zero.engine.ZeroCoreManage
 
 class X86AlpineDataClickConfig: BaseMenuClickConfig() {
     companion object{

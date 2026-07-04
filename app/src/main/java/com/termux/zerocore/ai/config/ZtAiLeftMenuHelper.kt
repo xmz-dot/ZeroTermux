@@ -1,8 +1,8 @@
-package com.termux.ai.ai.zerocore.ai.config
+package com.termux.ai.zerocore.ai.config
 
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.ai.zerocore.config.mainmenu.MainMenuPackageInfo
-import com.termux.ai.ai.zerocore.config.mainmenu.MainMenuPackageManager
+import com.termux.ai.zerocore.config.mainmenu.MainMenuPackageInfo
+import com.termux.ai.zerocore.config.mainmenu.MainMenuPackageManager
 import org.json.JSONArray
 import org.json.JSONObject
 import org.w3c.dom.Element

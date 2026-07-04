@@ -1,4 +1,4 @@
-package com.termux.ai.ai.shared.termux.interact;
+package com.termux.ai.shared.termux.interact;
 
 import android.app.Activity;
 import android.app.AlertDialog;

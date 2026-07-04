@@ -1,7 +1,7 @@
-package com.termux.ai.ai.zerocore.aidebug
+package com.termux.ai.zerocore.aidebug
 
 import com.google.gson.Gson
-import com.termux.ai.ai.zerocore.workstation.ZtWorkstationFileHelper
+import com.termux.ai.zerocore.workstation.ZtWorkstationFileHelper
 import android.util.Base64
 
 object ZtAiDebugFileWriteHelper {

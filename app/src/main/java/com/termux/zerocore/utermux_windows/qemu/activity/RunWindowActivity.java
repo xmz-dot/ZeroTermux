@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.utermux_windows.qemu.activity;
+package com.termux.ai.zerocore.utermux_windows.qemu.activity;
 
 import android.app.AlertDialog;
 import android.content.BroadcastReceiver;
@@ -19,18 +19,18 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.ai.R;
-import com.termux.ai.ai.app.TermuxActivity;
-import com.termux.ai.ai.zerocore.dialog.LoadingDialog;
-import com.termux.ai.ai.zerocore.url.FileUrl;
-import com.termux.ai.ai.zerocore.utermux_windows.qemu.data.TermuxData;
-import com.termux.ai.ai.zerocore.utermux_windows.qemu.dialog.EditTextDialog;
-import com.termux.ai.ai.zerocore.utermux_windows.qemu.dialog.EndDialog;
-import com.termux.ai.ai.zerocore.utermux_windows.qemu.dialog.FileListDialog;
-import com.termux.ai.ai.zerocore.utermux_windows.qemu.dialog.FileNameDialog;
-import com.termux.ai.ai.zerocore.utermux_windows.qemu.dialog.SwitchQemuDialog;
-import com.termux.ai.ai.zerocore.utils.SaveData;
-import com.termux.ai.ai.zerocore.utils.XinhaoStoragePath;
+import com.termux.ai.R;
+import com.termux.ai.app.TermuxActivity;
+import com.termux.ai.zerocore.dialog.LoadingDialog;
+import com.termux.ai.zerocore.url.FileUrl;
+import com.termux.ai.zerocore.utermux_windows.qemu.data.TermuxData;
+import com.termux.ai.zerocore.utermux_windows.qemu.dialog.EditTextDialog;
+import com.termux.ai.zerocore.utermux_windows.qemu.dialog.EndDialog;
+import com.termux.ai.zerocore.utermux_windows.qemu.dialog.FileListDialog;
+import com.termux.ai.zerocore.utermux_windows.qemu.dialog.FileNameDialog;
+import com.termux.ai.zerocore.utermux_windows.qemu.dialog.SwitchQemuDialog;
+import com.termux.ai.zerocore.utils.SaveData;
+import com.termux.ai.zerocore.utils.XinhaoStoragePath;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -836,7 +836,7 @@ public class RunWindowActivity extends AppCompatActivity implements TermuxData.I
                     stringBuilder.append("\n");
                     stringBuilder.append("am broadcast --user 0 \\\n");
                     stringBuilder.append("  --es com.termux.ai.app.reload_style qemu_run_error \\\n");
-                    stringBuilder.append("  -a com.termux.ai.app.reload_style com.termux > /dev/null \\\n");
+                    stringBuilder.append("  -a com.termux.ai.app.reload_style com.termux.ai > /dev/null \\\n");
 
 
                     UUtils.setFileString(mFileQemuStart, stringBuilder.toString());

@@ -1,4 +1,4 @@
-package com.termux.ai.ai.shared.termux.shell.command.runner.terminal;
+package com.termux.ai.shared.termux.shell.command.runner.terminal;
 
 import android.content.Context;
 import android.system.OsConstants;
@@ -7,17 +7,17 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.google.common.base.Joiner;
-import com.termux.ai.ai.shared.R;
-import com.termux.ai.ai.shared.shell.command.ExecutionCommand;
-import com.termux.ai.ai.shared.shell.command.environment.ShellEnvironmentUtils;
-import com.termux.ai.ai.shared.shell.command.environment.UnixShellEnvironment;
-import com.termux.ai.ai.shared.shell.command.result.ResultData;
-import com.termux.ai.ai.shared.errors.Errno;
-import com.termux.ai.ai.shared.logger.Logger;
-import com.termux.ai.ai.shared.shell.command.environment.IShellEnvironment;
-import com.termux.ai.ai.shared.shell.ShellUtils;
-import com.termux.ai.ai.terminal.TerminalSession;
-import com.termux.ai.ai.terminal.TerminalSessionClient;
+import com.termux.ai.shared.R;
+import com.termux.ai.shared.shell.command.ExecutionCommand;
+import com.termux.ai.shared.shell.command.environment.ShellEnvironmentUtils;
+import com.termux.ai.shared.shell.command.environment.UnixShellEnvironment;
+import com.termux.ai.shared.shell.command.result.ResultData;
+import com.termux.ai.shared.errors.Errno;
+import com.termux.ai.shared.logger.Logger;
+import com.termux.ai.shared.shell.command.environment.IShellEnvironment;
+import com.termux.ai.shared.shell.ShellUtils;
+import com.termux.ai.terminal.TerminalSession;
+import com.termux.ai.terminal.TerminalSessionClient;
 
 import java.io.File;
 import java.util.Collections;

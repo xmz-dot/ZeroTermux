@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.config.mainmenu.config
+package com.termux.ai.zerocore.config.mainmenu.config
 
 import android.content.Context
 import android.content.Intent
@@ -6,15 +6,15 @@ import android.graphics.drawable.Drawable
 import android.view.View
 import com.example.xh_lib.utils.LogUtils
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.ai.R
-import com.termux.ai.ai.app.TermuxActivity
-import com.termux.ai.ai.shared.termux.TermuxConstants
-import com.termux.ai.ai.shared.termux.TermuxConstants.TERMUX_APP.TERMUX_ACTIVITY
-import com.termux.ai.ai.shared.termux.TermuxConstants.TERMUX_APP.TERMUX_ACTIVITY.ACTION_RELOAD_STYLE
-import com.termux.ai.ai.shared.termux.settings.properties.TermuxPropertyConstants
-import com.termux.ai.ai.shared.termux.settings.properties.TermuxPropertyConstants.DEFAULT_IVALUE_EXTRA_KEYS
-import com.termux.ai.ai.shared.termux.settings.properties.TermuxPropertyConstants.KEY_EXTRA_KEYS
-import com.termux.ai.ai.zerocore.dialog.MingLShowDialog
+import com.termux.ai.R
+import com.termux.ai.app.TermuxActivity
+import com.termux.ai.shared.termux.TermuxConstants
+import com.termux.ai.shared.termux.TermuxConstants.TERMUX_APP.TERMUX_ACTIVITY
+import com.termux.ai.shared.termux.TermuxConstants.TERMUX_APP.TERMUX_ACTIVITY.ACTION_RELOAD_STYLE
+import com.termux.ai.shared.termux.settings.properties.TermuxPropertyConstants
+import com.termux.ai.shared.termux.settings.properties.TermuxPropertyConstants.DEFAULT_IVALUE_EXTRA_KEYS
+import com.termux.ai.shared.termux.settings.properties.TermuxPropertyConstants.KEY_EXTRA_KEYS
+import com.termux.ai.zerocore.dialog.MingLShowDialog
 import org.json.JSONArray
 import java.io.FileInputStream
 import java.io.FileOutputStream

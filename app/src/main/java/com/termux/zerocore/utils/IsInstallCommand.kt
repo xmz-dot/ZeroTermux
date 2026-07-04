@@ -1,14 +1,14 @@
-package com.termux.ai.ai.zerocore.utils
+package com.termux.ai.zerocore.utils
 
 import android.app.Activity
 import android.view.Gravity
 import android.view.View
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.ai.R
-import com.termux.ai.ai.app.TermuxActivity
-import com.termux.ai.ai.zerocore.dialog.SwitchDialog
-import com.termux.ai.ai.zerocore.url.FileUrl
-import com.termux.ai.ai.zerocore.url.FileUrl.smsUrl
+import com.termux.ai.R
+import com.termux.ai.app.TermuxActivity
+import com.termux.ai.zerocore.dialog.SwitchDialog
+import com.termux.ai.zerocore.url.FileUrl
+import com.termux.ai.zerocore.url.FileUrl.smsUrl
 import java.io.File
 
 object IsInstallCommand {

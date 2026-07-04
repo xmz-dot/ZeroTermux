@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.dialog;
+package com.termux.ai.zerocore.dialog;
 
 import android.content.Context;
 import android.content.res.AssetManager;
@@ -19,7 +19,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.ai.R;
+import com.termux.ai.R;
 
 import org.commonmark.node.Node;
 import org.commonmark.parser.Parser;

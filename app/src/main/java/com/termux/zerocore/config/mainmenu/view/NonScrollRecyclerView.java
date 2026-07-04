@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.config.mainmenu.view;
+package com.termux.ai.zerocore.config.mainmenu.view;
 
 import android.content.Context;
 import android.util.AttributeSet;

@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.activity;
+package com.termux.ai.zerocore.activity;
 
 
 import android.annotation.TargetApi;
@@ -22,7 +22,7 @@ import com.example.xh_lib.activity.BaseThemeActivity;
 import com.example.xh_lib.statusBar.StatusBarCompat;
 import com.example.xh_lib.utils.UUtils;
 import com.just.agentweb.AgentWeb;
-import com.termux.ai.ai.R;
+import com.termux.ai.R;
 
 import androidx.activity.OnBackPressedCallback;
 

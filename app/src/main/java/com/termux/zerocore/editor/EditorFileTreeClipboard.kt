@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.editor
+package com.termux.ai.zerocore.editor
 
 import java.io.File
 

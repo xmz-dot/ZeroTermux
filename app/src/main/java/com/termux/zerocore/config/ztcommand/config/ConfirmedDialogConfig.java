@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.config.ztcommand.config;
+package com.termux.ai.zerocore.config.ztcommand.config;
 
 import static com.termux.ai.zerocore.dialog.ShowDialogActivity.DIALOG_TYPE_CONFIRMED;
 import static com.termux.ai.zerocore.dialog.ShowDialogActivity.DIALOG_TYPE_CONFIRMED_CANCEL;
@@ -13,9 +13,9 @@ import android.content.Intent;
 
 import com.example.xh_lib.utils.LogUtils;
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.ai.R;
-import com.termux.ai.ai.zerocore.dialog.ShowDialogActivity;
-import com.termux.ai.ai.zerocore.config.ztcommand.ZTSocketService;
+import com.termux.ai.R;
+import com.termux.ai.zerocore.dialog.ShowDialogActivity;
+import com.termux.ai.zerocore.config.ztcommand.ZTSocketService;
 
 import java.util.HashMap;
 import java.util.Map;

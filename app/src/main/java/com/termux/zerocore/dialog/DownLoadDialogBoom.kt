@@ -1,4 +1,4 @@
-package com.termux.ai.ai.zerocore.dialog
+package com.termux.ai.zerocore.dialog
 
 import android.app.Activity
 import android.content.Context
@@ -27,15 +27,15 @@ import com.hjq.permissions.OnPermissionCallback
 import com.hjq.permissions.Permission
 import com.hjq.permissions.XXPermissions
 import com.lzy.okgo.model.Response
-import com.termux.ai.ai.R
-import com.termux.ai.ai.zerocore.activity.BackNewActivity
-import com.termux.ai.ai.zerocore.bean.Data
-import com.termux.ai.ai.zerocore.bean.ZDYDataBean
-import com.termux.ai.ai.zerocore.http.HTTPIP
-import com.termux.ai.ai.zerocore.url.FileUrl
-import com.termux.ai.ai.zerocore.url.FileUrl.zeroTermuxApk
-import com.termux.ai.ai.zerocore.url.FileUrl.zeroTermuxData
-import com.termux.ai.ai.zerocore.utils.DownLoadMuTILS
+import com.termux.ai.R
+import com.termux.ai.zerocore.activity.BackNewActivity
+import com.termux.ai.zerocore.bean.Data
+import com.termux.ai.zerocore.bean.ZDYDataBean
+import com.termux.ai.zerocore.http.HTTPIP
+import com.termux.ai.zerocore.url.FileUrl
+import com.termux.ai.zerocore.url.FileUrl.zeroTermuxApk
+import com.termux.ai.zerocore.url.FileUrl.zeroTermuxData
+import com.termux.ai.zerocore.utils.DownLoadMuTILS
 import java.io.File
 import java.util.*
 import kotlin.collections.ArrayList
