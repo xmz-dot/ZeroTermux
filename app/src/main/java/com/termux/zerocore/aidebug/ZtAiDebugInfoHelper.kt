@@ -3,7 +3,7 @@ package com.termux.ai.zerocore.aidebug
 import android.content.Context
 import android.os.Build
 import com.google.gson.Gson
-import com.termux.BuildConfig
+import com.termux.ai.BuildConfig
 import com.termux.ai.zerocore.ftp.new_ftp.utils.NetworkEnvironmentUtil
 import com.termux.ai.zerocore.workstation.ZtWorkstationDeviceHelper
 

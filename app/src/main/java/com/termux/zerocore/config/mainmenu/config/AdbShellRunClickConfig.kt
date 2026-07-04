@@ -7,7 +7,7 @@ import android.net.Uri
 import android.system.Os
 import android.view.View
 import com.example.xh_lib.utils.UUtils
-import com.termux.BuildConfig
+import com.termux.ai.BuildConfig
 import com.termux.ai.R
 import com.termux.ai.app.TermuxActivity
 import com.termux.ai.zerocore.config.ZTConstantConfig

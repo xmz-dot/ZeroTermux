@@ -10,7 +10,7 @@ import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.preference.PreferenceManager
-import com.termux.BuildConfig
+import com.termux.ai.BuildConfig
 import com.termux.ai.R
 
 import java.io.File

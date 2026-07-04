@@ -6,7 +6,7 @@ import android.content.IntentFilter
 import android.os.BatteryManager
 import android.os.Build
 import com.google.gson.Gson
-import com.termux.BuildConfig
+import com.termux.ai.BuildConfig
 
 object ZtWorkstationDeviceHelper {
 
