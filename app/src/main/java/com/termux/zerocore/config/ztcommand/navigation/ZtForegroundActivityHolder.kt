@@ -1,7 +1,7 @@
-package com.termux.ai.zerocore.config.ztcommand.navigation
+package com.tarmux.zerocore.config.ztcommand.navigation
 
 import android.app.Activity
-import com.termux.ai.app.TermuxActivity
+import com.tarmux.app.TermuxActivity
 
 object ZtForegroundActivityHolder {
 

@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.settings.log;
+package com.tarmux.zerocore.settings.log;
 
 public class TimerFileOutput {
 

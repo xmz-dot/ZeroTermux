@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.ai.agent
+package com.tarmux.zerocore.ai.agent
 
 import android.content.Context
 import android.text.TextUtils
@@ -16,8 +16,8 @@ import android.widget.EditText
 import android.widget.LinearLayout
 import android.widget.ScrollView
 import android.widget.TextView
-import com.termux.ai.R
-import com.termux.ai.zerocore.utils.SingletonCommunicationUtils
+import com.tarmux.R
+import com.tarmux.zerocore.utils.SingletonCommunicationUtils
 import io.noties.markwon.Markwon
 
 class ZtAiAgentPanelHelper(

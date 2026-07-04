@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.aidebug
+package com.tarmux.zerocore.aidebug
 
 /**
  * Multilingual API documentation embedded in GET / and GET /api discovery responses.

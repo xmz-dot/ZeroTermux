@@ -7,7 +7,7 @@ apply plugin: 'kotlin-android'
 // @}
 ext {
     // The packageVariant defines the bootstrap variant that will be included in the app APK.
-    // This must be supported by com.termux.ai.shared.termux.TermuxBootstrap.PackageVariant or app will
+    // This must be supported by com.tarmux.shared.termux.TermuxBootstrap.PackageVariant or app will
     // crash at startup.
     // Bootstrap of a different variant must not be manually installed by the user after app installation
     // by replacing $PREFIX since app code is dependant on the variant used to build the APK.
@@ -16,7 +16,7 @@ ext {
 }
 
 android {
-    namespace "com.termux.ai"
+    namespace "com.tarmux"
 
     compileSdk project.properties.compileSdkVersion.toInteger()
     ndkVersion = System.getenv("JITPACK_NDK_VERSION") ?: project.properties.ndkVersion
@@ -127,7 +127,7 @@ android {
         // versionName "0.118.0"
         versionCode 118
         versionName "0.118.3.63"
-        applicationId "com.termux.ai"
+        applicationId "com.tarmux"
         // @}
         if (appVersionName) versionName = appVersionName
         validateVersionName(versionName)
@@ -135,7 +135,7 @@ android {
         buildConfigField "String", "TERMUX_PACKAGE_VARIANT", "\"" + project.ext.packageVariant + "\""
         // Used by TermuxApplication class
 
-        manifestPlaceholders.TERMUX_PACKAGE_NAME = "com.termux.ai"
+        manifestPlaceholders.TERMUX_PACKAGE_NAME = "com.tarmux"
         manifestPlaceholders.TERMUX_APP_NAME = "Termux"
         manifestPlaceholders.TERMUX_API_APP_NAME = "Termux:API"
         manifestPlaceholders.TERMUX_BOOT_APP_NAME = "Termux:Boot"
@@ -338,6 +338,7 @@ def validateVersionName(String versionName) {
 }
 
 def downloadBootstrap(String arch, String expectedChecksum, String version) {
+    return // 使用本地已 patch 的 bootstrap
     def digest = java.security.MessageDigest.getInstance("SHA-256")
 
     def localUrl = "src/main/cpp/bootstrap-" + arch + ".zip"

@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.scrcpy;
+package com.tarmux.zerocore.scrcpy;
 
 
 import static android.org.apache.commons.codec.binary.Base64.encodeBase64String;

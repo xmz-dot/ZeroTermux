@@ -1,8 +1,8 @@
-package com.termux.ai.zerocore.fragment
+package com.tarmux.zerocore.fragment
 
 import android.view.View
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.R
+import com.tarmux.R
 
 class SettingFragment : BaseFragment {
     constructor() : super()

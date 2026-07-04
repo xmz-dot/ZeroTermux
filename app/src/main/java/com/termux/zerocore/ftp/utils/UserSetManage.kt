@@ -1,11 +1,11 @@
-package com.termux.ai.zerocore.ftp.utils
+package com.tarmux.zerocore.ftp.utils
 
 import android.text.TextUtils
 import com.example.xh_lib.utils.LogUtils
 import com.example.xh_lib.utils.SaveData
 import com.google.gson.Gson
-import com.termux.ai.zerocore.bean.ZTUserBean
-import com.termux.ai.zerocore.http.HTTPIP
+import com.tarmux.zerocore.bean.ZTUserBean
+import com.tarmux.zerocore.http.HTTPIP
 import com.zp.z_file.content.TAG
 
 class UserSetManage private constructor() {

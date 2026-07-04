@@ -1,15 +1,15 @@
-package com.termux.ai.zerocore.config.mainmenu.config
+package com.tarmux.zerocore.config.mainmenu.config
 
 import android.app.Activity
 import android.content.Context
 import android.content.Intent
 import android.view.View
 import com.example.xh_lib.utils.LogUtils
-import com.termux.ai.app.TermuxActivity
-import com.termux.ai.zerocore.activity.ImageActivity
-import com.termux.ai.zerocore.data.UsbFileData
-import com.termux.ai.zerocore.url.FileUrl
-import com.termux.ai.zerocore.utils.FileIOUtils
+import com.tarmux.app.TermuxActivity
+import com.tarmux.zerocore.activity.ImageActivity
+import com.tarmux.zerocore.data.UsbFileData
+import com.tarmux.zerocore.url.FileUrl
+import com.tarmux.zerocore.utils.FileIOUtils
 import java.io.File
 
 class WebDataClickConfigImp: VideoBackClickConfig() {

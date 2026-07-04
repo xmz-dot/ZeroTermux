@@ -1,8 +1,8 @@
-package com.termux.ai.zerocore.ai.agent
+package com.tarmux.zerocore.ai.agent
 
 import android.content.Context
 import android.graphics.Color
-import com.termux.ai.zerocore.ai.deepseek.markdown.MarkDownAPI
+import com.tarmux.zerocore.ai.deepseek.markdown.MarkDownAPI
 import io.noties.markwon.Markwon
 import io.noties.markwon.ext.tables.TablePlugin
 import io.noties.markwon.ext.tables.TableTheme

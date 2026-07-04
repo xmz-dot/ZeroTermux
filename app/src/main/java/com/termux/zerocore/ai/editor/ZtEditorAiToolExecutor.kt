@@ -1,8 +1,8 @@
-package com.termux.ai.zerocore.ai.editor
+package com.tarmux.zerocore.ai.editor
 
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.R
-import com.termux.ai.zerocore.ai.agent.ZtAgentAiChatClient
+import com.tarmux.R
+import com.tarmux.zerocore.ai.agent.ZtAgentAiChatClient
 import org.json.JSONObject
 import java.util.concurrent.CountDownLatch
 import java.util.concurrent.TimeUnit

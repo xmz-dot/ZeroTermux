@@ -1,0 +1,13 @@
+/.
+/data/
+/data/data/
+/data/data/com.tarmux/
+/data/data/com.tarmux/files/
+/data/data/com.tarmux/files/usr/
+/data/data/com.tarmux/files/usr/libexec/
+/data/data/com.tarmux/files/usr/libexec/termux/
+/data/data/com.tarmux/files/usr/libexec/termux/command-not-found
+/data/data/com.tarmux/files/usr/share/
+/data/data/com.tarmux/files/usr/share/doc/
+/data/data/com.tarmux/files/usr/share/doc/command-not-found/
+/data/data/com.tarmux/files/usr/share/doc/command-not-found/copyright

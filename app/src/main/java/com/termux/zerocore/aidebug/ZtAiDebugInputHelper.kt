@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.aidebug
+package com.tarmux.zerocore.aidebug
 
 import com.google.gson.Gson
 

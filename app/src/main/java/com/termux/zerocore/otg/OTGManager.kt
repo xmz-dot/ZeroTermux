@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.otg
+package com.tarmux.zerocore.otg
 
 import android.app.PendingIntent
 import android.content.Context
@@ -8,11 +8,11 @@ import android.view.View
 import com.example.xh_lib.utils.LogUtils
 import com.example.xh_lib.utils.UUtils
 import com.github.mjdev.libaums.UsbMassStorageDevice
-import com.termux.ai.R
-import com.termux.ai.zerocore.data.UsbFileData.Companion.get
-import com.termux.ai.zerocore.dialog.LoadingDialog
-import com.termux.ai.zerocore.dialog.SwitchDialog
-import com.termux.ai.zerocore.utils.FileIOUtils
+import com.tarmux.R
+import com.tarmux.zerocore.data.UsbFileData.Companion.get
+import com.tarmux.zerocore.dialog.LoadingDialog
+import com.tarmux.zerocore.dialog.SwitchDialog
+import com.tarmux.zerocore.utils.FileIOUtils
 import java.io.File
 import java.util.Arrays
 

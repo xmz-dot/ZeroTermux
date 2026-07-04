@@ -1,4 +1,4 @@
-package com.termux.ai.shared.activity.media;
+package com.tarmux.shared.activity.media;
 
 import androidx.annotation.IdRes;
 import androidx.annotation.NonNull;
@@ -8,8 +8,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 import androidx.appcompat.widget.Toolbar;
 
-import com.termux.ai.shared.logger.Logger;
-import com.termux.ai.shared.theme.NightMode;
+import com.tarmux.shared.logger.Logger;
+import com.tarmux.shared.theme.NightMode;
 
 public class AppCompatActivityUtils {
 

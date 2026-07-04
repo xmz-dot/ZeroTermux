@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.editor
+package com.tarmux.zerocore.editor
 
 import android.app.Activity
 import android.content.res.Configuration
@@ -8,10 +8,10 @@ import android.widget.FrameLayout
 import android.widget.ImageView
 import android.widget.TextView
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.R
-import com.termux.ai.shared.view.KeyboardUtils
-import com.termux.ai.zerocore.gui.ZtGuiFramePoller
-import com.termux.ai.zerocore.gui.ZtGuiGlSurfaceView
+import com.tarmux.R
+import com.tarmux.shared.view.KeyboardUtils
+import com.tarmux.zerocore.gui.ZtGuiFramePoller
+import com.tarmux.zerocore.gui.ZtGuiGlSurfaceView
 import io.github.rosemoe.sora.widget.CodeEditor
 
 class EditorX11Panel(

@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.config.other.data;
+package com.tarmux.zerocore.config.other.data;
 
 import java.util.List;
 

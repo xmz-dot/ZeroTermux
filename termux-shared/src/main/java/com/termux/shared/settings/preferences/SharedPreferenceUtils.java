@@ -1,10 +1,10 @@
-package com.termux.ai.shared.settings.preferences;
+package com.tarmux.shared.settings.preferences;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import com.termux.ai.shared.logger.Logger;
+import com.tarmux.shared.logger.Logger;
 
 import java.util.Set;
 

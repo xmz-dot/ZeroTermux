@@ -17,7 +17,7 @@ You should have received a copy of the GNU General Public License
 along with SwiFTP.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.termux.ai.zerocore.ftp.server;
+package com.tarmux.zerocore.ftp.server;
 
 /**
  * Since STOR and APPE are essentially identical except for append vs truncate,
@@ -30,8 +30,8 @@ package com.termux.ai.zerocore.ftp.server;
 
 import com.example.xh_lib.utils.LogUtils;
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.zerocore.ftp.MediaUpdater;
-import com.termux.ai.zerocore.ftp.utils.FileUtil;
+import com.tarmux.zerocore.ftp.MediaUpdater;
+import com.tarmux.zerocore.ftp.utils.FileUtil;
 
 import java.io.File;
 import java.io.FileNotFoundException;

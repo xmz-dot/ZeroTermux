@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.back.constant
+package com.tarmux.zerocore.back.constant
 
 object BackRestoreConstant {
     public const val TAG_GZ = 60001

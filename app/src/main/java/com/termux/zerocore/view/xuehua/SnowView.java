@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.view.xuehua;
+package com.tarmux.zerocore.view.xuehua;
 
 import android.content.Context;
 import android.graphics.Canvas;

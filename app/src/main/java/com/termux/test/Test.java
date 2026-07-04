@@ -1,4 +1,4 @@
-package com.termux.ai.test;
+package com.tarmux.test;
 
 import com.koushikdutta.async.http.server.AsyncHttpServer;
 

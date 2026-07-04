@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.settings
+package com.tarmux.zerocore.settings
 
 import android.Manifest
 import android.content.Context
@@ -17,18 +17,18 @@ import androidx.cardview.widget.CardView
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.R
-import com.termux.ai.zerocore.activity.EditTextActivity
-import com.termux.ai.zerocore.dialog.YesNoDialog
-import com.termux.ai.zerocore.ftp.utils.TimerSetManage
-import com.termux.ai.zerocore.libsu.LibSuManage
-import com.termux.ai.zerocore.settings.services.TimerExeService
-import com.termux.ai.zerocore.settings.timer.TimerBean
-import com.termux.ai.zerocore.settings.timer.TimerExecutionLog
-import com.termux.ai.zerocore.settings.timer.TimerNotificationHelper
-import com.termux.ai.zerocore.settings.timer.TimerRuntimeState
-import com.termux.ai.zerocore.url.FileUrl
-import com.termux.ai.zerocore.utils.SingletonCommunicationUtils
+import com.tarmux.R
+import com.tarmux.zerocore.activity.EditTextActivity
+import com.tarmux.zerocore.dialog.YesNoDialog
+import com.tarmux.zerocore.ftp.utils.TimerSetManage
+import com.tarmux.zerocore.libsu.LibSuManage
+import com.tarmux.zerocore.settings.services.TimerExeService
+import com.tarmux.zerocore.settings.timer.TimerBean
+import com.tarmux.zerocore.settings.timer.TimerExecutionLog
+import com.tarmux.zerocore.settings.timer.TimerNotificationHelper
+import com.tarmux.zerocore.settings.timer.TimerRuntimeState
+import com.tarmux.zerocore.url.FileUrl
+import com.tarmux.zerocore.utils.SingletonCommunicationUtils
 import com.zp.z_file.util.LogUtils
 import java.io.File
 

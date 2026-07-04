@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.ai.agent
+package com.tarmux.zerocore.ai.agent
 
 import android.content.Context
 import android.util.AttributeSet

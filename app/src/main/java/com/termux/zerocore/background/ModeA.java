@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.background;
+package com.tarmux.zerocore.background;
 
 /**
  * Created by qinfeng on 16/8/4.

@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.settings
+package com.tarmux.zerocore.settings
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,7 +9,7 @@ import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.R
+import com.tarmux.R
 
 public open class BaseTitleActivity: AppCompatActivity() {
     private var mTitle: TextView? = null

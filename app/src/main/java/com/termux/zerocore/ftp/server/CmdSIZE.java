@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.ftp.server;
+package com.tarmux.zerocore.ftp.server;
 
 import android.util.Log;
 

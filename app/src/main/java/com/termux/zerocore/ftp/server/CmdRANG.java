@@ -1,7 +1,7 @@
-package com.termux.ai.zerocore.ftp.server;
+package com.tarmux.zerocore.ftp.server;
 
 
-import com.termux.ai.zerocore.ftp.utils.Cat;
+import com.tarmux.zerocore.ftp.utils.Cat;
 
 /**
  * CmdRANG add's a RANG command to be used by clients to designate an octet range to a

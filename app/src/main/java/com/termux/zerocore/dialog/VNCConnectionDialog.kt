@@ -1,12 +1,12 @@
-package com.termux.ai.zerocore.dialog
+package com.tarmux.zerocore.dialog
 
 import android.content.Context
 import android.view.View
 import android.widget.EditText
 import android.widget.TextView
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.R
-import com.termux.ai.zerocore.utils.UUUtils
+import com.tarmux.R
+import com.tarmux.zerocore.utils.UUUtils
 
 class VNCConnectionDialog : BaseDialogCentre {
 

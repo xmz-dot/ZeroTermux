@@ -1,7 +1,7 @@
-package com.termux.ai.zerocore.utils
+package com.tarmux.zerocore.utils
 
 import android.view.View
-import com.termux.ai.R
+import com.tarmux.R
 
 object ViewBackUtils {
     public fun setBackLine161823_2e(mView: View) {

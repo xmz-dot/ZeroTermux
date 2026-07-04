@@ -1,4 +1,4 @@
-package com.termux.ai.terminal;
+package com.tarmux.terminal;
 
 /**
  * Native methods for creating and managing pseudoterminal subprocesses. C code is in jni/termux.c.

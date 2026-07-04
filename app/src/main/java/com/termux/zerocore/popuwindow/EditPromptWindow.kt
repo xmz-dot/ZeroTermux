@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.popuwindow
+package com.tarmux.zerocore.popuwindow
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -18,10 +18,10 @@ import com.example.xh_lib.utils.SaveData
 import com.example.xh_lib.utils.UUtils
 import com.google.gson.Gson
 import com.lzy.okgo.model.Response
-import com.termux.ai.R
-import com.termux.ai.zerocore.bean.EditPromptBean
-import com.termux.ai.zerocore.bean.ZDYDataBean
-import com.termux.ai.zerocore.dialog.DownLoadDialogBoom
+import com.tarmux.R
+import com.tarmux.zerocore.bean.EditPromptBean
+import com.tarmux.zerocore.bean.ZDYDataBean
+import com.tarmux.zerocore.dialog.DownLoadDialogBoom
 import java.util.*
 import kotlin.collections.HashMap
 

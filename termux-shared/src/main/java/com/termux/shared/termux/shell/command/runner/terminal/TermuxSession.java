@@ -1,4 +1,4 @@
-package com.termux.ai.shared.termux.shell.command.runner.terminal;
+package com.tarmux.shared.termux.shell.command.runner.terminal;
 
 import android.content.Context;
 import android.system.OsConstants;
@@ -7,17 +7,17 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.google.common.base.Joiner;
-import com.termux.ai.shared.R;
-import com.termux.ai.shared.shell.command.ExecutionCommand;
-import com.termux.ai.shared.shell.command.environment.ShellEnvironmentUtils;
-import com.termux.ai.shared.shell.command.environment.UnixShellEnvironment;
-import com.termux.ai.shared.shell.command.result.ResultData;
-import com.termux.ai.shared.errors.Errno;
-import com.termux.ai.shared.logger.Logger;
-import com.termux.ai.shared.shell.command.environment.IShellEnvironment;
-import com.termux.ai.shared.shell.ShellUtils;
-import com.termux.ai.terminal.TerminalSession;
-import com.termux.ai.terminal.TerminalSessionClient;
+import com.tarmux.shared.R;
+import com.tarmux.shared.shell.command.ExecutionCommand;
+import com.tarmux.shared.shell.command.environment.ShellEnvironmentUtils;
+import com.tarmux.shared.shell.command.environment.UnixShellEnvironment;
+import com.tarmux.shared.shell.command.result.ResultData;
+import com.tarmux.shared.errors.Errno;
+import com.tarmux.shared.logger.Logger;
+import com.tarmux.shared.shell.command.environment.IShellEnvironment;
+import com.tarmux.shared.shell.ShellUtils;
+import com.tarmux.terminal.TerminalSession;
+import com.tarmux.terminal.TerminalSessionClient;
 
 import java.io.File;
 import java.util.Collections;

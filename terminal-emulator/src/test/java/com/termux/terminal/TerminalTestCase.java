@@ -1,4 +1,4 @@
-package com.termux.ai.terminal;
+package com.tarmux.terminal;
 
 import junit.framework.AssertionFailedError;
 import junit.framework.TestCase;

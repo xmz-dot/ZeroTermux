@@ -1,6 +1,6 @@
-package com.termux.ai.zerocore.config.mainmenu.config;
+package com.tarmux.zerocore.config.mainmenu.config;
 
-import static com.termux.ai.zerocore.config.mainmenu.MainMenuConfig.CODE_BEAUTIFICATION_FUNCTION;
+import static com.tarmux.zerocore.config.mainmenu.MainMenuConfig.CODE_BEAUTIFICATION_FUNCTION;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -8,11 +8,11 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.R;
-import com.termux.ai.app.TermuxActivity;
-import com.termux.ai.zerocore.bean.ZTUserBean;
-import com.termux.ai.zerocore.ftp.utils.UserSetManage;
-import com.termux.ai.zerocore.view.xuehua.SnowView;
+import com.tarmux.R;
+import com.tarmux.app.TermuxActivity;
+import com.tarmux.zerocore.bean.ZTUserBean;
+import com.tarmux.zerocore.ftp.utils.UserSetManage;
+import com.tarmux.zerocore.view.xuehua.SnowView;
 
 public class SnowflakeClickConfig extends BaseMenuClickConfig {
     private TextView mTextView;

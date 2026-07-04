@@ -1,10 +1,10 @@
-package com.termux.ai.zerocore.ai.editor
+package com.tarmux.zerocore.ai.editor
 
 import com.example.xh_lib.utils.LogUtils
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.R
-import com.termux.ai.zerocore.ai.agent.ZtAgentAiChatClient
-import com.termux.ai.zerocore.ai.agent.ZtAgentAiConfigHelper
+import com.tarmux.R
+import com.tarmux.zerocore.ai.agent.ZtAgentAiChatClient
+import com.tarmux.zerocore.ai.agent.ZtAgentAiConfigHelper
 import org.json.JSONObject
 
 class ZtEditorAiAgentRunner(

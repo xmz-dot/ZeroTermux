@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.utils;
+package com.tarmux.zerocore.utils;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -6,8 +6,8 @@ import android.provider.ContactsContract;
 import android.util.Log;
 
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.R;
-import com.termux.ai.zerocore.utermux_windows.qemu.data.MyContacts;
+import com.tarmux.R;
+import com.tarmux.zerocore.utermux_windows.qemu.data.MyContacts;
 
 import java.util.ArrayList;
 

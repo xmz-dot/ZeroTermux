@@ -1,18 +1,18 @@
-package com.termux.ai.zerocore.settings
+package com.tarmux.zerocore.settings
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.cardview.widget.CardView
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.R
-import com.termux.ai.app.activities.SettingsActivity
-import com.termux.ai.zerocore.ai.activity.MainAiSettings
-import com.termux.ai.zerocore.ai.agent.ZtAgentAiSettingsActivity
-import com.termux.ai.zerocore.guide.TermuxGuideActivity
-import com.termux.ai.zerocore.guide.TermuxGuideActivity.Companion.GUIDE_CREATE_FOLDER
-import com.termux.ai.zerocore.guide.TermuxGuideActivity.Companion.GUIDE_EXTRA
-import com.termux.ai.zerocore.guide.TermuxGuideActivity.Companion.GUIDE_EXTRA_JUMP_OTHER
+import com.tarmux.R
+import com.tarmux.app.activities.SettingsActivity
+import com.tarmux.zerocore.ai.activity.MainAiSettings
+import com.tarmux.zerocore.ai.agent.ZtAgentAiSettingsActivity
+import com.tarmux.zerocore.guide.TermuxGuideActivity
+import com.tarmux.zerocore.guide.TermuxGuideActivity.Companion.GUIDE_CREATE_FOLDER
+import com.tarmux.zerocore.guide.TermuxGuideActivity.Companion.GUIDE_EXTRA
+import com.tarmux.zerocore.guide.TermuxGuideActivity.Companion.GUIDE_EXTRA_JUMP_OTHER
 
 class ZtSettingsActivity : BaseTitleActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

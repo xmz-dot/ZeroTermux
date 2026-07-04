@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.dialog
+package com.tarmux.zerocore.dialog
 
 import android.app.Activity
 import android.content.Context
@@ -10,10 +10,10 @@ import com.blockchain.ub.util.custom.dialog.BaseDialogDown
 import com.example.xh_lib.utils.SaveData
 import com.example.xh_lib.utils.UUtils
 import com.scottyab.rootbeer.RootBeer
-import com.termux.ai.R
-import com.termux.ai.app.TermuxActivity
-import com.termux.ai.zerocore.http.HTTPIP
-import com.termux.ai.zerocore.shell.ExeCommand
+import com.tarmux.R
+import com.tarmux.app.TermuxActivity
+import com.tarmux.zerocore.http.HTTPIP
+import com.tarmux.zerocore.shell.ExeCommand
 
 
 class SYFunBoomDialog : BaseDialogDown, View.OnClickListener {

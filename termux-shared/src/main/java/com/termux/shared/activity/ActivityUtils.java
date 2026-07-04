@@ -1,4 +1,4 @@
-package com.termux.ai.shared.activity;
+package com.tarmux.shared.activity;
 
 import android.app.Activity;
 import android.content.Context;
@@ -9,8 +9,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.termux.ai.shared.errors.Error;
-import com.termux.ai.shared.errors.FunctionErrno;
+import com.tarmux.shared.errors.Error;
+import com.tarmux.shared.errors.FunctionErrno;
 
 
 public class ActivityUtils {

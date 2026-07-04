@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.ai.deepseek.activity
+package com.tarmux.zerocore.ai.deepseek.activity
 
 import android.content.Intent
 import android.net.Uri
@@ -12,7 +12,7 @@ import android.view.View
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.R
+import com.tarmux.R
 
 class ZeroTermuxDeepSeekKeyActivity : AppCompatActivity() {
     private val mTitle1 by lazy { findViewById<TextView>(R.id.title_1) }

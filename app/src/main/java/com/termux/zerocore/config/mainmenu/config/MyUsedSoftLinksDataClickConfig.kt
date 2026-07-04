@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.config.mainmenu.config
+package com.tarmux.zerocore.config.mainmenu.config
 
 import android.content.Context
 import android.graphics.drawable.Drawable
@@ -6,11 +6,11 @@ import android.text.TextUtils
 import android.view.View
 import com.example.xh_lib.utils.LogUtils
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.R
-import com.termux.ai.zerocore.dialog.YesNoDialog
-import com.termux.ai.zerocore.url.FileUrl
-import com.termux.ai.zerocore.utils.FileIOUtils
-import com.termux.ai.zerocore.utils.XinhaoStoragePath
+import com.tarmux.R
+import com.tarmux.zerocore.dialog.YesNoDialog
+import com.tarmux.zerocore.url.FileUrl
+import com.tarmux.zerocore.utils.FileIOUtils
+import com.tarmux.zerocore.utils.XinhaoStoragePath
 import java.io.File
 
 class MyUsedSoftLinksDataClickConfig: BaseMenuClickConfig() {
@@ -38,7 +38,7 @@ class MyUsedSoftLinksDataClickConfig: BaseMenuClickConfig() {
             yesNoDialog.dismiss()
             if (TextUtils.isEmpty(toString)) {
                 FileIOUtils.setupFileSymlinks(
-                    com.termux.ai.zerocore.utils.XinhaoStoragePath.getDataDir(UUtils.getContext()).absolutePath,
+                    com.tarmux.zerocore.utils.XinhaoStoragePath.getDataDir(UUtils.getContext()).absolutePath,
                     "${FileIOUtils.getXinhaoLinkPath(UUtils.getContext())}/xinhao_data")
                 UUtils.showMsg(UUtils.getString(R.string.成功))
             } else {

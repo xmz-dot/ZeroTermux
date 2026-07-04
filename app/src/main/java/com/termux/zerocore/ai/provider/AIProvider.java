@@ -1,8 +1,8 @@
-package com.termux.ai.zerocore.ai.provider;
+package com.tarmux.zerocore.ai.provider;
 
-import com.termux.ai.zerocore.ai.llm.model.RequestMessageItem;
-import com.termux.ai.zerocore.ai.model.AIProviderException;
-import com.termux.ai.zerocore.ai.model.ProviderProfile;
+import com.tarmux.zerocore.ai.llm.model.RequestMessageItem;
+import com.tarmux.zerocore.ai.model.AIProviderException;
+import com.tarmux.zerocore.ai.model.ProviderProfile;
 
 import java.util.List;
 

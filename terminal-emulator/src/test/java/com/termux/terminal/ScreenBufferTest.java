@@ -1,4 +1,4 @@
-package com.termux.ai.terminal;
+package com.tarmux.terminal;
 
 public class ScreenBufferTest extends TerminalTestCase {
 

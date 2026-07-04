@@ -24,7 +24,7 @@
  * questions.
  */
 
-package com.termux.ai.shared.file.filesystem;
+package com.tarmux.shared.file.filesystem;
 
 /**
  * Defines the bits for use with the {@link FileAttributes#permissions()

@@ -1,4 +1,4 @@
-package com.termux.ai.shared.android;
+package com.tarmux.shared.android;
 
 import android.Manifest;
 import android.content.Context;
@@ -6,10 +6,10 @@ import android.content.Context;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.termux.ai.shared.logger.Logger;
-import com.termux.ai.shared.shell.command.environment.AndroidShellEnvironment;
-import com.termux.ai.shared.shell.command.ExecutionCommand;
-import com.termux.ai.shared.shell.command.runner.app.AppShell;
+import com.tarmux.shared.logger.Logger;
+import com.tarmux.shared.shell.command.environment.AndroidShellEnvironment;
+import com.tarmux.shared.shell.command.ExecutionCommand;
+import com.tarmux.shared.shell.command.runner.app.AppShell;
 
 /**
  * Utils for phantom processes added in android 12.

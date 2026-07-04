@@ -1,11 +1,11 @@
-package com.termux.ai.zerocore.ai.deepseek.model;
+package com.tarmux.zerocore.ai.deepseek.model;
 
 
 import com.example.xh_lib.utils.LogUtils;
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.R;
-import com.termux.ai.zerocore.ai.deepseek.utils.CodeStringUtils;
-import com.termux.ai.zerocore.ftp.utils.UserSetManage;
+import com.tarmux.R;
+import com.tarmux.zerocore.ai.deepseek.utils.CodeStringUtils;
+import com.tarmux.zerocore.ftp.utils.UserSetManage;
 
 import okhttp3.*;
 

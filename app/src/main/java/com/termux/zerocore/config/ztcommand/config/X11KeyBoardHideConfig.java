@@ -1,6 +1,6 @@
-package com.termux.ai.zerocore.config.ztcommand.config;
+package com.tarmux.zerocore.config.ztcommand.config;
 
-import static com.termux.ai.zerocore.config.ztcommand.config.ZTKeyConstants.ZT_ID_X11_KEYBOARD_HIDE;
+import static com.tarmux.zerocore.config.ztcommand.config.ZTKeyConstants.ZT_ID_X11_KEYBOARD_HIDE;
 
 import android.content.Context;
 

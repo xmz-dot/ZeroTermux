@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.ai.agent
+package com.tarmux.zerocore.ai.agent
 
 import android.content.Context
 import android.util.AttributeSet
@@ -8,7 +8,7 @@ import android.view.ViewConfiguration
 import android.widget.EditText
 import android.widget.TextView
 import androidx.cardview.widget.CardView
-import com.termux.ai.R
+import com.tarmux.R
 import kotlin.math.abs
 
 /**

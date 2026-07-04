@@ -1,4 +1,4 @@
-package com.termux.ai.shared.net.uri;
+package com.tarmux.shared.net.uri;
 
 import android.net.Uri;
 

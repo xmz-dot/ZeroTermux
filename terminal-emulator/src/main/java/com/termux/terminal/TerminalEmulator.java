@@ -1,4 +1,4 @@
-package com.termux.ai.terminal;
+package com.tarmux.terminal;
 
 import android.util.Base64;
 

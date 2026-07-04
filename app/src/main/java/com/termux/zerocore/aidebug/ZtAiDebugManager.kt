@@ -1,10 +1,10 @@
-package com.termux.ai.zerocore.aidebug
+package com.tarmux.zerocore.aidebug
 
 import android.content.Context
 import android.content.Intent
 import androidx.core.content.ContextCompat
-import com.termux.ai.app.TermuxService
-import com.termux.ai.zerocore.ftp.utils.UserSetManage
+import com.tarmux.app.TermuxService
+import com.tarmux.zerocore.ftp.utils.UserSetManage
 
 object ZtAiDebugManager {
 
@@ -15,14 +15,14 @@ object ZtAiDebugManager {
         private set
 
     @Volatile
-    var cameraHelper: com.termux.ai.zerocore.workstation.ZtWorkstationCameraHelper? = null
+    var cameraHelper: com.tarmux.zerocore.workstation.ZtWorkstationCameraHelper? = null
         private set
 
     fun setTermuxService(service: TermuxService?) {
         termuxService = service
     }
 
-    fun setCameraHelper(helper: com.termux.ai.zerocore.workstation.ZtWorkstationCameraHelper?) {
+    fun setCameraHelper(helper: com.tarmux.zerocore.workstation.ZtWorkstationCameraHelper?) {
         cameraHelper = helper
     }
 

@@ -1,12 +1,12 @@
-package com.termux.ai.zerocore.config.mainmenu.view.adapter
+package com.tarmux.zerocore.config.mainmenu.view.adapter
 
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.R
-import com.termux.ai.zerocore.back.viewholder.RestoreViewHolder
-import com.termux.ai.zerocore.utils.FileIOUtils
+import com.tarmux.R
+import com.tarmux.zerocore.back.viewholder.RestoreViewHolder
+import com.tarmux.zerocore.utils.FileIOUtils
 import java.io.File
 
 class MenuPackageZipAdapter(

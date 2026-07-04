@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.aidebug
+package com.tarmux.zerocore.aidebug
 
 import android.content.Context
 import android.os.Build

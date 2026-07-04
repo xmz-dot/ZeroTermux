@@ -1,10 +1,10 @@
-package com.termux.ai.zerocore.config.mainmenu
+package com.tarmux.zerocore.config.mainmenu
 
 import android.content.Context
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.R
-import com.termux.ai.zerocore.utils.FileIOUtils
-import com.termux.ai.zerocore.utils.XinhaoStoragePath
+import com.tarmux.R
+import com.tarmux.zerocore.utils.FileIOUtils
+import com.tarmux.zerocore.utils.XinhaoStoragePath
 import java.io.File
 import java.io.FileInputStream
 import java.io.FileOutputStream

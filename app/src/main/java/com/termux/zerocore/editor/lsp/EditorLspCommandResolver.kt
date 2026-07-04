@@ -1,6 +1,6 @@
-package com.termux.ai.zerocore.editor.lsp
+package com.tarmux.zerocore.editor.lsp
 
-import com.termux.ai.shared.termux.TermuxConstants
+import com.tarmux.shared.termux.TermuxConstants
 import org.json.JSONObject
 import java.io.File
 

@@ -1,0 +1,13 @@
+/.
+/data/
+/data/data/
+/data/data/com.tarmux/
+/data/data/com.tarmux/files/
+/data/data/com.tarmux/files/usr/
+/data/data/com.tarmux/files/usr/etc/
+/data/data/com.tarmux/files/usr/etc/tls/
+/data/data/com.tarmux/files/usr/etc/tls/cert.pem
+/data/data/com.tarmux/files/usr/share/
+/data/data/com.tarmux/files/usr/share/doc/
+/data/data/com.tarmux/files/usr/share/doc/ca-certificates/
+/data/data/com.tarmux/files/usr/share/doc/ca-certificates/copyright

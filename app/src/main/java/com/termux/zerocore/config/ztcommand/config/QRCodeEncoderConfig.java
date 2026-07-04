@@ -1,13 +1,13 @@
-package com.termux.ai.zerocore.config.ztcommand.config;
+package com.tarmux.zerocore.config.ztcommand.config;
 
-import static com.termux.ai.zerocore.config.ztcommand.config.ZTKeyConstants.ZT_ID_QR_CODE_ENCODER_CONFIG;
+import static com.tarmux.zerocore.config.ztcommand.config.ZTKeyConstants.ZT_ID_QR_CODE_ENCODER_CONFIG;
 
 import android.content.Context;
 import android.content.Intent;
 
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.zerocore.config.ztcommand.ZTSocketService;
-import com.termux.ai.zerocore.config.ztcommand.activity.SocketBaseActivity;
+import com.tarmux.zerocore.config.ztcommand.ZTSocketService;
+import com.tarmux.zerocore.config.ztcommand.activity.SocketBaseActivity;
 
 public class QRCodeEncoderConfig extends BaseOkJsonConfig {
     private static ZTSocketService.ClientHandler mClientHandler;

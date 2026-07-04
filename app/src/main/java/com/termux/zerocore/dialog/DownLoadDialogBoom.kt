@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.dialog
+package com.tarmux.zerocore.dialog
 
 import android.app.Activity
 import android.content.Context
@@ -27,15 +27,15 @@ import com.hjq.permissions.OnPermissionCallback
 import com.hjq.permissions.Permission
 import com.hjq.permissions.XXPermissions
 import com.lzy.okgo.model.Response
-import com.termux.ai.R
-import com.termux.ai.zerocore.activity.BackNewActivity
-import com.termux.ai.zerocore.bean.Data
-import com.termux.ai.zerocore.bean.ZDYDataBean
-import com.termux.ai.zerocore.http.HTTPIP
-import com.termux.ai.zerocore.url.FileUrl
-import com.termux.ai.zerocore.url.FileUrl.zeroTermuxApk
-import com.termux.ai.zerocore.url.FileUrl.zeroTermuxData
-import com.termux.ai.zerocore.utils.DownLoadMuTILS
+import com.tarmux.R
+import com.tarmux.zerocore.activity.BackNewActivity
+import com.tarmux.zerocore.bean.Data
+import com.tarmux.zerocore.bean.ZDYDataBean
+import com.tarmux.zerocore.http.HTTPIP
+import com.tarmux.zerocore.url.FileUrl
+import com.tarmux.zerocore.url.FileUrl.zeroTermuxApk
+import com.tarmux.zerocore.url.FileUrl.zeroTermuxData
+import com.tarmux.zerocore.utils.DownLoadMuTILS
 import java.io.File
 import java.util.*
 import kotlin.collections.ArrayList
@@ -129,11 +129,11 @@ class DownLoadDialogBoom : BaseDialogDown, DownLoadMuTILS.DownLoadMuTILSListener
 
     class DownLoadAdapter : RecyclerView.Adapter<DownLoadViewHolder>{
 
-        private var mList:ArrayList<com.termux.ai.zerocore.bean.Data>? = null
+        private var mList:ArrayList<com.tarmux.zerocore.bean.Data>? = null
         private var ip:String? = null
         private var mDownLoadDialogBoom:DownLoadDialogBoom? = null
 
-        constructor(mList:ArrayList<com.termux.ai.zerocore.bean.Data>?,mDownLoadDialogBoom:DownLoadDialogBoom) : super(){
+        constructor(mList:ArrayList<com.tarmux.zerocore.bean.Data>?,mDownLoadDialogBoom:DownLoadDialogBoom) : super(){
 
             this.mList = mList
             this.mDownLoadDialogBoom = mDownLoadDialogBoom

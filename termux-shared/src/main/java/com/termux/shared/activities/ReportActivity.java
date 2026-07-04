@@ -1,4 +1,4 @@
-package com.termux.ai.shared.activities;
+package com.tarmux.shared.activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
@@ -16,18 +16,18 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-import com.termux.ai.shared.R;
-import com.termux.ai.shared.activity.media.AppCompatActivityUtils;
-import com.termux.ai.shared.data.DataUtils;
-import com.termux.ai.shared.file.FileUtils;
-import com.termux.ai.shared.file.filesystem.FileType;
-import com.termux.ai.shared.logger.Logger;
-import com.termux.ai.shared.errors.Error;
-import com.termux.ai.shared.termux.TermuxConstants;
-import com.termux.ai.shared.markdown.MarkdownUtils;
-import com.termux.ai.shared.interact.ShareUtils;
-import com.termux.ai.shared.models.ReportInfo;
-import com.termux.ai.shared.theme.NightMode;
+import com.tarmux.shared.R;
+import com.tarmux.shared.activity.media.AppCompatActivityUtils;
+import com.tarmux.shared.data.DataUtils;
+import com.tarmux.shared.file.FileUtils;
+import com.tarmux.shared.file.filesystem.FileType;
+import com.tarmux.shared.logger.Logger;
+import com.tarmux.shared.errors.Error;
+import com.tarmux.shared.termux.TermuxConstants;
+import com.tarmux.shared.markdown.MarkdownUtils;
+import com.tarmux.shared.interact.ShareUtils;
+import com.tarmux.shared.models.ReportInfo;
+import com.tarmux.shared.theme.NightMode;
 
 import org.commonmark.node.FencedCodeBlock;
 import org.jetbrains.annotations.NotNull;
@@ -39,9 +39,9 @@ import io.noties.markwon.recycler.SimpleEntry;
 /**
  * An activity to show reports in markdown format as per CommonMark spec based on config passed as {@link ReportInfo}.
  * Add Following to `AndroidManifest.xml` to use in an app:
- * {@code `<activity android:name="com.termux.ai.shared.activities.ReportActivity" android:theme="@style/Theme.AppCompat.TermuxReportActivity" android:documentLaunchMode="intoExisting" />` }
+ * {@code `<activity android:name="com.tarmux.shared.activities.ReportActivity" android:theme="@style/Theme.AppCompat.TermuxReportActivity" android:documentLaunchMode="intoExisting" />` }
  * and
- * {@code `<receiver android:name="com.termux.ai.shared.activities.ReportActivity$ReportActivityBroadcastReceiver"  android:exported="false" />` }
+ * {@code `<receiver android:name="com.tarmux.shared.activities.ReportActivity$ReportActivityBroadcastReceiver"  android:exported="false" />` }
  * Receiver **must not** be `exported="true"`!!!
  *
  * Also make an incremental call to {@link #deleteReportInfoFilesOlderThanXDays(Context, int, boolean)}

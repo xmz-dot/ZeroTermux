@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.ai.deepseek.model;
+package com.tarmux.zerocore.ai.deepseek.model;
 
 import java.util.ArrayList;
 import java.util.List;

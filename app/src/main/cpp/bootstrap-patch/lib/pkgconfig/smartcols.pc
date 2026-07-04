@@ -1,0 +1,10 @@
+prefix=/data/data/com.tarmux/files/usr
+exec_prefix=/data/data/com.tarmux/files/usr
+libdir=/data/data/com.tarmux/files/usr/lib
+includedir=/data/data/com.tarmux/files/usr/include
+
+Name: smartcols
+Description: table or tree library
+Version: 2.42.1
+Cflags: -I${includedir}/libsmartcols
+Libs: -L${libdir} -lsmartcols

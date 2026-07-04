@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.ai.activity
+package com.tarmux.zerocore.ai.activity
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,13 +6,13 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.R
-import com.termux.ai.app.TermuxService
-import com.termux.ai.zerocore.ai.deepseek.activity.ZeroTermuxDeepSeekSettingsActivity
-import com.termux.ai.zerocore.dialog.SwitchDialog
-import com.termux.ai.zerocore.ftp.utils.UserSetManage
-import com.termux.ai.zerocore.llm.activity.ZeroTermuxLLMSettingsActivity
-import com.termux.ai.zerocore.settings.BaseTitleActivity
+import com.tarmux.R
+import com.tarmux.app.TermuxService
+import com.tarmux.zerocore.ai.deepseek.activity.ZeroTermuxDeepSeekSettingsActivity
+import com.tarmux.zerocore.dialog.SwitchDialog
+import com.tarmux.zerocore.ftp.utils.UserSetManage
+import com.tarmux.zerocore.llm.activity.ZeroTermuxLLMSettingsActivity
+import com.tarmux.zerocore.settings.BaseTitleActivity
 
 class MainAiSettings : BaseTitleActivity() {
 
@@ -52,7 +52,7 @@ class MainAiSettings : BaseTitleActivity() {
             Intent(
                 this@MainAiSettings,
                 TermuxService::class.java
-            ).setAction("com.termux.ai.service_stop")
+            ).setAction("com.tarmux.service_stop")
             System.exit(0)
             finish()
         }

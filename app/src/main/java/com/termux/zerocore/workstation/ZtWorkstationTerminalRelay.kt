@@ -1,6 +1,6 @@
-package com.termux.ai.zerocore.workstation
+package com.tarmux.zerocore.workstation
 
-import com.termux.ai.terminal.TerminalSession
+import com.tarmux.terminal.TerminalSession
 import java.util.concurrent.CopyOnWriteArraySet
 import java.util.concurrent.Executors
 

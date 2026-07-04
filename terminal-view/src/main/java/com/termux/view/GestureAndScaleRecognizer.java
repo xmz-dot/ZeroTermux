@@ -1,4 +1,4 @@
-package com.termux.ai.view;
+package com.tarmux.view;
 
 import android.content.Context;
 import android.view.GestureDetector;

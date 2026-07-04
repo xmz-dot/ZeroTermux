@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.config;
+package com.tarmux.zerocore.config;
 
 public class ZTConstantConfig {
     public @interface ContactInformation {

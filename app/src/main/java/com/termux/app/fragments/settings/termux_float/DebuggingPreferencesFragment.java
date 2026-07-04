@@ -1,4 +1,4 @@
-package com.termux.ai.app.fragments.settings.termux_float;
+package com.tarmux.app.fragments.settings.termux_float;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -12,8 +12,8 @@ import androidx.preference.PreferenceDataStore;
 import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.PreferenceManager;
 
-import com.termux.ai.R;
-import com.termux.ai.shared.termux.settings.preferences.TermuxFloatAppSharedPreferences;
+import com.tarmux.R;
+import com.tarmux.shared.termux.settings.preferences.TermuxFloatAppSharedPreferences;
 
 @Keep
 public class DebuggingPreferencesFragment extends PreferenceFragmentCompat {
@@ -40,7 +40,7 @@ public class DebuggingPreferencesFragment extends PreferenceFragmentCompat {
             TermuxFloatAppSharedPreferences preferences = TermuxFloatAppSharedPreferences.build(context, true);
             if (preferences == null) return;
 
-            com.termux.ai.app.fragments.settings.termux.DebuggingPreferencesFragment.
+            com.tarmux.app.fragments.settings.termux.DebuggingPreferencesFragment.
                 setLogLevelListPreferenceData(logLevelListPreference, context, preferences.getLogLevel(true));
             loggingCategory.addPreference(logLevelListPreference);
         }

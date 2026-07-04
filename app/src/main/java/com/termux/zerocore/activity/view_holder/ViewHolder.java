@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.activity.view_holder;
+package com.tarmux.zerocore.activity.view_holder;
 
 import android.view.View;
 

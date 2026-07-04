@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.fragment;
+package com.tarmux.zerocore.fragment;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -15,15 +15,15 @@ import android.widget.Toast;
 
 
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.R;
-import com.termux.ai.app.TermuxActivity;
-import com.termux.ai.app.TermuxApplication;
-import com.termux.ai.app.TermuxInstaller;
-import com.termux.ai.zerocore.activity.BackNewActivity;
-import com.termux.ai.zerocore.dialog.MyDialog;
-import com.termux.ai.zerocore.dialog.YesNoDialog;
-import com.termux.ai.zerocore.shell.ExeCommand;
-import com.termux.ai.zerocore.utils.QZHFUtils;
+import com.tarmux.R;
+import com.tarmux.app.TermuxActivity;
+import com.tarmux.app.TermuxApplication;
+import com.tarmux.app.TermuxInstaller;
+import com.tarmux.zerocore.activity.BackNewActivity;
+import com.tarmux.zerocore.dialog.MyDialog;
+import com.tarmux.zerocore.dialog.YesNoDialog;
+import com.tarmux.zerocore.shell.ExeCommand;
+import com.tarmux.zerocore.utils.QZHFUtils;
 
 
 import java.io.BufferedInputStream;
@@ -45,11 +45,11 @@ public class BackupFragment extends BaseFragment implements View.OnClickListener
     private TextView title;
     private TextView mStartBackup;
 
-    private File mFileHomeFiles = new File("/data/data/com.termux.ai/files/");
-    private File mFileHome = new File("/data/data/com.termux.ai/busybox");
-    private File mFileHomeStatic = new File("/data/data/com.termux.ai/busybox_static");
-    private File mFileSupport = new File("/data/data/com.termux.ai/files/support");
-    private File mFileSupportSh = new File("/data/data/com.termux.ai/files/support/extractFilesystem.sh");
+    private File mFileHomeFiles = new File("/data/data/com.tarmux/files/");
+    private File mFileHome = new File("/data/data/com.tarmux/busybox");
+    private File mFileHomeStatic = new File("/data/data/com.tarmux/busybox_static");
+    private File mFileSupport = new File("/data/data/com.tarmux/files/support");
+    private File mFileSupportSh = new File("/data/data/com.tarmux/files/support/extractFilesystem.sh");
     private File mFileHomeFilesGz;
     private File mFileHomeFilesGzHome;
 
@@ -62,7 +62,7 @@ public class BackupFragment extends BaseFragment implements View.OnClickListener
 
     @Override
     public void initFragmentView(View mView) {
-        mFileHomeFilesGz = com.termux.ai.zerocore.utils.XinhaoStoragePath.getDataDir(getContext());
+        mFileHomeFilesGz = com.tarmux.zerocore.utils.XinhaoStoragePath.getDataDir(getContext());
         mFileHomeFilesGzHome = mFileHomeFilesGz;
 
         if (!mFileHomeFilesGzHome.exists()) {
@@ -109,11 +109,11 @@ public class BackupFragment extends BaseFragment implements View.OnClickListener
             yesNoDialog.getNoTv().setText(UUtils.getString(R.string.开始备份));
             yesNoDialog.getNoTv().setOnClickListener(v2 -> {
                 yesNoDialog.dismiss();
-                if (!(new File("/data/data/com.termux.ai/files/home/storage").exists())){
+                if (!(new File("/data/data/com.tarmux/files/home/storage").exists())){
                     Toast.makeText(UUtils.getContext(), UUtils.getString(R.string.没有找到目录), Toast.LENGTH_SHORT).show();
                     UUtils.getHandler().post(() -> {
-                        com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(UUtils.getString(R.string.这块直接输入回车即可));
-                        com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal("termux-setup-storage ");
+                        com.tarmux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(UUtils.getString(R.string.这块直接输入回车即可));
+                        com.tarmux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal("termux-setup-storage ");
                         getActivity().finish();
                     });
                     return;

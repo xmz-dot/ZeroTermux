@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.config.mainmenu.config;
+package com.tarmux.zerocore.config.mainmenu.config;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;

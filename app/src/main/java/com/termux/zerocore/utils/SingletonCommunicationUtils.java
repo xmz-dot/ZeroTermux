@@ -1,8 +1,8 @@
-package com.termux.ai.zerocore.utils;
+package com.tarmux.zerocore.utils;
 
 import com.example.xh_lib.utils.LogUtils;
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.R;
+import com.tarmux.R;
 
 public class SingletonCommunicationUtils {
     private static final String TAG = SingletonCommunicationUtils.class.getSimpleName();

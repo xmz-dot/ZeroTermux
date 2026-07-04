@@ -1,0 +1,13 @@
+/.
+/data/
+/data/data/
+/data/data/com.tarmux/
+/data/data/com.tarmux/files/
+/data/data/com.tarmux/files/usr/
+/data/data/com.tarmux/files/usr/include/
+/data/data/com.tarmux/files/usr/include/libsmartcols/
+/data/data/com.tarmux/files/usr/include/libsmartcols/libsmartcols.h
+/data/data/com.tarmux/files/usr/lib/
+/data/data/com.tarmux/files/usr/lib/libsmartcols.so
+/data/data/com.tarmux/files/usr/lib/pkgconfig/
+/data/data/com.tarmux/files/usr/lib/pkgconfig/smartcols.pc

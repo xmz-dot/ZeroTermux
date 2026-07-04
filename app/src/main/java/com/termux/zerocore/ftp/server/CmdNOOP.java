@@ -17,7 +17,7 @@ You should have received a copy of the GNU General Public License
 along with SwiFTP.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.termux.ai.zerocore.ftp.server;
+package com.tarmux.zerocore.ftp.server;
 
 public class CmdNOOP extends FtpCmd implements Runnable {
     public static final String message = "TEMPLATE!!";

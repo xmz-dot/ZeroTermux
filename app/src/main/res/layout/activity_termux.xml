@@ -1,4 +1,4 @@
-<com.termux.ai.app.terminal.TermuxActivityRootView xmlns:android="http://schemas.android.com/apk/res/android"
+<com.tarmux.app.terminal.TermuxActivityRootView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/activity_termux_root_view"
     android:layout_width="match_parent"
@@ -48,7 +48,7 @@
                     android:layout_width="match_parent"
                     android:id="@+id/xue_fragment"
                     android:layout_height="match_parent"/>
-                <com.termux.ai.zerocore.background.FireworkView
+                <com.tarmux.zerocore.background.FireworkView
                     android:layout_width="match_parent"
                     android:id="@+id/firework_view"
                     android:visibility="gone"
@@ -59,7 +59,7 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
-                    <com.termux.ai.view.TerminalView
+                    <com.tarmux.view.TerminalView
                         android:id="@+id/terminal_view"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -130,4 +130,4 @@
             android:background="@android:color/transparent" />
     </LinearLayout>
 
-</com.termux.ai.app.terminal.TermuxActivityRootView>
+</com.tarmux.app.terminal.TermuxActivityRootView>

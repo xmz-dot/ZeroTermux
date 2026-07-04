@@ -1,10 +1,10 @@
-package com.termux.ai.zerocore.ai.agent
+package com.tarmux.zerocore.ai.agent
 
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.termux.ai.zerocore.bean.ZTUserBean
-import com.termux.ai.zerocore.ftp.utils.UserSetManage
-import com.termux.ai.zerocore.utils.ZtLocaleStrings
+import com.tarmux.zerocore.bean.ZTUserBean
+import com.tarmux.zerocore.ftp.utils.UserSetManage
+import com.tarmux.zerocore.utils.ZtLocaleStrings
 
 object ZtAgentAiConfigHelper {
 
@@ -122,48 +122,48 @@ object ZtAgentAiConfigHelper {
         ztControlEnabled: Boolean = isZtControlEnabled()
     ): String {
         val base = rawPrompt.trim().ifBlank {
-            ZtLocaleStrings.getString(com.termux.ai.R.string.zt_agent_ai_default_system_prompt)
+            ZtLocaleStrings.getString(com.tarmux.R.string.zt_agent_ai_default_system_prompt)
         }
         val parts = mutableListOf(
-            ZtLocaleStrings.getString(com.termux.ai.R.string.zt_agent_ai_locale_reply_prompt),
+            ZtLocaleStrings.getString(com.tarmux.R.string.zt_agent_ai_locale_reply_prompt),
             base
         )
         if (terminalEnabled) {
             parts.add(
                 ZtLocaleStrings.getString(
-                    com.termux.ai.R.string.zt_agent_ai_terminal_system_prompt
+                    com.tarmux.R.string.zt_agent_ai_terminal_system_prompt
                 )
             )
         } else {
             parts.add(
                 ZtLocaleStrings.getString(
-                    com.termux.ai.R.string.zt_agent_ai_terminal_disabled_prompt
+                    com.tarmux.R.string.zt_agent_ai_terminal_disabled_prompt
                 )
             )
         }
         if (ztControlEnabled) {
             parts.add(
                 ZtLocaleStrings.getString(
-                    com.termux.ai.R.string.zt_agent_ai_zt_control_system_prompt
+                    com.tarmux.R.string.zt_agent_ai_zt_control_system_prompt
                 )
             )
         } else {
             parts.add(
                 ZtLocaleStrings.getString(
-                    com.termux.ai.R.string.zt_agent_ai_zt_control_disabled_prompt
+                    com.tarmux.R.string.zt_agent_ai_zt_control_disabled_prompt
                 )
             )
         }
         if (terminalEnabled || ztControlEnabled) {
             parts.add(
                 ZtLocaleStrings.getString(
-                    com.termux.ai.R.string.zt_agent_ai_tool_usage_prompt
+                    com.tarmux.R.string.zt_agent_ai_tool_usage_prompt
                 )
             )
         }
         parts.add(
             ZtLocaleStrings.getString(
-                com.termux.ai.R.string.zt_agent_ai_gui_compile_prompt
+                com.tarmux.R.string.zt_agent_ai_gui_compile_prompt
             )
         )
         return parts.joinToString("\n\n")

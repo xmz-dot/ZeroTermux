@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.dialog;
+package com.tarmux.zerocore.dialog;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
-import com.termux.ai.R;
+import com.tarmux.R;
 
 public class YesNoDialog extends Dialog {
 

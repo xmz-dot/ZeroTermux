@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.ai.agent
+package com.tarmux.zerocore.ai.agent
 
 import android.content.Context
 import android.os.Build
@@ -8,7 +8,7 @@ import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.widget.AppCompatEditText
 import androidx.core.content.ContextCompat
-import com.termux.ai.R
+import com.tarmux.R
 
 class ZtAgentSelectableEditText @JvmOverloads constructor(
     context: Context,

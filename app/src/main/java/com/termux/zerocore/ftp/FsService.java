@@ -18,7 +18,7 @@ You should have received a copy of the GNU General Public License
 along with SwiFTP.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.termux.ai.zerocore.ftp;
+package com.tarmux.zerocore.ftp;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -41,9 +41,9 @@ import android.widget.Toast;
 
 import com.example.xh_lib.utils.LogUtils;
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.R;
-import com.termux.ai.zerocore.ftp.server.SessionThread;
-import com.termux.ai.zerocore.ftp.server.TcpListener;
+import com.tarmux.R;
+import com.tarmux.zerocore.ftp.server.SessionThread;
+import com.tarmux.zerocore.ftp.server.TcpListener;
 
 import java.io.IOException;
 import java.lang.reflect.Method;

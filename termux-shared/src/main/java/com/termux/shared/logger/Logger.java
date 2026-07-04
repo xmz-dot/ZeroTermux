@@ -1,4 +1,4 @@
-package com.termux.ai.shared.logger;
+package com.tarmux.shared.logger;
 
 import android.content.Context;
 import android.os.Handler;
@@ -8,8 +8,8 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 
-import com.termux.ai.shared.R;
-import com.termux.ai.shared.data.DataUtils;
+import com.tarmux.shared.R;
+import com.tarmux.shared.data.DataUtils;
 
 import java.io.IOException;
 import java.io.PrintWriter;

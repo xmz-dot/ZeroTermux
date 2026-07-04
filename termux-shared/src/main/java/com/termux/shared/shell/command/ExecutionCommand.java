@@ -1,4 +1,4 @@
-package com.termux.ai.shared.shell.command;
+package com.tarmux.shared.shell.command;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -6,15 +6,15 @@ import android.net.Uri;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.termux.ai.shared.data.IntentUtils;
-import com.termux.ai.shared.shell.command.result.ResultConfig;
-import com.termux.ai.shared.shell.command.result.ResultData;
-import com.termux.ai.shared.errors.Error;
-import com.termux.ai.shared.logger.Logger;
-import com.termux.ai.shared.markdown.MarkdownUtils;
-import com.termux.ai.shared.data.DataUtils;
-import com.termux.ai.shared.shell.command.runner.app.AppShell;
-import com.termux.ai.terminal.TerminalSession;
+import com.tarmux.shared.data.IntentUtils;
+import com.tarmux.shared.shell.command.result.ResultConfig;
+import com.tarmux.shared.shell.command.result.ResultData;
+import com.tarmux.shared.errors.Error;
+import com.tarmux.shared.logger.Logger;
+import com.tarmux.shared.markdown.MarkdownUtils;
+import com.tarmux.shared.data.DataUtils;
+import com.tarmux.shared.shell.command.runner.app.AppShell;
+import com.tarmux.terminal.TerminalSession;
 
 import java.util.Collections;
 import java.util.List;
@@ -177,7 +177,7 @@ public class ExecutionCommand {
 
     /**
      * The {@link ExecutionCommand} custom log level for background {@link AppShell}
-     * commands. By default, @link com.termux.ai.shared.shell.StreamGobbler} only logs stdout and
+     * commands. By default, @link com.tarmux.shared.shell.StreamGobbler} only logs stdout and
      * stderr if {@link Logger} `CURRENT_LOG_LEVEL` is >= {@link Logger#LOG_LEVEL_VERBOSE} and
      * {@link AppShell} only logs stdin if `CURRENT_LOG_LEVEL` is >=
      * {@link Logger#LOG_LEVEL_DEBUG}.

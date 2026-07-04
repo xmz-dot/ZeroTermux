@@ -1,7 +1,7 @@
-package com.termux.ai.zerocore.ai.agent
+package com.tarmux.zerocore.ai.agent
 
-import com.termux.ai.zerocore.ai.config.ZtAiConfigTools
-import com.termux.ai.zerocore.ai.config.ZtAiStrings
+import com.tarmux.zerocore.ai.config.ZtAiConfigTools
+import com.tarmux.zerocore.ai.config.ZtAiStrings
 import org.json.JSONArray
 import org.json.JSONObject
 
@@ -31,7 +31,7 @@ object ZtAgentAiTools {
                     "max_chars",
                     JSONObject()
                         .put("type", "integer")
-                        .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_max_chars))
+                        .put("description", ZtAiStrings.str(com.tarmux.R.string.zt_ai_tool_param_max_chars))
                 )
             ).put("required", JSONArray())
         ))
@@ -45,19 +45,19 @@ object ZtAgentAiTools {
                         "command",
                         JSONObject()
                             .put("type", "string")
-                            .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_command))
+                            .put("description", ZtAiStrings.str(com.tarmux.R.string.zt_ai_tool_param_command))
                     )
                     .put(
                         "append_newline",
                         JSONObject()
                             .put("type", "boolean")
-                            .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_append_newline))
+                            .put("description", ZtAiStrings.str(com.tarmux.R.string.zt_ai_tool_param_append_newline))
                     )
                     .put(
                         "max_wait_ms",
                         JSONObject()
                             .put("type", "integer")
-                            .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_max_wait))
+                            .put("description", ZtAiStrings.str(com.tarmux.R.string.zt_ai_tool_param_max_wait))
                     )
             ).put("required", JSONArray().put("command"))
         ))
@@ -70,7 +70,7 @@ object ZtAgentAiTools {
                     "key",
                     JSONObject()
                         .put("type", "string")
-                        .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_terminal_key))
+                        .put("description", ZtAiStrings.str(com.tarmux.R.string.zt_ai_tool_param_terminal_key))
                         .put(
                             "enum",
                             JSONArray()
@@ -102,7 +102,7 @@ object ZtAgentAiTools {
                     "command",
                     JSONObject()
                         .put("type", "string")
-                        .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_run_zt_cmd))
+                        .put("description", ZtAiStrings.str(com.tarmux.R.string.zt_ai_tool_param_run_zt_cmd))
                 )
             ).put("required", JSONArray().put("command"))
         ))

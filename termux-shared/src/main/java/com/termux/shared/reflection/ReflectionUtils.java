@@ -1,11 +1,11 @@
-package com.termux.ai.shared.reflection;
+package com.tarmux.shared.reflection;
 
 import android.os.Build;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.termux.ai.shared.logger.Logger;
+import com.tarmux.shared.logger.Logger;
 
 import org.lsposed.hiddenapibypass.HiddenApiBypass;
 

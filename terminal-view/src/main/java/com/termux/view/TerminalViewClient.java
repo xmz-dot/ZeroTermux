@@ -1,11 +1,11 @@
-package com.termux.ai.view;
+package com.tarmux.view;
 
 import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.ScaleGestureDetector;
 import android.view.View;
 
-import com.termux.ai.terminal.TerminalSession;
+import com.tarmux.terminal.TerminalSession;
 
 /**
  * The interface for communication between {@link TerminalView} and its client. It allows for getting

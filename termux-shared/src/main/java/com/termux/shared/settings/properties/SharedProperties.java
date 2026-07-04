@@ -1,4 +1,4 @@
-package com.termux.ai.shared.settings.properties;
+package com.tarmux.shared.settings.properties;
 
 import android.content.Context;
 import android.widget.Toast;
@@ -9,9 +9,9 @@ import androidx.annotation.Nullable;
 import com.google.common.collect.BiMap;
 import com.google.common.collect.ImmutableBiMap;
 import com.google.common.primitives.Primitives;
-import com.termux.ai.shared.file.FileUtils;
-import com.termux.ai.shared.file.filesystem.FileType;
-import com.termux.ai.shared.logger.Logger;
+import com.tarmux.shared.file.FileUtils;
+import com.tarmux.shared.file.filesystem.FileType;
+import com.tarmux.shared.logger.Logger;
 
 import java.io.File;
 import java.io.FileInputStream;

@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.http_service;
+package com.tarmux.zerocore.http_service;
 
 import com.zp.z_file.content.ZFileBean;
 

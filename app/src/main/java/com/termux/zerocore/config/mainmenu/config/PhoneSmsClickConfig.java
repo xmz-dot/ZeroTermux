@@ -1,18 +1,18 @@
-package com.termux.ai.zerocore.config.mainmenu.config;
+package com.tarmux.zerocore.config.mainmenu.config;
 
-import static com.termux.ai.zerocore.config.mainmenu.MainMenuConfig.CODE_ZT_FEATURES;
+import static com.tarmux.zerocore.config.mainmenu.MainMenuConfig.CODE_ZT_FEATURES;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.view.View;
 
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.R;
-import com.termux.ai.app.TermuxActivity;
-import com.termux.ai.zerocore.code.CodeString;
-import com.termux.ai.zerocore.dialog.SwitchDialog;
-import com.termux.ai.zerocore.popuwindow.MenuLeftPopuListWindow;
-import com.termux.ai.zerocore.url.FileUrl;
+import com.tarmux.R;
+import com.tarmux.app.TermuxActivity;
+import com.tarmux.zerocore.code.CodeString;
+import com.tarmux.zerocore.dialog.SwitchDialog;
+import com.tarmux.zerocore.popuwindow.MenuLeftPopuListWindow;
+import com.tarmux.zerocore.url.FileUrl;
 
 import org.jetbrains.annotations.Nullable;
 
@@ -65,8 +65,8 @@ public class PhoneSmsClickConfig extends BaseMenuClickConfig implements MenuLeft
                     } else {
                         UUtils.writerFile("runcommand/smsread", new File(FileUrl.INSTANCE.getSmsUrl()));
                         UUtils.writerFile("runcommand/readcontacts", new File(FileUrl.INSTANCE.getPhoneUrl()));
-                        com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(CodeString.INSTANCE.getRunsmsChomdSh());
-                        com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(CodeString.INSTANCE.getRunPhoneChomdSh());
+                        com.tarmux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(CodeString.INSTANCE.getRunsmsChomdSh());
+                        com.tarmux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(CodeString.INSTANCE.getRunPhoneChomdSh());
                         UUtils.showMsg(UUtils.getString(R.string.安装完成));
                     }
                 });

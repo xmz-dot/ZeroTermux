@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.config.mainmenu;
+package com.tarmux.zerocore.config.mainmenu;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -17,18 +17,18 @@ import androidx.appcompat.app.AlertDialog;
 
 import com.example.xh_lib.utils.LogUtils;
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.R;
-import com.termux.ai.app.TermuxActivity;
-import com.termux.ai.zerocore.activity.EditTextActivity;
-import com.termux.ai.zerocore.activity.WebViewActivity;
-import com.termux.ai.zerocore.config.mainmenu.config.BaseMenuClickConfig;
-import com.termux.ai.zerocore.config.mainmenu.config.MainMenuClickConfig;
-import com.termux.ai.zerocore.config.mainmenu.config.OnLineCommandClickConfig;
-import com.termux.ai.zerocore.config.mainmenu.config.XMLClickConfig;
-import com.termux.ai.zerocore.config.mainmenu.data.MainMenuCategoryData;
-import com.termux.ai.zerocore.dialog.SwitchDialog;
-import com.termux.ai.zerocore.http.HTTPIP;
-import com.termux.ai.zerocore.utils.FileIOUtils;
+import com.tarmux.R;
+import com.tarmux.app.TermuxActivity;
+import com.tarmux.zerocore.activity.EditTextActivity;
+import com.tarmux.zerocore.activity.WebViewActivity;
+import com.tarmux.zerocore.config.mainmenu.config.BaseMenuClickConfig;
+import com.tarmux.zerocore.config.mainmenu.config.MainMenuClickConfig;
+import com.tarmux.zerocore.config.mainmenu.config.OnLineCommandClickConfig;
+import com.tarmux.zerocore.config.mainmenu.config.XMLClickConfig;
+import com.tarmux.zerocore.config.mainmenu.data.MainMenuCategoryData;
+import com.tarmux.zerocore.dialog.SwitchDialog;
+import com.tarmux.zerocore.http.HTTPIP;
+import com.tarmux.zerocore.utils.FileIOUtils;
 
 import java.util.ArrayList;
 

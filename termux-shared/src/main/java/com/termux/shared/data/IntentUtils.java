@@ -1,4 +1,4 @@
-package com.termux.ai.shared.data;
+package com.tarmux.shared.data;
 
 import android.content.Intent;
 import android.os.Bundle;

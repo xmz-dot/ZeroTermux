@@ -1,4 +1,4 @@
-package com.termux.ai.shared.interact;
+package com.tarmux.shared.interact;
 
 import android.Manifest;
 import android.app.Activity;
@@ -13,13 +13,13 @@ import android.os.Environment;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.termux.ai.shared.R;
-import com.termux.ai.shared.data.DataUtils;
-import com.termux.ai.shared.data.IntentUtils;
-import com.termux.ai.shared.file.FileUtils;
-import com.termux.ai.shared.logger.Logger;
-import com.termux.ai.shared.errors.Error;
-import com.termux.ai.shared.android.PermissionUtils;
+import com.tarmux.shared.R;
+import com.tarmux.shared.data.DataUtils;
+import com.tarmux.shared.data.IntentUtils;
+import com.tarmux.shared.file.FileUtils;
+import com.tarmux.shared.logger.Logger;
+import com.tarmux.shared.errors.Error;
+import com.tarmux.shared.android.PermissionUtils;
 
 import java.nio.charset.Charset;
 

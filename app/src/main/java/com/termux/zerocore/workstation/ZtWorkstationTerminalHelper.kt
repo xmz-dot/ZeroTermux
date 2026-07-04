@@ -1,7 +1,7 @@
-package com.termux.ai.zerocore.workstation
+package com.tarmux.zerocore.workstation
 
-import com.termux.ai.shared.termux.settings.preferences.TermuxAppSharedPreferences
-import com.termux.ai.terminal.TerminalSession
+import com.tarmux.shared.termux.settings.preferences.TermuxAppSharedPreferences
+import com.tarmux.terminal.TerminalSession
 import java.nio.charset.StandardCharsets
 
 object ZtWorkstationTerminalHelper {

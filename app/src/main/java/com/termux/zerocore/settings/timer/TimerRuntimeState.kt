@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.settings.timer
+package com.tarmux.zerocore.settings.timer
 
 import java.util.Locale
 import java.util.concurrent.atomic.AtomicBoolean

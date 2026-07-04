@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.config.mainmenu.config
+package com.tarmux.zerocore.config.mainmenu.config
 
 import android.app.Activity
 import android.content.Context
@@ -12,11 +12,11 @@ import android.view.View
 import android.widget.Toast
 import com.example.xh_lib.utils.LogUtils
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.R
-import com.termux.ai.app.TermuxActivity
-import com.termux.ai.zerocore.dialog.SwitchDialog
-import com.termux.ai.zerocore.utils.FileIOUtils
-import com.termux.ai.zerocore.zero.engine.ZeroCoreManage
+import com.tarmux.R
+import com.tarmux.app.TermuxActivity
+import com.tarmux.zerocore.dialog.SwitchDialog
+import com.tarmux.zerocore.utils.FileIOUtils
+import com.tarmux.zerocore.zero.engine.ZeroCoreManage
 
 class X86AlpineDataClickConfig: BaseMenuClickConfig() {
     companion object{
@@ -52,7 +52,7 @@ class X86AlpineDataClickConfig: BaseMenuClickConfig() {
             switchDialog.cancel?.text = UUtils.getString(R.string.取消)
             switchDialog.ok?.setOnClickListener {
                 switchDialog.dismiss()
-                com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal("pkg update -y && pkg in wget proot -y && pkg install x11-repo unstable-repo -y && pkg install qemu-utils qemu-system-x86_64-headless  qemu-system-i386-headless -y &&  termux-setup-storage\n")
+                com.tarmux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal("pkg update -y && pkg in wget proot -y && pkg install x11-repo unstable-repo -y && pkg install qemu-utils qemu-system-x86_64-headless  qemu-system-i386-headless -y &&  termux-setup-storage\n")
                 Toast.makeText(
                     UUtils.getContext(),
                     UUtils.getString(R.string.请等待安装完成在进入),

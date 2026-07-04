@@ -1,0 +1,12 @@
+/.
+/data/
+/data/data/
+/data/data/com.tarmux/
+/data/data/com.tarmux/files/
+/data/data/com.tarmux/files/usr/
+/data/data/com.tarmux/files/usr/bin/
+/data/data/com.tarmux/files/usr/bin/gpgv
+/data/data/com.tarmux/files/usr/share/
+/data/data/com.tarmux/files/usr/share/man/
+/data/data/com.tarmux/files/usr/share/man/man1/
+/data/data/com.tarmux/files/usr/share/man/man1/gpgv.1.gz

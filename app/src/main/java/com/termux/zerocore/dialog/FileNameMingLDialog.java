@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.dialog;
+package com.tarmux.zerocore.dialog;
 
 import android.content.Context;
 import android.os.Environment;
@@ -9,7 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.R;
+import com.tarmux.R;
 
 import java.io.File;
 
@@ -33,7 +33,7 @@ public class FileNameMingLDialog extends BaseDialogCentre {
 
     @Override
     void initViewDialog(View mView) {
-        mWinConfig = com.termux.ai.zerocore.utils.XinhaoStoragePath.getCommandDir(mContext);
+        mWinConfig = com.tarmux.zerocore.utils.XinhaoStoragePath.getCommandDir(mContext);
         edit_text = mView.findViewById(R.id.edit_text);
         commit = mView.findViewById(R.id.commit);
         cancel = mView.findViewById(R.id.cancel);

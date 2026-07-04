@@ -1,4 +1,4 @@
-package com.termux.ai.shared.file.filesystem;
+package com.tarmux.shared.file.filesystem;
 
 /** The {@link Enum} that defines file types. */
 public enum FileType {

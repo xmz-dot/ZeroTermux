@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.utermux_windows.qemu.data;
+package com.tarmux.zerocore.utermux_windows.qemu.data;
 
 import java.io.File;
 

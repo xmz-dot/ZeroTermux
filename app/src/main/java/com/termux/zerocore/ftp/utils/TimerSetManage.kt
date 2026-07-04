@@ -1,9 +1,9 @@
-package com.termux.ai.zerocore.ftp.utils
+package com.tarmux.zerocore.ftp.utils
 
 import com.example.xh_lib.utils.SaveData
 import com.google.gson.Gson
-import com.termux.ai.zerocore.bean.ZTUserBean
-import com.termux.ai.zerocore.settings.timer.TimerBean
+import com.tarmux.zerocore.bean.ZTUserBean
+import com.tarmux.zerocore.settings.timer.TimerBean
 
 class TimerSetManage private constructor() {
     companion object {

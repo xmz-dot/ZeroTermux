@@ -1,4 +1,4 @@
-package com.termux.ai.app;
+package com.tarmux.app;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -9,22 +9,22 @@ import android.os.Binder;
 import android.os.Build;
 import android.os.IBinder;
 
-import com.termux.ai.R;
-import com.termux.ai.shared.data.DataUtils;
-import com.termux.ai.shared.data.IntentUtils;
-import com.termux.ai.shared.termux.plugins.TermuxPluginUtils;
-import com.termux.ai.shared.termux.file.TermuxFileUtils;
-import com.termux.ai.shared.file.filesystem.FileType;
-import com.termux.ai.shared.errors.Errno;
-import com.termux.ai.shared.errors.Error;
-import com.termux.ai.shared.termux.TermuxConstants;
-import com.termux.ai.shared.termux.TermuxConstants.TERMUX_APP.RUN_COMMAND_SERVICE;
-import com.termux.ai.shared.termux.TermuxConstants.TERMUX_APP.TERMUX_SERVICE;
-import com.termux.ai.shared.file.FileUtils;
-import com.termux.ai.shared.logger.Logger;
-import com.termux.ai.shared.notification.NotificationUtils;
-import com.termux.ai.shared.shell.command.ExecutionCommand;
-import com.termux.ai.shared.shell.command.ExecutionCommand.Runner;
+import com.tarmux.R;
+import com.tarmux.shared.data.DataUtils;
+import com.tarmux.shared.data.IntentUtils;
+import com.tarmux.shared.termux.plugins.TermuxPluginUtils;
+import com.tarmux.shared.termux.file.TermuxFileUtils;
+import com.tarmux.shared.file.filesystem.FileType;
+import com.tarmux.shared.errors.Errno;
+import com.tarmux.shared.errors.Error;
+import com.tarmux.shared.termux.TermuxConstants;
+import com.tarmux.shared.termux.TermuxConstants.TERMUX_APP.RUN_COMMAND_SERVICE;
+import com.tarmux.shared.termux.TermuxConstants.TERMUX_APP.TERMUX_SERVICE;
+import com.tarmux.shared.file.FileUtils;
+import com.tarmux.shared.logger.Logger;
+import com.tarmux.shared.notification.NotificationUtils;
+import com.tarmux.shared.shell.command.ExecutionCommand;
+import com.tarmux.shared.shell.command.ExecutionCommand.Runner;
 
 /**
  * A service that receives {@link RUN_COMMAND_SERVICE#ACTION_RUN_COMMAND} intent from third party apps and

@@ -1,11 +1,11 @@
-package com.termux.ai.zerocore.utils
+package com.tarmux.zerocore.utils
 
 
 import android.content.Context
 import android.util.TypedValue
 import com.example.xh_lib.utils.LogUtils
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.zerocore.view.DiaLogData
+import com.tarmux.zerocore.view.DiaLogData
 
 object WindowsUtils {
 

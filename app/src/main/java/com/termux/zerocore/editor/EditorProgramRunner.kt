@@ -1,11 +1,11 @@
-package com.termux.ai.zerocore.editor
+package com.tarmux.zerocore.editor
 
 import android.content.Context
 import android.os.Handler
 import android.os.Looper
-import com.termux.ai.R
-import com.termux.ai.shared.termux.TermuxConstants
-import com.termux.ai.zerocore.utils.SingletonCommunicationUtils
+import com.tarmux.R
+import com.tarmux.shared.termux.TermuxConstants
+import com.tarmux.zerocore.utils.SingletonCommunicationUtils
 import java.io.File
 
 class EditorProgramRunner(

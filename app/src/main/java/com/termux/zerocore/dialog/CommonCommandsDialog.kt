@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.dialog
+package com.tarmux.zerocore.dialog
 
 import android.content.Context
 import android.content.Intent
@@ -12,13 +12,13 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.blockchain.ub.util.custom.dialog.BaseDialogDown
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.R
-import com.termux.ai.app.TermuxActivity
-import com.termux.ai.zerocore.bean.ClipboardBean
-import com.termux.ai.zerocore.bean.ItemMenuBean
-import com.termux.ai.zerocore.dialog.adapter.CommonCommandsAdapter
-import com.termux.ai.zerocore.settings.ZeroTermuxSettingsActivity
-import com.termux.ai.zerocore.utils.FileIOUtils
+import com.tarmux.R
+import com.tarmux.app.TermuxActivity
+import com.tarmux.zerocore.bean.ClipboardBean
+import com.tarmux.zerocore.bean.ItemMenuBean
+import com.tarmux.zerocore.dialog.adapter.CommonCommandsAdapter
+import com.tarmux.zerocore.settings.ZeroTermuxSettingsActivity
+import com.tarmux.zerocore.utils.FileIOUtils
 
 class CommonCommandsDialog : BaseDialogDown {
 
@@ -85,7 +85,7 @@ class CommonCommandsDialog : BaseDialogDown {
                 mCommonCommandsAdapter.setClickDataListener(object :
                     CommonCommandsAdapter.ClickDataListener {
                     override fun data(data: String) {
-                        com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(data)
+                        com.tarmux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(data)
                         dismiss()
                     }
                 })

@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.ai.llm;
+package com.tarmux.zerocore.ai.llm;
 
 
 import android.os.Bundle;
@@ -7,12 +7,12 @@ import android.widget.EditText;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.termux.ai.R;
-import com.termux.ai.zerocore.ai.llm.data.ChatDatabaseHelper;
-import com.termux.ai.zerocore.ai.llm.model.RequestMessageItem;
-import com.termux.ai.zerocore.ai.model.AIClient;
-import com.termux.ai.zerocore.ai.model.ProviderProfile;
-import com.termux.ai.zerocore.ai.provider.AIProvider;
+import com.tarmux.R;
+import com.tarmux.zerocore.ai.llm.data.ChatDatabaseHelper;
+import com.tarmux.zerocore.ai.llm.model.RequestMessageItem;
+import com.tarmux.zerocore.ai.model.AIClient;
+import com.tarmux.zerocore.ai.model.ProviderProfile;
+import com.tarmux.zerocore.ai.provider.AIProvider;
 
 import java.util.ArrayList;
 import java.util.List;

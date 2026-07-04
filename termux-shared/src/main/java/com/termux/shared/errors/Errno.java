@@ -1,10 +1,10 @@
-package com.termux.ai.shared.errors;
+package com.tarmux.shared.errors;
 
 import android.app.Activity;
 
 import androidx.annotation.NonNull;
 
-import com.termux.ai.shared.logger.Logger;
+import com.tarmux.shared.logger.Logger;
 
 import java.util.Arrays;
 import java.util.Collections;

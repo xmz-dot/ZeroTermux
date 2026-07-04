@@ -1,4 +1,4 @@
-package com.termux.ai.terminal;
+package com.tarmux.terminal;
 
 /** A circular byte buffer allowing one producer and one consumer thread. */
 final class ByteQueue {

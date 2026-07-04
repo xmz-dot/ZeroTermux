@@ -1,4 +1,4 @@
-package com.termux.ai.view.zerotermux;
+package com.tarmux.view.zerotermux;
 
 import android.content.Context;
 import android.content.SharedPreferences;

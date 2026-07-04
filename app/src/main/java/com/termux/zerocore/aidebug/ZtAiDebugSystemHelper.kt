@@ -1,10 +1,10 @@
-package com.termux.ai.zerocore.aidebug
+package com.tarmux.zerocore.aidebug
 
 import android.content.Context
 import android.os.Build
 import com.google.gson.Gson
-import com.termux.ai.BuildConfig
-import com.termux.ai.zerocore.ftp.new_ftp.utils.NetworkEnvironmentUtil
+import com.tarmux.BuildConfig
+import com.tarmux.zerocore.ftp.new_ftp.utils.NetworkEnvironmentUtil
 
 object ZtAiDebugSystemHelper {
 

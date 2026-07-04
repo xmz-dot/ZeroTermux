@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.config.ztcommand;
+package com.tarmux.zerocore.config.ztcommand;
 
 import android.app.Service;
 import android.content.BroadcastReceiver;
@@ -12,9 +12,9 @@ import android.util.Log;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.R;
-import com.termux.ai.zerocore.config.ztcommand.config.HelpConfig;
-import com.termux.ai.zerocore.config.ztcommand.config.ZTConfig;
+import com.tarmux.R;
+import com.tarmux.zerocore.config.ztcommand.config.HelpConfig;
+import com.tarmux.zerocore.config.ztcommand.config.ZTConfig;
 import com.zp.z_file.util.LogUtils;
 
 import java.io.*;

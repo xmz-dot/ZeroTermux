@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.ftp.new_ftp.services;
+package com.tarmux.zerocore.ftp.new_ftp.services;
 
 import android.Manifest;
 import android.app.Activity;
@@ -30,15 +30,15 @@ import androidx.core.content.PermissionChecker;
 import com.example.xh_lib.utils.UUtils;
 
 import com.google.android.material.snackbar.Snackbar;
-import com.termux.ai.R;
-import com.termux.ai.app.TermuxActivity;
-import com.termux.ai.zerocore.ftp.new_ftp.Constants;
-import com.termux.ai.zerocore.ftp.new_ftp.bean.AccountItem;
-import com.termux.ai.zerocore.ftp.new_ftp.config.FTP_CONFIG;
-import com.termux.ai.zerocore.ftp.new_ftp.utils.CommonUtils;
-import com.termux.ai.zerocore.ftp.new_ftp.utils.MySQLiteOpenHelper;
-import com.termux.ai.zerocore.ftp.new_ftp.utils.NetworkStatusMonitor;
-import com.termux.ai.zerocore.url.FileUrl;
+import com.tarmux.R;
+import com.tarmux.app.TermuxActivity;
+import com.tarmux.zerocore.ftp.new_ftp.Constants;
+import com.tarmux.zerocore.ftp.new_ftp.bean.AccountItem;
+import com.tarmux.zerocore.ftp.new_ftp.config.FTP_CONFIG;
+import com.tarmux.zerocore.ftp.new_ftp.utils.CommonUtils;
+import com.tarmux.zerocore.ftp.new_ftp.utils.MySQLiteOpenHelper;
+import com.tarmux.zerocore.ftp.new_ftp.utils.NetworkStatusMonitor;
+import com.tarmux.zerocore.url.FileUrl;
 
 import org.apache.ftpserver.ConnectionConfig;
 import org.apache.ftpserver.FtpServer;

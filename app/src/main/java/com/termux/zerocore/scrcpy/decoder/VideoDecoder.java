@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.scrcpy.decoder;
+package com.tarmux.zerocore.scrcpy.decoder;
 
 import android.media.MediaCodec;
 import android.media.MediaFormat;

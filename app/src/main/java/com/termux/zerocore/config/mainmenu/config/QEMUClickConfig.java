@@ -1,6 +1,6 @@
-package com.termux.ai.zerocore.config.mainmenu.config;
+package com.tarmux.zerocore.config.mainmenu.config;
 
-import static com.termux.ai.zerocore.config.mainmenu.MainMenuConfig.CODE_COMMON_FUNCTIONS;
+import static com.tarmux.zerocore.config.mainmenu.MainMenuConfig.CODE_COMMON_FUNCTIONS;
 
 import android.app.Activity;
 import android.content.Context;
@@ -12,14 +12,14 @@ import com.example.xh_lib.utils.UUtils;
 import com.hjq.permissions.OnPermissionCallback;
 import com.hjq.permissions.Permission;
 import com.hjq.permissions.XXPermissions;
-import com.termux.ai.R;
-import com.termux.ai.app.TermuxActivity;
-import com.termux.ai.zerocore.code.CodeString;
-import com.termux.ai.zerocore.dialog.LoadingDialog;
-import com.termux.ai.zerocore.dialog.SwitchDialog;
-import com.termux.ai.zerocore.popuwindow.MenuLeftPopuListWindow;
-import com.termux.ai.zerocore.url.FileUrl;
-import com.termux.ai.zerocore.utermux_windows.qemu.activity.RunWindowActivity;
+import com.tarmux.R;
+import com.tarmux.app.TermuxActivity;
+import com.tarmux.zerocore.code.CodeString;
+import com.tarmux.zerocore.dialog.LoadingDialog;
+import com.tarmux.zerocore.dialog.SwitchDialog;
+import com.tarmux.zerocore.popuwindow.MenuLeftPopuListWindow;
+import com.tarmux.zerocore.url.FileUrl;
+import com.tarmux.zerocore.utermux_windows.qemu.activity.RunWindowActivity;
 
 import org.jetbrains.annotations.Nullable;
 
@@ -80,7 +80,7 @@ public class QEMUClickConfig extends BaseMenuClickConfig implements MenuLeftPopu
                     @Override
                     public void onClick(View v) {
                         msgQemuLine.dismiss();
-                        com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(CodeString.INSTANCE.getRunLineQemu() + "\n");
+                        com.tarmux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(CodeString.INSTANCE.getRunLineQemu() + "\n");
 
                     }
                 });
@@ -98,7 +98,7 @@ public class QEMUClickConfig extends BaseMenuClickConfig implements MenuLeftPopu
                                 ((Activity) mContext).runOnUiThread(new Runnable() {
                                     @Override
                                     public void run() {
-                                        com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(CodeString.INSTANCE.getRunQemuSh());
+                                        com.tarmux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(CodeString.INSTANCE.getRunQemuSh());
                                         loadingDialog.dismiss();
                                     }
                                 });
@@ -126,7 +126,7 @@ public class QEMUClickConfig extends BaseMenuClickConfig implements MenuLeftPopu
                                     zeroTermuxShare.mkdirs();
                                 }
                                 UUtils.writerFile("qemu/qemu_win7.sh", new File(FileUrl.INSTANCE.getMainHomeUrl(), "/qemu_win7.sh"));
-                                com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(CodeString.INSTANCE.getRunWin7Sh());
+                                com.tarmux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(CodeString.INSTANCE.getRunWin7Sh());
                             } else {
                                 UUtils.showMsg(UUtils.getString(R.string.no_permission));
                             }
@@ -159,7 +159,7 @@ public class QEMUClickConfig extends BaseMenuClickConfig implements MenuLeftPopu
                                     zeroTermuxShare.mkdirs();
                                 }
                                 UUtils.writerFile("qemu/qemu_winxp.sh", new File(FileUrl.INSTANCE.getMainHomeUrl(), "/qemu_winxp.sh"));
-                                com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(CodeString.INSTANCE.getRunWinXPSh());
+                                com.tarmux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(CodeString.INSTANCE.getRunWinXPSh());
                             } else {
                                 UUtils.showMsg(UUtils.getString(R.string.no_permission));
                             }

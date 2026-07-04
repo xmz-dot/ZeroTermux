@@ -1,10 +1,10 @@
-package com.termux.ai.zerocore.workstation
+package com.tarmux.zerocore.workstation
 
 import android.content.Context
 import android.content.Intent
 import androidx.core.content.ContextCompat
-import com.termux.ai.app.TermuxService
-import com.termux.ai.zerocore.ftp.utils.UserSetManage
+import com.tarmux.app.TermuxService
+import com.tarmux.zerocore.ftp.utils.UserSetManage
 
 object ZtWorkstationManager {
 

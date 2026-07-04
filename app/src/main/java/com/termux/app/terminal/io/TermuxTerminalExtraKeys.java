@@ -1,4 +1,4 @@
-package com.termux.ai.app.terminal.io;
+package com.tarmux.app.terminal.io;
 
 import android.annotation.SuppressLint;
 import android.view.Gravity;
@@ -8,16 +8,16 @@ import androidx.annotation.NonNull;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.billy.android.swipe.consumer.SlidingConsumer;
-import com.termux.ai.app.TermuxActivity;
-import com.termux.ai.app.terminal.TermuxTerminalSessionActivityClient;
-import com.termux.ai.app.terminal.TermuxTerminalViewClient;
-import com.termux.ai.shared.logger.Logger;
-import com.termux.ai.shared.termux.extrakeys.ExtraKeysConstants;
-import com.termux.ai.shared.termux.extrakeys.ExtraKeysInfo;
-import com.termux.ai.shared.termux.settings.properties.TermuxPropertyConstants;
-import com.termux.ai.shared.termux.settings.properties.TermuxSharedProperties;
-import com.termux.ai.shared.termux.terminal.io.TerminalExtraKeys;
-import com.termux.ai.view.TerminalView;
+import com.tarmux.app.TermuxActivity;
+import com.tarmux.app.terminal.TermuxTerminalSessionActivityClient;
+import com.tarmux.app.terminal.TermuxTerminalViewClient;
+import com.tarmux.shared.logger.Logger;
+import com.tarmux.shared.termux.extrakeys.ExtraKeysConstants;
+import com.tarmux.shared.termux.extrakeys.ExtraKeysInfo;
+import com.tarmux.shared.termux.settings.properties.TermuxPropertyConstants;
+import com.tarmux.shared.termux.settings.properties.TermuxSharedProperties;
+import com.tarmux.shared.termux.terminal.io.TerminalExtraKeys;
+import com.tarmux.view.TerminalView;
 
 import org.json.JSONException;
 

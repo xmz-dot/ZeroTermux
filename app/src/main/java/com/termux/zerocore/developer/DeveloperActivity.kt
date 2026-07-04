@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.developer
+package com.tarmux.zerocore.developer
 
 import android.os.Bundle
 import android.system.Os
@@ -11,12 +11,12 @@ import com.billy.android.swipe.SmartSwipeWrapper
 import com.billy.android.swipe.consumer.DrawerConsumer
 import com.billy.android.swipe.consumer.SlidingConsumer
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.R
-import com.termux.ai.shared.file.FileUtils
-import com.termux.ai.zerocore.adb.dialog.AdbWindowsDialog
-import com.termux.ai.zerocore.url.FileUrl
-import com.termux.ai.zerocore.zip.ZipUtils
-import com.termux.ai.zerocore.zip.ZipUtils.ZipNameListener
+import com.tarmux.R
+import com.tarmux.shared.file.FileUtils
+import com.tarmux.zerocore.adb.dialog.AdbWindowsDialog
+import com.tarmux.zerocore.url.FileUrl
+import com.tarmux.zerocore.zip.ZipUtils
+import com.tarmux.zerocore.zip.ZipUtils.ZipNameListener
 import org.alfresco.jlan.server.config.ServerConfiguration
 import org.alfresco.jlan.smb.server.SMBServer
 import java.io.File
@@ -33,8 +33,8 @@ class DeveloperActivity : AppCompatActivity() {
                 file1.mkdirs()
             }
             try {
-                FileUtils.createDirectoryFile("/data/data/com.termux.ai/files1/")
-                val pair = Pair<String, String>("t.txt", "/data/data/com.termux.ai/files/t.txt")
+                FileUtils.createDirectoryFile("/data/data/com.tarmux/files1/")
+                val pair = Pair<String, String>("t.txt", "/data/data/com.tarmux/files/t.txt")
                 Os.symlink(pair.first, pair.second)
             }catch (e: Exception) {
                 e.printStackTrace()
@@ -55,7 +55,7 @@ class DeveloperActivity : AppCompatActivity() {
             }
         }
         findViewById<Button>(R.id.test_zip).setOnClickListener {
-        ZipUtils.toZip("/data/data/com.termux.ai/files/", "/data/data/com.termux.ai/files.zip", object : ZipNameListener{
+        ZipUtils.toZip("/data/data/com.tarmux/files/", "/data/data/com.tarmux/files.zip", object : ZipNameListener{
             override fun zip(FileName: String?, size: Int, position: Int) {
                 Log.d("TAG", "zipxxxxxxxxxxxxxxx FileName: $FileName")
             }
@@ -73,7 +73,7 @@ class DeveloperActivity : AppCompatActivity() {
         findViewById<Button>(R.id.test_unzip).setOnClickListener {
             Log.d("TAG", "onCreate:  unzip")
             Toast.makeText(this,"....", Toast.LENGTH_LONG).show()
-           ZipUtils.unZip(File("/data/data/com.termux.ai/files.zip"), "/data/data/com.termux.ai/files1/", object : ZipNameListener{
+           ZipUtils.unZip(File("/data/data/com.tarmux/files.zip"), "/data/data/com.tarmux/files1/", object : ZipNameListener{
                override fun zip(FileName: String?, size: Int, position: Int) {
 
                }
@@ -91,7 +91,7 @@ class DeveloperActivity : AppCompatActivity() {
         findViewById<Button>(R.id.test1).setOnClickListener {
             try {
                 val file =
-                    File("/data/data/com.termux.ai/files/home/ubuntu-in-termux/ubuntu-fs/etc/init.d/procps")
+                    File("/data/data/com.tarmux/files/home/ubuntu-in-termux/ubuntu-fs/etc/init.d/procps")
                 Toast.makeText(this, "${file.exists()}", Toast.LENGTH_LONG).show()
             } catch (e: Exception) {
                 UUtils.showMsg(e.toString())
@@ -99,7 +99,7 @@ class DeveloperActivity : AppCompatActivity() {
         }
         findViewById<Button>(R.id.test_rlj).setOnClickListener {
 
-            Os.symlink("/storage/emulated/0", "/data/data/com.termux.ai/files1/files/sdcard")
+            Os.symlink("/storage/emulated/0", "/data/data/com.tarmux/files1/files/sdcard")
         }
 
         findViewById<Button>(R.id.adb_connect).setOnClickListener {

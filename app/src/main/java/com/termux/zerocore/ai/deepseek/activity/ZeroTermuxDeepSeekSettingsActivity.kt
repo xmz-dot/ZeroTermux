@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.ai.deepseek.activity
+package com.tarmux.zerocore.ai.deepseek.activity
 
 import android.content.Intent
 import android.os.Bundle
@@ -18,12 +18,12 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SwitchCompat
 import androidx.cardview.widget.CardView
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.R
-import com.termux.ai.zerocore.ai.activity.MainAiSettings
-import com.termux.ai.zerocore.ai.agent.ZtAgentAiSettingsActivity
-import com.termux.ai.zerocore.ai.deepseek.model.Config
-import com.termux.ai.zerocore.ftp.utils.UserSetManage
-import com.termux.ai.zerocore.settings.BaseTitleActivity
+import com.tarmux.R
+import com.tarmux.zerocore.ai.activity.MainAiSettings
+import com.tarmux.zerocore.ai.agent.ZtAgentAiSettingsActivity
+import com.tarmux.zerocore.ai.deepseek.model.Config
+import com.tarmux.zerocore.ftp.utils.UserSetManage
+import com.tarmux.zerocore.settings.BaseTitleActivity
 
 class ZeroTermuxDeepSeekSettingsActivity : BaseTitleActivity() {
 

@@ -1,13 +1,13 @@
-package com.termux.ai.zerocore.config.ztcommand.config;
+package com.tarmux.zerocore.config.ztcommand.config;
 
-import static com.termux.ai.zerocore.config.ztcommand.config.ZTKeyConstants.ZT_ID_X11_STATUS;
+import static com.tarmux.zerocore.config.ztcommand.config.ZTKeyConstants.ZT_ID_X11_STATUS;
 
 import android.content.Context;
 
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.R;
+import com.tarmux.R;
 import com.termux.x11.MainActivity;
-import com.termux.ai.zerocore.config.ztcommand.ZTSocketService;
+import com.tarmux.zerocore.config.ztcommand.ZTSocketService;
 
 public class X11StatusConfig extends BaseOkJsonConfig {
     @Override

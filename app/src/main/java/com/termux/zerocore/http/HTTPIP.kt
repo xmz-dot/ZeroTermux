@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.http
+package com.tarmux.zerocore.http
 
 object HTTPIP {
     public const val IP = "https://od.ixcmstudio.cn"

@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.config.mainmenu.config
+package com.tarmux.zerocore.config.mainmenu.config
 
 import android.content.Context
 import android.content.Intent
@@ -10,10 +10,10 @@ import android.text.TextUtils
 import android.view.View
 import com.example.xh_lib.utils.LogUtils
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.R
-import com.termux.ai.app.TermuxActivity
-import com.termux.ai.zerocore.keybord.KeyBordManage
-import com.termux.ai.zerocore.zero.engine.ZeroCoreManage
+import com.tarmux.R
+import com.tarmux.app.TermuxActivity
+import com.tarmux.zerocore.keybord.KeyBordManage
+import com.tarmux.zerocore.zero.engine.ZeroCoreManage
 
 class KeyDataClickConfig: BaseMenuClickConfig() {
     companion object {
@@ -45,25 +45,25 @@ class KeyDataClickConfig: BaseMenuClickConfig() {
                     KeyBordManage.KEY_DEF -> {
                         LogUtils.d(TAG, "handleMessage DEF:${msg.obj}")
                         if (msg.obj != null) {
-                            com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(msg.obj as String?)
+                            com.tarmux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(msg.obj as String?)
                         }
                     }
                     KeyBordManage.KEY_ALT -> {
                         LogUtils.d(TAG, "handleMessage ALT:${msg.obj}")
                         if (msg.obj != null) {
-                            com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminalAlt(msg.obj as String?, true)
+                            com.tarmux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminalAlt(msg.obj as String?, true)
                         }
                     }
                     KeyBordManage.KEY_CTRL -> {
                         LogUtils.d(TAG, "handleMessage CTRL:${msg.obj}")
                         if (msg.obj != null) {
-                            com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminalCtrl(msg.obj as String?, true)
+                            com.tarmux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminalCtrl(msg.obj as String?, true)
                         }
                     }
                     KeyBordManage.KEY_OTHER -> {
                         LogUtils.d(TAG, "handleMessage OTHER:${msg.obj}")
                         if (msg.obj != null) {
-                            com.termux.ai.zerocore.utils.SingletonCommunicationUtils
+                            com.tarmux.zerocore.utils.SingletonCommunicationUtils
                                 .getInstance().getmSingletonCommunicationListener().onTerminalExtraKeyButtonClick(msg.obj as String?)
                         }
                     }

@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.workstation
+package com.tarmux.zerocore.workstation
 
 import android.app.Notification
 import android.app.NotificationChannel
@@ -13,10 +13,10 @@ import android.os.Build
 import android.os.IBinder
 import androidx.core.app.NotificationCompat
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.R
-import com.termux.ai.app.TermuxActivity
-import com.termux.ai.app.TermuxService
-import com.termux.ai.zerocore.ftp.utils.UserSetManage
+import com.tarmux.R
+import com.tarmux.app.TermuxActivity
+import com.tarmux.app.TermuxService
+import com.tarmux.zerocore.ftp.utils.UserSetManage
 import fi.iki.elonen.NanoHTTPD
 import java.io.IOException
 

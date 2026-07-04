@@ -1,4 +1,4 @@
-package com.termux.ai.shared.file.filesystem;
+package com.tarmux.shared.file.filesystem;
 
 import android.system.ErrnoException;
 import android.system.Os;

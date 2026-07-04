@@ -1,8 +1,8 @@
-package com.termux.ai.zerocore.config.ztcommand.config;
+package com.tarmux.zerocore.config.ztcommand.config;
 
 import android.content.Context;
 
-import com.termux.ai.zerocore.config.ztcommand.ZTSocketService;
+import com.tarmux.zerocore.config.ztcommand.ZTSocketService;
 
 public interface ZTConfig {
     // 获取相对应的命令执行

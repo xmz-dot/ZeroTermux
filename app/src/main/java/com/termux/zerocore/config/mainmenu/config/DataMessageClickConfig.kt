@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.config.mainmenu.config
+package com.tarmux.zerocore.config.mainmenu.config
 
 import android.content.Context
 import android.graphics.drawable.Drawable
@@ -6,10 +6,10 @@ import android.text.Editable
 import android.view.View
 import com.example.xh_lib.utils.LogUtils
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.R
-import com.termux.ai.app.TermuxActivity
-import com.termux.ai.zerocore.dialog.MingLShowDialog
-import com.termux.ai.zerocore.utils.FileIOUtils
+import com.tarmux.R
+import com.tarmux.app.TermuxActivity
+import com.tarmux.zerocore.dialog.MingLShowDialog
+import com.tarmux.zerocore.utils.FileIOUtils
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

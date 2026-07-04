@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.config.ztcommand.config;
+package com.tarmux.zerocore.config.ztcommand.config;
 
 public class ZTKeyConstants {
     //未知命令

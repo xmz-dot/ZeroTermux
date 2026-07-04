@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.ai.deepseek;
+package com.tarmux.zerocore.ai.deepseek;
 
 import android.content.Context;
 import android.content.Intent;
@@ -20,15 +20,15 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.xh_lib.utils.LogUtils;
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.R;
-import com.termux.ai.zerocore.ai.deepseek.data.ChatDatabaseHelper;
-import com.termux.ai.zerocore.ai.deepseek.data.ChatMessage;
-import com.termux.ai.zerocore.ai.deepseek.data.ChatMessageAdapter;
-import com.termux.ai.zerocore.ai.deepseek.data.ChatSession;
-import com.termux.ai.zerocore.ai.deepseek.model.Config;
-import com.termux.ai.zerocore.ai.deepseek.model.DeepSeekClient;
-import com.termux.ai.zerocore.ai.deepseek.model.RequestMessageItem;
-import com.termux.ai.zerocore.ftp.utils.UserSetManage;
+import com.tarmux.R;
+import com.tarmux.zerocore.ai.deepseek.data.ChatDatabaseHelper;
+import com.tarmux.zerocore.ai.deepseek.data.ChatMessage;
+import com.tarmux.zerocore.ai.deepseek.data.ChatMessageAdapter;
+import com.tarmux.zerocore.ai.deepseek.data.ChatSession;
+import com.tarmux.zerocore.ai.deepseek.model.Config;
+import com.tarmux.zerocore.ai.deepseek.model.DeepSeekClient;
+import com.tarmux.zerocore.ai.deepseek.model.RequestMessageItem;
+import com.tarmux.zerocore.ftp.utils.UserSetManage;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -265,7 +265,7 @@ public class ChatFragment extends Fragment {
     // 获取终端助手提示语
     private String getPrompt() {
         boolean isDeepSeekVisibleTerminal = UserSetManage.Companion.get().getZTUserBean().isIsDeepSeekVisibleTerminal();
-        String terminalCommands = com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().getTextToTerminal()
+        String terminalCommands = com.tarmux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().getTextToTerminal()
             .replace("$", "")
             .replace("~", "")
             .replace("\n", "")

@@ -1,8 +1,8 @@
-package com.termux.ai.zerocore.ai.agent
+package com.tarmux.zerocore.ai.agent
 
-import com.termux.ai.R
-import com.termux.ai.zerocore.ai.config.ZtAiConfigExecutor
-import com.termux.ai.zerocore.utils.ZtLocaleStrings
+import com.tarmux.R
+import com.tarmux.zerocore.ai.config.ZtAiConfigExecutor
+import com.tarmux.zerocore.utils.ZtLocaleStrings
 import org.json.JSONObject
 
 object ZtAgentAiToolExecutor {

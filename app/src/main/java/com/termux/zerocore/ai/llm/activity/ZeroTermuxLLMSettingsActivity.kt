@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.llm.activity
+package com.tarmux.zerocore.llm.activity
 
 import android.content.Intent
 import android.graphics.Color
@@ -25,12 +25,12 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SwitchCompat
 import androidx.cardview.widget.CardView
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.R
-import com.termux.ai.zerocore.ai.llm.data.ChatDatabaseHelper
-import com.termux.ai.zerocore.ai.llm.model.Config
-import com.termux.ai.zerocore.ai.model.ProviderProfile
-import com.termux.ai.zerocore.ftp.utils.UserSetManage
-import com.termux.ai.zerocore.settings.BaseTitleActivity
+import com.tarmux.R
+import com.tarmux.zerocore.ai.llm.data.ChatDatabaseHelper
+import com.tarmux.zerocore.ai.llm.model.Config
+import com.tarmux.zerocore.ai.model.ProviderProfile
+import com.tarmux.zerocore.ftp.utils.UserSetManage
+import com.tarmux.zerocore.settings.BaseTitleActivity
 
 
 class ZeroTermuxLLMSettingsActivity : BaseTitleActivity() {

@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.ai.agent
+package com.tarmux.zerocore.ai.agent
 
 import android.graphics.Color
 import android.os.Build
@@ -7,7 +7,7 @@ import android.text.style.BackgroundColorSpan
 import android.text.style.ForegroundColorSpan
 import android.widget.TextView
 import androidx.core.content.ContextCompat
-import com.termux.ai.R
+import com.tarmux.R
 
 internal object ZtInvertSelectionSpanHelper {
 

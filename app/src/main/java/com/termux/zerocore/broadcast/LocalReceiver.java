@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.broadcast;
+package com.tarmux.zerocore.broadcast;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -11,14 +11,14 @@ import androidx.annotation.Nullable;
 import com.example.xh_lib.utils.LogUtils;
 import com.example.xh_lib.utils.SaveData;
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.BuildConfig;
-import com.termux.ai.R;
-import com.termux.ai.app.TermuxActivity;
-import com.termux.ai.terminal.Logger;
-import com.termux.ai.zerocore.bosybox.BusyBoxManager;
-import com.termux.ai.zerocore.developer.DeveloperActivity;
-import com.termux.ai.zerocore.utils.FileHttpUtils;
-import com.termux.ai.zerocore.utils.Z7ExtracatUtils;
+import com.tarmux.BuildConfig;
+import com.tarmux.R;
+import com.tarmux.app.TermuxActivity;
+import com.tarmux.terminal.Logger;
+import com.tarmux.zerocore.bosybox.BusyBoxManager;
+import com.tarmux.zerocore.developer.DeveloperActivity;
+import com.tarmux.zerocore.utils.FileHttpUtils;
+import com.tarmux.zerocore.utils.Z7ExtracatUtils;
 import com.zp.z_file.zerotermux.ZTConfig;
 
 import java.io.File;
@@ -34,7 +34,7 @@ public class LocalReceiver extends BroadcastReceiver {
         }
         String broadcastString = intent.getStringExtra("broadcastString");
         if (broadcastString != null && !(broadcastString.isEmpty())) {
-            com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(broadcastString + "\n");
+            com.tarmux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(broadcastString + "\n");
             if (ZTConfig.INSTANCE.getCloseListener() != null) {
                 ZTConfig.INSTANCE.getCloseListener().close();
             }
@@ -64,7 +64,7 @@ public class LocalReceiver extends BroadcastReceiver {
                 if (ZTConfig.INSTANCE.getCloseListener() != null) {
                     ZTConfig.INSTANCE.getCloseListener().close();
                 }
-                com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal( command + "\n");
+                com.tarmux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal( command + "\n");
             } catch (Exception e) {
                 e.printStackTrace();
             }

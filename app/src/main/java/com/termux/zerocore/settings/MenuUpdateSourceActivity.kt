@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.settings
+package com.tarmux.zerocore.settings
 
 import android.os.Bundle
 import android.text.TextUtils
@@ -8,10 +8,10 @@ import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.R
-import com.termux.ai.zerocore.config.mainmenu.MenuUpdateSource
-import com.termux.ai.zerocore.config.mainmenu.MenuUpdateSourceManager
-import com.termux.ai.zerocore.config.mainmenu.view.adapter.MenuUpdateSourceAdapter
+import com.tarmux.R
+import com.tarmux.zerocore.config.mainmenu.MenuUpdateSource
+import com.tarmux.zerocore.config.mainmenu.MenuUpdateSourceManager
+import com.tarmux.zerocore.config.mainmenu.view.adapter.MenuUpdateSourceAdapter
 
 class MenuUpdateSourceActivity : BaseTitleActivity(), MenuUpdateSourceAdapter.Listener {
 

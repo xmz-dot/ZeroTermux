@@ -1,9 +1,9 @@
-package com.termux.ai.zerocore.ai.config
+package com.tarmux.zerocore.ai.config
 
 import android.content.Context
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.R
-import com.termux.ai.zerocore.config.mainmenu.XMLMainMenuConfig
+import com.tarmux.R
+import com.tarmux.zerocore.config.mainmenu.XMLMainMenuConfig
 import org.json.JSONArray
 import org.json.JSONObject
 import org.w3c.dom.Element
@@ -206,7 +206,7 @@ object ZtAiLeftMenuXmlGuide {
             .put(clickType(
                 "java:",
                 ZtAiStrings.str(R.string.zt_ai_click_java_desc),
-                """click="java:com.termux.ai.zerocore.config.mainmenu.config.ZTSettingsClickConfig"""",
+                """click="java:com.tarmux.zerocore.config.mainmenu.config.ZTSettingsClickConfig"""",
                 ZtAiStrings.str(R.string.zt_ai_click_java_note)
             ))
             .put(clickType(
@@ -224,19 +224,19 @@ object ZtAiLeftMenuXmlGuide {
             .put(clickType(
                 "ztEditText:",
                 ZtAiStrings.str(R.string.zt_ai_click_ztedittext_desc),
-                """click="ztEditText:/data/data/com.termux.ai/files/home/ZtInfo/main_menu_path.xml"""",
+                """click="ztEditText:/data/data/com.tarmux/files/home/ZtInfo/main_menu_path.xml"""",
                 ZtAiStrings.str(R.string.zt_ai_click_ztedittext_note)
             ))
             .put(clickType(
                 "startActivity:",
                 ZtAiStrings.str(R.string.zt_ai_click_startactivity_desc),
-                """click="startActivity:com.termux.ai.zerocore.settings.ZtSettingsActivity" packageName="com.termux.ai"""",
+                """click="startActivity:com.tarmux.zerocore.settings.ZtSettingsActivity" packageName="com.tarmux"""",
                 ZtAiStrings.str(R.string.zt_ai_click_startactivity_note)
             ))
             .put(clickType(
                 "actionActivity:",
                 ZtAiStrings.str(R.string.zt_ai_click_actionactivity_desc),
-                """click="actionActivity:android.settings.WIRELESS_SETTINGS" packageName="com.android.settings" intentData="data@@com.termux.ai"""",
+                """click="actionActivity:android.settings.WIRELESS_SETTINGS" packageName="com.android.settings" intentData="data@@com.tarmux"""",
                 ZtAiStrings.str(R.string.zt_ai_click_actionactivity_note)
             ))
             .put(clickType(

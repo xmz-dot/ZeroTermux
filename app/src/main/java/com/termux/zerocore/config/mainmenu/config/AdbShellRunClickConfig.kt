@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.config.mainmenu.config
+package com.tarmux.zerocore.config.mainmenu.config
 
 import android.content.Context
 import android.content.Intent
@@ -7,13 +7,13 @@ import android.net.Uri
 import android.system.Os
 import android.view.View
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.BuildConfig
-import com.termux.ai.R
-import com.termux.ai.app.TermuxActivity
-import com.termux.ai.zerocore.config.ZTConstantConfig
-import com.termux.ai.zerocore.dialog.MingLShowDialog
-import com.termux.ai.zerocore.dialog.SwitchDialog
-import com.termux.ai.zerocore.utils.FileIOUtils
+import com.tarmux.BuildConfig
+import com.tarmux.R
+import com.tarmux.app.TermuxActivity
+import com.tarmux.zerocore.config.ZTConstantConfig
+import com.tarmux.zerocore.dialog.MingLShowDialog
+import com.tarmux.zerocore.dialog.SwitchDialog
+import com.tarmux.zerocore.utils.FileIOUtils
 import java.io.File
 
 class AdbShellRunClickConfig: BaseMenuClickConfig() {

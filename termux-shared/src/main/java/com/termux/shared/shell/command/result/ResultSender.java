@@ -1,4 +1,4 @@
-package com.termux.ai.shared.shell.command.result;
+package com.tarmux.shared.shell.command.result;
 
 import android.app.Activity;
 import android.app.PendingIntent;
@@ -6,15 +6,15 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.termux.ai.shared.R;
-import com.termux.ai.shared.data.DataUtils;
-import com.termux.ai.shared.markdown.MarkdownUtils;
-import com.termux.ai.shared.errors.Error;
-import com.termux.ai.shared.file.FileUtils;
-import com.termux.ai.shared.logger.Logger;
-import com.termux.ai.shared.errors.FunctionErrno;
-import com.termux.ai.shared.android.AndroidUtils;
-import com.termux.ai.shared.shell.command.ShellCommandConstants.RESULT_SENDER;
+import com.tarmux.shared.R;
+import com.tarmux.shared.data.DataUtils;
+import com.tarmux.shared.markdown.MarkdownUtils;
+import com.tarmux.shared.errors.Error;
+import com.tarmux.shared.file.FileUtils;
+import com.tarmux.shared.logger.Logger;
+import com.tarmux.shared.errors.FunctionErrno;
+import com.tarmux.shared.android.AndroidUtils;
+import com.tarmux.shared.shell.command.ShellCommandConstants.RESULT_SENDER;
 
 public class ResultSender {
 

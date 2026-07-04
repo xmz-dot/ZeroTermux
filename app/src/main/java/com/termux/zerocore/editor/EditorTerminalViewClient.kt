@@ -1,17 +1,17 @@
-package com.termux.ai.zerocore.editor
+package com.tarmux.zerocore.editor
 
 import android.app.Activity
 import android.view.InputDevice
 import android.view.KeyEvent
 import android.view.MotionEvent
 import android.view.inputmethod.InputMethodManager
-import com.termux.ai.shared.termux.extrakeys.ExtraKeysView
-import com.termux.ai.shared.termux.extrakeys.SpecialButton
-import com.termux.ai.shared.termux.settings.properties.TermuxAppSharedProperties
-import com.termux.ai.shared.termux.terminal.TermuxTerminalViewClientBase
-import com.termux.ai.shared.view.KeyboardUtils
-import com.termux.ai.terminal.TerminalSession
-import com.termux.ai.view.TerminalView
+import com.tarmux.shared.termux.extrakeys.ExtraKeysView
+import com.tarmux.shared.termux.extrakeys.SpecialButton
+import com.tarmux.shared.termux.settings.properties.TermuxAppSharedProperties
+import com.tarmux.shared.termux.terminal.TermuxTerminalViewClientBase
+import com.tarmux.shared.view.KeyboardUtils
+import com.tarmux.terminal.TerminalSession
+import com.tarmux.view.TerminalView
 
 class EditorTerminalViewClient(
     private val activity: Activity,

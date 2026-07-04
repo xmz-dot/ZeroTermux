@@ -1,12 +1,12 @@
-package com.termux.ai.shared.termux;
+package com.tarmux.shared.termux;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.termux.ai.shared.logger.Logger;
-import com.termux.ai.shared.termux.TermuxConstants.TERMUX_APP;
+import com.tarmux.shared.logger.Logger;
+import com.tarmux.shared.termux.TermuxConstants.TERMUX_APP;
 
 public class TermuxBootstrap {
 

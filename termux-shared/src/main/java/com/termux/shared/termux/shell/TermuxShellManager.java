@@ -1,4 +1,4 @@
-package com.termux.ai.shared.termux.shell;
+package com.tarmux.shared.termux.shell;
 
 import android.content.Context;
 import android.content.Intent;
@@ -6,10 +6,10 @@ import android.widget.ArrayAdapter;
 
 import androidx.annotation.NonNull;
 
-import com.termux.ai.shared.shell.command.ExecutionCommand;
-import com.termux.ai.shared.shell.command.runner.app.AppShell;
-import com.termux.ai.shared.termux.settings.preferences.TermuxAppSharedPreferences;
-import com.termux.ai.shared.termux.shell.command.runner.terminal.TermuxSession;
+import com.tarmux.shared.shell.command.ExecutionCommand;
+import com.tarmux.shared.shell.command.runner.app.AppShell;
+import com.tarmux.shared.termux.settings.preferences.TermuxAppSharedPreferences;
+import com.tarmux.shared.termux.shell.command.runner.terminal.TermuxSession;
 
 import java.util.ArrayList;
 import java.util.List;

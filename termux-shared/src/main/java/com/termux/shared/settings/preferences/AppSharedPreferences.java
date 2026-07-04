@@ -1,4 +1,4 @@
-package com.termux.ai.shared.settings.preferences;
+package com.tarmux.shared.settings.preferences;
 
 import android.content.Context;
 import android.content.SharedPreferences;

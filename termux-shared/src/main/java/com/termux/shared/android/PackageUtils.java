@@ -1,4 +1,4 @@
-package com.termux.ai.shared.android;
+package com.tarmux.shared.android;
 
 import android.app.ActivityManager;
 import android.app.admin.DevicePolicyManager;
@@ -16,11 +16,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 
-import com.termux.ai.shared.R;
-import com.termux.ai.shared.data.DataUtils;
-import com.termux.ai.shared.interact.MessageDialogUtils;
-import com.termux.ai.shared.logger.Logger;
-import com.termux.ai.shared.reflection.ReflectionUtils;
+import com.tarmux.shared.R;
+import com.tarmux.shared.data.DataUtils;
+import com.tarmux.shared.interact.MessageDialogUtils;
+import com.tarmux.shared.logger.Logger;
+import com.tarmux.shared.reflection.ReflectionUtils;
 
 import java.lang.reflect.Field;
 import java.security.MessageDigest;
@@ -575,7 +575,7 @@ public class PackageUtils {
              * Need a device that allows (manual) installation of apk with mismatched signature of
              * sharedUserId apps to test. Currently, if its done, PackageManager just doesn't load
              * the package and removes its apk automatically if its installed as a user app instead of system app
-             * W/PackageManager: Failed to parse /path/to/com.termux.tasker.apk: Signature mismatch for shared user: SharedUserSetting{xxxxxxx com.termux.ai/10xxx}
+             * W/PackageManager: Failed to parse /path/to/com.termux.tasker.apk: Signature mismatch for shared user: SharedUserSetting{xxxxxxx com.tarmux/10xxx}
              */
             PackageInfo packageInfo = getPackageInfoForPackage(context, packageName, PackageManager.GET_SIGNATURES);
             if (packageInfo == null) return null;
@@ -682,7 +682,7 @@ public class PackageUtils {
      * {@code
      * <manifest
      *     <queries>
-     *         <package android:name="com.termux.ai" />
+     *         <package android:name="com.tarmux" />
      *    </queries>
      *
      *    <application

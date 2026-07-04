@@ -1,10 +1,10 @@
-package com.termux.ai.shared.termux.settings.properties;
+package com.tarmux.shared.termux.settings.properties;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import com.termux.ai.shared.termux.TermuxConstants;
+import com.tarmux.shared.termux.TermuxConstants;
 
 public class TermuxAppSharedProperties extends TermuxSharedProperties {
 

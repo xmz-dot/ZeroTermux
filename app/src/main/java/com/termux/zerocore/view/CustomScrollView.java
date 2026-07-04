@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.view;
+package com.tarmux.zerocore.view;
 
 import android.content.Context;
 import android.os.Handler;

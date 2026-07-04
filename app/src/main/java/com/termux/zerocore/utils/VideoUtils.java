@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.utils;
+package com.tarmux.zerocore.utils;
 
 import android.media.MediaPlayer;
 import android.widget.MediaController;

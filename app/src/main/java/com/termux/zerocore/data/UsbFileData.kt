@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.data
+package com.tarmux.zerocore.data
 
 import com.github.mjdev.libaums.fs.UsbFile
 import java.io.File

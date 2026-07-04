@@ -1,8 +1,8 @@
-package com.termux.ai.zerocore.ai.agent
+package com.tarmux.zerocore.ai.agent
 
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.shared.termux.settings.preferences.TermuxAppSharedPreferences
-import com.termux.ai.zerocore.ai.config.ZtAiStrings
+import com.tarmux.shared.termux.settings.preferences.TermuxAppSharedPreferences
+import com.tarmux.zerocore.ai.config.ZtAiStrings
 
 object ZtTerminalAiSnapshot {
 
@@ -42,7 +42,7 @@ object ZtTerminalAiSnapshot {
         val visibleText = visible.trim()
         val fullText = full.trim()
         if (visibleText.isEmpty() && fullText.isEmpty()) {
-            return ZtAiStrings.str(com.termux.ai.R.string.zt_ai_terminal_empty)
+            return ZtAiStrings.str(com.tarmux.R.string.zt_ai_terminal_empty)
         }
         val limit = maxChars.coerceIn(MIN_MAX_CHARS, MAX_MAX_CHARS)
         val visibleBlock = if (visibleText.isNotEmpty()) {
@@ -103,7 +103,7 @@ object ZtTerminalAiSnapshot {
 
     fun trimToMax(text: String, maxChars: Int): String {
         if (text.length <= maxChars) return text
-        return ZtAiStrings.str(com.termux.ai.R.string.zt_ai_terminal_truncated).format(maxChars) +
+        return ZtAiStrings.str(com.tarmux.R.string.zt_ai_terminal_truncated).format(maxChars) +
             text.substring(text.length - maxChars)
     }
 }

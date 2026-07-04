@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.http_service;
+package com.tarmux.zerocore.http_service;
 
 import cn.hotapk.fastandrutils.utils.FFileUtils;
 import cn.hotapk.fastandrutils.utils.FLogUtils;

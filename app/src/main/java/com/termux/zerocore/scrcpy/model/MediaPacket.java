@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.scrcpy.model;
+package com.tarmux.zerocore.scrcpy.model;
 
 /**
  * Created by Alexandr Golovach on 27.06.16.

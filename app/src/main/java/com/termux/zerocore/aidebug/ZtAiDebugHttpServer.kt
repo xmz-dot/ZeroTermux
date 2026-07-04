@@ -1,11 +1,11 @@
-package com.termux.ai.zerocore.aidebug
+package com.tarmux.zerocore.aidebug
 
 import android.content.Context
 import com.google.gson.Gson
 import com.google.gson.JsonParser
-import com.termux.ai.zerocore.workstation.ZtWorkstationContactsHelper
-import com.termux.ai.zerocore.workstation.ZtWorkstationFileHelper
-import com.termux.ai.zerocore.workstation.ZtWorkstationSmsHelper
+import com.tarmux.zerocore.workstation.ZtWorkstationContactsHelper
+import com.tarmux.zerocore.workstation.ZtWorkstationFileHelper
+import com.tarmux.zerocore.workstation.ZtWorkstationSmsHelper
 import fi.iki.elonen.NanoHTTPD
 import java.io.ByteArrayInputStream
 

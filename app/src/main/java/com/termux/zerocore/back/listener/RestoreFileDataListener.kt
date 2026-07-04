@@ -1,6 +1,6 @@
-package com.termux.ai.zerocore.back.listener
+package com.tarmux.zerocore.back.listener
 
-import com.termux.ai.zerocore.back.bean.DataBean
+import com.tarmux.zerocore.back.bean.DataBean
 import java.io.File
 
 interface RestoreFileDataListener {

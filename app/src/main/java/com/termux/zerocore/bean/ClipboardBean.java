@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.bean;
+package com.tarmux.zerocore.bean;
 
 import java.util.List;
 

@@ -1,12 +1,12 @@
-package com.termux.ai.zerocore.config.mainmenu
+package com.tarmux.zerocore.config.mainmenu
 
 import android.content.Context
 import com.example.xh_lib.utils.UUtils
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.termux.ai.R
-import com.termux.ai.zerocore.http.HTTPIP
-import com.termux.ai.zerocore.utils.XinhaoStoragePath
+import com.tarmux.R
+import com.tarmux.zerocore.http.HTTPIP
+import com.tarmux.zerocore.utils.XinhaoStoragePath
 import java.io.File
 
 object MenuUpdateSourceManager {

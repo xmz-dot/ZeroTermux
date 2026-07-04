@@ -1,11 +1,11 @@
-package com.termux.ai.zerocore.activity.view_holder;
+package com.tarmux.zerocore.activity.view_holder;
 
 import android.view.View;
 import android.widget.TextView;
 
 import androidx.cardview.widget.CardView;
 
-import com.termux.ai.R;
+import com.tarmux.R;
 
 public class CreateSystemVieHolder extends ViewHolder {
     public TextView title;

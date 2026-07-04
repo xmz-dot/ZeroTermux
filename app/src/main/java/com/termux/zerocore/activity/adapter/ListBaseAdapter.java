@@ -1,10 +1,10 @@
-package com.termux.ai.zerocore.activity.adapter;
+package com.tarmux.zerocore.activity.adapter;
 
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 
-import com.termux.ai.zerocore.activity.view_holder.ViewHolder;
+import com.tarmux.zerocore.activity.view_holder.ViewHolder;
 
 import java.util.List;
 

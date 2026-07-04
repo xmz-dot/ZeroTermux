@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.gui
+package com.tarmux.zerocore.gui
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory

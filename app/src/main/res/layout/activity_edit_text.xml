@@ -398,7 +398,7 @@
                     android:layout_height="0dp"
                     android:layout_weight="1">
 
-                    <com.termux.ai.view.TerminalView
+                    <com.tarmux.view.TerminalView
                         android:id="@+id/editor_terminal_view"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -408,7 +408,7 @@
                         android:scrollbarThumbVertical="@drawable/terminal_scroll_shape"
                         android:scrollbars="vertical" />
 
-                    <com.termux.ai.zerocore.editor.EditorTerminalInputView
+                    <com.tarmux.zerocore.editor.EditorTerminalInputView
                         android:id="@+id/editor_terminal_input"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -418,7 +418,7 @@
                         android:importantForAutofill="no" />
                 </FrameLayout>
 
-                <com.termux.ai.shared.termux.extrakeys.ExtraKeysView
+                <com.tarmux.shared.termux.extrakeys.ExtraKeysView
                     android:id="@+id/editor_terminal_extra_keys"
                     style="?android:attr/buttonBarStyle"
                     android:layout_width="match_parent"
@@ -481,7 +481,7 @@
                     </LinearLayout>
                 </FrameLayout>
 
-                <com.termux.ai.shared.termux.extrakeys.ExtraKeysView
+                <com.tarmux.shared.termux.extrakeys.ExtraKeysView
                     android:id="@+id/editor_vnc_extra_keys"
                     style="?android:attr/buttonBarStyle"
                     android:layout_width="match_parent"
@@ -736,7 +736,7 @@
                 android:textSize="12sp"
                 tools:text="/sdcard/project" />
 
-            <com.termux.ai.zerocore.editor.EditorFileTreeScrollView
+            <com.tarmux.zerocore.editor.EditorFileTreeScrollView
                 android:id="@+id/sidebar_file_tree_scroll"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -746,7 +746,7 @@
                 android:overScrollMode="never"
                 android:scrollbars="horizontal">
 
-                <com.termux.ai.zerocore.editor.EditorFileTreeListView
+                <com.tarmux.zerocore.editor.EditorFileTreeListView
                     android:id="@+id/sidebar_file_tree"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -758,7 +758,7 @@
                     android:paddingTop="4dp"
                     android:paddingBottom="4dp"
                     android:scrollbars="vertical" />
-            </com.termux.ai.zerocore.editor.EditorFileTreeScrollView>
+            </com.tarmux.zerocore.editor.EditorFileTreeScrollView>
         </LinearLayout>
 
         <LinearLayout
@@ -955,7 +955,7 @@
                         android:singleLine="true"
                         android:textColor="#CCCCCC"
                         android:textSize="12sp"
-                        tools:text="/data/data/com.termux.ai/files/home" />
+                        tools:text="/data/data/com.tarmux/files/home" />
 
                     <TextView
                         android:id="@+id/sidebar_create_java"

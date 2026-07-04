@@ -1,15 +1,15 @@
-package com.termux.ai.zerocore.utils;
+package com.tarmux.zerocore.utils;
 
 import android.util.Log;
 import android.widget.Toast;
 
 import com.example.xh_lib.utils.UUtils;
 import com.google.gson.Gson;
-import com.termux.ai.R;
-import com.termux.ai.app.TermuxActivity;
-import com.termux.ai.zerocore.activity.BackNewActivity;
-import com.termux.ai.zerocore.dialog.MyDialog;
-import com.termux.ai.zerocore.fragment.BackupFragment;
+import com.tarmux.R;
+import com.tarmux.app.TermuxActivity;
+import com.tarmux.zerocore.activity.BackNewActivity;
+import com.tarmux.zerocore.dialog.MyDialog;
+import com.tarmux.zerocore.fragment.BackupFragment;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -22,7 +22,7 @@ import java.util.ArrayList;
 
 public class QZHFUtils {
 
-    private File mFile = new File("/data/data/com.termux.ai/");
+    private File mFile = new File("/data/data/com.tarmux/");
     private File createFile;
 
     public void main(MyDialog myDialog, String systemName, BackupFragment restoreFragment) {
@@ -78,7 +78,7 @@ public class QZHFUtils {
             /* TermuxApplication.mHandler.post(new Runnable() {
                     @Override
                     public void run() {
-                        com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal("termux-setup-storage \n");
+                        com.tarmux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal("termux-setup-storage \n");
                     }
                 });*/
 
@@ -88,7 +88,7 @@ public class QZHFUtils {
                     e.printStackTrace();
                 }
 
-                if (!(new File("/data/data/com.termux.ai/files/home/storage").exists())) {
+                if (!(new File("/data/data/com.tarmux/files/home/storage").exists())) {
 
 
                     UUtils.getHandler().post(new Runnable() {
@@ -97,7 +97,7 @@ public class QZHFUtils {
                             Toast.makeText(UUtils.getContext(), UUtils.getString(R.string.没有找到storage目录), Toast.LENGTH_SHORT).show();
 
                             myDialog.dismiss();
-                            com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal("termux-setup-storage");
+                            com.tarmux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal("termux-setup-storage");
                             restoreFragment.getActivity().finish();
                         }
                     });
@@ -144,8 +144,8 @@ public class QZHFUtils {
                     public void run() {
                         myDialog.dismiss();
 
-                        com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(
-                            com.termux.ai.zerocore.utils.XinhaoStoragePath.getShellBackup(systemName, "zcvf"));
+                        com.tarmux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(
+                            com.tarmux.zerocore.utils.XinhaoStoragePath.getShellBackup(systemName, "zcvf"));
 
 
                         restoreFragment.getActivity().finish();

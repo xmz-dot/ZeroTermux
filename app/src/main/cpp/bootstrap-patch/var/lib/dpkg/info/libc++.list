@@ -1,0 +1,12 @@
+/.
+/data/
+/data/data/
+/data/data/com.tarmux/
+/data/data/com.tarmux/files/
+/data/data/com.tarmux/files/usr/
+/data/data/com.tarmux/files/usr/lib/
+/data/data/com.tarmux/files/usr/lib/libc++_shared.so
+/data/data/com.tarmux/files/usr/share/
+/data/data/com.tarmux/files/usr/share/doc/
+/data/data/com.tarmux/files/usr/share/doc/libc++/
+/data/data/com.tarmux/files/usr/share/doc/libc++/copyright

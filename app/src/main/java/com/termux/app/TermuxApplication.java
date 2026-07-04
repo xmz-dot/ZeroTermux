@@ -1,4 +1,4 @@
-package com.termux.ai.app;
+package com.tarmux.app;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,25 +13,25 @@ import com.lzy.okgo.OkGo;
 import com.mallotec.reb.localeplugin.LocaleConstant;
 import com.mallotec.reb.localeplugin.LocalePlugin;
 
-import com.termux.ai.shared.errors.Error;
-import com.termux.ai.shared.logger.Logger;
-import com.termux.ai.shared.termux.TermuxBootstrap;
-import com.termux.ai.shared.termux.TermuxConstants;
-import com.termux.ai.shared.termux.crash.TermuxCrashUtils;
-import com.termux.ai.shared.termux.file.TermuxFileUtils;
-import com.termux.ai.shared.termux.settings.preferences.TermuxAppSharedPreferences;
-import com.termux.ai.shared.termux.settings.properties.TermuxAppSharedProperties;
-import com.termux.ai.shared.termux.shell.TermuxShellManager;
-import com.termux.ai.shared.termux.shell.am.TermuxAmSocketServer;
-import com.termux.ai.shared.termux.shell.command.environment.TermuxShellEnvironment;
-import com.termux.ai.shared.termux.theme.TermuxThemeUtils;
-import com.termux.ai.zerocore.activity.UncaughtExceptionHandlerActivity;
-import com.termux.ai.zerocore.config.mainmenu.MainMenuConfig;
-import com.termux.ai.zerocore.filetype.MyFileImageListener;
-import com.termux.ai.zerocore.filetype.MyZFileOperateListener;
-import com.termux.ai.zerocore.ftp.utils.UserSetManage;
-import com.termux.ai.zerocore.libsu.LibSuManage;
-import com.termux.ai.zerocore.utils.ClipBoardUtil;
+import com.tarmux.shared.errors.Error;
+import com.tarmux.shared.logger.Logger;
+import com.tarmux.shared.termux.TermuxBootstrap;
+import com.tarmux.shared.termux.TermuxConstants;
+import com.tarmux.shared.termux.crash.TermuxCrashUtils;
+import com.tarmux.shared.termux.file.TermuxFileUtils;
+import com.tarmux.shared.termux.settings.preferences.TermuxAppSharedPreferences;
+import com.tarmux.shared.termux.settings.properties.TermuxAppSharedProperties;
+import com.tarmux.shared.termux.shell.TermuxShellManager;
+import com.tarmux.shared.termux.shell.am.TermuxAmSocketServer;
+import com.tarmux.shared.termux.shell.command.environment.TermuxShellEnvironment;
+import com.tarmux.shared.termux.theme.TermuxThemeUtils;
+import com.tarmux.zerocore.activity.UncaughtExceptionHandlerActivity;
+import com.tarmux.zerocore.config.mainmenu.MainMenuConfig;
+import com.tarmux.zerocore.filetype.MyFileImageListener;
+import com.tarmux.zerocore.filetype.MyZFileOperateListener;
+import com.tarmux.zerocore.ftp.utils.UserSetManage;
+import com.tarmux.zerocore.libsu.LibSuManage;
+import com.tarmux.zerocore.utils.ClipBoardUtil;
 import com.zp.z_file.common.ZFileManageHelp;
 import com.zp.z_file.content.ZFileConfiguration;
 import com.zp.z_file.util.LogUtils;
@@ -168,7 +168,7 @@ ZFileManageHelp.getInstance().setFileOperateListener(new MyZFileOperateListener(
         //初始化定时器
         LibSuManage.getInstall().initTimer();
         MainMenuConfig.init(this);
-        com.termux.ai.zerocore.workstation.ZtWorkstationLifecycleHelper.register(this);
+        com.tarmux.zerocore.workstation.ZtWorkstationLifecycleHelper.register(this);
         new ClipBoardUtil().registerClipEvents();
 /*        new Thread(new Runnable() {
             @Override

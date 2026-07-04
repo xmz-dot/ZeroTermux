@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.workstation
+package com.tarmux.zerocore.workstation
 
 import android.content.Context
 import android.content.Intent
@@ -6,7 +6,7 @@ import android.content.IntentFilter
 import android.os.BatteryManager
 import android.os.Build
 import com.google.gson.Gson
-import com.termux.ai.BuildConfig
+import com.tarmux.BuildConfig
 
 object ZtWorkstationDeviceHelper {
 

@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.config.mainmenu.dialog
+package com.tarmux.zerocore.config.mainmenu.dialog
 
 import android.content.Context
 import android.view.View
@@ -8,9 +8,9 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.blockchain.ub.util.custom.dialog.BaseDialogDown
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.R
-import com.termux.ai.zerocore.config.mainmenu.MainMenuPackageManager
-import com.termux.ai.zerocore.config.mainmenu.view.adapter.MenuPackageZipAdapter
+import com.tarmux.R
+import com.tarmux.zerocore.config.mainmenu.MainMenuPackageManager
+import com.tarmux.zerocore.config.mainmenu.view.adapter.MenuPackageZipAdapter
 import java.io.File
 
 /** Java 可调用的菜单包选择回调。 */

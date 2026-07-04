@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.activity
+package com.tarmux.zerocore.activity
 
 import android.content.Context
 import android.content.Intent
@@ -47,34 +47,34 @@ import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.R
-import com.termux.ai.zerocore.dialog.LoadingDialog
-import com.termux.ai.zerocore.ai.editor.ZtEditorAiHost
-import com.termux.ai.zerocore.ai.editor.ZtEditorAiPanelHelper
-import com.termux.ai.zerocore.ai.editor.ZtEditorAiResetHelper
-import com.termux.ai.zerocore.editor.AndroidProjectManager
-import com.termux.ai.zerocore.editor.EditorBottomDockPanel
-import com.termux.ai.zerocore.editor.EditorBuildScriptHelper
-import com.termux.ai.zerocore.editor.EditorAndroidRunner
-import com.termux.ai.zerocore.editor.EditorFileTreeClipboard
-import com.termux.ai.zerocore.editor.EditorFileTreeIcon
-import com.termux.ai.zerocore.editor.EditorFileTreeListView
-import com.termux.ai.zerocore.editor.EditorFileTreeOperations
-import com.termux.ai.zerocore.editor.EditorFileTreeScrollView
-import com.termux.ai.zerocore.editor.EditorHelloProjectCreator
-import com.termux.ai.zerocore.editor.EditorHelloProjectType
-import com.termux.ai.zerocore.editor.EditorProgramRunner
-import com.termux.ai.zerocore.editor.EditorRunDetector
-import com.termux.ai.zerocore.editor.EditorRunLanguage
-import com.termux.ai.shared.termux.extrakeys.ExtraKeysView
-import com.termux.ai.zerocore.editor.EditorTerminalInputView
-import com.termux.ai.zerocore.editor.EditorTerminalPanel
-import com.termux.ai.zerocore.editor.EditorX11Panel
-import com.termux.ai.zerocore.editor.EditorX11Environment
-import com.termux.ai.zerocore.editor.lsp.EditorLspLanguage
-import com.termux.ai.zerocore.editor.lsp.EditorLspManager
-import com.termux.ai.zerocore.editor.lsp.EditorLspServerAdapter
-import com.termux.ai.zerocore.ftp.utils.UserSetManage
+import com.tarmux.R
+import com.tarmux.zerocore.dialog.LoadingDialog
+import com.tarmux.zerocore.ai.editor.ZtEditorAiHost
+import com.tarmux.zerocore.ai.editor.ZtEditorAiPanelHelper
+import com.tarmux.zerocore.ai.editor.ZtEditorAiResetHelper
+import com.tarmux.zerocore.editor.AndroidProjectManager
+import com.tarmux.zerocore.editor.EditorBottomDockPanel
+import com.tarmux.zerocore.editor.EditorBuildScriptHelper
+import com.tarmux.zerocore.editor.EditorAndroidRunner
+import com.tarmux.zerocore.editor.EditorFileTreeClipboard
+import com.tarmux.zerocore.editor.EditorFileTreeIcon
+import com.tarmux.zerocore.editor.EditorFileTreeListView
+import com.tarmux.zerocore.editor.EditorFileTreeOperations
+import com.tarmux.zerocore.editor.EditorFileTreeScrollView
+import com.tarmux.zerocore.editor.EditorHelloProjectCreator
+import com.tarmux.zerocore.editor.EditorHelloProjectType
+import com.tarmux.zerocore.editor.EditorProgramRunner
+import com.tarmux.zerocore.editor.EditorRunDetector
+import com.tarmux.zerocore.editor.EditorRunLanguage
+import com.tarmux.shared.termux.extrakeys.ExtraKeysView
+import com.tarmux.zerocore.editor.EditorTerminalInputView
+import com.tarmux.zerocore.editor.EditorTerminalPanel
+import com.tarmux.zerocore.editor.EditorX11Panel
+import com.tarmux.zerocore.editor.EditorX11Environment
+import com.tarmux.zerocore.editor.lsp.EditorLspLanguage
+import com.tarmux.zerocore.editor.lsp.EditorLspManager
+import com.tarmux.zerocore.editor.lsp.EditorLspServerAdapter
+import com.tarmux.zerocore.ftp.utils.UserSetManage
 import io.github.rosemoe.sora.lang.Language
 import io.github.rosemoe.sora.langs.textmate.TextMateColorScheme
 import io.github.rosemoe.sora.langs.textmate.TextMateLanguage
@@ -87,8 +87,8 @@ import io.github.rosemoe.sora.text.LineSeparator
 import io.github.rosemoe.sora.widget.CodeEditor
 import io.github.rosemoe.sora.widget.EditorSearcher
 import io.github.rosemoe.sora.widget.SymbolInputView
-import com.termux.ai.shared.view.KeyboardUtils
-import com.termux.ai.view.TerminalView
+import com.tarmux.shared.view.KeyboardUtils
+import com.tarmux.view.TerminalView
 import io.github.rosemoe.sora.widget.component.EditorAutoCompletion
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -380,8 +380,8 @@ class EditTextActivity : AppCompatActivity(), ZtEditorAiHost {
     }
 
     private fun handleAiDebugIntentExtras() {
-        val openX11 = intent.getBooleanExtra(com.termux.ai.zerocore.aidebug.ZtAiDebugVncHelper.EXTRA_OPEN_X11_TAB, false)
-        val autoRun = intent.getBooleanExtra(com.termux.ai.zerocore.aidebug.ZtAiDebugVncHelper.EXTRA_AUTO_RUN, false)
+        val openX11 = intent.getBooleanExtra(com.tarmux.zerocore.aidebug.ZtAiDebugVncHelper.EXTRA_OPEN_X11_TAB, false)
+        val autoRun = intent.getBooleanExtra(com.tarmux.zerocore.aidebug.ZtAiDebugVncHelper.EXTRA_AUTO_RUN, false)
         if (openX11) {
             code_editor?.postDelayed({
                 editorBottomDock?.openX11Tab()
@@ -632,7 +632,7 @@ class EditTextActivity : AppCompatActivity(), ZtEditorAiHost {
         val displayBtn = findViewById<TextView>(R.id.editor_x11_display)
         val connectBtn = findViewById<TextView>(R.id.editor_x11_connect)
         val maximize = findViewById<android.widget.ImageView>(R.id.editor_x11_maximize) ?: return
-        val vncExtraKeysView = findViewById<com.termux.ai.shared.termux.extrakeys.ExtraKeysView>(
+        val vncExtraKeysView = findViewById<com.tarmux.shared.termux.extrakeys.ExtraKeysView>(
             R.id.editor_vnc_extra_keys
         )
         vncExtraKeysView?.visibility = View.GONE

@@ -1,4 +1,4 @@
-package com.termux.ai.shared.android;
+package com.tarmux.shared.android;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -9,10 +9,10 @@ import android.os.Build;
 import androidx.annotation.NonNull;
 
 import com.google.common.base.Joiner;
-import com.termux.ai.shared.R;
-import com.termux.ai.shared.data.DataUtils;
-import com.termux.ai.shared.logger.Logger;
-import com.termux.ai.shared.markdown.MarkdownUtils;
+import com.tarmux.shared.R;
+import com.tarmux.shared.data.DataUtils;
+import com.tarmux.shared.logger.Logger;
+import com.tarmux.shared.markdown.MarkdownUtils;
 
 import java.io.BufferedReader;
 import java.io.IOException;

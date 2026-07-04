@@ -1,4 +1,4 @@
-package com.termux.ai.app.fragments.settings.termux;
+package com.tarmux.app.fragments.settings.termux;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -12,9 +12,9 @@ import androidx.preference.PreferenceDataStore;
 import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.PreferenceManager;
 
-import com.termux.ai.R;
-import com.termux.ai.shared.termux.settings.preferences.TermuxAppSharedPreferences;
-import com.termux.ai.shared.logger.Logger;
+import com.tarmux.R;
+import com.tarmux.shared.termux.settings.preferences.TermuxAppSharedPreferences;
+import com.tarmux.shared.logger.Logger;
 
 @Keep
 public class DebuggingPreferencesFragment extends PreferenceFragmentCompat {

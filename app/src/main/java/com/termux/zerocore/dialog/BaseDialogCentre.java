@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.dialog;
+package com.tarmux.zerocore.dialog;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -9,7 +9,7 @@ import android.view.WindowManager;
 import androidx.annotation.NonNull;
 
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.R;
+import com.tarmux.R;
 
 
 

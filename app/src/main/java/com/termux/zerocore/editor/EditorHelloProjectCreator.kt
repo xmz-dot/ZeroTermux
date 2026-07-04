@@ -1,7 +1,7 @@
-package com.termux.ai.zerocore.editor
+package com.tarmux.zerocore.editor
 
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.shared.termux.TermuxConstants
+import com.tarmux.shared.termux.TermuxConstants
 import java.io.File
 
 enum class EditorHelloProjectType {

@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.ftp.utils;
+package com.tarmux.zerocore.ftp.utils;
 
 import android.annotation.TargetApi;
 import android.content.ContentResolver;
@@ -15,7 +15,7 @@ import androidx.annotation.NonNull;
 import androidx.documentfile.provider.DocumentFile;
 
 
-import com.termux.ai.zerocore.ftp.FTPConfig;
+import com.tarmux.zerocore.ftp.FTPConfig;
 
 import java.io.File;
 import java.io.FileInputStream;

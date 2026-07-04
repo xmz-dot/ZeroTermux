@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.bean;
+package com.tarmux.zerocore.bean;
 
 public class ReadSystemBean {
     public String dir;

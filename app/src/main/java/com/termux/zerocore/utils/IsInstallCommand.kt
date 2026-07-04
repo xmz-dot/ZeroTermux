@@ -1,14 +1,14 @@
-package com.termux.ai.zerocore.utils
+package com.tarmux.zerocore.utils
 
 import android.app.Activity
 import android.view.Gravity
 import android.view.View
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.R
-import com.termux.ai.app.TermuxActivity
-import com.termux.ai.zerocore.dialog.SwitchDialog
-import com.termux.ai.zerocore.url.FileUrl
-import com.termux.ai.zerocore.url.FileUrl.smsUrl
+import com.tarmux.R
+import com.tarmux.app.TermuxActivity
+import com.tarmux.zerocore.dialog.SwitchDialog
+import com.tarmux.zerocore.url.FileUrl
+import com.tarmux.zerocore.url.FileUrl.smsUrl
 import java.io.File
 
 object IsInstallCommand {
@@ -24,7 +24,7 @@ object IsInstallCommand {
 
             val msg: SwitchDialog = switchDialogShow(activity,UUtils.getString(R.string.警告), temp)
 
-            ///data/data/com.termux.ai/files/usr/bin/vim
+            ///data/data/com.tarmux/files/usr/bin/vim
             msg.cancel!!.setOnClickListener { msg.dismiss() }
             UUtils.showLog("vim的安装目录:${file.absoluteFile}")
             msg.ok!!.setOnClickListener {
@@ -32,7 +32,7 @@ object IsInstallCommand {
                 if (file.exists()) {
                     UUtils.showMsg(UUtils.getString(R.string.您已安装工具1) + "(${command})")
                 } else {
-                    com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(commandInstall)
+                    com.tarmux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(commandInstall)
                 }
             }
 

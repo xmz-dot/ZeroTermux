@@ -1,15 +1,15 @@
-package com.termux.ai.zerocore.config.mainmenu.config;
+package com.tarmux.zerocore.config.mainmenu.config;
 
-import static com.termux.ai.zerocore.config.mainmenu.MainMenuConfig.CODE_ONLINE_FEATURES;
+import static com.tarmux.zerocore.config.mainmenu.MainMenuConfig.CODE_ONLINE_FEATURES;
 
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.view.View;
 
-import com.termux.ai.R;
-import com.termux.ai.zerocore.activity.WebViewActivity;
-import com.termux.ai.zerocore.http.HTTPIP;
+import com.tarmux.R;
+import com.tarmux.zerocore.activity.WebViewActivity;
+import com.tarmux.zerocore.http.HTTPIP;
 
 public class ZeroBBsClickConfig extends BaseMenuClickConfig {
     @Override

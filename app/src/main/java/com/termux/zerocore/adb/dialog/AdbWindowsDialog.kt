@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.adb.dialog
+package com.tarmux.zerocore.adb.dialog
 
 import android.app.Activity
 import android.content.Context
@@ -21,8 +21,8 @@ import com.example.xh_lib.utils.UUtils
 import com.hjq.permissions.OnPermissionCallback
 import com.hjq.permissions.Permission
 import com.hjq.permissions.XXPermissions
-import com.termux.ai.R
-import com.termux.ai.zerocore.adb.ADB
+import com.tarmux.R
+import com.tarmux.zerocore.adb.ADB
 import kotlinx.coroutines.*
 
 

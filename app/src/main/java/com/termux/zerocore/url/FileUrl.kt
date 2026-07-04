@@ -1,8 +1,8 @@
-package com.termux.ai.zerocore.url
+package com.tarmux.zerocore.url
 
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.shared.termux.TermuxConstants
-import com.termux.ai.zerocore.utils.XinhaoStoragePath
+import com.tarmux.shared.termux.TermuxConstants
+import com.tarmux.zerocore.utils.XinhaoStoragePath
 import java.io.File
 
 
@@ -106,7 +106,7 @@ object FileUrl {
     public val smsUrlFile = "${TermuxConstants.TERMUX_FILES_DIR_PATH}/home/sms.txt"
     public val phoneUrlFile = "${TermuxConstants.TERMUX_FILES_DIR_PATH}/home/phone.txt"
     //系统启动脚本目录
-    ///data/data/com.termux.ai/files/usr/etc/bash.bashrc  .xinhao_history
+    ///data/data/com.tarmux/files/usr/etc/bash.bashrc  .xinhao_history
     public val smsBashrcFile = "${TermuxConstants.TERMUX_FILES_DIR_PATH}/usr/etc/bash.bashrc"
     public val smsMotdFile = "${TermuxConstants.TERMUX_FILES_DIR_PATH}/usr/etc/motd"
     //Zero系统脚本目录

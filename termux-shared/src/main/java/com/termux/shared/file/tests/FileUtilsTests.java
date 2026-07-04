@@ -1,14 +1,14 @@
-package com.termux.ai.shared.file.tests;
+package com.tarmux.shared.file.tests;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import com.termux.ai.shared.errors.Errno;
-import com.termux.ai.shared.file.FileUtils;
-import com.termux.ai.shared.file.FileUtilsErrno;
-import com.termux.ai.shared.logger.Logger;
-import com.termux.ai.shared.errors.Error;
+import com.tarmux.shared.errors.Errno;
+import com.tarmux.shared.file.FileUtils;
+import com.tarmux.shared.file.FileUtilsErrno;
+import com.tarmux.shared.logger.Logger;
+import com.tarmux.shared.errors.Error;
 
 import java.io.File;
 import java.nio.charset.Charset;

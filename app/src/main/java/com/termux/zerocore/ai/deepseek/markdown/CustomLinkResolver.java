@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.ai.deepseek.markdown;
+package com.tarmux.zerocore.ai.deepseek.markdown;
 
 import android.app.Activity;
 import android.content.Context;

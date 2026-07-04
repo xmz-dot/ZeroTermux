@@ -1,7 +1,7 @@
 package org.apache.ftpserver.listener.nio;
 
 
-import com.termux.ai.zerocore.ftp.new_ftp.services.FtpService;
+import com.tarmux.zerocore.ftp.new_ftp.services.FtpService;
 
 import org.apache.mina.core.session.IoSession;
 import org.apache.mina.filter.codec.ProtocolCodecFactory;

@@ -1,19 +1,19 @@
-package com.termux.ai.shared.termux.shell.command.environment;
+package com.tarmux.shared.termux.shell.command.environment;
 
 import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import com.termux.ai.shared.errors.Error;
-import com.termux.ai.shared.file.FileUtils;
-import com.termux.ai.shared.logger.Logger;
-import com.termux.ai.shared.shell.command.ExecutionCommand;
-import com.termux.ai.shared.shell.command.environment.AndroidShellEnvironment;
-import com.termux.ai.shared.shell.command.environment.ShellEnvironmentUtils;
-import com.termux.ai.shared.shell.command.environment.ShellCommandShellEnvironment;
-import com.termux.ai.shared.termux.TermuxBootstrap;
-import com.termux.ai.shared.termux.TermuxConstants;
-import com.termux.ai.shared.termux.shell.TermuxShellUtils;
+import com.tarmux.shared.errors.Error;
+import com.tarmux.shared.file.FileUtils;
+import com.tarmux.shared.logger.Logger;
+import com.tarmux.shared.shell.command.ExecutionCommand;
+import com.tarmux.shared.shell.command.environment.AndroidShellEnvironment;
+import com.tarmux.shared.shell.command.environment.ShellEnvironmentUtils;
+import com.tarmux.shared.shell.command.environment.ShellCommandShellEnvironment;
+import com.tarmux.shared.termux.TermuxBootstrap;
+import com.tarmux.shared.termux.TermuxConstants;
+import com.tarmux.shared.termux.shell.TermuxShellUtils;
 
 import java.nio.charset.Charset;
 import java.util.HashMap;

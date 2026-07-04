@@ -1,4 +1,4 @@
-package com.termux.ai.shared.termux.extrakeys;
+package com.tarmux.shared.termux.extrakeys;
 
 import android.view.KeyEvent;
 

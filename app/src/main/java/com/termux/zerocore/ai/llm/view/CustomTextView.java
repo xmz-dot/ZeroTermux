@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.ai.llm.view;
+package com.tarmux.zerocore.ai.llm.view;
 
 // CustomTextView.java
 import android.content.Context;
@@ -15,8 +15,8 @@ import android.view.MenuItem;
 import androidx.appcompat.widget.AppCompatTextView;
 
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.R;
-import com.termux.ai.app.TermuxActivity;
+import com.tarmux.R;
+import com.tarmux.app.TermuxActivity;
 
 public class CustomTextView extends AppCompatTextView {
 
@@ -73,7 +73,7 @@ public class CustomTextView extends AppCompatTextView {
 
                     case 2: // Test选项
                         // 自定义操作
-                        com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(selectedText);
+                        com.tarmux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(selectedText);
                         Context context = getContext();
                         if (context instanceof TermuxActivity) {
                             ((TermuxActivity) context).getDrawer().smoothClose();

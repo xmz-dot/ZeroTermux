@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.settings
+package com.tarmux.zerocore.settings
 
 import android.os.Bundle
 import android.os.Environment
@@ -10,10 +10,10 @@ import com.example.xh_lib.utils.UUtils
 import com.hjq.permissions.OnPermissionCallback
 import com.hjq.permissions.Permission
 import com.hjq.permissions.XXPermissions
-import com.termux.ai.R
-import com.termux.ai.zerocore.dialog.LoadingDialog
-import com.termux.ai.zerocore.dialog.SwitchDialog
-import com.termux.ai.zerocore.utils.XinhaoStoragePath
+import com.tarmux.R
+import com.tarmux.zerocore.dialog.LoadingDialog
+import com.tarmux.zerocore.dialog.SwitchDialog
+import com.tarmux.zerocore.utils.XinhaoStoragePath
 import java.io.File
 import java.io.IOException
 import java.io.InputStream

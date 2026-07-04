@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.activity
+package com.tarmux.zerocore.activity
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,11 +6,11 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.xh_lib.utils.LogUtils
 import com.example.xh_lib.utils.UUtils
 import com.lcw.library.imagepicker.ImagePicker
-import com.termux.ai.R
-import com.termux.ai.shared.logger.Logger
-import com.termux.ai.zerocore.data.UsbFileData
-import com.termux.ai.zerocore.loader.ZeroTermuxImageLoader
-import com.termux.ai.zerocore.utils.FileIOUtils
+import com.tarmux.R
+import com.tarmux.shared.logger.Logger
+import com.tarmux.zerocore.data.UsbFileData
+import com.tarmux.zerocore.loader.ZeroTermuxImageLoader
+import com.tarmux.zerocore.utils.FileIOUtils
 import java.io.File
 
 

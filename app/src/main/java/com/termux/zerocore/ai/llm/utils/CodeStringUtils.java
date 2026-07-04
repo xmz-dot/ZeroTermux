@@ -1,7 +1,7 @@
-package com.termux.ai.zerocore.ai.llm.utils;
+package com.tarmux.zerocore.ai.llm.utils;
 
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.R;
+import com.tarmux.R;
 
 public class CodeStringUtils {
     public static String getCodeString(int code) {

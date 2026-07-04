@@ -1,21 +1,21 @@
-package com.termux.ai.zerocore.config.ztcommand.config;
+package com.tarmux.zerocore.config.ztcommand.config;
 
-import static com.termux.ai.zerocore.dialog.ShowDialogActivity.DIALOG_TYPE_CONFIRMED;
-import static com.termux.ai.zerocore.dialog.ShowDialogActivity.DIALOG_TYPE_CONFIRMED_CANCEL;
-import static com.termux.ai.zerocore.dialog.ShowDialogActivity.DIALOG_TYPE_EDIT_TEXT;
-import static com.termux.ai.zerocore.dialog.ShowDialogActivity.EXTRA_MESSAGE;
-import static com.termux.ai.zerocore.dialog.ShowDialogActivity.EXTRA_TITLE;
-import static com.termux.ai.zerocore.dialog.ShowDialogActivity.EXTRA_TYPE;
-import static com.termux.ai.zerocore.config.ztcommand.config.ZTKeyConstants.ZT_ID_CONFIRMED_DIALOG;
+import static com.tarmux.zerocore.dialog.ShowDialogActivity.DIALOG_TYPE_CONFIRMED;
+import static com.tarmux.zerocore.dialog.ShowDialogActivity.DIALOG_TYPE_CONFIRMED_CANCEL;
+import static com.tarmux.zerocore.dialog.ShowDialogActivity.DIALOG_TYPE_EDIT_TEXT;
+import static com.tarmux.zerocore.dialog.ShowDialogActivity.EXTRA_MESSAGE;
+import static com.tarmux.zerocore.dialog.ShowDialogActivity.EXTRA_TITLE;
+import static com.tarmux.zerocore.dialog.ShowDialogActivity.EXTRA_TYPE;
+import static com.tarmux.zerocore.config.ztcommand.config.ZTKeyConstants.ZT_ID_CONFIRMED_DIALOG;
 
 import android.content.Context;
 import android.content.Intent;
 
 import com.example.xh_lib.utils.LogUtils;
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.R;
-import com.termux.ai.zerocore.dialog.ShowDialogActivity;
-import com.termux.ai.zerocore.config.ztcommand.ZTSocketService;
+import com.tarmux.R;
+import com.tarmux.zerocore.dialog.ShowDialogActivity;
+import com.tarmux.zerocore.config.ztcommand.ZTSocketService;
 
 import java.util.HashMap;
 import java.util.Map;

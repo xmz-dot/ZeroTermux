@@ -1,4 +1,4 @@
-package com.termux.ai.shared.termux.crash;
+package com.tarmux.shared.termux.crash;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -11,23 +11,23 @@ import android.os.Environment;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.termux.ai.shared.activities.ReportActivity;
-import com.termux.ai.shared.android.AndroidUtils;
-import com.termux.ai.shared.crash.CrashHandler;
-import com.termux.ai.shared.data.DataUtils;
-import com.termux.ai.shared.errors.Error;
-import com.termux.ai.shared.file.FileUtils;
-import com.termux.ai.shared.logger.Logger;
-import com.termux.ai.shared.markdown.MarkdownUtils;
-import com.termux.ai.shared.models.ReportInfo;
-import com.termux.ai.shared.notification.NotificationUtils;
-import com.termux.ai.shared.termux.TermuxConstants;
-import com.termux.ai.shared.termux.TermuxConstants.TERMUX_APP;
-import com.termux.ai.shared.termux.TermuxUtils;
-import com.termux.ai.shared.termux.models.UserAction;
-import com.termux.ai.shared.termux.notification.TermuxNotificationUtils;
-import com.termux.ai.shared.termux.settings.preferences.TermuxAppSharedPreferences;
-import com.termux.ai.shared.termux.settings.preferences.TermuxPreferenceConstants;
+import com.tarmux.shared.activities.ReportActivity;
+import com.tarmux.shared.android.AndroidUtils;
+import com.tarmux.shared.crash.CrashHandler;
+import com.tarmux.shared.data.DataUtils;
+import com.tarmux.shared.errors.Error;
+import com.tarmux.shared.file.FileUtils;
+import com.tarmux.shared.logger.Logger;
+import com.tarmux.shared.markdown.MarkdownUtils;
+import com.tarmux.shared.models.ReportInfo;
+import com.tarmux.shared.notification.NotificationUtils;
+import com.tarmux.shared.termux.TermuxConstants;
+import com.tarmux.shared.termux.TermuxConstants.TERMUX_APP;
+import com.tarmux.shared.termux.TermuxUtils;
+import com.tarmux.shared.termux.models.UserAction;
+import com.tarmux.shared.termux.notification.TermuxNotificationUtils;
+import com.tarmux.shared.termux.settings.preferences.TermuxAppSharedPreferences;
+import com.tarmux.shared.termux.settings.preferences.TermuxPreferenceConstants;
 
 import java.nio.charset.Charset;
 
@@ -129,7 +129,7 @@ public class TermuxCrashUtils implements CrashHandler.CrashHandlerClient {
     /**
      * Notify the user of an app crash by reading the crash info from the crash log file
      * at {@link TermuxConstants#TERMUX_CRASH_LOG_FILE_PATH}. The crash log file would have been
-     * created by {@link com.termux.ai.shared.crash.CrashHandler}.
+     * created by {@link com.tarmux.shared.crash.CrashHandler}.
      *
      * If the crash log file exists and is not empty and
      * {@link TermuxPreferenceConstants.TERMUX_APP#KEY_CRASH_REPORT_NOTIFICATIONS_ENABLED} is

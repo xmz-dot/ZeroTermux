@@ -1,8 +1,8 @@
-package com.termux.ai.zerocore.workstation
+package com.tarmux.zerocore.workstation
 
 import com.google.gson.Gson
-import com.termux.ai.zerocore.bean.ZTUserBean
-import com.termux.ai.zerocore.ftp.utils.UserSetManage
+import com.tarmux.zerocore.bean.ZTUserBean
+import com.tarmux.zerocore.ftp.utils.UserSetManage
 
 object ZtWorkstationSettingsHelper {
 

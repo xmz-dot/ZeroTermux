@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.ftp.new_ftp.utils;
+package com.tarmux.zerocore.ftp.new_ftp.utils;
 
 import android.annotation.TargetApi;
 import android.content.Context;

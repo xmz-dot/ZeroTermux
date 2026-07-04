@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.editor
+package com.tarmux.zerocore.editor
 
 import android.os.Bundle
 import android.app.Activity
@@ -14,11 +14,11 @@ import com.example.xh_lib.utils.UUtils
 import com.gaurav.avnc.model.ServerProfile
 import com.gaurav.avnc.ui.vnc.EmbeddedVncFragment
 import com.gaurav.avnc.ui.vnc.FrameView
-import com.termux.ai.R
-import com.termux.ai.shared.view.KeyboardUtils
-import com.termux.ai.shared.termux.extrakeys.ExtraKeysView
-import com.termux.ai.zerocore.editor.EditorVncEnvironment.VNC_HOST
-import com.termux.ai.zerocore.editor.EditorVncEnvironment.VNC_PORT
+import com.tarmux.R
+import com.tarmux.shared.view.KeyboardUtils
+import com.tarmux.shared.termux.extrakeys.ExtraKeysView
+import com.tarmux.zerocore.editor.EditorVncEnvironment.VNC_HOST
+import com.tarmux.zerocore.editor.EditorVncEnvironment.VNC_PORT
 import io.github.rosemoe.sora.widget.CodeEditor
 
 class EditorVncPanel(

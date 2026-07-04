@@ -1,6 +1,6 @@
-package com.termux.ai.zerocore.ftp.new_ftp.config;
+package com.tarmux.zerocore.ftp.new_ftp.config;
 
-import com.termux.ai.zerocore.url.FileUrl;
+import com.tarmux.zerocore.url.FileUrl;
 
 public class FTP_CONFIG {
     public static String USERNAME = "ftp";

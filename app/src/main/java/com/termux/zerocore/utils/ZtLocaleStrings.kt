@@ -1,10 +1,10 @@
-package com.termux.ai.zerocore.utils
+package com.tarmux.zerocore.utils
 
 import android.content.Context
 import androidx.annotation.ArrayRes
 import androidx.annotation.StringRes
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.zerocore.config.ztcommand.navigation.ZtForegroundActivityHolder
+import com.tarmux.zerocore.config.ztcommand.navigation.ZtForegroundActivityHolder
 
 /**
  * 按当前界面语言取字符串。UUtils.getContext() 为 Application 上下文，语言可能固定为中文；

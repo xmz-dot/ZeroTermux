@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.utermux_windows.qemu.dialog;
+package com.tarmux.zerocore.utermux_windows.qemu.dialog;
 
 import android.content.Context;
 import android.os.Environment;
@@ -12,7 +12,7 @@ import androidx.annotation.NonNull;
 
 import com.blockchain.ub.util.custom.dialog.BaseDialogCentre;
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.R;
+import com.tarmux.R;
 
 import java.io.File;
 
@@ -61,7 +61,7 @@ public class EditTextDialog extends BaseDialogCentre {
             fileNameDialog.show();
             fileNameDialog.setOnSaveFileNameListener(name -> {
                 fileNameDialog.dismiss();
-                UUtils.setFileString(new File(com.termux.ai.zerocore.utils.XinhaoStoragePath.getWindowsConfigDir(mContext), name + ".txt"), edit_text.getText().toString());
+                UUtils.setFileString(new File(com.tarmux.zerocore.utils.XinhaoStoragePath.getWindowsConfigDir(mContext), name + ".txt"), edit_text.getText().toString());
             });
         });
         start.setOnClickListener(v -> {

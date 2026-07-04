@@ -1,6 +1,6 @@
-package com.termux.ai.zerocore.config.mainmenu.config;
+package com.tarmux.zerocore.config.mainmenu.config;
 
-import static com.termux.ai.zerocore.config.mainmenu.MainMenuConfig.CODE_ZT_FEATURES;
+import static com.tarmux.zerocore.config.mainmenu.MainMenuConfig.CODE_ZT_FEATURES;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,7 +10,7 @@ import android.view.Gravity;
 import android.view.View;
 import android.widget.TextView;
 
-import com.termux.ai.R;
+import com.tarmux.R;
 
 public class GitHubClickConfig extends BaseMenuClickConfig {
     @Override

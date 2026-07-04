@@ -1,10 +1,10 @@
-package com.termux.ai.zerocore.config.mainmenu.config
+package com.tarmux.zerocore.config.mainmenu.config
 
 import android.content.Context
 import android.graphics.drawable.Drawable
 import android.view.View
-import com.termux.ai.R
-import com.termux.ai.zerocore.ai.config.ZtBeautifyClearHelper
+import com.tarmux.R
+import com.tarmux.zerocore.ai.config.ZtBeautifyClearHelper
 
 class ClearStyleClickConfig: BaseMenuClickConfig() {
     override fun getIcon(context: Context?): Drawable? {

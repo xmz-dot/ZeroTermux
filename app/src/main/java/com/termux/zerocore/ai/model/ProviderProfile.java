@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.ai.model;
+package com.tarmux.zerocore.ai.model;
 
 public class ProviderProfile {
     private long id;

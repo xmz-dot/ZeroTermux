@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.utils
+package com.tarmux.zerocore.utils
 
 import android.content.res.AssetManager
 import com.hzy.lib7z.IExtractCallback

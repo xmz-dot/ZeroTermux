@@ -1,9 +1,9 @@
-package com.termux.ai.zerocore.ai.editor
+package com.tarmux.zerocore.ai.editor
 
 import android.content.Context
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.R
-import com.termux.ai.zerocore.dialog.SwitchDialog
+import com.tarmux.R
+import com.tarmux.zerocore.dialog.SwitchDialog
 
 object ZtEditorAiResetHelper {
 

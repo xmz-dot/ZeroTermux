@@ -1,4 +1,4 @@
-package com.termux.ai.shared.termux.shell.am;
+package com.tarmux.shared.termux.shell.am;
 
 import android.content.Context;
 
@@ -6,21 +6,21 @@ import androidx.annotation.Keep;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.termux.ai.shared.errors.Error;
-import com.termux.ai.shared.logger.Logger;
-import com.termux.ai.shared.net.socket.local.LocalClientSocket;
-import com.termux.ai.shared.net.socket.local.LocalServerSocket;
-import com.termux.ai.shared.net.socket.local.LocalSocketManager;
-import com.termux.ai.shared.net.socket.local.LocalSocketManagerClientBase;
-import com.termux.ai.shared.net.socket.local.LocalSocketRunConfig;
-import com.termux.ai.shared.shell.am.AmSocketServerRunConfig;
-import com.termux.ai.shared.shell.am.AmSocketServer;
-import com.termux.ai.shared.termux.TermuxConstants;
-import com.termux.ai.shared.termux.crash.TermuxCrashUtils;
-import com.termux.ai.shared.termux.plugins.TermuxPluginUtils;
-import com.termux.ai.shared.termux.settings.properties.TermuxAppSharedProperties;
-import com.termux.ai.shared.termux.settings.properties.TermuxPropertyConstants;
-import com.termux.ai.shared.termux.shell.command.environment.TermuxAppShellEnvironment;
+import com.tarmux.shared.errors.Error;
+import com.tarmux.shared.logger.Logger;
+import com.tarmux.shared.net.socket.local.LocalClientSocket;
+import com.tarmux.shared.net.socket.local.LocalServerSocket;
+import com.tarmux.shared.net.socket.local.LocalSocketManager;
+import com.tarmux.shared.net.socket.local.LocalSocketManagerClientBase;
+import com.tarmux.shared.net.socket.local.LocalSocketRunConfig;
+import com.tarmux.shared.shell.am.AmSocketServerRunConfig;
+import com.tarmux.shared.shell.am.AmSocketServer;
+import com.tarmux.shared.termux.TermuxConstants;
+import com.tarmux.shared.termux.crash.TermuxCrashUtils;
+import com.tarmux.shared.termux.plugins.TermuxPluginUtils;
+import com.tarmux.shared.termux.settings.properties.TermuxAppSharedProperties;
+import com.tarmux.shared.termux.settings.properties.TermuxPropertyConstants;
+import com.tarmux.shared.termux.shell.command.environment.TermuxAppShellEnvironment;
 
 /**
  * A wrapper for {@link AmSocketServer} for termux-app usage.

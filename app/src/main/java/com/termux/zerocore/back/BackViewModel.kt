@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.back
+package com.tarmux.zerocore.back
 
 import android.content.Context
 import android.view.View
@@ -10,21 +10,21 @@ import com.example.xh_lib.utils.UUtils
 import com.hjq.permissions.OnPermissionCallback
 import com.hjq.permissions.Permission
 import com.hjq.permissions.XXPermissions
-import com.termux.ai.R
-import com.termux.ai.app.TermuxActivity
-import com.termux.ai.app.TermuxInstaller
-import com.termux.ai.zerocore.back.adapter.BackupAdapter
-import com.termux.ai.zerocore.back.constant.BackRestoreConstant
-import com.termux.ai.zerocore.back.listener.BackupClickListener
-import com.termux.ai.zerocore.back.listener.BackupStoreDialogCloseListener
-import com.termux.ai.zerocore.back.listener.CreateConversationListener
-import com.termux.ai.zerocore.bean.ItemMenuBean
-import com.termux.ai.zerocore.data.CommendShellData
-import com.termux.ai.zerocore.dialog.LoadingDialog
-import com.termux.ai.zerocore.dialog.SwitchDialog
-import com.termux.ai.zerocore.ftp.utils.UserSetManage
-import com.termux.ai.zerocore.utils.FileIOUtils
-import com.termux.ai.zerocore.utils.WindowsUtils
+import com.tarmux.R
+import com.tarmux.app.TermuxActivity
+import com.tarmux.app.TermuxInstaller
+import com.tarmux.zerocore.back.adapter.BackupAdapter
+import com.tarmux.zerocore.back.constant.BackRestoreConstant
+import com.tarmux.zerocore.back.listener.BackupClickListener
+import com.tarmux.zerocore.back.listener.BackupStoreDialogCloseListener
+import com.tarmux.zerocore.back.listener.CreateConversationListener
+import com.tarmux.zerocore.bean.ItemMenuBean
+import com.tarmux.zerocore.data.CommendShellData
+import com.tarmux.zerocore.dialog.LoadingDialog
+import com.tarmux.zerocore.dialog.SwitchDialog
+import com.tarmux.zerocore.ftp.utils.UserSetManage
+import com.tarmux.zerocore.utils.FileIOUtils
+import com.tarmux.zerocore.utils.WindowsUtils
 import kotlinx.coroutines.*
 
 class BackViewModel : BackupClickListener {
@@ -163,7 +163,7 @@ class BackViewModel : BackupClickListener {
 
     private fun sendTextToTerminal(text: String) {
         LogUtils.d(TAG, "sendTextToTerminal text to:$text")
-        com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(text)
+        com.tarmux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(text)
 
     }
 

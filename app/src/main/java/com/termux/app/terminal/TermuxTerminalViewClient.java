@@ -1,4 +1,4 @@
-package com.termux.ai.app.terminal;
+package com.tarmux.app.terminal;
 
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
@@ -18,32 +18,32 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.termux.ai.R;
-import com.termux.ai.app.TermuxActivity;
-import com.termux.ai.shared.file.FileUtils;
-import com.termux.ai.shared.interact.MessageDialogUtils;
-import com.termux.ai.shared.interact.ShareUtils;
-import com.termux.ai.shared.shell.ShellUtils;
-import com.termux.ai.shared.termux.TermuxBootstrap;
-import com.termux.ai.shared.termux.terminal.TermuxTerminalViewClientBase;
-import com.termux.ai.shared.termux.extrakeys.SpecialButton;
-import com.termux.ai.shared.android.AndroidUtils;
-import com.termux.ai.shared.termux.TermuxConstants;
-import com.termux.ai.shared.activities.ReportActivity;
-import com.termux.ai.shared.models.ReportInfo;
-import com.termux.ai.app.models.UserAction;
-import com.termux.ai.app.terminal.io.KeyboardShortcut;
-import com.termux.ai.shared.termux.settings.properties.TermuxPropertyConstants;
-import com.termux.ai.shared.data.DataUtils;
-import com.termux.ai.shared.logger.Logger;
-import com.termux.ai.shared.markdown.MarkdownUtils;
-import com.termux.ai.shared.termux.TermuxUtils;
-import com.termux.ai.shared.termux.data.TermuxUrlUtils;
-import com.termux.ai.shared.view.KeyboardUtils;
-import com.termux.ai.shared.view.ViewUtils;
-import com.termux.ai.terminal.KeyHandler;
-import com.termux.ai.terminal.TerminalEmulator;
-import com.termux.ai.terminal.TerminalSession;
+import com.tarmux.R;
+import com.tarmux.app.TermuxActivity;
+import com.tarmux.shared.file.FileUtils;
+import com.tarmux.shared.interact.MessageDialogUtils;
+import com.tarmux.shared.interact.ShareUtils;
+import com.tarmux.shared.shell.ShellUtils;
+import com.tarmux.shared.termux.TermuxBootstrap;
+import com.tarmux.shared.termux.terminal.TermuxTerminalViewClientBase;
+import com.tarmux.shared.termux.extrakeys.SpecialButton;
+import com.tarmux.shared.android.AndroidUtils;
+import com.tarmux.shared.termux.TermuxConstants;
+import com.tarmux.shared.activities.ReportActivity;
+import com.tarmux.shared.models.ReportInfo;
+import com.tarmux.app.models.UserAction;
+import com.tarmux.app.terminal.io.KeyboardShortcut;
+import com.tarmux.shared.termux.settings.properties.TermuxPropertyConstants;
+import com.tarmux.shared.data.DataUtils;
+import com.tarmux.shared.logger.Logger;
+import com.tarmux.shared.markdown.MarkdownUtils;
+import com.tarmux.shared.termux.TermuxUtils;
+import com.tarmux.shared.termux.data.TermuxUrlUtils;
+import com.tarmux.shared.view.KeyboardUtils;
+import com.tarmux.shared.view.ViewUtils;
+import com.tarmux.terminal.KeyHandler;
+import com.tarmux.terminal.TerminalEmulator;
+import com.tarmux.terminal.TerminalSession;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -153,7 +153,7 @@ public class TermuxTerminalViewClient extends TermuxTerminalViewClientBase {
     }
 
     /**
-     * Should be called when {@link com.termux.ai.view.TerminalView#mEmulator} is set
+     * Should be called when {@link com.tarmux.view.TerminalView#mEmulator} is set
      */
     @Override
     public void onEmulatorSet() {
@@ -763,8 +763,8 @@ public class TermuxTerminalViewClient extends TermuxTerminalViewClientBase {
 
         MessageDialogUtils.showMessage(mActivity, TermuxConstants.TERMUX_APP_NAME + " Report Issue",
             mActivity.getString(R.string.msg_add_termux_debug_info),
-            mActivity.getString(com.termux.ai.shared.R.string.action_yes), (dialog, which) -> reportIssueFromTranscript(transcriptText, true),
-            mActivity.getString(com.termux.ai.shared.R.string.action_no), (dialog, which) -> reportIssueFromTranscript(transcriptText, false),
+            mActivity.getString(com.tarmux.shared.R.string.action_yes), (dialog, which) -> reportIssueFromTranscript(transcriptText, true),
+            mActivity.getString(com.tarmux.shared.R.string.action_no), (dialog, which) -> reportIssueFromTranscript(transcriptText, false),
             null);
     }
 

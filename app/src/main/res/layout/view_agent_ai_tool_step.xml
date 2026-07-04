@@ -16,7 +16,7 @@
         android:textColor="@color/md_grey_500"
         android:textSize="12sp" />
 
-    <com.termux.ai.zerocore.ai.agent.ZtAgentSelectableTextView
+    <com.tarmux.zerocore.ai.agent.ZtAgentSelectableTextView
         android:id="@+id/agent_tool_step_content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

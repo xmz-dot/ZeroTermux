@@ -1,9 +1,9 @@
-package com.termux.ai.shared.net.socket.local;
+package com.tarmux.shared.net.socket.local;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.termux.ai.shared.errors.Error;
+import com.tarmux.shared.errors.Error;
 
 /**
  * The interface for the {@link LocalSocketManager} for callbacks to manager client/server starter.

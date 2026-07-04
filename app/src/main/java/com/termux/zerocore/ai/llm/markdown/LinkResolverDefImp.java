@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.ai.llm.markdown;
+package com.tarmux.zerocore.ai.llm.markdown;
 
 import android.content.ActivityNotFoundException;
 import android.content.Context;

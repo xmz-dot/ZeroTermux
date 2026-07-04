@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.dialog;
+package com.tarmux.zerocore.dialog;
 
 import android.content.Context;
 import android.os.Environment;
@@ -9,12 +9,12 @@ import androidx.cardview.widget.CardView;
 
 import com.example.xh_lib.utils.UUtils;
 import com.google.gson.Gson;
-import com.termux.ai.R;
-import com.termux.ai.zerocore.bean.MinLBean;
-import com.termux.ai.zerocore.ftp.utils.UserSetManage;
-import com.termux.ai.zerocore.url.FileUrl;
-import com.termux.ai.zerocore.utils.FileIOUtils;
-import com.termux.ai.zerocore.utils.SaveData;
+import com.tarmux.R;
+import com.tarmux.zerocore.bean.MinLBean;
+import com.tarmux.zerocore.ftp.utils.UserSetManage;
+import com.tarmux.zerocore.url.FileUrl;
+import com.tarmux.zerocore.utils.FileIOUtils;
+import com.tarmux.zerocore.utils.SaveData;
 
 import java.io.File;
 
@@ -97,7 +97,7 @@ public class MinglingDaoruDaoChuDialog extends BaseDialogCentre {
     }
 
     private File getCommandPathFile() {
-        return com.termux.ai.zerocore.utils.XinhaoStoragePath.getCommandDir(mContext);
+        return com.tarmux.zerocore.utils.XinhaoStoragePath.getCommandDir(mContext);
     }
 
     @Override

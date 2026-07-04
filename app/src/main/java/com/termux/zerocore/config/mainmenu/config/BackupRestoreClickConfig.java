@@ -1,14 +1,14 @@
-package com.termux.ai.zerocore.config.mainmenu.config;
+package com.tarmux.zerocore.config.mainmenu.config;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.view.View;
 
-import com.termux.ai.R;
-import com.termux.ai.app.TermuxActivity;
-import com.termux.ai.zerocore.back.BackRestoreDialog;
-import com.termux.ai.zerocore.back.listener.CreateConversationListener;
-import com.termux.ai.zerocore.config.mainmenu.MainMenuConfig;
+import com.tarmux.R;
+import com.tarmux.app.TermuxActivity;
+import com.tarmux.zerocore.back.BackRestoreDialog;
+import com.tarmux.zerocore.back.listener.CreateConversationListener;
+import com.tarmux.zerocore.config.mainmenu.MainMenuConfig;
 
 // 备份/ 恢复
 public class BackupRestoreClickConfig extends BaseMenuClickConfig {

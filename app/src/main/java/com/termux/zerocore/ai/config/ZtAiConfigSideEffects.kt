@@ -1,13 +1,13 @@
-package com.termux.ai.zerocore.ai.config
+package com.tarmux.zerocore.ai.config
 
 import android.content.Intent
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.app.TermuxActivity
-import com.termux.ai.zerocore.bean.ZTUserBean
-import com.termux.ai.zerocore.config.mainmenu.MainMenuPackageManager
-import com.termux.ai.zerocore.config.ztcommand.ZTSocketService
-import com.termux.ai.zerocore.config.ztcommand.navigation.ZtForegroundActivityHolder
+import com.tarmux.app.TermuxActivity
+import com.tarmux.zerocore.bean.ZTUserBean
+import com.tarmux.zerocore.config.mainmenu.MainMenuPackageManager
+import com.tarmux.zerocore.config.ztcommand.ZTSocketService
+import com.tarmux.zerocore.config.ztcommand.navigation.ZtForegroundActivityHolder
 
 /** 配置写入后的即时副作用（尽量与 UI 设置页行为一致）。 */
 object ZtAiConfigSideEffects {

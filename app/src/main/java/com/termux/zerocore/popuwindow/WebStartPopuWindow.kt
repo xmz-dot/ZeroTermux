@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.popuwindow
+package com.tarmux.zerocore.popuwindow
 
 
 import android.app.Activity
@@ -15,10 +15,10 @@ import com.github.iielse.switchbutton.SwitchView
 import com.hjq.permissions.OnPermissionCallback
 import com.hjq.permissions.Permission
 import com.hjq.permissions.XXPermissions
-import com.termux.ai.R
-import com.termux.ai.zerocore.dialog.LoadingDialog
-import com.termux.ai.zerocore.dialog.SwitchDialog
-import com.termux.ai.zerocore.utils.XinhaoStoragePath
+import com.tarmux.R
+import com.tarmux.zerocore.dialog.LoadingDialog
+import com.tarmux.zerocore.dialog.SwitchDialog
+import com.tarmux.zerocore.utils.XinhaoStoragePath
 import java.io.File
 import java.io.InputStream
 

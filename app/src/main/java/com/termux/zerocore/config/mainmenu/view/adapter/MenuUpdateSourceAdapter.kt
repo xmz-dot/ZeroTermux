@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.config.mainmenu.view.adapter
+package com.tarmux.zerocore.config.mainmenu.view.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -8,9 +8,9 @@ import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.R
-import com.termux.ai.zerocore.config.mainmenu.MenuUpdateSource
-import com.termux.ai.zerocore.config.mainmenu.MenuUpdateSourceManager
+import com.tarmux.R
+import com.tarmux.zerocore.config.mainmenu.MenuUpdateSource
+import com.tarmux.zerocore.config.mainmenu.MenuUpdateSourceManager
 
 class MenuUpdateSourceAdapter(
     private var items: List<MenuUpdateSource>,

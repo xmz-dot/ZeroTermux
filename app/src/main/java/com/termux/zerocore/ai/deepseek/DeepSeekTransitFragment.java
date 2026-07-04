@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.ai.deepseek;
+package com.tarmux.zerocore.ai.deepseek;
 
 import android.content.Context;
 import android.content.Intent;
@@ -14,7 +14,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.example.xh_lib.utils.LogUtils;
-import com.termux.ai.R;
+import com.tarmux.R;
 
 public class DeepSeekTransitFragment extends Fragment {
     private static final String TAG = DeepSeekTransitFragment.class.getSimpleName();

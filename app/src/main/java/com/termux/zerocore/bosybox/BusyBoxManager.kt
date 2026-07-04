@@ -1,14 +1,14 @@
-package com.termux.ai.zerocore.bosybox
+package com.tarmux.zerocore.bosybox
 
 import android.content.Context
 import android.system.Os
 import android.util.Log
 import com.example.xh_lib.utils.LogUtils
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.app.TermuxInstaller
-import com.termux.ai.zerocore.shell.ExeCommand
-import com.termux.ai.zerocore.url.FileUrl
-import com.termux.ai.zerocore.utils.Z7ExtracatUtils
+import com.tarmux.app.TermuxInstaller
+import com.tarmux.zerocore.shell.ExeCommand
+import com.tarmux.zerocore.url.FileUrl
+import com.tarmux.zerocore.utils.Z7ExtracatUtils
 import com.zp.z_file.zerotermux.StartTarGzListener
 import com.zp.z_file.zerotermux.ZTConfig
 import java.io.BufferedReader

@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.editor
+package com.tarmux.zerocore.editor
 
 import android.content.Context
 import android.text.InputType
@@ -7,7 +7,7 @@ import android.view.MotionEvent
 import android.view.View
 import android.view.inputmethod.EditorInfo
 import android.view.inputmethod.InputConnection
-import com.termux.ai.view.TerminalView
+import com.tarmux.view.TerminalView
 
 class EditorTerminalInputView @JvmOverloads constructor(
     context: Context,

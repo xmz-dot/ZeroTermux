@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.termux.ai"
+    package="com.tarmux"
     android:installLocation="internalOnly"
     android:sharedUserId="${TERMUX_PACKAGE_NAME}"
     android:sharedUserLabel="@string/shared_user_label">
@@ -167,7 +167,7 @@
             android:theme="@style/Theme.AppCompat.NoActionBar"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
-                <action android:name="com.termux.ai.zerocore.activity.edittextactivity" />
+                <action android:name="com.tarmux.zerocore.activity.edittextactivity" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>

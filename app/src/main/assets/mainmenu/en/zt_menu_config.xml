@@ -2,7 +2,7 @@
 <zt-menu>
     <!--####################### Instructions ########################
     File Path:
-    /data/data/com.termux.ai/files/home/ZtInfo/main_menu_path.xml
+    /data/data/com.tarmux/files/home/ZtInfo/main_menu_path.xml
     This file is the configuration file for the ZT left-hand menu bar. It can be modified freely (pay attention to the format; errors may prevent the left bar from displaying correctly).
     To restore defaults, please use the command:
     zt menu reset
@@ -19,7 +19,7 @@
         Example: name="Switch Source"
         ####################### click ########################
         1.click: Calls a JAVA class internal to ZT.
-        Example: click="java:com.termux.ai.zerocore.config.mainmenu.config.SwitchSourceClickConfig"
+        Example: click="java:com.tarmux.zerocore.config.mainmenu.config.SwitchSourceClickConfig"
         2.Or jump to a web page:
         click="jumpUrl:www.baidu.com"
         3.Or execute a shell command:
@@ -30,7 +30,7 @@
         Note: This attribute only takes effect if click does NOT start with 'java:'.
         1.icon: The icon. 'application' prefix calls ZT's internal resources, or an absolute path can be provided.
         Example:(
-        Absolute path: icon="imgPath:/data/data/com.termux.ai/files/home/ZTinfo/1.png")
+        Absolute path: icon="imgPath:/data/data/com.tarmux/files/home/ZTinfo/1.png")
         ####################### shell ########################
     </group>-->
 
@@ -39,8 +39,8 @@
     <group name="Example click event (this grouping can be deleted in the profile)">
         <item tag="customizeTheLeftSidebar"
             name="EditMenu"
-            icon="imgPath:/data/data/com.termux.ai/files/home/ZtInfo/edit_menu.png"
-            click="ztEditText:/data/data/com.termux.ai/files/home/ZtInfo/main_menu_path.xml" />
+            icon="imgPath:/data/data/com.tarmux/files/home/ZtInfo/edit_menu.png"
+            click="ztEditText:/data/data/com.tarmux/files/home/ZtInfo/main_menu_path.xml" />
         <!--dialog The property can only be effective for click for ztShell
        dialogConfirm for false It Is Not Prompted
         -->
@@ -63,15 +63,15 @@
         <item tag="JumpToInternalActivities"
             name="JumpSettings"
             icon=""
-            packageName="com.termux.ai"
+            packageName="com.tarmux"
             intentData=""
-            click="startActivity:com.termux.ai.zerocore.settings.ZtSettingsActivity" />
+            click="startActivity:com.tarmux.zerocore.settings.ZtSettingsActivity" />
         <!--intentData property values, currently only support String strings
             key@@value-->
         <item tag="JumpAction"
             name="JumpToAction"
             icon=""
-            intentData="data@@com.termux.ai"
+            intentData="data@@com.tarmux"
             packageName="com.android.settings"
             click="actionActivity:android.settings.WIRELESS_SETTINGS" />
         <!--List
@@ -108,155 +108,155 @@
         <!--Modify your new name in the name tag-->
         <item tag="Switch Source"
             name="Switch Source"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.SwitchSourceClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.SwitchSourceClickConfig" />
         <item tag="Container Switch"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.ContainerSwitchClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.ContainerSwitchClickConfig" />
         <item tag="Backup/Restore"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.BackupRestoreClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.BackupRestoreClickConfig" />
         <item tag="MOE All-in-One"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.MoeClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.MoeClickConfig" />
         <item tag="Haircut Version"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.ReleaseLinuxVersionClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.ReleaseLinuxVersionClickConfig" />
         <item tag="QEMU"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.QEMUClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.QEMUClickConfig" />
         <item tag="ZT Settings"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.ZTSettingsClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.ZTSettingsClickConfig" />
     </group>
 
     <group name="Create Project">
         <item tag="C"
             name="C"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.CreateCProjectClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.CreateCProjectClickConfig" />
         <item tag="JAVA"
             name="JAVA"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.CreateJavaProjectClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.CreateJavaProjectClickConfig" />
         <item tag="PYTHON"
             name="PYTHON"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.CreatePythonProjectClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.CreatePythonProjectClickConfig" />
         <item tag="PHP"
             name="PHP"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.CreatePhpProjectClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.CreatePhpProjectClickConfig" />
         <item tag="NPM"
             name="NPM"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.CreateNpmProjectClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.CreateNpmProjectClickConfig" />
         <item tag="Open Project"
             name="Open Project"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.OpenProjectClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.OpenProjectClickConfig" />
     </group>
 
     <group name="X11 Functions">
         <item tag="X11 Settings"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.X11SettingsClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.X11SettingsClickConfig" />
         <item tag="Show Terminal"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.ShowCommandClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.ShowCommandClickConfig" />
         <item tag="Hide Terminal"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.HideCommandClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.HideCommandClickConfig" />
         <item tag="X11 Environment"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.X11EnvironmentClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.X11EnvironmentClickConfig" />
         <item tag="Fix Environment Error"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.FixEnvironmentalErrorClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.FixEnvironmentalErrorClickConfig" />
         <item tag="Install X11"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.InstallX11ClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.InstallX11ClickConfig" />
         <item tag="Show Keyboard"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.ShowX11KeyboardClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.ShowX11KeyboardClickConfig" />
         <item tag="Hide Keyboard"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.HideX11KeyboardClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.HideX11KeyboardClickConfig" />
         <item tag="VNC"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.VNCClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.VNCClickConfig" />
     </group>
 
     <group name="Beautification/UI Functions">
         <item tag="Floating Window"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.FloatWindowsClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.FloatWindowsClickConfig" />
         <item tag="Beautification Settings"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.BeautificationSettingsClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.BeautificationSettingsClickConfig" />
         <item tag="Font Settings"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.FontSettingsClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.FontSettingsClickConfig" />
         <item tag="Full Screen Mode"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.FullScreenClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.FullScreenClickConfig" />
         <item tag="Snowflake (Modifying this name will disable display status)"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.SnowflakeClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.SnowflakeClickConfig" />
         <item tag="Video Background"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.WebDataClickConfigImp" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.WebDataClickConfigImp" />
         <item tag="Particle Animation"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.ParticleClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.ParticleClickConfig" />
         <item tag="Clear Beautification"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.ClearStyleClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.ClearStyleClickConfig" />
     </group>
 
     <group name="Requires Plugin/Engine (Restart APP after installation)">
         <item tag="Built-in Keyboard"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.KeyDataClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.KeyDataClickConfig" />
         <item tag="Network Linux Directory"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.FileBrowserClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.FileBrowserClickConfig" />
         <item tag="x86 Alpine"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.X86AlpineDataClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.X86AlpineDataClickConfig" />
     </group>
 
     <group name="ROOT Functions">
         <item tag="Network ADB"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.OpenTurnNetworkAdbClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.OpenTurnNetworkAdbClickConfig" />
         <item tag="Close ADB"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.CloseTurnNetworkAdbClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.CloseTurnNetworkAdbClickConfig" />
         <item tag="Docker Check"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.DockerCheckClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.DockerCheckClickConfig" />
     </group>
 
     <group name="Online Functions">
         <item tag="Online Scripts"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.OnLineCommandClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.OnLineCommandClickConfig" />
         <item tag="Zero Forum"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.ZeroBBsClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.ZeroBBsClickConfig" />
         <item tag="Download Station"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.DownLoadClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.DownLoadClickConfig" />
         <item tag="Public Repository"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.PublicWarehouseClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.PublicWarehouseClickConfig" />
     </group>
 
     <group name="Configure Terminal">
         <item tag="SHELL Run"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.AdbShellRunClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.AdbShellRunClickConfig" />
         <item tag="Bottom Keyboard"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.ZTCommandKeyClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.ZTCommandKeyClickConfig" />
         <item tag="Default Startup File"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.DefBashClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.DefBashClickConfig" />
         <item tag="Edit Startup File"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.ChangBashClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.ChangBashClickConfig" />
         <item tag="Modify Welcome Message"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.ChangStartMsgClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.ChangStartMsgClickConfig" />
         <item tag="Command Definition"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.CommandDefinitionCLickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.CommandDefinitionCLickConfig" />
         <item tag="Boot Startup (Modifying this name will disable display status)"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.BootCommandClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.BootCommandClickConfig" />
     </group>
 
     <group name="ZT Functions">
         <item tag="Install Module"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.InstallModuleClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.InstallModuleClickConfig" />
         <item tag="FTP Service"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.FtpDataClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.FtpDataClickConfig" />
         <item tag="Common Shortcuts"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.CommonlyUsedSoftLinksDataClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.CommonlyUsedSoftLinksDataClickConfig" />
         <item tag="Custom Shortcuts"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.MyUsedSoftLinksDataClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.MyUsedSoftLinksDataClickConfig" />
         <item tag="Uninstall"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.UnInstallClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.UnInstallClickConfig" />
         <item tag="ADB Remote Connection"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.RemoteConnectionClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.RemoteConnectionClickConfig" />
         <item tag="Browser Terminal"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.WebDataClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.WebDataClickConfig" />
         <item tag="SMS/Call"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.PhoneSmsClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.PhoneSmsClickConfig" />
         <item tag="Scheduled Tasks"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.ScheduledTaskClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.ScheduledTaskClickConfig" />
         <item tag="Open Directory"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.OpenPathClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.OpenPathClickConfig" />
         <item tag="Create Data Package Info"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.DataMessageClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.DataMessageClickConfig" />
         <item tag="Language Switch"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.LanguageClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.LanguageClickConfig" />
         <item tag="Open Source Address"
-            click="java:com.termux.ai.zerocore.config.mainmenu.config.GitHubClickConfig" />
+            click="java:com.tarmux.zerocore.config.mainmenu.config.GitHubClickConfig" />
     </group>
 
 </zt-menu>

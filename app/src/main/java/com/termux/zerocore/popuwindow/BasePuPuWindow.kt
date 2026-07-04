@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.popuwindow
+package com.tarmux.zerocore.popuwindow
 
 
 import android.app.Activity

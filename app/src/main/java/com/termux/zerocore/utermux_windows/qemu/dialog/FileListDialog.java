@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.utermux_windows.qemu.dialog;
+package com.tarmux.zerocore.utermux_windows.qemu.dialog;
 
 import android.content.Context;
 import android.os.Environment;
@@ -16,7 +16,7 @@ import com.blockchain.ub.util.custom.dialog.BaseDialogCentre;
 import com.example.xh_lib.base.ListBaseAdapter;
 import com.example.xh_lib.base.ViewHolder;
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.R;
+import com.tarmux.R;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -79,7 +79,7 @@ public class FileListDialog extends BaseDialogCentre {
 
     @Override
     public void initViewDialog(View mView) {
-        file = com.termux.ai.zerocore.utils.XinhaoStoragePath.getWindowsDir(mContext);
+        file = com.tarmux.zerocore.utils.XinhaoStoragePath.getWindowsDir(mContext);
         list_view = mView.findViewById(R.id.list_view);
         title = mView.findViewById(R.id.title);
         tv_empty = mView.findViewById(R.id.tv_empty);

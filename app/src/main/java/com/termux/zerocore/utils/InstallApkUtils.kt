@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.utils
+package com.tarmux.zerocore.utils
 
 import java.io.InputStream
 

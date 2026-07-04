@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.dialog
+package com.tarmux.zerocore.dialog
 
 import android.content.Context
 import android.view.View
@@ -11,15 +11,15 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.xh_lib.utils.LogUtils
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.R
-import com.termux.ai.zerocore.back.bean.DataBean
-import com.termux.ai.zerocore.back.listener.RestoreFileDataListener
-import com.termux.ai.zerocore.back.listener.RestoreRefreshFileListener
-import com.termux.ai.zerocore.dialog.adapter.ModuleAdapter
-import com.termux.ai.zerocore.ftp.utils.UserSetManage
-import com.termux.ai.zerocore.utils.FileIOUtils
-import com.termux.ai.zerocore.utils.ModuleInstallUtils
-import com.termux.ai.zerocore.utils.Z7ExtracatUtils
+import com.tarmux.R
+import com.tarmux.zerocore.back.bean.DataBean
+import com.tarmux.zerocore.back.listener.RestoreFileDataListener
+import com.tarmux.zerocore.back.listener.RestoreRefreshFileListener
+import com.tarmux.zerocore.dialog.adapter.ModuleAdapter
+import com.tarmux.zerocore.ftp.utils.UserSetManage
+import com.tarmux.zerocore.utils.FileIOUtils
+import com.tarmux.zerocore.utils.ModuleInstallUtils
+import com.tarmux.zerocore.utils.Z7ExtracatUtils
 import kotlinx.coroutines.*
 import kotlin.coroutines.resume
 import kotlin.coroutines.resumeWithException
@@ -76,7 +76,7 @@ class InstallModuleDialog: BaseDialogCentre {
     public fun initDataAndAdapter() {
         val moduleFiles = FileIOUtils.getModuleFiles()
         mInstallEmpty?.text = UUtils.getString(
-            com.termux.ai.zerocore.utils.XinhaoStoragePath.getModuleEmptyMessageRes()
+            com.tarmux.zerocore.utils.XinhaoStoragePath.getModuleEmptyMessageRes()
         )
         if (moduleFiles == null || moduleFiles.isEmpty()) {
             mInstallEmpty?.visibility = View.VISIBLE

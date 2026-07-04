@@ -1,7 +1,7 @@
-package com.termux.ai.zerocore.ai.deepseek.utils;
+package com.tarmux.zerocore.ai.deepseek.utils;
 
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.R;
+import com.tarmux.R;
 
 public class CodeStringUtils {
     public static String getCodeString(int code) {

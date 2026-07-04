@@ -1,13 +1,13 @@
-package com.termux.ai.zerocore.ai.config
+package com.tarmux.zerocore.ai.config
 
 import android.util.Log
 import com.example.xh_lib.utils.SaveData
 import com.google.gson.Gson
-import com.termux.ai.zerocore.command.ZtCommandDefHelper
-import com.termux.ai.zerocore.ai.agent.ZtTerminalAiSnapshot
-import com.termux.ai.zerocore.bean.ZTUserBean
-import com.termux.ai.zerocore.config.ztcommand.navigation.ZtNavigationHelper
-import com.termux.ai.zerocore.ftp.utils.UserSetManage
+import com.tarmux.zerocore.command.ZtCommandDefHelper
+import com.tarmux.zerocore.ai.agent.ZtTerminalAiSnapshot
+import com.tarmux.zerocore.bean.ZTUserBean
+import com.tarmux.zerocore.config.ztcommand.navigation.ZtNavigationHelper
+import com.tarmux.zerocore.ftp.utils.UserSetManage
 import com.zp.z_file.content.TAG
 import org.json.JSONArray
 import org.json.JSONObject

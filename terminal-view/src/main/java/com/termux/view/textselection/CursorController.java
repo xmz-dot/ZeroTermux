@@ -1,9 +1,9 @@
-package com.termux.ai.view.textselection;
+package com.tarmux.view.textselection;
 
 import android.view.MotionEvent;
 import android.view.ViewTreeObserver;
 
-import com.termux.ai.view.TerminalView;
+import com.tarmux.view.TerminalView;
 
 /**
  * A CursorController instance can be used to control cursors in the text.

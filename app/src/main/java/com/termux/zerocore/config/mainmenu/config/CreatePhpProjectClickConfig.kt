@@ -1,7 +1,7 @@
-package com.termux.ai.zerocore.config.mainmenu.config
+package com.tarmux.zerocore.config.mainmenu.config
 
-import com.termux.ai.R
-import com.termux.ai.zerocore.editor.EditorHelloProjectType
+import com.tarmux.R
+import com.tarmux.zerocore.editor.EditorHelloProjectType
 
 class CreatePhpProjectClickConfig : CreateEditorProjectClickConfig(
     EditorHelloProjectType.PHP,

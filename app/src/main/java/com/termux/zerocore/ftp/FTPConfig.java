@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.ftp;
+package com.tarmux.zerocore.ftp;
 
 import android.os.Environment;
 

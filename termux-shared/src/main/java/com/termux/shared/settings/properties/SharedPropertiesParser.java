@@ -1,4 +1,4 @@
-package com.termux.ai.shared.settings.properties;
+package com.tarmux.shared.settings.properties;
 
 import android.content.Context;
 

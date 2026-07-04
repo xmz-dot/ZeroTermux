@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.scrcpy;
+package com.tarmux.zerocore.scrcpy;
 
 import android.app.Service;
 import android.content.Intent;
@@ -8,10 +8,10 @@ import android.view.MotionEvent;
 import android.view.Surface;
 
 
-import com.termux.ai.zerocore.scrcpy.decoder.VideoDecoder;
-import com.termux.ai.zerocore.scrcpy.model.ByteUtils;
-import com.termux.ai.zerocore.scrcpy.model.MediaPacket;
-import com.termux.ai.zerocore.scrcpy.model.VideoPacket;
+import com.tarmux.zerocore.scrcpy.decoder.VideoDecoder;
+import com.tarmux.zerocore.scrcpy.model.ByteUtils;
+import com.tarmux.zerocore.scrcpy.model.MediaPacket;
+import com.tarmux.zerocore.scrcpy.model.VideoPacket;
 
 
 import java.io.DataInputStream;

@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.dialog;
+package com.tarmux.zerocore.dialog;
 
 import android.content.Context;
 import android.os.Environment;
@@ -11,12 +11,12 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.R;
-import com.termux.ai.zerocore.activity.adapter.ListBaseAdapter;
-import com.termux.ai.zerocore.activity.view_holder.ViewHolder;
-import com.termux.ai.zerocore.ftp.utils.UserSetManage;
-import com.termux.ai.zerocore.url.FileUrl;
-import com.termux.ai.zerocore.utils.FileIOUtils;
+import com.tarmux.R;
+import com.tarmux.zerocore.activity.adapter.ListBaseAdapter;
+import com.tarmux.zerocore.activity.view_holder.ViewHolder;
+import com.tarmux.zerocore.ftp.utils.UserSetManage;
+import com.tarmux.zerocore.url.FileUrl;
+import com.tarmux.zerocore.utils.FileIOUtils;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -126,7 +126,7 @@ public class FileListConfigDialog extends BaseDialogCentre {
     }
 
     private File getCommandPathFile() {
-        return com.termux.ai.zerocore.utils.XinhaoStoragePath.getCommandDir(mContext);
+        return com.tarmux.zerocore.utils.XinhaoStoragePath.getCommandDir(mContext);
     }
     @Override
     int getContentView() {

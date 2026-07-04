@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.config.mainmenu.config
+package com.tarmux.zerocore.config.mainmenu.config
 
 import android.content.Context
 import android.content.Intent
@@ -10,10 +10,10 @@ import android.text.TextUtils
 import android.view.View
 import com.example.xh_lib.utils.LogUtils
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.R
-import com.termux.ai.app.TermuxActivity
-import com.termux.ai.zerocore.url.FileUrl
-import com.termux.ai.zerocore.zero.engine.ZeroCoreManage
+import com.tarmux.R
+import com.tarmux.app.TermuxActivity
+import com.tarmux.zerocore.url.FileUrl
+import com.tarmux.zerocore.zero.engine.ZeroCoreManage
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
@@ -56,7 +56,7 @@ class FileBrowserClickConfig : BaseMenuClickConfig(){
                         UUtils.setFileString(smsBashrcFile,fileString)
                     }
                     if (msg?.obj != null) {
-                        com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(msg!!.obj as String?)
+                        com.tarmux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(msg!!.obj as String?)
                     }
                 }
             }

@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.settings
+package com.tarmux.zerocore.settings
 
 import android.Manifest
 import android.content.Intent
@@ -16,17 +16,17 @@ import androidx.cardview.widget.CardView
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.R
-import com.termux.ai.zerocore.dialog.KeyWordFunDialog
+import com.tarmux.R
+import com.tarmux.zerocore.dialog.KeyWordFunDialog
 import com.hjq.permissions.OnPermissionCallback
 import com.hjq.permissions.XXPermissions
-import com.termux.ai.zerocore.aidebug.ZtAiDebugManager
-import com.termux.ai.zerocore.aidebug.ZtAiDebugMatchCodeHelper
-import com.termux.ai.zerocore.aidebug.ZtAiDebugPermissionHelper
-import com.termux.ai.zerocore.ftp.utils.UserSetManage
-import com.termux.ai.zerocore.url.FileUrl
-import com.termux.ai.zerocore.utils.FileHttpUtils.Companion.get
-import com.termux.ai.zerocore.workstation.ZtWorkstationSettingsActivity
+import com.tarmux.zerocore.aidebug.ZtAiDebugManager
+import com.tarmux.zerocore.aidebug.ZtAiDebugMatchCodeHelper
+import com.tarmux.zerocore.aidebug.ZtAiDebugPermissionHelper
+import com.tarmux.zerocore.ftp.utils.UserSetManage
+import com.tarmux.zerocore.url.FileUrl
+import com.tarmux.zerocore.utils.FileHttpUtils.Companion.get
+import com.tarmux.zerocore.workstation.ZtWorkstationSettingsActivity
 import com.topjohnwu.superuser.Shell
 import com.zp.z_file.util.LogUtils
 import java.io.File

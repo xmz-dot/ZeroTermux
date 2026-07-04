@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.termux.ai.zerocore.ai.agent.ZtAiAgentPanelCardView xmlns:android="http://schemas.android.com/apk/res/android"
+<com.tarmux.zerocore.ai.agent.ZtAiAgentPanelCardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/ai_agent_panel_card"
     android:layout_width="match_parent"
@@ -101,7 +101,7 @@
                 android:textSize="12sp"
                 android:visibility="gone" />
 
-            <com.termux.ai.zerocore.ai.agent.ZtAgentSelectableTextView
+            <com.tarmux.zerocore.ai.agent.ZtAgentSelectableTextView
                 android:id="@+id/ai_agent_panel_context_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -116,7 +116,7 @@
                 android:textSize="13sp"
                 android:visibility="gone" />
 
-            <com.termux.ai.zerocore.ai.agent.ZtAgentPanelScrollView
+            <com.tarmux.zerocore.ai.agent.ZtAgentPanelScrollView
                 android:id="@+id/ai_agent_panel_scroll"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -145,7 +145,7 @@
                         android:orientation="vertical"
                         android:visibility="gone" />
                 </LinearLayout>
-            </com.termux.ai.zerocore.ai.agent.ZtAgentPanelScrollView>
+            </com.tarmux.zerocore.ai.agent.ZtAgentPanelScrollView>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -154,7 +154,7 @@
                 android:gravity="center_vertical"
                 android:orientation="horizontal">
 
-                <com.termux.ai.zerocore.ai.agent.ZtAgentSelectableEditText
+                <com.tarmux.zerocore.ai.agent.ZtAgentSelectableEditText
                     android:id="@+id/ai_agent_panel_input"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -193,4 +193,4 @@
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
-</com.termux.ai.zerocore.ai.agent.ZtAiAgentPanelCardView>
+</com.tarmux.zerocore.ai.agent.ZtAiAgentPanelCardView>

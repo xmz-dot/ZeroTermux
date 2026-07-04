@@ -1,4 +1,4 @@
-package com.termux.ai.app;
+package com.tarmux.app;
 
 import android.content.ActivityNotFoundException;
 import android.content.BroadcastReceiver;
@@ -13,13 +13,13 @@ import android.os.ParcelFileDescriptor;
 import android.provider.MediaStore;
 import android.webkit.MimeTypeMap;
 
-import com.termux.ai.shared.termux.plugins.TermuxPluginUtils;
-import com.termux.ai.shared.data.DataUtils;
-import com.termux.ai.shared.data.IntentUtils;
-import com.termux.ai.shared.net.uri.UriUtils;
-import com.termux.ai.shared.logger.Logger;
-import com.termux.ai.shared.net.uri.UriScheme;
-import com.termux.ai.shared.termux.TermuxConstants;
+import com.tarmux.shared.termux.plugins.TermuxPluginUtils;
+import com.tarmux.shared.data.DataUtils;
+import com.tarmux.shared.data.IntentUtils;
+import com.tarmux.shared.net.uri.UriUtils;
+import com.tarmux.shared.logger.Logger;
+import com.tarmux.shared.net.uri.UriScheme;
+import com.tarmux.shared.termux.TermuxConstants;
 
 import java.io.File;
 import java.io.FileNotFoundException;

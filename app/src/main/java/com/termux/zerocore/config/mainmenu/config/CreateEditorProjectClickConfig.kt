@@ -1,15 +1,15 @@
-package com.termux.ai.zerocore.config.mainmenu.config
+package com.tarmux.zerocore.config.mainmenu.config
 
 import android.content.Context
 import android.content.Intent
 import android.graphics.drawable.Drawable
 import android.view.View
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.R
-import com.termux.ai.zerocore.activity.EditTextActivity
-import com.termux.ai.zerocore.config.mainmenu.MainMenuConfig
-import com.termux.ai.zerocore.editor.EditorHelloProjectCreator
-import com.termux.ai.zerocore.editor.EditorHelloProjectType
+import com.tarmux.R
+import com.tarmux.zerocore.activity.EditTextActivity
+import com.tarmux.zerocore.config.mainmenu.MainMenuConfig
+import com.tarmux.zerocore.editor.EditorHelloProjectCreator
+import com.tarmux.zerocore.editor.EditorHelloProjectType
 
 abstract class CreateEditorProjectClickConfig(
     private val projectType: EditorHelloProjectType,

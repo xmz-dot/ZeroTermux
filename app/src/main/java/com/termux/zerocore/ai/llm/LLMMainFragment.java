@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.ai.llm;
+package com.tarmux.zerocore.ai.llm;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,12 +14,12 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.termux.ai.R;
+import com.tarmux.R;
 
-import com.termux.ai.zerocore.ai.llm.data.ChatDatabaseHelper;
-import com.termux.ai.zerocore.ai.llm.data.ChatSession;
-import com.termux.ai.zerocore.ai.llm.data.ChatSessionAdapter;
-import com.termux.ai.zerocore.llm.activity.ZeroTermuxLLMSettingsActivity;
+import com.tarmux.zerocore.ai.llm.data.ChatDatabaseHelper;
+import com.tarmux.zerocore.ai.llm.data.ChatSession;
+import com.tarmux.zerocore.ai.llm.data.ChatSessionAdapter;
+import com.tarmux.zerocore.llm.activity.ZeroTermuxLLMSettingsActivity;
 
 
 import java.util.List;

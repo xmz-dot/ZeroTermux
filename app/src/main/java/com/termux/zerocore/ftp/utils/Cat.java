@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.ftp.utils;
+package com.tarmux.zerocore.ftp.utils;
 
 
 import com.example.xh_lib.utils.LogUtils;

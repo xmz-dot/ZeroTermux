@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.adb
+package com.tarmux.zerocore.adb
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -10,8 +10,8 @@ import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.preference.PreferenceManager
-import com.termux.ai.BuildConfig
-import com.termux.ai.R
+import com.tarmux.BuildConfig
+import com.tarmux.R
 
 import java.io.File
 import java.io.PrintStream

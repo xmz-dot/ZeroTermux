@@ -1,4 +1,4 @@
-package com.termux.ai.shared.errors;
+package com.tarmux.shared.errors;
 
 /** The {@link Class} that defines function error messages and codes. */
 public class FunctionErrno extends Errno {

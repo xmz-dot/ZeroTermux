@@ -1,10 +1,10 @@
-package com.termux.ai.zerocore.ftp.server;
+package com.tarmux.zerocore.ftp.server;
 
 import androidx.annotation.NonNull;
 
 
 import com.example.xh_lib.utils.LogUtils;
-import com.termux.ai.zerocore.ftp.FTPConfig;
+import com.tarmux.zerocore.ftp.FTPConfig;
 
 import java.io.File;
 

@@ -1,13 +1,13 @@
-package com.termux.ai.zerocore.config.mainmenu.config;
+package com.tarmux.zerocore.config.mainmenu.config;
 
-import static com.termux.ai.zerocore.config.mainmenu.MainMenuConfig.CODE_ZT_FEATURES;
+import static com.tarmux.zerocore.config.mainmenu.MainMenuConfig.CODE_ZT_FEATURES;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.view.View;
 
-import com.termux.ai.R;
-import com.termux.ai.zerocore.dialog.SYFunBoomDialog;
+import com.tarmux.R;
+import com.tarmux.zerocore.dialog.SYFunBoomDialog;
 
 public class ExperimentClickConfig extends BaseMenuClickConfig {
     @Override

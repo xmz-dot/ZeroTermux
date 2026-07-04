@@ -1,4 +1,4 @@
-package com.termux.ai.view;
+package com.tarmux.view;
 
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -6,11 +6,11 @@ import android.graphics.Paint;
 import android.graphics.PorterDuff;
 import android.graphics.Typeface;
 
-import com.termux.ai.terminal.TerminalBuffer;
-import com.termux.ai.terminal.TerminalEmulator;
-import com.termux.ai.terminal.TerminalRow;
-import com.termux.ai.terminal.TextStyle;
-import com.termux.ai.terminal.WcWidth;
+import com.tarmux.terminal.TerminalBuffer;
+import com.tarmux.terminal.TerminalEmulator;
+import com.tarmux.terminal.TerminalRow;
+import com.tarmux.terminal.TextStyle;
+import com.tarmux.terminal.WcWidth;
 
 /**
  * Renderer of a {@link TerminalEmulator} into a {@link Canvas}.

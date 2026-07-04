@@ -1,9 +1,9 @@
-package com.termux.ai.zerocore.editor.lsp
+package com.tarmux.zerocore.editor.lsp
 
 import android.content.Context
 import android.os.Process
-import com.termux.ai.shared.termux.TermuxConstants
-import com.termux.ai.shared.termux.shell.command.environment.TermuxShellEnvironment
+import com.tarmux.shared.termux.TermuxConstants
+import com.tarmux.shared.termux.shell.command.environment.TermuxShellEnvironment
 import org.json.JSONObject
 import java.io.BufferedInputStream
 import java.io.BufferedReader

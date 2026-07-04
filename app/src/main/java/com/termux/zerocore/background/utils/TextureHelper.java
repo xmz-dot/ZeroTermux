@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.background.utils;
+package com.tarmux.zerocore.background.utils;
 
 import android.content.Context;
 import android.graphics.Bitmap;

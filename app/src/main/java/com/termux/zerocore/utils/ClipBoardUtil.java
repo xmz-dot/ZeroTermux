@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.utils;
+package com.tarmux.zerocore.utils;
 
 import static android.content.Context.CLIPBOARD_SERVICE;
 
@@ -10,7 +10,7 @@ import android.util.Log;
 
 import com.example.xh_lib.utils.LogUtils;
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.R;
+import com.tarmux.R;
 
 public class ClipBoardUtil {
      private static final String TAG = "ClipBoardUtil";

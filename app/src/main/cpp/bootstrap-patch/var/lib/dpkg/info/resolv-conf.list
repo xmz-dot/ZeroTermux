@@ -1,0 +1,13 @@
+/.
+/data/
+/data/data/
+/data/data/com.tarmux/
+/data/data/com.tarmux/files/
+/data/data/com.tarmux/files/usr/
+/data/data/com.tarmux/files/usr/share/
+/data/data/com.tarmux/files/usr/share/doc/
+/data/data/com.tarmux/files/usr/share/doc/resolv-conf/
+/data/data/com.tarmux/files/usr/share/doc/resolv-conf/LICENSE
+/data/data/com.tarmux/files/usr/etc/
+/data/data/com.tarmux/files/usr/etc/hosts
+/data/data/com.tarmux/files/usr/etc/resolv.conf

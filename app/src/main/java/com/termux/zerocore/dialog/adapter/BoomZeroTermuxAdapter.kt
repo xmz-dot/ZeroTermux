@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.dialog.adapter
+package com.tarmux.zerocore.dialog.adapter
 
 import android.app.Activity
 import android.content.Intent
@@ -7,12 +7,12 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.xh_lib.utils.UUtils
-import com.termux.ai.R
-import com.termux.ai.app.TermuxActivity
-import com.termux.ai.zerocore.bean.ZeroRunCommandBean
-import com.termux.ai.zerocore.dialog.LoadingDialog
-import com.termux.ai.zerocore.dialog.view_holder.BoomZeroTermuxViewHolder
-import com.termux.ai.zerocore.url.FileUrl.mainHomeUrl
+import com.tarmux.R
+import com.tarmux.app.TermuxActivity
+import com.tarmux.zerocore.bean.ZeroRunCommandBean
+import com.tarmux.zerocore.dialog.LoadingDialog
+import com.tarmux.zerocore.dialog.view_holder.BoomZeroTermuxViewHolder
+import com.tarmux.zerocore.url.FileUrl.mainHomeUrl
 import java.io.File
 
 class BoomZeroTermuxAdapter : RecyclerView.Adapter<BoomZeroTermuxViewHolder> {
@@ -64,7 +64,7 @@ class BoomZeroTermuxAdapter : RecyclerView.Adapter<BoomZeroTermuxViewHolder> {
 
                 if(zeroRunCommandBean.isHttpCommand){
 
-                    com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(zeroRunCommandBean.runCommand)
+                    com.tarmux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(zeroRunCommandBean.runCommand)
 
                 }else{
 
@@ -80,7 +80,7 @@ class BoomZeroTermuxAdapter : RecyclerView.Adapter<BoomZeroTermuxViewHolder> {
 
                             loadingDialog.dismiss()
 
-                            com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(zeroRunCommandBean.runCommand)
+                            com.tarmux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(zeroRunCommandBean.runCommand)
 
                             if(zeroRunCommandBean.runCommit != null){
                                 zeroRunCommandBean.runCommit.run()

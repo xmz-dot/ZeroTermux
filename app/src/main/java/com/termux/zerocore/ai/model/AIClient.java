@@ -1,11 +1,11 @@
-package com.termux.ai.zerocore.ai.model;
+package com.tarmux.zerocore.ai.model;
 
 import com.example.xh_lib.utils.LogUtils;
-import com.termux.ai.zerocore.ai.llm.model.RequestMessageItem;
-import com.termux.ai.zerocore.ai.provider.AIProvider;
-import com.termux.ai.zerocore.ai.provider.ClaudeProvider;
-import com.termux.ai.zerocore.ai.provider.GeminiProvider;
-import com.termux.ai.zerocore.ai.provider.OpenAIProvider;
+import com.tarmux.zerocore.ai.llm.model.RequestMessageItem;
+import com.tarmux.zerocore.ai.provider.AIProvider;
+import com.tarmux.zerocore.ai.provider.ClaudeProvider;
+import com.tarmux.zerocore.ai.provider.GeminiProvider;
+import com.tarmux.zerocore.ai.provider.OpenAIProvider;
 
 import org.jetbrains.annotations.NotNull;
 

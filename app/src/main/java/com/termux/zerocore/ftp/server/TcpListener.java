@@ -17,12 +17,12 @@ You should have received a copy of the GNU General Public License
 along with SwiFTP.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.termux.ai.zerocore.ftp.server;
+package com.tarmux.zerocore.ftp.server;
 
 import android.util.Log;
 
 
-import com.termux.ai.zerocore.ftp.FsService;
+import com.tarmux.zerocore.ftp.FsService;
 
 import java.net.ServerSocket;
 import java.net.Socket;

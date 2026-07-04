@@ -1,4 +1,4 @@
-package com.termux.ai.zerocore.zip;
+package com.tarmux.zerocore.zip;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
