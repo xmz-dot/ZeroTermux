@@ -146,12 +146,20 @@ public final class CreateSystemUtils {
 
     /** 创建新容器目录及其元数据文件。 */
     public static boolean createContainer(String name) {
+        return createContainerReturningDir(name) != null;
+    }
+
+    /** 创建新容器并返回目录；失败返回 null。 */
+    public static File createContainerReturningDir(String name) {
         int nextIndex = getNextContainerIndex();
         File containerDir = new File(getAppDataDir(), CONTAINER_DIR_PREFIX + nextIndex);
         if (!containerDir.mkdirs() && !containerDir.exists()) {
-            return false;
+            return null;
         }
-        return writeContainerInfo(containerDir, name);
+        if (!writeContainerInfo(containerDir, name)) {
+            return null;
+        }
+        return containerDir;
     }
 
     /**
@@ -257,7 +265,16 @@ public final class CreateSystemUtils {
     }
 
     private static boolean isContainerDir(File file) {
-        return file.isDirectory() && file.getName().startsWith(CONTAINER_DIR_PREFIX);
+        return file.isDirectory() && isValidContainerDirName(file.getName());
+    }
+
+    /** 仅识别 files、files0、files1…；忽略 filesaaa 等非法目录名。 */
+    private static boolean isValidContainerDirName(String name) {
+        if (name == null || !name.startsWith(CONTAINER_DIR_PREFIX)) {
+            return false;
+        }
+        String suffix = name.substring(CONTAINER_DIR_PREFIX.length());
+        return suffix.isEmpty() || suffix.matches("\\d+");
     }
 
     private static int getNextContainerIndex() {
@@ -268,6 +285,9 @@ public final class CreateSystemUtils {
                 continue;
             }
             int index = parseContainerIndex(entry.getName());
+            if (index < 0) {
+                continue;
+            }
             if (!found || index > maxIndex) {
                 maxIndex = index;
                 found = true;
@@ -277,11 +297,19 @@ public final class CreateSystemUtils {
     }
 
     private static int parseContainerIndex(String dirName) {
+        if (!isValidContainerDirName(dirName)) {
+            return -1;
+        }
         String suffix = dirName.substring(CONTAINER_DIR_PREFIX.length());
         if (suffix.isEmpty()) {
             return 0;
         }
-        return Integer.parseInt(suffix);
+        try {
+            return Integer.parseInt(suffix);
+        } catch (NumberFormatException e) {
+            LogUtils.d(TAG, "ignore invalid container dir: " + dirName);
+            return -1;
+        }
     }
 
     private static CreateSystemBean readActiveConfig() {

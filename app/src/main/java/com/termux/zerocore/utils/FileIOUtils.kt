@@ -281,71 +281,10 @@ object FileIOUtils {
     }
 
     public fun createSystem(mContext: Context, name: String): File? {
-        val mFile = getTermuxPathFile(mContext)
-        var createFile: File? = null
-        val files: Array<File> = mFile.listFiles()
-        if (files.size == 1) {
-            createFile = File(mFile, "files1")
-            createFile.mkdirs()
-            val createSystemBean = CreateSystemBean()
-            createSystemBean.dir = createFile.getAbsolutePath()
-            createSystemBean.systemName = name
-            val s = Gson().toJson(createSystemBean)
-            val fileInfo: File = File(createFile, "/xinhao_system.infoJson")
-            var printWriter: PrintWriter? = null
-            try {
-                fileInfo.createNewFile()
-                printWriter = PrintWriter(OutputStreamWriter(FileOutputStream(fileInfo)))
-                printWriter.print(s)
-                printWriter.flush()
-                printWriter.close()
-            } catch (e: IOException) {
-                Toast.makeText(UUtils.getContext(), UUtils.getString(R.string.system_create_container_fail), Toast.LENGTH_SHORT).show()
-                e.printStackTrace()
-                return null
-            } finally {
-                printWriter?.close()
-            }
-        } else {
-            val arrayList = ArrayList<Int>()
-            for (i in files.indices) {
-                if (files[i].name.startsWith("files")) {
-                    val name1 = files[i].name
-                    val substring = name1.substring(5, name1.length)
-                    if (substring.isEmpty()) {
-                        arrayList.add(0)
-                    } else {
-                        arrayList.add(substring.toInt())
-                    }
-                }
-            }
-            val max: Int = getMax(arrayList)
-            LogUtils.d(TAG, "createSystem max:$max")
-            createFile = File(mFile, "files" + (max + 1))
-            createFile.mkdirs()
-            val createSystemBean = CreateSystemBean()
-            createSystemBean.dir = createFile.getAbsolutePath()
-            createSystemBean.systemName = name
-            val s = Gson().toJson(createSystemBean)
-            val fileInfo: File = File(createFile, "/xinhao_system.infoJson")
-            var printWriter: PrintWriter? = null
-            try {
-                fileInfo.createNewFile()
-                printWriter = PrintWriter(OutputStreamWriter(FileOutputStream(fileInfo)))
-                printWriter.print(s)
-                printWriter.flush()
-                printWriter.close()
-            } catch (e: IOException) {
-                Toast.makeText(UUtils.getContext(), UUtils.getString(R.string.system_create_container_fail), Toast.LENGTH_SHORT).show()
-                e.printStackTrace()
-                return null
-            } finally {
-                printWriter?.close()
-            }
-        }
-        return createFile
+        return com.termux.zerocore.activity.utils.CreateSystemUtils.createContainerReturningDir(name)
     }
 
+    @Deprecated("Use CreateSystemUtils", ReplaceWith("CreateSystemUtils"))
     public fun getMax(number: ArrayList<Int>): Int {
         var temp = number[0]
         for (i in number.indices) {
