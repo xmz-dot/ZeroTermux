@@ -1116,7 +1116,10 @@ Reset successfully</string>
     <string name="zt_ai_agent_panel_hint">Chat with AI here…</string>
     <string name="zt_ai_agent_panel_send">Send</string>
     <string name="zt_ai_agent_panel_context_label">From terminal selection:</string>
-    <string name="zt_ai_agent_panel_empty">Ask AI a question, or long-press selected text in the terminal and choose Ask AI.</string>
+    <string name="zt_ai_agent_panel_empty">Welcome to the ZeroTermux Agent\n
+        Note: You need to configure an API key.
+        You can say: "Install Ubuntu for me"\n"Fix the error in the current terminal"\n
+        You can also say: "Change the font color to red"\n"Change the background to white"\n"Switch to another container"\n</string>
     <string name="zt_ai_agent_not_configured">Configure API Key and model first in ZeroTermux Settings → Agent AI.</string>
     <string name="zt_ai_agent_thinking">Thinking…</string>
     <string name="zt_ai_agent_panel_open_menu">Open right menu</string>

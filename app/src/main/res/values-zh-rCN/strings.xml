@@ -1848,7 +1848,10 @@
             property to be set to `true` in `%2$s` file.</string>
     <string name="zt_ai_agent_not_configured">请先在 ZeroTermux 设置 → 配置智能体AI 中填写 API Key 与模型。</string>
     <string name="zt_ai_agent_panel_context_label">来自终端选中：</string>
-    <string name="zt_ai_agent_panel_empty">向 AI 提问，或在终端选中文本后长按「问AI」。</string>
+    <string name="zt_ai_agent_panel_empty">欢迎使用ZeroTermux智能体\n
+        注意：需要配置key
+        你可以说: "给我安装ubuntu系统"\n"当前终端报错,你帮我修复下"\n
+        也可以说: "把字体改成红色"\n"背景改成白色"\n"切换一个容器"\n</string>
     <string name="zt_ai_agent_panel_hint">在此与 AI 对话…</string>
     <string name="zt_ai_agent_panel_open_menu">打开右侧菜单</string>
     <string name="zt_ai_agent_panel_send">发送</string>
