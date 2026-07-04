@@ -23,7 +23,7 @@ import com.termux.ai.app.TermuxActivity;
 import com.termux.ai.shared.logger.Logger;
 import com.termux.ai.shared.view.ViewUtils;
 import com.termux.ai.R;
-import com.termux.ai.x11.MainActivity;
+import com.termux.x11.MainActivity;
 import com.termux.ai.zerocore.view.ZeroTermuxBackLayout;
 
 /**

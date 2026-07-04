@@ -11,7 +11,7 @@ import androidx.annotation.Nullable;
 import com.example.xh_lib.utils.LogUtils;
 import com.example.xh_lib.utils.SaveData;
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.BuildConfig;
+import com.termux.BuildConfig;
 import com.termux.ai.R;
 import com.termux.ai.app.TermuxActivity;
 import com.termux.ai.terminal.Logger;

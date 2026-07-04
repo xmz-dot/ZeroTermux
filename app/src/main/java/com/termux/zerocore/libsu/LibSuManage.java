@@ -9,7 +9,7 @@ import androidx.annotation.NonNull;
 
 
 import com.example.xh_lib.utils.UUtils;
-import com.termux.ai.BuildConfig;
+import com.termux.BuildConfig;
 import com.termux.ai.R;
 import com.termux.ai.zerocore.settings.timer.TimerExecutionLog;
 import com.termux.ai.zerocore.url.FileUrl;

@@ -26,7 +26,7 @@ import com.lzy.okgo.model.Progress;
 import com.lzy.okgo.model.Response;
 import com.lzy.okgo.request.base.Request;
 import com.lzy.okgo.utils.HttpUtils;
-import com.termux.ai.BuildConfig;
+import com.termux.BuildConfig;
 import com.termux.ai.zerocore.config.other.data.VersionBean;
 import com.termux.ai.zerocore.http.HTTPIP;
 

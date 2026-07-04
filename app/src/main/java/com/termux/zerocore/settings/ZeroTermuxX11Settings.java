@@ -16,7 +16,7 @@ import androidx.cardview.widget.CardView;
 import com.example.xh_lib.utils.UUtils;
 import com.termux.ai.R;
 import com.termux.ai.app.TermuxService;
-import com.termux.ai.x11.LoriePreferences;
+import com.termux.x11.LoriePreferences;
 import com.termux.ai.zerocore.activity.SwitchActivity;
 import com.termux.ai.zerocore.bean.ZTUserBean;
 import com.termux.ai.zerocore.dialog.LoadingDialog;

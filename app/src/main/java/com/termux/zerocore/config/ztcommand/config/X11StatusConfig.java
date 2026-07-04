@@ -6,7 +6,7 @@ import android.content.Context;
 
 import com.example.xh_lib.utils.UUtils;
 import com.termux.ai.R;
-import com.termux.ai.x11.MainActivity;
+import com.termux.x11.MainActivity;
 import com.termux.ai.zerocore.config.ztcommand.ZTSocketService;
 
 public class X11StatusConfig extends BaseOkJsonConfig {

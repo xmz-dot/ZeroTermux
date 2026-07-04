@@ -19,7 +19,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 import com.example.xh_lib.utils.UUtils;
 import com.termux.ai.R;
-import com.termux.ai.x11.MainActivity;
+import com.termux.x11.MainActivity;
 import com.termux.ai.zerocore.ftp.utils.UserSetManage;
 
 public class ZeroTermuxBackLayout extends RelativeLayout {

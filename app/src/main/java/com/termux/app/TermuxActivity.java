@@ -106,7 +106,7 @@ import com.termux.ai.terminal.TerminalSessionClient;
 import com.termux.ai.view.TerminalRenderer;
 import com.termux.ai.view.TerminalView;
 import com.termux.ai.view.TerminalViewClient;
-import com.termux.ai.x11.MainActivity;
+import com.termux.x11.MainActivity;
 import com.termux.ai.zerocore.activity.EditTextActivity;
 import com.termux.ai.zerocore.ai.llm.LLMTransitFragment;
 import com.termux.ai.zerocore.background.FireworkView;
