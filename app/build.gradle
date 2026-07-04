@@ -17,9 +17,8 @@ ext {
 
 android {
     namespace "com.termux.ai"
-    applicationId "com.termux.ai"
 
-    compileSdkVersion project.properties.compileSdkVersion.toInteger()
+    compileSdk project.properties.compileSdkVersion.toInteger()
     ndkVersion = System.getenv("JITPACK_NDK_VERSION") ?: project.properties.ndkVersion
     def appVersionName = System.getenv("TERMUX_APP_VERSION_NAME") ?: ""
     def apkVersionTag = System.getenv("TERMUX_APK_VERSION_TAG") ?: ""
@@ -128,6 +127,7 @@ android {
         // versionName "0.118.0"
         versionCode 118
         versionName "0.118.3.63"
+        applicationId "com.termux.ai"
         // @}
         if (appVersionName) versionName = appVersionName
         validateVersionName(versionName)
