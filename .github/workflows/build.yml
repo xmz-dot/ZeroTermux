@@ -101,6 +101,36 @@ jobs:
             x86_64)    echo "abi=x86_64" >> $GITHUB_OUTPUT ;;
           esac
 
+      - name: 下载并 Patch Bootstrap
+        run: |
+          # 清除缓存
+          rm -f app/src/main/cpp/bootstrap-*.zip
+          # 手动下载（与 gradle 相同的 URL）
+          VERSION="2026.06.28-r1+apt.android-7"
+          BASE_URL="https://github.com/termux/termux-packages/releases/download/bootstrap-${VERSION}"
+          for ARCH in aarch64 arm i686 x86_64; do
+            echo "Downloading bootstrap-${ARCH}..."
+            curl -L -o "app/src/main/cpp/bootstrap-${ARCH}.zip" "${BASE_URL}/bootstrap-${ARCH}.zip"
+            SIZE=$(stat -c%s "app/src/main/cpp/bootstrap-${ARCH}.zip" 2>/dev/null || echo 0)
+            echo "  Downloaded: ${SIZE} bytes"
+          done
+          # 执行 patch
+          echo "--- Patching bootstrap ---"
+          python3 .github/scripts/patch_bootstrap.py
+          # 验证 patch 是否生效
+          echo "--- Verifying patch ---"
+          if grep -rl "com.termux" app/src/main/cpp/bootstrap-aarch64.zip 2>/dev/null; then
+            echo "ERROR: com.termux still present!"
+            exit 1
+          fi
+          FOUND=$(grep -ao "com.tarmux" app/src/main/cpp/bootstrap-aarch64.zip 2>/dev/null | wc -l)
+          echo "com.tarmux occurrences in aarch64 zip: ${FOUND}"
+          if [ "$FOUND" -lt 100 ]; then
+            echo "ERROR: patch did not work properly"
+            exit 1
+          fi
+          echo "Patch verified successfully!"
+
       - name: 编译 APK (${{ inputs.arch }})
         run: |
           TASKS=""
