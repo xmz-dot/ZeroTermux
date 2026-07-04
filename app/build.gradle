@@ -418,30 +418,8 @@ task downloadBootstraps() {
         downloadBootstrap("arm", "ed2c65a5de88f536c4f59bad3682a112cf4293430b07ce6f2009bf26005f7aaa", version)
         downloadBootstrap("i686", "f29ded5b47eff6519b5427f78b9599407ca0a1c51fb295df5352d671126f4c81", version)
         downloadBootstrap("x86_64", "f73fd8ea465b5065d94e5af27bce893f3968d3ec901f02f42ef3b71e4a231e2c", version)
-        // Patch bootstrap: com.termux → com.tarmux (等长替换)
-        ["aarch64", "arm", "i686", "x86_64"].each { arch ->
-            def zipFile = file("src/main/cpp/bootstrap-${arch}.zip")
-            if (zipFile.exists()) {
-                def data = zipFile.bytes
-                def old = "com.termux" as byte[]
-                def newBytes = "com.tarmux" as byte[]
-                def buffer = data
-                def idx = 0
-                while (idx < buffer.length) {
-                    def found = false
-                    for (int i = 0; i < old.length && idx + i < buffer.length; i++) {
-                        if (buffer[idx + i] != old[i]) { found = false; break }
-                        if (i == old.length - 1) { found = true }
-                    }
-                    if (found) {
-                        System.arraycopy(newBytes, 0, buffer, idx, newBytes.length)
-                        idx += newBytes.length
-                    } else {
-                        idx++
-                    }
-                }
-                zipFile.bytes = buffer
-            }
+        exec {
+            commandLine "python3", ".github/scripts/patch_bootstrap.py"
         }
     }
     // @}
