@@ -76,11 +76,18 @@ jobs:
         uses: actions/cache@v5
         with:
           path: app/src/main/cpp/bootstrap-*.zip
-          key: bootstrap-v2-${{ hashFiles('app/build.gradle') }}
-          restore-keys: bootstrap-v2-
+          key: bootstrap-v3-${{ hashFiles('app/build.gradle') }}
+          restore-keys: bootstrap-v3-
 
       - name: 给 gradlew 执行权限
         run: chmod +x gradlew
+
+      - name: 强制重新下载并 Patch Bootstrap
+        run: |
+          # 清除可能的缓存残留，强制重新下载
+          rm -f app/src/main/cpp/bootstrap-*.zip
+          # 手动执行 patch 确保生效
+          python3 .github/scripts/patch_bootstrap.py
 
       - name: 映射架构名称
         id: abi
