@@ -231,6 +231,24 @@ public final class TermuxInstaller {
                         throw new RuntimeException("Moving termux prefix staging to prefix directory failed");
                     }
 
+                    // DIAGNOSTIC: verify login binary permissions
+                    {
+                        File loginBin = new File(TERMUX_STAGING_PREFIX_DIR_PATH + "/bin/login");
+                        boolean exists = loginBin.exists();
+                        boolean canExec = exists && loginBin.canExecute();
+                        File binDir = new File(TERMUX_STAGING_PREFIX_DIR_PATH + "/bin");
+                        String[] binFiles = binDir.list();
+                        int binCount = binFiles != null ? binFiles.length : 0;
+                        Logger.logInfo(LOG_TAG, "DIAG login exists=" + exists + " canExec=" + canExec + " binCount=" + binCount);
+                        if (exists && !canExec) {
+                            try {
+                                Os.chmod(loginBin.getAbsolutePath(), 0700);
+                                Logger.logInfo(LOG_TAG, "DIAG chmod retry=" + loginBin.canExecute());
+                            } catch (Throwable t2) {
+                                Logger.logError(LOG_TAG, "DIAG chmod failed: " + t2.getMessage());
+                            }
+                        }
+                    }
                     Logger.logInfo(LOG_TAG, "Bootstrap packages installed successfully.");
 
                     // Recreate env file since termux prefix was wiped earlier
