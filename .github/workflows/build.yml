@@ -109,7 +109,7 @@ jobs:
             exit 1
           fi
 
-          ./gradlew --build-cache --parallel --stacktrace $TASKS -Darch=${{ inputs.arch }}
+          ./gradlew --parallel --stacktrace $TASKS -Darch=${{ inputs.arch }}
 
       - name: 上传 Debug APK (${{ steps.abi.outputs.abi }})
         if: ${{ inputs.build_debug && inputs.arch != 'all' }}
