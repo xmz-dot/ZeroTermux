@@ -418,9 +418,14 @@ task downloadBootstraps() {
         downloadBootstrap("arm", "ed2c65a5de88f536c4f59bad3682a112cf4293430b07ce6f2009bf26005f7aaa", version)
         downloadBootstrap("i686", "f29ded5b47eff6519b5427f78b9599407ca0a1c51fb295df5352d671126f4c81", version)
         downloadBootstrap("x86_64", "f73fd8ea465b5065d94e5af27bce893f3968d3ec901f02f42ef3b71e4a231e2c", version)
-        exec {
-            commandLine "python3", ".github/scripts/patch_bootstrap.py"
+        def pb = new ProcessBuilder("python3", ".github/scripts/patch_bootstrap.py")
+        pb.directory(project.rootDir)
+        def process = pb.start()
+        process.waitFor()
+        if (process.exitValue() != 0) {
+            throw new GradleException("Bootstrap patching failed: \${process.err.text}")
         }
+        println process.text
     }
     // @}
 }
