@@ -1,18 +1,18 @@
-package com.termux.zerocore.background;
+package com.termux.ai.ai.zerocore.background;
 
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.opengl.GLES20;
 
-import com.termux.zerocore.background.utils.ESShader;
-import com.termux.zerocore.background.utils.RawResourceReader;
-import com.termux.zerocore.background.utils.TextureHelper;
+import com.termux.ai.ai.zerocore.background.utils.ESShader;
+import com.termux.ai.ai.zerocore.background.utils.RawResourceReader;
+import com.termux.ai.ai.zerocore.background.utils.TextureHelper;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.nio.FloatBuffer;
 import java.nio.ShortBuffer;
-import com.termux.R;
+import com.termux.ai.ai.R;
 
 /**
  * Created by qinfeng on 16/8/2.

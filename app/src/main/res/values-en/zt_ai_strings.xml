@@ -107,7 +107,7 @@
     <group name="Common">
         <item tag="ZT Settings"
             name="Settings"
-            click="java:com.termux.zerocore.config.mainmenu.config.ZTSettingsClickConfig" />
+            click="java:com.termux.ai.zerocore.config.mainmenu.config.ZTSettingsClickConfig" />
         <item tag="Update sources"
             name="Update"
             click="ztShell:pkg update"

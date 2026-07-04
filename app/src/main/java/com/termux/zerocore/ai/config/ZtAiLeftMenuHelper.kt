@@ -1,8 +1,8 @@
-package com.termux.zerocore.ai.config
+package com.termux.ai.ai.zerocore.ai.config
 
 import com.example.xh_lib.utils.UUtils
-import com.termux.zerocore.config.mainmenu.MainMenuPackageInfo
-import com.termux.zerocore.config.mainmenu.MainMenuPackageManager
+import com.termux.ai.ai.zerocore.config.mainmenu.MainMenuPackageInfo
+import com.termux.ai.ai.zerocore.config.mainmenu.MainMenuPackageManager
 import org.json.JSONArray
 import org.json.JSONObject
 import org.w3c.dom.Element
@@ -98,7 +98,7 @@ object ZtAiLeftMenuHelper {
                 }
             }
         } else {
-            root.put("note", ZtAiStrings.str(com.termux.R.string.zt_ai_left_menu_no_package_note))
+            root.put("note", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_left_menu_no_package_note))
         }
         return root.toString(2)
     }
@@ -113,7 +113,7 @@ object ZtAiLeftMenuHelper {
         val shouldSwitch = !switchRaw.equals("false", ignoreCase = true) && switchRaw != "0"
 
         if (targetsSystemMenu(createPackage)) {
-            return errorJson(ZtAiStrings.str(com.termux.R.string.zt_ai_left_menu_err_system_menu))
+            return errorJson(ZtAiStrings.str(com.termux.ai.R.string.zt_ai_left_menu_err_system_menu))
         }
 
         var targetPackageId: String? = null
@@ -122,7 +122,7 @@ object ZtAiLeftMenuHelper {
         when {
             createPackage.isNotEmpty() -> {
                 if (!isAiCreateRequest(createPackage)) {
-                    return errorJson(ZtAiStrings.str(com.termux.R.string.zt_ai_left_menu_err_create_name))
+                    return errorJson(ZtAiStrings.str(com.termux.ai.R.string.zt_ai_left_menu_err_create_name))
                 }
                 var xmlToWrite: String? = null
                 if (fullXml.isNotEmpty()) {
@@ -145,7 +145,7 @@ object ZtAiLeftMenuHelper {
                 val normalized = normalizeRootXml(fullXml)
                 validateMenuContent(context, normalized)?.let { return errorJson("invalid xml_content: $it") }
                 targetPackageId = resolveUpdateTargetPackageId(context, packageIdArg)
-                    ?: return errorJson(ZtAiStrings.str(com.termux.R.string.zt_ai_left_menu_err_no_update_target))
+                    ?: return errorJson(ZtAiStrings.str(com.termux.ai.R.string.zt_ai_left_menu_err_no_update_target))
                 if (!MainMenuPackageManager.writeAiMenuPackageXml(
                         context,
                         targetPackageId,
@@ -158,14 +158,14 @@ object ZtAiLeftMenuHelper {
             appendGroup.isNotEmpty() -> {
                 validateGroupSnippet(appendGroup)?.let { return errorJson("invalid append_group_xml: $it") }
                 targetPackageId = resolveUpdateTargetPackageId(context, packageIdArg)
-                    ?: return errorJson(ZtAiStrings.str(com.termux.R.string.zt_ai_left_menu_err_no_update_target))
+                    ?: return errorJson(ZtAiStrings.str(com.termux.ai.R.string.zt_ai_left_menu_err_no_update_target))
                 val merged = appendBeforeClosing(readPackageXml(context, targetPackageId), appendGroup)
                 validateMenuContent(context, merged)?.let { return errorJson("invalid merged xml: $it") }
                 if (!MainMenuPackageManager.writeAiMenuPackageXml(context, targetPackageId, merged, applyIfActive = true)) {
                     return errorJson("failed to append group to AI menu package")
                 }
             }
-            else -> return errorJson(ZtAiStrings.str(com.termux.R.string.zt_ai_left_menu_err_need_content))
+            else -> return errorJson(ZtAiStrings.str(com.termux.ai.R.string.zt_ai_left_menu_err_need_content))
         }
 
         var switched = false
@@ -213,8 +213,8 @@ object ZtAiLeftMenuHelper {
         return lower == MainMenuPackageInfo.ID_PROGRAM.lowercase()
             || lower == MainMenuPackageInfo.ID_DEFAULT_XML.lowercase()
             || lower == MainMenuPackageInfo.ID_NETWORK.lowercase()
-            || name == UUtils.getString(com.termux.R.string.menu_package_program_label)
-            || name == UUtils.getString(com.termux.R.string.menu_package_default_label)
+            || name == UUtils.getString(com.termux.ai.R.string.menu_package_program_label)
+            || name == UUtils.getString(com.termux.ai.R.string.menu_package_default_label)
     }
 
     private fun buildSuccessJson(
@@ -246,7 +246,7 @@ object ZtAiLeftMenuHelper {
                     put(JSONObject().put("name", g.name).put("id", g.id ?: JSONObject.NULL))
                 }
             })
-            .put("note", ZtAiStrings.str(com.termux.R.string.zt_ai_left_menu_success_note))
+            .put("note", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_left_menu_success_note))
             .toString(2)
     }
 

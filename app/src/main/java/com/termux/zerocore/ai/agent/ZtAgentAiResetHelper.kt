@@ -1,10 +1,10 @@
-package com.termux.zerocore.ai.agent
+package com.termux.ai.ai.zerocore.ai.agent
 
 import android.content.Context
 import com.example.xh_lib.utils.UUtils
-import com.termux.R
-import com.termux.zerocore.dialog.SwitchDialog
-import com.termux.zerocore.ftp.utils.UserSetManage
+import com.termux.ai.ai.R
+import com.termux.ai.ai.zerocore.dialog.SwitchDialog
+import com.termux.ai.ai.zerocore.ftp.utils.UserSetManage
 
 object ZtAgentAiResetHelper {
 

@@ -489,7 +489,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
-                <com.termux.zerocore.config.mainmenu.view.NonScrollRecyclerView
+                <com.termux.ai.zerocore.config.mainmenu.view.NonScrollRecyclerView
                     android:id="@+id/main_menu_list"
                     android:background="@android:color/transparent"
                     android:layout_width="match_parent"

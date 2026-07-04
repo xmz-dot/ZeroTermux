@@ -1,4 +1,4 @@
-package com.termux.shared.termux;
+package com.termux.ai.ai.shared.termux;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -11,20 +11,20 @@ import android.net.Uri;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.termux.shared.R;
-import com.termux.shared.android.AndroidUtils;
-import com.termux.shared.data.DataUtils;
-import com.termux.shared.file.FileUtils;
-import com.termux.shared.reflection.ReflectionUtils;
-import com.termux.shared.shell.command.runner.app.AppShell;
-import com.termux.shared.termux.file.TermuxFileUtils;
-import com.termux.shared.logger.Logger;
-import com.termux.shared.markdown.MarkdownUtils;
-import com.termux.shared.shell.command.ExecutionCommand;
-import com.termux.shared.errors.Error;
-import com.termux.shared.android.PackageUtils;
-import com.termux.shared.termux.TermuxConstants.TERMUX_APP;
-import com.termux.shared.termux.shell.command.environment.TermuxShellEnvironment;
+import com.termux.ai.ai.shared.R;
+import com.termux.ai.ai.shared.android.AndroidUtils;
+import com.termux.ai.ai.shared.data.DataUtils;
+import com.termux.ai.ai.shared.file.FileUtils;
+import com.termux.ai.ai.shared.reflection.ReflectionUtils;
+import com.termux.ai.ai.shared.shell.command.runner.app.AppShell;
+import com.termux.ai.ai.shared.termux.file.TermuxFileUtils;
+import com.termux.ai.ai.shared.logger.Logger;
+import com.termux.ai.ai.shared.markdown.MarkdownUtils;
+import com.termux.ai.ai.shared.shell.command.ExecutionCommand;
+import com.termux.ai.ai.shared.errors.Error;
+import com.termux.ai.ai.shared.android.PackageUtils;
+import com.termux.ai.ai.shared.termux.TermuxConstants.TERMUX_APP;
+import com.termux.ai.ai.shared.termux.shell.command.environment.TermuxShellEnvironment;
 
 import org.apache.commons.io.IOUtils;
 
@@ -155,7 +155,7 @@ public class TermuxUtils {
      * {@code
      * <manifest
      *     <queries>
-     *         <package android:name="com.termux" />
+     *         <package android:name="com.termux.ai" />
      *    </queries>
      * </manifest>
      * }
@@ -587,7 +587,7 @@ public class TermuxUtils {
     public static String geAPTInfoMarkdownString(@NonNull final Context context) {
 
         String aptInfoScript;
-        InputStream inputStream = context.getResources().openRawResource(com.termux.shared.R.raw.apt_info_script);
+        InputStream inputStream = context.getResources().openRawResource(com.termux.ai.shared.R.raw.apt_info_script);
         try {
             aptInfoScript = IOUtils.toString(inputStream, Charset.defaultCharset());
         } catch (IOException e) {

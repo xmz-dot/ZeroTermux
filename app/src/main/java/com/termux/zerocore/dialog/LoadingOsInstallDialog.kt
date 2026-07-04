@@ -1,10 +1,10 @@
-package com.termux.zerocore.dialog
+package com.termux.ai.ai.zerocore.dialog
 
 import android.content.Context
 import android.view.View
 import android.widget.TextView
 import com.example.xh_lib.utils.UUtils
-import com.termux.R
+import com.termux.ai.ai.R
 
 class LoadingOsInstallDialog : BaseDialogCentre {
     public var mMsg:TextView? = null

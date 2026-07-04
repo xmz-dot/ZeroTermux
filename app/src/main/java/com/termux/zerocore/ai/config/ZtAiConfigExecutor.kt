@@ -1,8 +1,8 @@
-package com.termux.zerocore.ai.config
+package com.termux.ai.ai.zerocore.ai.config
 
-import com.termux.zerocore.ai.agent.ZtAgentAiChatClient
-import com.termux.zerocore.command.ZtCommandDefHelper
-import com.termux.zerocore.config.ztcommand.navigation.ZtNavigationHelper
+import com.termux.ai.ai.zerocore.ai.agent.ZtAgentAiChatClient
+import com.termux.ai.ai.zerocore.command.ZtCommandDefHelper
+import com.termux.ai.ai.zerocore.config.ztcommand.navigation.ZtNavigationHelper
 import org.json.JSONArray
 import org.json.JSONObject
 
@@ -87,7 +87,7 @@ object ZtAiConfigExecutor {
             return ZtNavigationHelper.listPagesJson()
         }
         val extras = args.optJSONObject("extras")
-        val context = com.termux.zerocore.config.ztcommand.navigation.ZtForegroundActivityHolder.get()
+        val context = com.termux.ai.zerocore.config.ztcommand.navigation.ZtForegroundActivityHolder.get()
             ?: return """{"code":1,"msg":"Termux main screen is not active. Return to terminal first."}"""
         return ZtNavigationHelper.openPage(context, pageId, extras)
     }

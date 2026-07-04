@@ -1,4 +1,4 @@
-package com.termux.zerocore.ftp.utils;
+package com.termux.ai.ai.zerocore.ftp.utils;
 
 import android.content.ContentResolver;
 import android.content.ContentValues;
@@ -11,7 +11,7 @@ import android.provider.MediaStore;
 import android.util.Log;
 
 
-import com.termux.R;
+import com.termux.ai.ai.R;
 
 import java.io.File;
 import java.io.FileOutputStream;

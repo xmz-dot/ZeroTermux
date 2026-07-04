@@ -1,10 +1,10 @@
-package com.termux.zerocore.editor
+package com.termux.ai.ai.zerocore.editor
 
 import android.content.Context
 import android.os.Handler
 import android.os.Looper
-import com.termux.shared.termux.TermuxConstants
-import com.termux.zerocore.utils.SingletonCommunicationUtils
+import com.termux.ai.ai.shared.termux.TermuxConstants
+import com.termux.ai.ai.zerocore.utils.SingletonCommunicationUtils
 import java.io.File
 
 class EditorAndroidRunner(private val context: Context) {

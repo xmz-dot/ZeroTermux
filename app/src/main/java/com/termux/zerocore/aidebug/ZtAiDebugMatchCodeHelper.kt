@@ -1,6 +1,6 @@
-package com.termux.zerocore.aidebug
+package com.termux.ai.ai.zerocore.aidebug
 
-import com.termux.zerocore.ftp.utils.UserSetManage
+import com.termux.ai.ai.zerocore.ftp.utils.UserSetManage
 import kotlin.random.Random
 
 object ZtAiDebugMatchCodeHelper {

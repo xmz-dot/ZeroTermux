@@ -17,13 +17,13 @@ You should have received a copy of the GNU General Public License
 along with SwiFTP.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.termux.zerocore.ftp.server;
+package com.termux.ai.ai.zerocore.ftp.server;
 
 
 
 
 
-import com.termux.zerocore.ftp.utils.Cat;
+import com.termux.ai.ai.zerocore.ftp.utils.Cat;
 
 import java.io.File;
 

@@ -23,9 +23,9 @@
  * questions.
  */
 
-package com.termux.shared.file.filesystem;
+package com.termux.ai.ai.shared.file.filesystem;
 
-import static com.termux.shared.file.filesystem.FilePermission.*;
+import static com.termux.ai.shared.file.filesystem.FilePermission.*;
 
 import java.util.*;
 

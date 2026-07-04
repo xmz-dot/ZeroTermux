@@ -1,4 +1,4 @@
-package com.termux.zerocore.dialog;
+package com.termux.ai.ai.zerocore.dialog;
 
 import android.app.AlertDialog;
 import android.app.Dialog;

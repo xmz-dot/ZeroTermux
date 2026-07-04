@@ -1,4 +1,4 @@
-package com.termux.zerocore.data
+package com.termux.ai.ai.zerocore.data
 
 import android.os.Message
 import com.blockchain.ub.utils.httputils.BaseHttpUtils

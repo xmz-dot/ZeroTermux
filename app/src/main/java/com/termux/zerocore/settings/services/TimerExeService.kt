@@ -1,4 +1,4 @@
-package com.termux.zerocore.settings.services
+package com.termux.ai.ai.zerocore.settings.services
 
 import android.app.Service
 import android.content.Intent
@@ -7,13 +7,13 @@ import android.os.Handler
 import android.os.IBinder
 import android.os.Looper
 import com.example.xh_lib.utils.UUtils
-import com.termux.R
-import com.termux.zerocore.ftp.utils.TimerSetManage
-import com.termux.zerocore.libsu.LibSuManage
-import com.termux.zerocore.settings.timer.TimerBean
-import com.termux.zerocore.settings.timer.TimerNotificationHelper
-import com.termux.zerocore.settings.timer.TimerRuntimeState
-import com.termux.zerocore.utils.NotificationUtils
+import com.termux.ai.ai.R
+import com.termux.ai.ai.zerocore.ftp.utils.TimerSetManage
+import com.termux.ai.ai.zerocore.libsu.LibSuManage
+import com.termux.ai.ai.zerocore.settings.timer.TimerBean
+import com.termux.ai.ai.zerocore.settings.timer.TimerNotificationHelper
+import com.termux.ai.ai.zerocore.settings.timer.TimerRuntimeState
+import com.termux.ai.ai.zerocore.utils.NotificationUtils
 import com.zp.z_file.util.LogUtils
 import java.util.concurrent.atomic.AtomicBoolean
 

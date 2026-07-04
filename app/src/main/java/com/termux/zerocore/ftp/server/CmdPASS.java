@@ -17,13 +17,13 @@ You should have received a copy of the GNU General Public License
 along with SwiFTP.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.termux.zerocore.ftp.server;
+package com.termux.ai.ai.zerocore.ftp.server;
 
 import android.util.Log;
 
 import com.example.xh_lib.utils.LogUtils;
 import com.example.xh_lib.utils.UUtils;
-import com.termux.zerocore.ftp.SaveDataZeroEngine;
+import com.termux.ai.ai.zerocore.ftp.SaveDataZeroEngine;
 
 
 public class CmdPASS extends FtpCmd implements Runnable {

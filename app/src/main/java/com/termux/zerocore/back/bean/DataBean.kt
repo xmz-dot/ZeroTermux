@@ -1,4 +1,4 @@
-package com.termux.zerocore.back.bean
+package com.termux.ai.ai.zerocore.back.bean
 
 import java.io.File
 

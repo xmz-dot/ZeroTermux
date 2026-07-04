@@ -1,4 +1,4 @@
-package com.termux.zerocore.llm.activity
+package com.termux.ai.ai.zerocore.llm.activity
 
 import android.content.Intent
 import android.net.Uri
@@ -12,7 +12,7 @@ import android.view.View
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.example.xh_lib.utils.UUtils
-import com.termux.R
+import com.termux.ai.ai.R
 
 class ZeroTermuxLLMKeyActivity : AppCompatActivity() {
     private val mTitle1 by lazy { findViewById<TextView>(R.id.title_1) }

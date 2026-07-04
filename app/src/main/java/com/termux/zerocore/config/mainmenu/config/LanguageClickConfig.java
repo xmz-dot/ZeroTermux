@@ -1,6 +1,6 @@
-package com.termux.zerocore.config.mainmenu.config;
+package com.termux.ai.ai.zerocore.config.mainmenu.config;
 
-import static com.termux.zerocore.config.mainmenu.MainMenuConfig.CODE_ZT_FEATURES;
+import static com.termux.ai.zerocore.config.mainmenu.MainMenuConfig.CODE_ZT_FEATURES;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -10,10 +10,10 @@ import android.view.View;
 import com.example.xh_lib.utils.LogUtils;
 import com.example.xh_lib.utils.UUtils;
 import com.mallotec.reb.localeplugin.utils.LocaleHelper;
-import com.termux.R;
-import com.termux.app.TermuxActivity;
-import com.termux.zerocore.config.mainmenu.MainMenuPackageManager;
-import com.termux.zerocore.popuwindow.MenuLeftPopuListWindow;
+import com.termux.ai.ai.R;
+import com.termux.ai.ai.app.TermuxActivity;
+import com.termux.ai.ai.zerocore.config.mainmenu.MainMenuPackageManager;
+import com.termux.ai.ai.zerocore.popuwindow.MenuLeftPopuListWindow;
 
 import org.jetbrains.annotations.Nullable;
 

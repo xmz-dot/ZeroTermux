@@ -1,4 +1,4 @@
-package com.termux.zerocore.view;
+package com.termux.ai.ai.zerocore.view;
 
 import android.app.Activity;
 import android.content.Context;
@@ -18,9 +18,9 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import com.example.xh_lib.utils.UUtils;
-import com.termux.R;
-import com.termux.x11.MainActivity;
-import com.termux.zerocore.ftp.utils.UserSetManage;
+import com.termux.ai.ai.R;
+import com.termux.ai.ai.x11.MainActivity;
+import com.termux.ai.ai.zerocore.ftp.utils.UserSetManage;
 
 public class ZeroTermuxBackLayout extends RelativeLayout {
     private View mBackgroundRoot;

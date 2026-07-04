@@ -1,4 +1,4 @@
-package com.termux.zerocore.activity.adapter;
+package com.termux.ai.ai.zerocore.activity.adapter;
 
 import android.app.Activity;
 import android.graphics.Color;
@@ -6,10 +6,10 @@ import android.text.TextUtils;
 import android.view.View;
 
 import com.example.xh_lib.utils.UUtils;
-import com.termux.R;
-import com.termux.zerocore.activity.view_holder.CreateSystemVieHolder;
-import com.termux.zerocore.activity.view_holder.ViewHolder;
-import com.termux.zerocore.bean.ReadSystemBean;
+import com.termux.ai.ai.R;
+import com.termux.ai.ai.zerocore.activity.view_holder.CreateSystemVieHolder;
+import com.termux.ai.ai.zerocore.activity.view_holder.ViewHolder;
+import com.termux.ai.ai.zerocore.bean.ReadSystemBean;
 
 import java.util.List;
 

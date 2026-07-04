@@ -7,7 +7,7 @@ apply plugin: 'kotlin-android'
 // @}
 ext {
     // The packageVariant defines the bootstrap variant that will be included in the app APK.
-    // This must be supported by com.termux.shared.termux.TermuxBootstrap.PackageVariant or app will
+    // This must be supported by com.termux.ai.shared.termux.TermuxBootstrap.PackageVariant or app will
     // crash at startup.
     // Bootstrap of a different variant must not be manually installed by the user after app installation
     // by replacing $PREFIX since app code is dependant on the variant used to build the APK.
@@ -16,7 +16,7 @@ ext {
 }
 
 android {
-    namespace "com.termux"
+    namespace "com.termux.ai"
 
     compileSdkVersion project.properties.compileSdkVersion.toInteger()
     ndkVersion = System.getenv("JITPACK_NDK_VERSION") ?: project.properties.ndkVersion
@@ -134,7 +134,7 @@ android {
         buildConfigField "String", "TERMUX_PACKAGE_VARIANT", "\"" + project.ext.packageVariant + "\""
         // Used by TermuxApplication class
 
-        manifestPlaceholders.TERMUX_PACKAGE_NAME = "com.termux"
+        manifestPlaceholders.TERMUX_PACKAGE_NAME = "com.termux.ai"
         manifestPlaceholders.TERMUX_APP_NAME = "Termux"
         manifestPlaceholders.TERMUX_API_APP_NAME = "Termux:API"
         manifestPlaceholders.TERMUX_BOOT_APP_NAME = "Termux:Boot"

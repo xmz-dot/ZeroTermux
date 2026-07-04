@@ -1,4 +1,4 @@
-package com.termux.zerocore.back
+package com.termux.ai.ai.zerocore.back
 
 import android.content.Context
 import android.view.View
@@ -10,21 +10,21 @@ import com.example.xh_lib.utils.UUtils
 import com.hjq.permissions.OnPermissionCallback
 import com.hjq.permissions.Permission
 import com.hjq.permissions.XXPermissions
-import com.termux.R
-import com.termux.app.TermuxActivity
-import com.termux.app.TermuxInstaller
-import com.termux.zerocore.back.adapter.BackupAdapter
-import com.termux.zerocore.back.constant.BackRestoreConstant
-import com.termux.zerocore.back.listener.BackupClickListener
-import com.termux.zerocore.back.listener.BackupStoreDialogCloseListener
-import com.termux.zerocore.back.listener.CreateConversationListener
-import com.termux.zerocore.bean.ItemMenuBean
-import com.termux.zerocore.data.CommendShellData
-import com.termux.zerocore.dialog.LoadingDialog
-import com.termux.zerocore.dialog.SwitchDialog
-import com.termux.zerocore.ftp.utils.UserSetManage
-import com.termux.zerocore.utils.FileIOUtils
-import com.termux.zerocore.utils.WindowsUtils
+import com.termux.ai.ai.R
+import com.termux.ai.ai.app.TermuxActivity
+import com.termux.ai.ai.app.TermuxInstaller
+import com.termux.ai.ai.zerocore.back.adapter.BackupAdapter
+import com.termux.ai.ai.zerocore.back.constant.BackRestoreConstant
+import com.termux.ai.ai.zerocore.back.listener.BackupClickListener
+import com.termux.ai.ai.zerocore.back.listener.BackupStoreDialogCloseListener
+import com.termux.ai.ai.zerocore.back.listener.CreateConversationListener
+import com.termux.ai.ai.zerocore.bean.ItemMenuBean
+import com.termux.ai.ai.zerocore.data.CommendShellData
+import com.termux.ai.ai.zerocore.dialog.LoadingDialog
+import com.termux.ai.ai.zerocore.dialog.SwitchDialog
+import com.termux.ai.ai.zerocore.ftp.utils.UserSetManage
+import com.termux.ai.ai.zerocore.utils.FileIOUtils
+import com.termux.ai.ai.zerocore.utils.WindowsUtils
 import kotlinx.coroutines.*
 
 class BackViewModel : BackupClickListener {
@@ -163,7 +163,7 @@ class BackViewModel : BackupClickListener {
 
     private fun sendTextToTerminal(text: String) {
         LogUtils.d(TAG, "sendTextToTerminal text to:$text")
-        com.termux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(text)
+        com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(text)
 
     }
 

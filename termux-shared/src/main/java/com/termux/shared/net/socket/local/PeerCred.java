@@ -1,14 +1,14 @@
-package com.termux.shared.net.socket.local;
+package com.termux.ai.ai.shared.net.socket.local;
 
 import android.content.Context;
 
 import androidx.annotation.Keep;
 import androidx.annotation.NonNull;
 
-import com.termux.shared.android.ProcessUtils;
-import com.termux.shared.android.UserUtils;
-import com.termux.shared.logger.Logger;
-import com.termux.shared.markdown.MarkdownUtils;
+import com.termux.ai.ai.shared.android.ProcessUtils;
+import com.termux.ai.ai.shared.android.UserUtils;
+import com.termux.ai.ai.shared.logger.Logger;
+import com.termux.ai.ai.shared.markdown.MarkdownUtils;
 
 /** The {@link PeerCred} of the {@link LocalClientSocket} containing info of client/peer. */
 @Keep

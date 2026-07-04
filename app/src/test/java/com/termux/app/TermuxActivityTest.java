@@ -1,6 +1,6 @@
-package com.termux.app;
+package com.termux.ai.ai.app;
 
-import com.termux.shared.data.DataUtils;
+import com.termux.ai.ai.shared.data.DataUtils;
 
 import org.junit.Assert;
 import org.junit.Test;

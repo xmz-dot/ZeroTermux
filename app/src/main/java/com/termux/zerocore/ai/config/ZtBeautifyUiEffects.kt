@@ -1,13 +1,13 @@
-package com.termux.zerocore.ai.config
+package com.termux.ai.ai.zerocore.ai.config
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import com.example.xh_lib.utils.UUtils
-import com.termux.R
-import com.termux.app.TermuxActivity
-import com.termux.zerocore.config.mainmenu.config.SnowflakeClickConfig
-import com.termux.zerocore.config.ztcommand.navigation.ZtForegroundActivityHolder
-import com.termux.zerocore.ftp.utils.UserSetManage
+import com.termux.ai.ai.R
+import com.termux.ai.ai.app.TermuxActivity
+import com.termux.ai.ai.zerocore.config.mainmenu.config.SnowflakeClickConfig
+import com.termux.ai.ai.zerocore.config.ztcommand.navigation.ZtForegroundActivityHolder
+import com.termux.ai.ai.zerocore.ftp.utils.UserSetManage
 
 /**
  * AI 改 isSnowflakeShow / isRainShow 后，按 ZTUserBean 直接同步终端特效 UI（不再走 onClick 切换）。

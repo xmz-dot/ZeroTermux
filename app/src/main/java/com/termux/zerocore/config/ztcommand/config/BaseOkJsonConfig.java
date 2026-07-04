@@ -1,7 +1,7 @@
-package com.termux.zerocore.config.ztcommand.config;
+package com.termux.ai.ai.zerocore.config.ztcommand.config;
 
 import com.example.xh_lib.utils.UUtils;
-import com.termux.R;
+import com.termux.ai.ai.R;
 
 public abstract class BaseOkJsonConfig extends SimpleConfig {
     String getOkJson() {

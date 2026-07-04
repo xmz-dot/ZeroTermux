@@ -1,4 +1,4 @@
-package com.termux.zerocore.config.mainmenu.view.adapter;
+package com.termux.ai.ai.zerocore.config.mainmenu.view.adapter;
 
 import android.content.Context;
 import android.text.TextUtils;
@@ -10,9 +10,9 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.xh_lib.utils.LogUtils;
-import com.termux.R;
-import com.termux.zerocore.config.mainmenu.config.MainMenuClickConfig;
-import com.termux.zerocore.config.mainmenu.view.viewholder.MainMenuItemViewHolder;
+import com.termux.ai.ai.R;
+import com.termux.ai.ai.zerocore.config.mainmenu.config.MainMenuClickConfig;
+import com.termux.ai.ai.zerocore.config.mainmenu.view.viewholder.MainMenuItemViewHolder;
 
 import java.util.ArrayList;
 

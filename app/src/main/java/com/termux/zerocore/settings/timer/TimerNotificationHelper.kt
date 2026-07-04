@@ -1,8 +1,8 @@
-package com.termux.zerocore.settings.timer
+package com.termux.ai.ai.zerocore.settings.timer
 
 import android.content.Context
 import android.content.Intent
-import com.termux.zerocore.settings.TimerActivity
+import com.termux.ai.ai.zerocore.settings.TimerActivity
 
 object TimerNotificationHelper {
     const val EXTRA_FROM_NOTIFICATION = TimerActivity.EXTRA_FROM_NOTIFICATION

@@ -1,4 +1,4 @@
-package com.termux.zerocore.ai.model;
+package com.termux.ai.ai.zerocore.ai.model;
 
 public class AIProviderException extends Exception {
     public AIProviderException(String message) {

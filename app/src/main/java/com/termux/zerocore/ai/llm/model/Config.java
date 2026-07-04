@@ -1,4 +1,4 @@
-package com.termux.zerocore.ai.llm.model;
+package com.termux.ai.ai.zerocore.ai.llm.model;
 
 public class Config {
     // 默认命令行

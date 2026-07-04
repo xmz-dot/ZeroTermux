@@ -1,4 +1,4 @@
-package com.termux.zerocore.editor.lsp
+package com.termux.ai.ai.zerocore.editor.lsp
 
 import io.github.rosemoe.sora.lang.completion.CompletionItem
 import io.github.rosemoe.sora.text.Content

@@ -1,4 +1,4 @@
-package com.termux.zerocore.activity;
+package com.termux.ai.ai.zerocore.activity;
 
 import android.os.Bundle;
 import android.widget.EditText;
@@ -7,8 +7,8 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.xh_lib.utils.UUtils;
-import com.termux.R;
-import com.termux.zerocore.config.ZTConstantConfig;
+import com.termux.ai.ai.R;
+import com.termux.ai.ai.zerocore.config.ZTConstantConfig;
 
 public class UncaughtExceptionHandlerActivity extends AppCompatActivity {
 

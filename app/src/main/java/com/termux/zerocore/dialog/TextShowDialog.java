@@ -1,4 +1,4 @@
-package com.termux.zerocore.dialog;
+package com.termux.ai.ai.zerocore.dialog;
 
 import android.content.Context;
 import android.view.View;
@@ -9,7 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 
-import com.termux.R;
+import com.termux.ai.ai.R;
 
 /**
  * @author ZEL

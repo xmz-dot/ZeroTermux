@@ -1,4 +1,4 @@
-package com.termux.zerocore.ai.agent
+package com.termux.ai.ai.zerocore.ai.agent
 
 import android.os.Bundle
 import android.text.Editable
@@ -12,9 +12,9 @@ import android.widget.TextView
 import androidx.appcompat.widget.SwitchCompat
 import androidx.cardview.widget.CardView
 import com.example.xh_lib.utils.UUtils
-import com.termux.R
-import com.termux.zerocore.ftp.utils.UserSetManage
-import com.termux.zerocore.settings.BaseTitleActivity
+import com.termux.ai.ai.R
+import com.termux.ai.ai.zerocore.ftp.utils.UserSetManage
+import com.termux.ai.ai.zerocore.settings.BaseTitleActivity
 
 class ZtAgentAiSettingsActivity : BaseTitleActivity() {
 

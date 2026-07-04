@@ -1,4 +1,4 @@
-package com.termux.zerocore.ai.deepseek.data;
+package com.termux.ai.ai.zerocore.ai.deepseek.data;
 
 public class ChatMessage {
     private String messageText;

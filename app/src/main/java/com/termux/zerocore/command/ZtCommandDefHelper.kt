@@ -1,11 +1,11 @@
-package com.termux.zerocore.command
+package com.termux.ai.ai.zerocore.command
 
 import com.example.xh_lib.utils.UUtils
 import com.google.gson.Gson
-import com.termux.R
-import com.termux.zerocore.bean.MinLBean
-import com.termux.zerocore.utils.FileIOUtils
-import com.termux.zerocore.utils.SaveData
+import com.termux.ai.ai.R
+import com.termux.ai.ai.zerocore.bean.MinLBean
+import com.termux.ai.ai.zerocore.utils.FileIOUtils
+import com.termux.ai.ai.zerocore.utils.SaveData
 import org.json.JSONArray
 import org.json.JSONObject
 
@@ -238,7 +238,7 @@ object ZtCommandDefHelper {
 
     private fun sendToTerminal(command: String, appendNewline: Boolean): Boolean {
         return try {
-            val comm = com.termux.zerocore.utils.SingletonCommunicationUtils.getInstance()
+            val comm = com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance()
             if (!comm.hasTerminalListener()) return false
             val text = if (appendNewline) "$command \n" else command
             comm.getmSingletonCommunicationListener().sendTextToTerminal(text)

@@ -1,4 +1,4 @@
-package com.termux.zerocore.broadcast;
+package com.termux.ai.ai.zerocore.broadcast;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -11,14 +11,14 @@ import androidx.annotation.Nullable;
 import com.example.xh_lib.utils.LogUtils;
 import com.example.xh_lib.utils.SaveData;
 import com.example.xh_lib.utils.UUtils;
-import com.termux.BuildConfig;
-import com.termux.R;
-import com.termux.app.TermuxActivity;
-import com.termux.terminal.Logger;
-import com.termux.zerocore.bosybox.BusyBoxManager;
-import com.termux.zerocore.developer.DeveloperActivity;
-import com.termux.zerocore.utils.FileHttpUtils;
-import com.termux.zerocore.utils.Z7ExtracatUtils;
+import com.termux.ai.BuildConfig;
+import com.termux.ai.ai.R;
+import com.termux.ai.ai.app.TermuxActivity;
+import com.termux.ai.ai.terminal.Logger;
+import com.termux.ai.ai.zerocore.bosybox.BusyBoxManager;
+import com.termux.ai.ai.zerocore.developer.DeveloperActivity;
+import com.termux.ai.ai.zerocore.utils.FileHttpUtils;
+import com.termux.ai.ai.zerocore.utils.Z7ExtracatUtils;
 import com.zp.z_file.zerotermux.ZTConfig;
 
 import java.io.File;
@@ -34,7 +34,7 @@ public class LocalReceiver extends BroadcastReceiver {
         }
         String broadcastString = intent.getStringExtra("broadcastString");
         if (broadcastString != null && !(broadcastString.isEmpty())) {
-            com.termux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(broadcastString + "\n");
+            com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(broadcastString + "\n");
             if (ZTConfig.INSTANCE.getCloseListener() != null) {
                 ZTConfig.INSTANCE.getCloseListener().close();
             }
@@ -64,7 +64,7 @@ public class LocalReceiver extends BroadcastReceiver {
                 if (ZTConfig.INSTANCE.getCloseListener() != null) {
                     ZTConfig.INSTANCE.getCloseListener().close();
                 }
-                com.termux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal( command + "\n");
+                com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal( command + "\n");
             } catch (Exception e) {
                 e.printStackTrace();
             }

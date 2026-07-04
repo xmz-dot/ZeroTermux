@@ -1,4 +1,4 @@
-package com.termux.zerocore.ftp.new_ftp.utils;
+package com.termux.ai.ai.zerocore.ftp.new_ftp.utils;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -8,8 +8,8 @@ import android.database.sqlite.SQLiteOpenHelper;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.termux.zerocore.ftp.new_ftp.Constants;
-import com.termux.zerocore.ftp.new_ftp.bean.AccountItem;
+import com.termux.ai.ai.zerocore.ftp.new_ftp.Constants;
+import com.termux.ai.ai.zerocore.ftp.new_ftp.bean.AccountItem;
 
 
 public class MySQLiteOpenHelper extends SQLiteOpenHelper {

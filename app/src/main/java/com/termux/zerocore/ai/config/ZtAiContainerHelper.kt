@@ -1,12 +1,12 @@
-package com.termux.zerocore.ai.config
+package com.termux.ai.ai.zerocore.ai.config
 
 import android.content.Intent
 import com.example.xh_lib.utils.UUtils
-import com.termux.app.TermuxService
-import com.termux.shared.termux.TermuxConstants
-import com.termux.zerocore.activity.utils.CreateSystemUtils
-import com.termux.zerocore.bean.ReadSystemBean
-import com.termux.zerocore.utils.SingletonCommunicationUtils
+import com.termux.ai.ai.app.TermuxService
+import com.termux.ai.ai.shared.termux.TermuxConstants
+import com.termux.ai.ai.zerocore.activity.utils.CreateSystemUtils
+import com.termux.ai.ai.zerocore.bean.ReadSystemBean
+import com.termux.ai.ai.zerocore.utils.SingletonCommunicationUtils
 import org.json.JSONArray
 import org.json.JSONObject
 import java.io.File
@@ -42,7 +42,7 @@ object ZtAiContainerHelper {
         return JSONObject()
             .put("ok", true)
             .put("hint", ZtAiStrings.containerHint())
-            .put("menu_equivalent", ZtAiStrings.str(com.termux.R.string.zt_ai_container_menu_equiv))
+            .put("menu_equivalent", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_container_menu_equiv))
             .put("active_container_id", active?.let { containerId(it) } ?: JSONObject.NULL)
             .put("active_container_name", active?.name ?: JSONObject.NULL)
             .put("containers", arr)
@@ -153,11 +153,11 @@ object ZtAiContainerHelper {
             return JSONObject()
                 .put("ok", false)
                 .put("error", "user confirmation required")
-                .put("hint", ZtAiStrings.str(com.termux.R.string.zt_ai_container_delete_confirm_hint))
+                .put("hint", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_container_delete_confirm_hint))
                 .put("pending_container_id", containerId(target))
                 .put("pending_container_name", target.name)
                 .put("path", target.dir)
-                .put("warning", ZtAiStrings.str(com.termux.R.string.zt_ai_container_delete_warning))
+                .put("warning", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_container_delete_warning))
                 .toString(2)
         }
 

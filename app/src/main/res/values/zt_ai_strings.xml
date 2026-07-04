@@ -111,7 +111,7 @@
     <group name="常用">
         <item tag="ZT设置"
             name="设置"
-            click="java:com.termux.zerocore.config.mainmenu.config.ZTSettingsClickConfig" />
+            click="java:com.termux.ai.zerocore.config.mainmenu.config.ZTSettingsClickConfig" />
         <item tag="更新软件源"
             name="更新源"
             click="ztShell:pkg update"

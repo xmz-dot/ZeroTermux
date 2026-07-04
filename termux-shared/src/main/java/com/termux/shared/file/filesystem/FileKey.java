@@ -23,7 +23,7 @@
  * questions.
  */
 
-package com.termux.shared.file.filesystem;
+package com.termux.ai.ai.shared.file.filesystem;
 
 /**
  * Container for device/inode to uniquely identify file.

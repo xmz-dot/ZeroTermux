@@ -1,4 +1,4 @@
-package com.termux.zerocore.ai.llm.model;
+package com.termux.ai.ai.zerocore.ai.llm.model;
 
 public class RequestMessageItem {
     public static final String ROLE_USER = "user";

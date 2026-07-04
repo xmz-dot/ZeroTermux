@@ -1,4 +1,4 @@
-package com.termux.zerocore.utils;
+package com.termux.ai.ai.zerocore.utils;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -8,7 +8,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 
-import com.termux.R;
+import com.termux.ai.ai.R;
 
 public class NotificationUtils {
     private static final String CHANNEL_ID = "channel_timer_notification";

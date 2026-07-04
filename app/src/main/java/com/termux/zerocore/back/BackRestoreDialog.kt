@@ -1,4 +1,4 @@
-package com.termux.zerocore.back
+package com.termux.ai.ai.zerocore.back
 
 import android.content.Context
 import android.view.View
@@ -10,11 +10,11 @@ import com.example.xh_lib.utils.UUtils
 import com.hjq.permissions.OnPermissionCallback
 import com.hjq.permissions.Permission
 import com.hjq.permissions.XXPermissions
-import com.termux.R
-import com.termux.app.TermuxInstaller
-import com.termux.zerocore.back.listener.BackupStoreDialogCloseListener
-import com.termux.zerocore.back.listener.CreateConversationListener
-import com.termux.zerocore.dialog.SwitchDialog
+import com.termux.ai.ai.R
+import com.termux.ai.ai.app.TermuxInstaller
+import com.termux.ai.ai.zerocore.back.listener.BackupStoreDialogCloseListener
+import com.termux.ai.ai.zerocore.back.listener.CreateConversationListener
+import com.termux.ai.ai.zerocore.dialog.SwitchDialog
 
 class BackRestoreDialog : BaseDialogDown, BackupStoreDialogCloseListener {
     private val BACKUP_SELECT = 50001

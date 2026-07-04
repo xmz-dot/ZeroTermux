@@ -1,8 +1,8 @@
-package com.termux.zerocore.workstation
+package com.termux.ai.ai.zerocore.workstation
 
 import com.google.gson.Gson
-import com.termux.zerocore.bean.ZTUserBean
-import com.termux.zerocore.ftp.utils.UserSetManage
+import com.termux.ai.ai.zerocore.bean.ZTUserBean
+import com.termux.ai.ai.zerocore.ftp.utils.UserSetManage
 
 object ZtWorkstationPermissionHelper {
 

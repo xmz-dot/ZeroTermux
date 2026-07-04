@@ -1,4 +1,4 @@
-package com.termux.zerocore.activity.view_holder;
+package com.termux.ai.ai.zerocore.activity.view_holder;
 
 import android.view.View;
 import android.widget.ImageView;
@@ -8,7 +8,7 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.termux.R;
+import com.termux.ai.ai.R;
 
 
 

@@ -1,4 +1,4 @@
-package com.termux.zerocore.utils
+package com.termux.ai.ai.zerocore.utils
 
 import android.app.Activity
 import android.content.Intent
@@ -9,9 +9,9 @@ import android.view.View
 import android.view.View.OnClickListener
 import com.example.xh_lib.utils.LogUtils
 import com.example.xh_lib.utils.UUtils
-import com.termux.zerocore.bean.MessageBean
-import com.termux.zerocore.bean.PackageBean
-import com.termux.zerocore.dialog.SwitchDialog
+import com.termux.ai.ai.zerocore.bean.MessageBean
+import com.termux.ai.ai.zerocore.bean.PackageBean
+import com.termux.ai.ai.zerocore.dialog.SwitchDialog
 
 object PackageMsg {
     final val TAG = "PackageMsg"
@@ -19,7 +19,7 @@ object PackageMsg {
     final val ZERO_TERMUX_TERMUX_BOOT = "com.termux.boot"
     final val ZERO_TERMUX_TERMUX_STYLING = "com.termux.styling"
     final val ZERO_TERMUX_TERMUX_TASKER = "com.termux.tasker"
-    final val ZERO_TERMUX_TERMUX_X11 = "com.termux.x11"
+    final val ZERO_TERMUX_TERMUX_X11 = "com.termux.ai.x11"
     final val ZERO_TERMUX_TERMUX_FILE_MSG = "me.zhanghai.android.files"
     final val ZERO_TERMUX_TERMUX_WEB_START = "org.join.web.serv"
     final val ZERO_TERMUX_TERMUX_FLOAT = "com.termux.window"

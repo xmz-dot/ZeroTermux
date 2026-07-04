@@ -1,4 +1,4 @@
-package com.termux.zerocore.fragment;
+package com.termux.ai.ai.zerocore.fragment;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -17,19 +17,19 @@ import android.widget.Toast;
 
 import com.example.xh_lib.utils.UUtils;
 import com.github.mjdev.libaums.fs.UsbFile;
-import com.termux.R;
-import com.termux.app.TermuxActivity;
-import com.termux.app.TermuxInstaller;
-import com.termux.app.TermuxService;
-import com.termux.shared.termux.TermuxConstants;
-import com.termux.zerocore.activity.BackNewActivity;
-import com.termux.zerocore.activity.adapter.RestoreAdapter;
-import com.termux.zerocore.data.UsbFileData;
-import com.termux.zerocore.dialog.MyDialog;
-import com.termux.zerocore.dialog.YesNoDialog;
-import com.termux.zerocore.shell.ExeCommand;
-import com.termux.zerocore.utils.QZUtils;
-import com.termux.zerocore.utils.SaveData;
+import com.termux.ai.ai.R;
+import com.termux.ai.ai.app.TermuxActivity;
+import com.termux.ai.ai.app.TermuxInstaller;
+import com.termux.ai.ai.app.TermuxService;
+import com.termux.ai.ai.shared.termux.TermuxConstants;
+import com.termux.ai.ai.zerocore.activity.BackNewActivity;
+import com.termux.ai.ai.zerocore.activity.adapter.RestoreAdapter;
+import com.termux.ai.ai.zerocore.data.UsbFileData;
+import com.termux.ai.ai.zerocore.dialog.MyDialog;
+import com.termux.ai.ai.zerocore.dialog.YesNoDialog;
+import com.termux.ai.ai.zerocore.shell.ExeCommand;
+import com.termux.ai.ai.zerocore.utils.QZUtils;
+import com.termux.ai.ai.zerocore.utils.SaveData;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -41,15 +41,15 @@ import java.util.ArrayList;
 
 public class RestoreFragment extends BaseFragment {
 
-    private File mFile12 = new File("/data/data/com.termux/files/usr");
-    private File mFile13 = new File("/data/data/com.termux/files/home");
+    private File mFile12 = new File("/data/data/com.termux.ai/files/usr");
+    private File mFile13 = new File("/data/data/com.termux.ai/files/home");
     private File mSdFile;
-    private File mFileHomeFiles = new File("/data/data/com.termux/files/");
-    private File mFileHome = new File("/data/data/com.termux/busybox");
-    private File mFileHomeStatic = new File("/data/data/com.termux/busybox_static");
-    private File mFileHomeProot = new File("/data/data/com.termux/proot");
-    private File mFileHomeMain = new File("/data/data/com.termux/files/usr/bin/tar");
-    private File mFileHomeMainTar = new File("/data/data/com.termux/busybox_tar");
+    private File mFileHomeFiles = new File("/data/data/com.termux.ai/files/");
+    private File mFileHome = new File("/data/data/com.termux.ai/busybox");
+    private File mFileHomeStatic = new File("/data/data/com.termux.ai/busybox_static");
+    private File mFileHomeProot = new File("/data/data/com.termux.ai/proot");
+    private File mFileHomeMain = new File("/data/data/com.termux.ai/files/usr/bin/tar");
+    private File mFileHomeMainTar = new File("/data/data/com.termux.ai/busybox_tar");
     private ListView mListView;
     private TextView mTitle;
     private TextView mStartRe;
@@ -65,7 +65,7 @@ public class RestoreFragment extends BaseFragment {
 
     @Override
     public void initFragmentView(View mView) {
-        mSdFile = com.termux.zerocore.utils.XinhaoStoragePath.getDataDir(getContext());
+        mSdFile = com.termux.ai.zerocore.utils.XinhaoStoragePath.getDataDir(getContext());
 
         mListView = (ListView) findViewById(R.id.list_view);
         mTitle = (TextView) findViewById(R.id.title);
@@ -128,7 +128,7 @@ public class RestoreFragment extends BaseFragment {
 
 
 
-                        if (!(new File("/data/data/com.termux/files/home/storage").exists())){
+                        if (!(new File("/data/data/com.termux.ai/files/home/storage").exists())){
 
                             Toast.makeText(UUtils.getContext(), UUtils.getString(R.string.没有找到目录), Toast.LENGTH_SHORT).show();
 
@@ -137,9 +137,9 @@ public class RestoreFragment extends BaseFragment {
                                 public void run() {
 
 
-                                    com.termux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(UUtils.getString(R.string.这块直接输入回车即可));
+                                    com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(UUtils.getString(R.string.这块直接输入回车即可));
 
-                                    com.termux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal("termux-setup-storage ");
+                                    com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal("termux-setup-storage ");
                                     getActivity().finish();
                                 }
                             });

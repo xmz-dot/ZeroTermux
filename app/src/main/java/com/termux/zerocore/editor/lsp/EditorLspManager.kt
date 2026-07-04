@@ -1,4 +1,4 @@
-package com.termux.zerocore.editor.lsp
+package com.termux.ai.ai.zerocore.editor.lsp
 
 import android.content.Context
 import android.os.Handler

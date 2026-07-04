@@ -1,4 +1,4 @@
-package com.termux.zerocore.bean;
+package com.termux.ai.ai.zerocore.bean;
 
 import java.io.Serializable;
 
@@ -93,7 +93,7 @@ public class SSHDeviceBean implements Serializable {
         if (useKey) {
             cmdBuilder.append("ssh -p ").append(port).append(" ");
             String safeName = alias.replaceAll("[^a-zA-Z0-9_\\-]", "_");
-            String autoKeyPath = "/data/data/com.termux/files/home/.ssh/" + safeName + ".key";
+            String autoKeyPath = "/data/data/com.termux.ai/files/home/.ssh/" + safeName + ".key";
             cmdBuilder.append("-i ").append(autoKeyPath).append(" ");
 
         } else {

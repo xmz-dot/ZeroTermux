@@ -1,4 +1,4 @@
-package com.termux.app;
+package com.termux.ai.ai.app;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -13,19 +13,19 @@ import android.view.WindowManager;
 
 import com.example.xh_lib.utils.LogUtils;
 import com.example.xh_lib.utils.UUtils;
-import com.termux.R;
-import com.termux.shared.file.FileUtils;
-import com.termux.shared.termux.crash.TermuxCrashUtils;
-import com.termux.shared.termux.file.TermuxFileUtils;
-import com.termux.shared.interact.MessageDialogUtils;
-import com.termux.shared.logger.Logger;
-import com.termux.shared.markdown.MarkdownUtils;
-import com.termux.shared.errors.Error;
-import com.termux.shared.android.PackageUtils;
-import com.termux.shared.termux.TermuxConstants;
-import com.termux.shared.termux.TermuxUtils;
-import com.termux.shared.termux.shell.command.environment.TermuxShellEnvironment;
-import com.termux.zerocore.dialog.LoadingOsInstallDialog;
+import com.termux.ai.ai.R;
+import com.termux.ai.ai.shared.file.FileUtils;
+import com.termux.ai.ai.shared.termux.crash.TermuxCrashUtils;
+import com.termux.ai.ai.shared.termux.file.TermuxFileUtils;
+import com.termux.ai.ai.shared.interact.MessageDialogUtils;
+import com.termux.ai.ai.shared.logger.Logger;
+import com.termux.ai.ai.shared.markdown.MarkdownUtils;
+import com.termux.ai.ai.shared.errors.Error;
+import com.termux.ai.ai.shared.android.PackageUtils;
+import com.termux.ai.ai.shared.termux.TermuxConstants;
+import com.termux.ai.ai.shared.termux.TermuxUtils;
+import com.termux.ai.ai.shared.termux.shell.command.environment.TermuxShellEnvironment;
+import com.termux.ai.ai.zerocore.dialog.LoadingOsInstallDialog;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
@@ -38,10 +38,10 @@ import java.util.List;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
-import static com.termux.shared.termux.TermuxConstants.TERMUX_PREFIX_DIR;
-import static com.termux.shared.termux.TermuxConstants.TERMUX_PREFIX_DIR_PATH;
-import static com.termux.shared.termux.TermuxConstants.TERMUX_STAGING_PREFIX_DIR;
-import static com.termux.shared.termux.TermuxConstants.TERMUX_STAGING_PREFIX_DIR_PATH;
+import static com.termux.ai.shared.termux.TermuxConstants.TERMUX_PREFIX_DIR;
+import static com.termux.ai.shared.termux.TermuxConstants.TERMUX_PREFIX_DIR_PATH;
+import static com.termux.ai.shared.termux.TermuxConstants.TERMUX_STAGING_PREFIX_DIR;
+import static com.termux.ai.shared.termux.TermuxConstants.TERMUX_STAGING_PREFIX_DIR_PATH;
 
 /**
  * Install the Termux bootstrap packages if necessary by following the below steps:

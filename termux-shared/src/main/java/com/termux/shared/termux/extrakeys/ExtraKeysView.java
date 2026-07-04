@@ -1,4 +1,4 @@
-package com.termux.shared.termux.extrakeys;
+package com.termux.ai.ai.shared.termux.extrakeys;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -34,11 +34,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.google.android.material.button.MaterialButton;
-import com.termux.shared.R;
-import com.termux.shared.termux.terminal.io.TerminalExtraKeys;
-import com.termux.shared.theme.ThemeUtils;
-import com.termux.terminal.TerminalSession;
-import com.termux.view.TerminalView;
+import com.termux.ai.ai.shared.R;
+import com.termux.ai.ai.shared.termux.terminal.io.TerminalExtraKeys;
+import com.termux.ai.ai.shared.theme.ThemeUtils;
+import com.termux.ai.ai.terminal.TerminalSession;
+import com.termux.ai.ai.view.TerminalView;
 
 /**
  * A {@link View} showing extra keys (such as Escape, Ctrl, Alt) not normally available on an Android soft
@@ -48,7 +48,7 @@ import com.termux.view.TerminalView;
  * it with a {@link androidx.viewpager.widget.ViewPager}.:
  * {@code
  * <?xml version="1.0" encoding="utf-8"?>
- * <com.termux.shared.termux.extrakeys.ExtraKeysView xmlns:android="http://schemas.android.com/apk/res/android"
+ * <com.termux.ai.shared.termux.extrakeys.ExtraKeysView xmlns:android="http://schemas.android.com/apk/res/android"
  *     android:id="@+id/extra_keys"
  *     style="?android:attr/buttonBarStyle"
  *     android:layout_width="match_parent"

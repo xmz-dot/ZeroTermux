@@ -1,4 +1,4 @@
-package com.termux.zerocore.aidebug
+package com.termux.ai.ai.zerocore.aidebug
 
 import android.content.Context
 import com.google.gson.Gson

@@ -1,6 +1,6 @@
-package com.termux.zerocore.editor
+package com.termux.ai.ai.zerocore.editor
 
-import com.termux.shared.termux.TermuxConstants
+import com.termux.ai.ai.shared.termux.TermuxConstants
 import java.io.File
 
 object EditorVncEnvironment {

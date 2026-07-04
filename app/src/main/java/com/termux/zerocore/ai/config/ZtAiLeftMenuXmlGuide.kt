@@ -1,9 +1,9 @@
-package com.termux.zerocore.ai.config
+package com.termux.ai.ai.zerocore.ai.config
 
 import android.content.Context
 import com.example.xh_lib.utils.UUtils
-import com.termux.R
-import com.termux.zerocore.config.mainmenu.XMLMainMenuConfig
+import com.termux.ai.ai.R
+import com.termux.ai.ai.zerocore.config.mainmenu.XMLMainMenuConfig
 import org.json.JSONArray
 import org.json.JSONObject
 import org.w3c.dom.Element
@@ -206,7 +206,7 @@ object ZtAiLeftMenuXmlGuide {
             .put(clickType(
                 "java:",
                 ZtAiStrings.str(R.string.zt_ai_click_java_desc),
-                """click="java:com.termux.zerocore.config.mainmenu.config.ZTSettingsClickConfig"""",
+                """click="java:com.termux.ai.zerocore.config.mainmenu.config.ZTSettingsClickConfig"""",
                 ZtAiStrings.str(R.string.zt_ai_click_java_note)
             ))
             .put(clickType(
@@ -224,13 +224,13 @@ object ZtAiLeftMenuXmlGuide {
             .put(clickType(
                 "ztEditText:",
                 ZtAiStrings.str(R.string.zt_ai_click_ztedittext_desc),
-                """click="ztEditText:/data/data/com.termux/files/home/ZtInfo/main_menu_path.xml"""",
+                """click="ztEditText:/data/data/com.termux.ai/files/home/ZtInfo/main_menu_path.xml"""",
                 ZtAiStrings.str(R.string.zt_ai_click_ztedittext_note)
             ))
             .put(clickType(
                 "startActivity:",
                 ZtAiStrings.str(R.string.zt_ai_click_startactivity_desc),
-                """click="startActivity:com.termux.zerocore.settings.ZtSettingsActivity" packageName="com.termux"""",
+                """click="startActivity:com.termux.ai.zerocore.settings.ZtSettingsActivity" packageName="com.termux.ai"""",
                 ZtAiStrings.str(R.string.zt_ai_click_startactivity_note)
             ))
             .put(clickType(

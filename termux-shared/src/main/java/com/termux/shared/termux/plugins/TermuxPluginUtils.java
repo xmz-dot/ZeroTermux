@@ -1,4 +1,4 @@
-package com.termux.shared.termux.plugins;
+package com.termux.ai.ai.shared.termux.plugins;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -10,32 +10,32 @@ import android.os.Environment;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.termux.shared.R;
-import com.termux.shared.activities.ReportActivity;
-import com.termux.shared.file.FileUtils;
-import com.termux.shared.termux.file.TermuxFileUtils;
-import com.termux.shared.shell.command.result.ResultConfig;
-import com.termux.shared.shell.command.result.ResultData;
-import com.termux.shared.errors.Errno;
-import com.termux.shared.errors.Error;
-import com.termux.shared.notification.NotificationUtils;
-import com.termux.shared.termux.models.UserAction;
-import com.termux.shared.termux.notification.TermuxNotificationUtils;
-import com.termux.shared.termux.settings.preferences.TermuxPreferenceConstants;
-import com.termux.shared.shell.command.result.ResultSender;
-import com.termux.shared.shell.ShellUtils;
-import com.termux.shared.android.AndroidUtils;
-import com.termux.shared.termux.TermuxConstants;
-import com.termux.shared.termux.TermuxConstants.TERMUX_APP.TERMUX_SERVICE;
-import com.termux.shared.logger.Logger;
-import com.termux.shared.termux.settings.preferences.TermuxAppSharedPreferences;
-import com.termux.shared.termux.settings.preferences.TermuxPreferenceConstants.TERMUX_APP;
-import com.termux.shared.models.ReportInfo;
-import com.termux.shared.termux.settings.properties.TermuxAppSharedProperties;
-import com.termux.shared.shell.command.ExecutionCommand;
-import com.termux.shared.data.DataUtils;
-import com.termux.shared.markdown.MarkdownUtils;
-import com.termux.shared.termux.TermuxUtils;
+import com.termux.ai.ai.shared.R;
+import com.termux.ai.ai.shared.activities.ReportActivity;
+import com.termux.ai.ai.shared.file.FileUtils;
+import com.termux.ai.ai.shared.termux.file.TermuxFileUtils;
+import com.termux.ai.ai.shared.shell.command.result.ResultConfig;
+import com.termux.ai.ai.shared.shell.command.result.ResultData;
+import com.termux.ai.ai.shared.errors.Errno;
+import com.termux.ai.ai.shared.errors.Error;
+import com.termux.ai.ai.shared.notification.NotificationUtils;
+import com.termux.ai.ai.shared.termux.models.UserAction;
+import com.termux.ai.ai.shared.termux.notification.TermuxNotificationUtils;
+import com.termux.ai.ai.shared.termux.settings.preferences.TermuxPreferenceConstants;
+import com.termux.ai.ai.shared.shell.command.result.ResultSender;
+import com.termux.ai.ai.shared.shell.ShellUtils;
+import com.termux.ai.ai.shared.android.AndroidUtils;
+import com.termux.ai.ai.shared.termux.TermuxConstants;
+import com.termux.ai.ai.shared.termux.TermuxConstants.TERMUX_APP.TERMUX_SERVICE;
+import com.termux.ai.ai.shared.logger.Logger;
+import com.termux.ai.ai.shared.termux.settings.preferences.TermuxAppSharedPreferences;
+import com.termux.ai.ai.shared.termux.settings.preferences.TermuxPreferenceConstants.TERMUX_APP;
+import com.termux.ai.ai.shared.models.ReportInfo;
+import com.termux.ai.ai.shared.termux.settings.properties.TermuxAppSharedProperties;
+import com.termux.ai.ai.shared.shell.command.ExecutionCommand;
+import com.termux.ai.ai.shared.data.DataUtils;
+import com.termux.ai.ai.shared.markdown.MarkdownUtils;
+import com.termux.ai.ai.shared.termux.TermuxUtils;
 
 public class TermuxPluginUtils {
 

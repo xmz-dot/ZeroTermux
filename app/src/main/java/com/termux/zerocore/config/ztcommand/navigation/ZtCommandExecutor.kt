@@ -1,11 +1,11 @@
-package com.termux.zerocore.config.ztcommand.navigation
+package com.termux.ai.ai.zerocore.config.ztcommand.navigation
 
 import android.content.Intent
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import com.example.xh_lib.utils.UUtils
-import com.termux.zerocore.config.ztcommand.ZTCommandConfigStore
-import com.termux.zerocore.config.ztcommand.ZTSocketService
-import com.termux.zerocore.config.ztcommand.config.ZTConfig
+import com.termux.ai.ai.zerocore.config.ztcommand.ZTCommandConfigStore
+import com.termux.ai.ai.zerocore.config.ztcommand.ZTSocketService
+import com.termux.ai.ai.zerocore.config.ztcommand.config.ZTConfig
 import org.json.JSONObject
 
 object ZtCommandExecutor {

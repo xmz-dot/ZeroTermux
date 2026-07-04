@@ -1,6 +1,6 @@
-package com.termux.zerocore.config.ztcommand.config;
+package com.termux.ai.ai.zerocore.config.ztcommand.config;
 
-import static com.termux.zerocore.config.ztcommand.config.ZTKeyConstants.ZT_ID_LEFT;
+import static com.termux.ai.zerocore.config.ztcommand.config.ZTKeyConstants.ZT_ID_LEFT;
 
 import android.content.Context;
 

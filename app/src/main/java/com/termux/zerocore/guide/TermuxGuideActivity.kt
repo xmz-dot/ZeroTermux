@@ -1,4 +1,4 @@
-package com.termux.zerocore.guide
+package com.termux.ai.ai.zerocore.guide
 
 import android.app.Activity
 import android.content.Intent
@@ -14,17 +14,17 @@ import com.example.xh_lib.utils.UUtils
 import com.hjq.permissions.OnPermissionCallback
 import com.hjq.permissions.Permission
 import com.hjq.permissions.XXPermissions
-import com.termux.R
-import com.termux.app.TermuxActivity
-import com.termux.zerocore.dialog.SwitchDialog
-import com.termux.zerocore.ftp.utils.UserSetManage
-import com.termux.zerocore.settings.BaseTitleActivity
-import com.termux.zerocore.utils.FileIOUtils
-import com.termux.zerocore.utils.XinhaoStoragePath
-import com.termux.zerocore.utils.FileIOUtils.HTML_PATH
-import com.termux.zerocore.utils.FileIOUtils.HTML_ZT_LINK_PATH
-import com.termux.zerocore.utils.FileIOUtils.XINHAO_PATH
-import com.termux.zerocore.utils.FileIOUtils.getHomePath
+import com.termux.ai.ai.R
+import com.termux.ai.ai.app.TermuxActivity
+import com.termux.ai.ai.zerocore.dialog.SwitchDialog
+import com.termux.ai.ai.zerocore.ftp.utils.UserSetManage
+import com.termux.ai.ai.zerocore.settings.BaseTitleActivity
+import com.termux.ai.ai.zerocore.utils.FileIOUtils
+import com.termux.ai.ai.zerocore.utils.XinhaoStoragePath
+import com.termux.ai.ai.zerocore.utils.FileIOUtils.HTML_PATH
+import com.termux.ai.ai.zerocore.utils.FileIOUtils.HTML_ZT_LINK_PATH
+import com.termux.ai.ai.zerocore.utils.FileIOUtils.XINHAO_PATH
+import com.termux.ai.ai.zerocore.utils.FileIOUtils.getHomePath
 import java.io.File
 
 class TermuxGuideActivity: BaseTitleActivity() {
@@ -238,7 +238,7 @@ class TermuxGuideActivity: BaseTitleActivity() {
         }
         return intent.getBooleanExtra(GUIDE_EXTRA_JUMP_OTHER, false)
     }
-    // 创建 Android/data/com.termux/files/xinhao 目录
+    // 创建 Android/data/com.termux.ai/files/xinhao 目录
     private fun createSdcardAndroidFiles() {
         if (XinhaoStoragePath.createAndroidDataModeFolders(applicationContext)) {
             UUtils.showMsg(UUtils.getString(R.string.guide_zerotermux_create_toast_ok))

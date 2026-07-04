@@ -1,4 +1,4 @@
-package com.termux.zerocore.ai.llm.data;
+package com.termux.ai.ai.zerocore.ai.llm.data;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -9,8 +9,8 @@ import android.database.sqlite.SQLiteOpenHelper;
 import com.example.xh_lib.utils.LogUtils;
 import com.example.xh_lib.utils.SaveData;
 import com.google.gson.Gson;
-import com.termux.zerocore.ai.model.ProviderProfile;
-import com.termux.zerocore.bean.ZTUserBean;
+import com.termux.ai.ai.zerocore.ai.model.ProviderProfile;
+import com.termux.ai.ai.zerocore.bean.ZTUserBean;
 
 import java.util.ArrayList;
 import java.util.List;

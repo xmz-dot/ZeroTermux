@@ -1,4 +1,4 @@
-package com.termux.zerocore.ai.deepseek;
+package com.termux.ai.ai.zerocore.ai.deepseek;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,11 +14,11 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.termux.R;
-import com.termux.zerocore.ai.deepseek.activity.ZeroTermuxDeepSeekSettingsActivity;
-import com.termux.zerocore.ai.deepseek.data.ChatDatabaseHelper;
-import com.termux.zerocore.ai.deepseek.data.ChatSession;
-import com.termux.zerocore.ai.deepseek.data.ChatSessionAdapter;
+import com.termux.ai.ai.R;
+import com.termux.ai.ai.zerocore.ai.deepseek.activity.ZeroTermuxDeepSeekSettingsActivity;
+import com.termux.ai.ai.zerocore.ai.deepseek.data.ChatDatabaseHelper;
+import com.termux.ai.ai.zerocore.ai.deepseek.data.ChatSession;
+import com.termux.ai.ai.zerocore.ai.deepseek.data.ChatSessionAdapter;
 
 import java.util.List;
 

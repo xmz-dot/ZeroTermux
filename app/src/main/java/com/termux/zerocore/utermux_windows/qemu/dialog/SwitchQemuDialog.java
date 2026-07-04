@@ -1,4 +1,4 @@
-package com.termux.zerocore.utermux_windows.qemu.dialog;
+package com.termux.ai.ai.zerocore.utermux_windows.qemu.dialog;
 
 import android.content.Context;
 import android.view.View;
@@ -7,7 +7,7 @@ import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 
 import com.blockchain.ub.util.custom.dialog.BaseDialogCentre;
-import com.termux.R;
+import com.termux.ai.ai.R;
 
 /**
  * @author ZEL

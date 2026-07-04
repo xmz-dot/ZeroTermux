@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!DOCTYPE resources [
-    <!ENTITY TERMUX_PACKAGE_NAME "com.termux">
+    <!ENTITY TERMUX_PACKAGE_NAME "com.termux.ai">
     <!ENTITY TERMUX_APP_NAME "Termux">
     <!ENTITY TERMUX_API_APP_NAME "Termux:API">
     <!ENTITY TERMUX_BOOT_APP_NAME "Termux:Boot">
@@ -1340,8 +1340,8 @@ Known Issue: Rapid consecutive back operations may cause black screen in Interna
         ln[ \n
         Description: current directory internal storage path \n
         Note: Both paths must be absolute paths \n
-        Example: ln /data/data/com.termux/files/home/custom_name /sdcard/ \n
-        Example (or specify a directory): ln /data/data/com.termux/files/home/custom_name /sdcard/custom_directory/ \n
+        Example: ln /data/data/com.termux.ai/files/home/custom_name /sdcard/ \n
+        Example (or specify a directory): ln /data/data/com.termux.ai/files/home/custom_name /sdcard/custom_directory/ \n
         ] \n
         --------Version 0.2 Update--------\n
         zt dialog \n
@@ -1357,8 +1357,8 @@ Known Issue: Rapid consecutive back operations may cause black screen in Interna
         zt backgroundimage(bgi) Image path (set as current terminal background)\n
         backgroundimage(bgi)[\n
         Usage Help (full path required):\n
-        zt backgroundimage /data/data/com.termux/files/home/.img/back.jpg \n
-        zt bgi /data/data/com.termux/files/home/.img/back.jpg \n
+        zt backgroundimage /data/data/com.termux.ai/files/home/.img/back.jpg \n
+        zt bgi /data/data/com.termux.ai/files/home/.img/back.jpg \n
         ]\n
         \n
         zt qr Open Scan (scan QR code or barcode)\n
@@ -1457,7 +1457,7 @@ home/termux-adb-shell.sh \n
 Please follow these steps:\n
 \n
 adb shell \n
-run-as com.termux \n
+run-as com.termux.ai \n
 cd files/home/ \n
 sh termux-adb-shell.sh \n
 cd ~ &amp;&amp; pkg update -y \n
@@ -1711,7 +1711,7 @@ cd ~ &amp;&amp; pkg update -y \n
         \n\n
         Suggestion: Under normal circumstances, please place it in internal storage. If placed in the Android/data directory, all saved data packages and all data under the xinhao folder will be cleared after uninstalling the app. Please choose carefully.\n\n
         Note: Placing files in internal storage/Android/data may cause unknown issues. If you encounter any, please provide feedback on GitHub.\n
-        Android standard (/internal storage/Android/data/com.termux/files/xinhao/)\n
+        Android standard (/internal storage/Android/data/com.termux.ai/files/xinhao/)\n
         Simple and easy (/internal storage/xinhao)\n\n
         Directory descriptions: data (backup packages), apk (temporary APKs), windows (QEMU directory),
         command (command directory), font (font directory), iso (image directory), mysql (MySQL temporary files),
@@ -1756,9 +1756,9 @@ cd ~ &amp;&amp; pkg update -y \n
     <string name="save_path_summary">
         Set the current storage path directory\n
         Internal storage/xinhao\n
-        Internal storage/Android/data/com.termux/files/xinhao\n
+        Internal storage/Android/data/com.termux.ai/files/xinhao\n
         Please note that copying files to the Android data directory requires some relevant knowledge</string>
-    <string name="backup_success_android">Backup complete. Backup files are in -> Internal storage/Android/data/com.termux/files/xinhao/data/| directory</string>
+    <string name="backup_success_android">Backup complete. Backup files are in -> Internal storage/Android/data/com.termux.ai/files/xinhao/data/| directory</string>
     <string name="add_containers">Add Container</string>
     <string name="item_containers_path">Path:</string>
     <string name="item_containers_toast_create_system_error">System creation failed! Please try again</string>

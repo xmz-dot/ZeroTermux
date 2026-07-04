@@ -1,4 +1,4 @@
-package com.termux.zerocore.background;
+package com.termux.ai.ai.zerocore.background;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -18,7 +18,7 @@ import static android.opengl.GLES20.GL_ONE;
 import static android.opengl.GLES20.GL_SRC_ALPHA;
 import static android.opengl.GLES20.glDepthMask;
 import static android.opengl.GLES20.glEnable;
-import com.termux.R;
+import com.termux.ai.ai.R;
 
 
 /**

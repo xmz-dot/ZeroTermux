@@ -1,4 +1,4 @@
-package com.termux.zerocore.ai.config
+package com.termux.ai.ai.zerocore.ai.config
 
 import java.io.BufferedReader
 import java.io.BufferedWriter

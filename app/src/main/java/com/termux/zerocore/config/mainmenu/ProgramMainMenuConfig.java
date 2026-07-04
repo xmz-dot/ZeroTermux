@@ -1,13 +1,13 @@
-package com.termux.zerocore.config.mainmenu;
+package com.termux.ai.ai.zerocore.config.mainmenu;
 
 import android.content.Context;
 import android.text.TextUtils;
 
 import com.example.xh_lib.utils.UUtils;
-import com.termux.R;
-import com.termux.zerocore.config.mainmenu.config.BaseMenuClickConfig;
-import com.termux.zerocore.config.mainmenu.config.MainMenuClickConfig;
-import com.termux.zerocore.config.mainmenu.data.MainMenuCategoryData;
+import com.termux.ai.ai.R;
+import com.termux.ai.ai.zerocore.config.mainmenu.config.BaseMenuClickConfig;
+import com.termux.ai.ai.zerocore.config.mainmenu.config.MainMenuClickConfig;
+import com.termux.ai.ai.zerocore.config.mainmenu.data.MainMenuCategoryData;
 
 import java.io.File;
 import java.util.ArrayList;

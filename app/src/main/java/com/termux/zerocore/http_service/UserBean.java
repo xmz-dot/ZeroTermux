@@ -1,4 +1,4 @@
-package com.termux.zerocore.http_service;
+package com.termux.ai.ai.zerocore.http_service;
 
 /**
  * @author laijian

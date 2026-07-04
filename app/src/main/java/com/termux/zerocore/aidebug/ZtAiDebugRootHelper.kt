@@ -1,10 +1,10 @@
-package com.termux.zerocore.aidebug
+package com.termux.ai.ai.zerocore.aidebug
 
 import android.content.Context
 import com.google.gson.Gson
 import com.scottyab.rootbeer.RootBeer
-import com.termux.zerocore.ftp.utils.UserSetManage
-import com.termux.zerocore.shell.ExeCommand
+import com.termux.ai.ai.zerocore.ftp.utils.UserSetManage
+import com.termux.ai.ai.zerocore.shell.ExeCommand
 import com.topjohnwu.superuser.Shell
 import java.io.File
 

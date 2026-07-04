@@ -1,4 +1,4 @@
-package com.termux.zerocore.gui
+package com.termux.ai.ai.zerocore.gui
 
 import android.util.Log
 import java.io.File

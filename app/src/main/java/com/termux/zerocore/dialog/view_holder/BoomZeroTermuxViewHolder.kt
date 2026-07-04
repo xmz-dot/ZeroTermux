@@ -1,10 +1,10 @@
-package com.termux.zerocore.dialog.view_holder
+package com.termux.ai.ai.zerocore.dialog.view_holder
 
 import android.view.View
 import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
-import com.termux.R
+import com.termux.ai.ai.R
 
 class BoomZeroTermuxViewHolder : RecyclerView.ViewHolder {
     public var msg:TextView? = null

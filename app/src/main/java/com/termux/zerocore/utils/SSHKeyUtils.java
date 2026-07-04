@@ -1,6 +1,6 @@
-package com.termux.zerocore.utils;
+package com.termux.ai.ai.zerocore.utils;
 
-import com.termux.shared.termux.TermuxConstants;
+import com.termux.ai.ai.shared.termux.TermuxConstants;
 
 import java.io.File;
 import java.io.IOException;

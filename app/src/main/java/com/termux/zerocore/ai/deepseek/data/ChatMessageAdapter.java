@@ -1,4 +1,4 @@
-package com.termux.zerocore.ai.deepseek.data;
+package com.termux.ai.ai.zerocore.ai.deepseek.data;
 
 import android.content.Context;
 import android.text.Spanned;
@@ -11,9 +11,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.termux.R;
-import com.termux.zerocore.ai.deepseek.markdown.MarkDownAPI;
-import com.termux.zerocore.ai.deepseek.utils.SpannableTextUtil;
+import com.termux.ai.ai.R;
+import com.termux.ai.ai.zerocore.ai.deepseek.markdown.MarkDownAPI;
+import com.termux.ai.ai.zerocore.ai.deepseek.utils.SpannableTextUtil;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

@@ -1,9 +1,9 @@
-package com.termux.zerocore.ftp.new_ftp.bean;
+package com.termux.ai.ai.zerocore.ftp.new_ftp.bean;
 
 import androidx.annotation.NonNull;
 
 
-import com.termux.zerocore.ftp.new_ftp.utils.StorageUtil;
+import com.termux.ai.ai.zerocore.ftp.new_ftp.utils.StorageUtil;
 
 import java.io.Serializable;
 

@@ -1,4 +1,4 @@
-package com.termux.zerocore.workstation
+package com.termux.ai.ai.zerocore.workstation
 
 import android.content.Context
 import android.graphics.ImageFormat

@@ -1,4 +1,4 @@
-package com.termux.zerocore.fragment;
+package com.termux.ai.ai.zerocore.fragment;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -15,15 +15,15 @@ import android.widget.Toast;
 
 
 import com.example.xh_lib.utils.UUtils;
-import com.termux.R;
-import com.termux.app.TermuxActivity;
-import com.termux.app.TermuxApplication;
-import com.termux.app.TermuxInstaller;
-import com.termux.zerocore.activity.BackNewActivity;
-import com.termux.zerocore.dialog.MyDialog;
-import com.termux.zerocore.dialog.YesNoDialog;
-import com.termux.zerocore.shell.ExeCommand;
-import com.termux.zerocore.utils.QZHFUtils;
+import com.termux.ai.ai.R;
+import com.termux.ai.ai.app.TermuxActivity;
+import com.termux.ai.ai.app.TermuxApplication;
+import com.termux.ai.ai.app.TermuxInstaller;
+import com.termux.ai.ai.zerocore.activity.BackNewActivity;
+import com.termux.ai.ai.zerocore.dialog.MyDialog;
+import com.termux.ai.ai.zerocore.dialog.YesNoDialog;
+import com.termux.ai.ai.zerocore.shell.ExeCommand;
+import com.termux.ai.ai.zerocore.utils.QZHFUtils;
 
 
 import java.io.BufferedInputStream;
@@ -45,11 +45,11 @@ public class BackupFragment extends BaseFragment implements View.OnClickListener
     private TextView title;
     private TextView mStartBackup;
 
-    private File mFileHomeFiles = new File("/data/data/com.termux/files/");
-    private File mFileHome = new File("/data/data/com.termux/busybox");
-    private File mFileHomeStatic = new File("/data/data/com.termux/busybox_static");
-    private File mFileSupport = new File("/data/data/com.termux/files/support");
-    private File mFileSupportSh = new File("/data/data/com.termux/files/support/extractFilesystem.sh");
+    private File mFileHomeFiles = new File("/data/data/com.termux.ai/files/");
+    private File mFileHome = new File("/data/data/com.termux.ai/busybox");
+    private File mFileHomeStatic = new File("/data/data/com.termux.ai/busybox_static");
+    private File mFileSupport = new File("/data/data/com.termux.ai/files/support");
+    private File mFileSupportSh = new File("/data/data/com.termux.ai/files/support/extractFilesystem.sh");
     private File mFileHomeFilesGz;
     private File mFileHomeFilesGzHome;
 
@@ -62,7 +62,7 @@ public class BackupFragment extends BaseFragment implements View.OnClickListener
 
     @Override
     public void initFragmentView(View mView) {
-        mFileHomeFilesGz = com.termux.zerocore.utils.XinhaoStoragePath.getDataDir(getContext());
+        mFileHomeFilesGz = com.termux.ai.zerocore.utils.XinhaoStoragePath.getDataDir(getContext());
         mFileHomeFilesGzHome = mFileHomeFilesGz;
 
         if (!mFileHomeFilesGzHome.exists()) {
@@ -109,11 +109,11 @@ public class BackupFragment extends BaseFragment implements View.OnClickListener
             yesNoDialog.getNoTv().setText(UUtils.getString(R.string.开始备份));
             yesNoDialog.getNoTv().setOnClickListener(v2 -> {
                 yesNoDialog.dismiss();
-                if (!(new File("/data/data/com.termux/files/home/storage").exists())){
+                if (!(new File("/data/data/com.termux.ai/files/home/storage").exists())){
                     Toast.makeText(UUtils.getContext(), UUtils.getString(R.string.没有找到目录), Toast.LENGTH_SHORT).show();
                     UUtils.getHandler().post(() -> {
-                        com.termux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(UUtils.getString(R.string.这块直接输入回车即可));
-                        com.termux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal("termux-setup-storage ");
+                        com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(UUtils.getString(R.string.这块直接输入回车即可));
+                        com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal("termux-setup-storage ");
                         getActivity().finish();
                     });
                     return;

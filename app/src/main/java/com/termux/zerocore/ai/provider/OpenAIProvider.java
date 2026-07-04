@@ -1,11 +1,11 @@
-package com.termux.zerocore.ai.provider;
+package com.termux.ai.ai.zerocore.ai.provider;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import com.termux.zerocore.ai.llm.model.RequestMessageItem;
-import com.termux.zerocore.ai.model.AIProviderException;
-import com.termux.zerocore.ai.model.ProviderProfile;
+import com.termux.ai.ai.zerocore.ai.llm.model.RequestMessageItem;
+import com.termux.ai.ai.zerocore.ai.model.AIProviderException;
+import com.termux.ai.ai.zerocore.ai.model.ProviderProfile;
 
 import java.util.List;
 

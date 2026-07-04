@@ -1,4 +1,4 @@
-package com.termux.app;
+package com.termux.ai.ai.app;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,25 +13,25 @@ import com.lzy.okgo.OkGo;
 import com.mallotec.reb.localeplugin.LocaleConstant;
 import com.mallotec.reb.localeplugin.LocalePlugin;
 
-import com.termux.shared.errors.Error;
-import com.termux.shared.logger.Logger;
-import com.termux.shared.termux.TermuxBootstrap;
-import com.termux.shared.termux.TermuxConstants;
-import com.termux.shared.termux.crash.TermuxCrashUtils;
-import com.termux.shared.termux.file.TermuxFileUtils;
-import com.termux.shared.termux.settings.preferences.TermuxAppSharedPreferences;
-import com.termux.shared.termux.settings.properties.TermuxAppSharedProperties;
-import com.termux.shared.termux.shell.TermuxShellManager;
-import com.termux.shared.termux.shell.am.TermuxAmSocketServer;
-import com.termux.shared.termux.shell.command.environment.TermuxShellEnvironment;
-import com.termux.shared.termux.theme.TermuxThemeUtils;
-import com.termux.zerocore.activity.UncaughtExceptionHandlerActivity;
-import com.termux.zerocore.config.mainmenu.MainMenuConfig;
-import com.termux.zerocore.filetype.MyFileImageListener;
-import com.termux.zerocore.filetype.MyZFileOperateListener;
-import com.termux.zerocore.ftp.utils.UserSetManage;
-import com.termux.zerocore.libsu.LibSuManage;
-import com.termux.zerocore.utils.ClipBoardUtil;
+import com.termux.ai.ai.shared.errors.Error;
+import com.termux.ai.ai.shared.logger.Logger;
+import com.termux.ai.ai.shared.termux.TermuxBootstrap;
+import com.termux.ai.ai.shared.termux.TermuxConstants;
+import com.termux.ai.ai.shared.termux.crash.TermuxCrashUtils;
+import com.termux.ai.ai.shared.termux.file.TermuxFileUtils;
+import com.termux.ai.ai.shared.termux.settings.preferences.TermuxAppSharedPreferences;
+import com.termux.ai.ai.shared.termux.settings.properties.TermuxAppSharedProperties;
+import com.termux.ai.ai.shared.termux.shell.TermuxShellManager;
+import com.termux.ai.ai.shared.termux.shell.am.TermuxAmSocketServer;
+import com.termux.ai.ai.shared.termux.shell.command.environment.TermuxShellEnvironment;
+import com.termux.ai.ai.shared.termux.theme.TermuxThemeUtils;
+import com.termux.ai.ai.zerocore.activity.UncaughtExceptionHandlerActivity;
+import com.termux.ai.ai.zerocore.config.mainmenu.MainMenuConfig;
+import com.termux.ai.ai.zerocore.filetype.MyFileImageListener;
+import com.termux.ai.ai.zerocore.filetype.MyZFileOperateListener;
+import com.termux.ai.ai.zerocore.ftp.utils.UserSetManage;
+import com.termux.ai.ai.zerocore.libsu.LibSuManage;
+import com.termux.ai.ai.zerocore.utils.ClipBoardUtil;
 import com.zp.z_file.common.ZFileManageHelp;
 import com.zp.z_file.content.ZFileConfiguration;
 import com.zp.z_file.util.LogUtils;
@@ -168,7 +168,7 @@ ZFileManageHelp.getInstance().setFileOperateListener(new MyZFileOperateListener(
         //初始化定时器
         LibSuManage.getInstall().initTimer();
         MainMenuConfig.init(this);
-        com.termux.zerocore.workstation.ZtWorkstationLifecycleHelper.register(this);
+        com.termux.ai.zerocore.workstation.ZtWorkstationLifecycleHelper.register(this);
         new ClipBoardUtil().registerClipEvents();
 /*        new Thread(new Runnable() {
             @Override

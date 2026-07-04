@@ -1,13 +1,13 @@
-package com.termux.zerocore.utils
+package com.termux.ai.ai.zerocore.utils
 
 import android.system.Os
 import com.example.xh_lib.utils.SaveData
 import com.example.xh_lib.utils.UUtils
 import com.example.xh_lib.utils.UUtils.FileCallback
-import com.termux.R
-import com.termux.app.TermuxActivity
-import com.termux.zerocore.code.CodeString
-import com.termux.zerocore.url.FileUrl
+import com.termux.ai.ai.R
+import com.termux.ai.ai.app.TermuxActivity
+import com.termux.ai.ai.zerocore.code.CodeString
+import com.termux.ai.ai.zerocore.url.FileUrl
 import java.io.File
 
 object StartRunCommandUtils {
@@ -28,7 +28,7 @@ object StartRunCommandUtils {
         UUtils.setFileString(smsBashrcFile,fileString)
         SaveData.saveStringOther("start_command","true")
         UUtils.writerFile("runcommand/start_command.sh",smsZeroBashrcFile)
-        com.termux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(CodeString.runstartSh)
+        com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(CodeString.runstartSh)
         try {
             Os.chmod(FileUrl.smsZeroBashrcFile, 448)
         } catch (e: Exception) {

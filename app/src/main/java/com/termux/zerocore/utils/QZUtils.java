@@ -1,12 +1,12 @@
-package com.termux.zerocore.utils;
+package com.termux.ai.ai.zerocore.utils;
 
 import android.util.Log;
 import android.widget.Toast;
 
 import com.example.xh_lib.utils.UUtils;
-import com.termux.zerocore.activity.utils.CreateSystemUtils;
-import com.termux.zerocore.dialog.MyDialog;
-import com.termux.zerocore.fragment.RestoreFragment;
+import com.termux.ai.ai.zerocore.activity.utils.CreateSystemUtils;
+import com.termux.ai.ai.zerocore.dialog.MyDialog;
+import com.termux.ai.ai.zerocore.fragment.RestoreFragment;
 
 import java.io.File;
 
@@ -14,7 +14,7 @@ import java.io.File;
 
 public class QZUtils {
 
-    private File mFile = new File("/data/data/com.termux/");
+    private File mFile = new File("/data/data/com.termux.ai/");
     private File createFile;
 
     public void main(MyDialog myDialog, String systemName, File tarFle, RestoreFragment restoreFragment) {
@@ -61,11 +61,11 @@ public class QZUtils {
              /*   UUtils.getHandler().post(new Runnable() {
                     @Override
                     public void run() {
-                        com.termux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal("termux-setup-storage \n");
+                        com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal("termux-setup-storage \n");
                     }
                 });*/
 
-                if (!(new File("/data/data/com.termux/files/home/storage").exists())) {
+                if (!(new File("/data/data/com.termux.ai/files/home/storage").exists())) {
 
 
                     UUtils.getHandler().post(new Runnable() {
@@ -74,7 +74,7 @@ public class QZUtils {
                             Toast.makeText(UUtils.getContext(), "没有找到storage目录,请手动创建", Toast.LENGTH_SHORT).show();
 
                             myDialog.dismiss();
-                            com.termux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal("termux-setup-storage");
+                            com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal("termux-setup-storage");
                             restoreFragment.getActivity().finish();
                         }
                     });
@@ -151,14 +151,14 @@ public class QZUtils {
                         myDialog.dismiss();
                         Toast.makeText(UUtils.getContext(), "开始恢复..", Toast.LENGTH_SHORT).show();
 
-                        com.termux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal("echo \"----手动恢复开始----\" \n");
+                        com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal("echo \"----手动恢复开始----\" \n");
 
-                        com.termux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(
-                            com.termux.zerocore.data.CommendShellData.getShellRestore(
-                                com.termux.zerocore.data.CommendShellData.SHELL_TAR_RESTORE_GZ,
+                        com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(
+                            com.termux.ai.zerocore.data.CommendShellData.getShellRestore(
+                                com.termux.ai.zerocore.data.CommendShellData.SHELL_TAR_RESTORE_GZ,
                                 tarFle,
                                 createFile));
-                        //com.termux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal("tar -xzvf./storage/shared/xinhao/data/" + tarFle.getName() + "  -C ../../" + createFile.getName() + " && mv ../../" + createFile.getName() + "/data/data/com.termux/files/home ../../" + createFile.getName() +" && "+ "mv ../../" + createFile.getName() + "/data/data/com.termux/files/usr ../../" + createFile.getName()+" && rm -rf ../../"+createFile.getName()+"/data && echo \"系统恢复完成,请在切换系统，切换您的系统\" \n");
+                        //com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal("tar -xzvf./storage/shared/xinhao/data/" + tarFle.getName() + "  -C ../../" + createFile.getName() + " && mv ../../" + createFile.getName() + "/data/data/com.termux.ai/files/home ../../" + createFile.getName() +" && "+ "mv ../../" + createFile.getName() + "/data/data/com.termux.ai/files/usr ../../" + createFile.getName()+" && rm -rf ../../"+createFile.getName()+"/data && echo \"系统恢复完成,请在切换系统，切换您的系统\" \n");
 
                         try {
                             restoreFragment.getActivity().finish();

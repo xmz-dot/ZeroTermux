@@ -1,4 +1,4 @@
-package com.termux.zerocore.config.mainmenu.view.adapter
+package com.termux.ai.ai.zerocore.config.mainmenu.view.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -10,9 +10,9 @@ import android.widget.ProgressBar
 import android.widget.TextView
 import com.example.xh_lib.utils.UUtils
 import androidx.recyclerview.widget.RecyclerView
-import com.termux.R
-import com.termux.zerocore.config.mainmenu.MainMenuPackageInfo
-import com.termux.zerocore.config.mainmenu.MainMenuPackageManager
+import com.termux.ai.ai.R
+import com.termux.ai.ai.zerocore.config.mainmenu.MainMenuPackageInfo
+import com.termux.ai.ai.zerocore.config.mainmenu.MainMenuPackageManager
 
 class MainMenuPackageAdapter(
     private var items: List<MainMenuPackageInfo>,

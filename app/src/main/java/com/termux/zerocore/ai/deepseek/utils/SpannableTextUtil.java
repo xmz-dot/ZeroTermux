@@ -1,4 +1,4 @@
-package com.termux.zerocore.ai.deepseek.utils;
+package com.termux.ai.ai.zerocore.ai.deepseek.utils;
 
 import android.text.SpannableStringBuilder;
 import android.text.Spanned;
@@ -15,10 +15,10 @@ import androidx.annotation.NonNull;
 
 import com.example.xh_lib.utils.LogUtils;
 import com.example.xh_lib.utils.UUtils;
-import com.termux.R;
-import com.termux.app.TermuxActivity;
-import com.termux.zerocore.ai.deepseek.model.Config;
-import com.termux.zerocore.ftp.utils.UserSetManage;
+import com.termux.ai.ai.R;
+import com.termux.ai.ai.app.TermuxActivity;
+import com.termux.ai.ai.zerocore.ai.deepseek.model.Config;
+import com.termux.ai.ai.zerocore.ftp.utils.UserSetManage;
 
 public class SpannableTextUtil {
 
@@ -126,7 +126,7 @@ public class SpannableTextUtil {
                     .replace("\r", ""); // 去除回车;
                 LogUtils.e(TAG, "addClickableSpanToRange replace:" + replace);
                 if (context instanceof TermuxActivity) {
-                    com.termux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(replace);
+                    com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(replace);
                     ((TermuxActivity) context).getDrawer().smoothClose();
                 }
             }

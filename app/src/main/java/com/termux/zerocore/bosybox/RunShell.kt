@@ -1,4 +1,4 @@
-package com.termux.zerocore.bosybox
+package com.termux.ai.ai.zerocore.bosybox
 
 import com.example.xh_lib.utils.LogUtils
 import com.example.xh_lib.utils.UUtils

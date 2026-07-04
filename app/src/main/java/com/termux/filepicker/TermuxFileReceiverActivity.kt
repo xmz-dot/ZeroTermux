@@ -1,4 +1,4 @@
-package com.termux.filepicker
+package com.termux.ai.filepicker
 
 import android.content.Intent
 import android.content.Context
@@ -19,14 +19,14 @@ import com.example.xh_lib.utils.UUtils
 import com.hjq.permissions.OnPermissionCallback
 import com.hjq.permissions.Permission
 import com.hjq.permissions.XXPermissions
-import com.termux.R
-import com.termux.app.TermuxInstaller
-import com.termux.shared.android.PackageUtils
-import com.termux.shared.logger.Logger
-import com.termux.shared.termux.TermuxConstants
-import com.termux.shared.termux.TermuxConstants.TERMUX_APP
-import com.termux.shared.termux.settings.properties.TermuxAppSharedProperties
-import com.termux.zerocore.utils.FileIOUtils
+import com.termux.ai.ai.R
+import com.termux.ai.ai.app.TermuxInstaller
+import com.termux.ai.ai.shared.android.PackageUtils
+import com.termux.ai.ai.shared.logger.Logger
+import com.termux.ai.ai.shared.termux.TermuxConstants
+import com.termux.ai.ai.shared.termux.TermuxConstants.TERMUX_APP
+import com.termux.ai.ai.shared.termux.settings.properties.TermuxAppSharedProperties
+import com.termux.ai.ai.zerocore.utils.FileIOUtils
 import com.zp.z_file.bean.DataBean
 import com.zp.z_file.ui.dialog.InstallModuleDialog
 import com.zp.z_file.ui.dialog.LoadingDialog

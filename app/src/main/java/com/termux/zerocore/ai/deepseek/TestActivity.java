@@ -1,4 +1,4 @@
-package com.termux.zerocore.ai.deepseek;
+package com.termux.ai.ai.zerocore.ai.deepseek;
 
 
 import android.os.Bundle;
@@ -7,10 +7,10 @@ import android.widget.EditText;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.termux.R;
-import com.termux.zerocore.ai.deepseek.data.ChatDatabaseHelper;
-import com.termux.zerocore.ai.deepseek.model.DeepSeekClient;
-import com.termux.zerocore.ai.deepseek.model.RequestMessageItem;
+import com.termux.ai.ai.R;
+import com.termux.ai.ai.zerocore.ai.deepseek.data.ChatDatabaseHelper;
+import com.termux.ai.ai.zerocore.ai.deepseek.model.DeepSeekClient;
+import com.termux.ai.ai.zerocore.ai.deepseek.model.RequestMessageItem;
 
 import java.util.ArrayList;
 import java.util.List;

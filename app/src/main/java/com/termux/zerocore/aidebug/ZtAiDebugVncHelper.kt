@@ -1,10 +1,10 @@
-package com.termux.zerocore.aidebug
+package com.termux.ai.ai.zerocore.aidebug
 
 import android.content.Context
 import android.content.Intent
 import com.google.gson.Gson
-import com.termux.shared.termux.TermuxConstants
-import com.termux.zerocore.editor.EditorVncEnvironment
+import com.termux.ai.ai.shared.termux.TermuxConstants
+import com.termux.ai.ai.zerocore.editor.EditorVncEnvironment
 import java.io.File
 
 object ZtAiDebugVncHelper {
@@ -22,7 +22,7 @@ object ZtAiDebugVncHelper {
     fun startJson(): String {
         val scriptPath = "\${HOME}/.zerotermux/ai_debug_vnc_start.sh"
         val script = buildString {
-            append("#!/data/data/com.termux/files/usr/bin/bash\n")
+            append("#!/data/data/com.termux.ai/files/usr/bin/bash\n")
             append("set +e\n")
             append(EditorVncEnvironment.coreVncShellFunctions())
             append("start_editor_vnc\n")
@@ -54,8 +54,8 @@ object ZtAiDebugVncHelper {
         val resolved = resolvePath(trimmed)
         return try {
             val intent = Intent().apply {
-                setClassName(context.packageName, "com.termux.zerocore.activity.EditTextActivity")
-                action = "com.termux.zerocore.activity.edittextactivity"
+                setClassName(context.packageName, "com.termux.ai.zerocore.activity.EditTextActivity")
+                action = "com.termux.ai.zerocore.activity.edittextactivity"
                 putExtra("edit_path", resolved)
                 putExtra(EXTRA_OPEN_X11_TAB, openX11Tab)
                 putExtra(EXTRA_AUTO_RUN, autoRun)

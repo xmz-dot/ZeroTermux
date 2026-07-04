@@ -1,4 +1,4 @@
-package com.termux.zerocore.utils;
+package com.termux.ai.ai.zerocore.utils;
 
 import android.database.Cursor;
 import android.database.sqlite.SQLiteException;

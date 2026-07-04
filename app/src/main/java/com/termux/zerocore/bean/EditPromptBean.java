@@ -1,4 +1,4 @@
-package com.termux.zerocore.bean;
+package com.termux.ai.ai.zerocore.bean;
 
 import java.util.ArrayList;
 

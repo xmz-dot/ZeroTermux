@@ -1,6 +1,6 @@
-package com.termux.zerocore.config.mainmenu.config;
+package com.termux.ai.ai.zerocore.config.mainmenu.config;
 
-import static com.termux.zerocore.config.mainmenu.MainMenuConfig.CODE_COMMON_FUNCTIONS;
+import static com.termux.ai.zerocore.config.mainmenu.MainMenuConfig.CODE_COMMON_FUNCTIONS;
 
 import android.content.Context;
 import android.view.View;
@@ -9,9 +9,9 @@ import android.widget.TextView;
 
 import com.example.xh_lib.utils.LogUtils;
 import com.example.xh_lib.utils.UUtils;
-import com.termux.R;
-import com.termux.zerocore.dialog.SwitchDialog;
-import com.termux.zerocore.popuwindow.MenuLeftPopuListWindow;
+import com.termux.ai.ai.R;
+import com.termux.ai.ai.zerocore.dialog.SwitchDialog;
+import com.termux.ai.ai.zerocore.popuwindow.MenuLeftPopuListWindow;
 
 import java.util.ArrayList;
 

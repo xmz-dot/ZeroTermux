@@ -1,4 +1,4 @@
-package com.termux.zerocore.editor
+package com.termux.ai.ai.zerocore.editor
 
 import android.content.Context
 import android.util.AttributeSet

@@ -1,7 +1,7 @@
-package com.termux.app;
+package com.termux.ai.ai.app;
 
-import static com.termux.zerocore.config.ztcommand.ZTSocketService.ZT_COMMAND_ACTIVITY_ACTION;
-import static com.termux.zerocore.config.ztcommand.ZTSocketService.ZT_COMMAND_SERVICES_ACTION;
+import static com.termux.ai.zerocore.config.ztcommand.ZTSocketService.ZT_COMMAND_ACTIVITY_ACTION;
+import static com.termux.ai.zerocore.config.ztcommand.ZTSocketService.ZT_COMMAND_SERVICES_ACTION;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -69,99 +69,99 @@ import com.hjq.permissions.OnPermissionCallback;
 import com.hjq.permissions.Permission;
 import com.hjq.permissions.XXPermissions;
 import com.lzy.okgo.model.Response;
-import com.termux.R;
-import com.termux.filepicker.TermuxFileReceiverActivity;
-import com.termux.app.terminal.TermuxActivityRootView;
-import com.termux.app.terminal.TermuxTerminalSessionActivityClient;
-import com.termux.app.terminal.io.TermuxTerminalExtraKeys;
-import com.termux.shared.activities.ReportActivity;
+import com.termux.ai.ai.R;
+import com.termux.ai.ai.filepicker.TermuxFileReceiverActivity;
+import com.termux.ai.ai.app.terminal.TermuxActivityRootView;
+import com.termux.ai.ai.app.terminal.TermuxTerminalSessionActivityClient;
+import com.termux.ai.ai.app.terminal.io.TermuxTerminalExtraKeys;
+import com.termux.ai.ai.shared.activities.ReportActivity;
 
-import com.termux.shared.activity.ActivityUtils;
-import com.termux.shared.activity.media.AppCompatActivityUtils;
-import com.termux.shared.android.PermissionUtils;
-import com.termux.shared.data.DataUtils;
-import com.termux.shared.data.IntentUtils;
-import com.termux.shared.termux.TermuxConstants;
-import com.termux.shared.termux.TermuxConstants.TERMUX_APP.TERMUX_ACTIVITY;
-import com.termux.app.activities.HelpActivity;
-import com.termux.app.activities.SettingsActivity;
+import com.termux.ai.ai.shared.activity.ActivityUtils;
+import com.termux.ai.ai.shared.activity.media.AppCompatActivityUtils;
+import com.termux.ai.ai.shared.android.PermissionUtils;
+import com.termux.ai.ai.shared.data.DataUtils;
+import com.termux.ai.ai.shared.data.IntentUtils;
+import com.termux.ai.ai.shared.termux.TermuxConstants;
+import com.termux.ai.ai.shared.termux.TermuxConstants.TERMUX_APP.TERMUX_ACTIVITY;
+import com.termux.ai.ai.app.activities.HelpActivity;
+import com.termux.ai.ai.app.activities.SettingsActivity;
 
-import com.termux.app.terminal.TermuxSessionsListViewController;
-import com.termux.app.terminal.io.TerminalToolbarViewPager;
-import com.termux.app.terminal.TermuxTerminalViewClient;
+import com.termux.ai.ai.app.terminal.TermuxSessionsListViewController;
+import com.termux.ai.ai.app.terminal.io.TerminalToolbarViewPager;
+import com.termux.ai.ai.app.terminal.TermuxTerminalViewClient;
 
-import com.termux.shared.logger.Logger;
-import com.termux.shared.termux.TermuxUtils;
-import com.termux.shared.termux.crash.TermuxCrashUtils;
-import com.termux.shared.termux.extrakeys.ExtraKeysView;
-import com.termux.shared.termux.interact.TextInputDialogUtils;
-import com.termux.shared.termux.settings.preferences.TermuxAppSharedPreferences;
-import com.termux.shared.termux.settings.properties.TermuxAppSharedProperties;
-import com.termux.shared.termux.theme.TermuxThemeUtils;
-import com.termux.shared.theme.NightMode;
-import com.termux.shared.view.KeyboardUtils;
-import com.termux.shared.view.ViewUtils;
-import com.termux.terminal.TerminalSession;
-import com.termux.terminal.TerminalSessionClient;
-import com.termux.view.TerminalRenderer;
-import com.termux.view.TerminalView;
-import com.termux.view.TerminalViewClient;
-import com.termux.x11.MainActivity;
-import com.termux.zerocore.activity.EditTextActivity;
-import com.termux.zerocore.ai.llm.LLMTransitFragment;
-import com.termux.zerocore.background.FireworkView;
-import com.termux.zerocore.bean.EditPromptBean;
-import com.termux.zerocore.bean.ZDYDataBean;
-import com.termux.zerocore.bean.ZTUserBean;
-import com.termux.zerocore.broadcast.LocalReceiver;
-import com.termux.zerocore.code.CodeString;
-import com.termux.zerocore.config.ZTConstantConfig;
-import com.termux.zerocore.config.mainmenu.MainMenuPackageInfo;
-import com.termux.zerocore.config.mainmenu.MainMenuPackageManager;
-import com.termux.zerocore.config.mainmenu.ProgramMainMenuConfig;
-import com.termux.zerocore.config.mainmenu.XMLMainMenuConfig;
-import com.termux.zerocore.config.mainmenu.data.MainMenuCategoryData;
-import com.termux.zerocore.config.mainmenu.view.adapter.MainMenuAdapter;
-import com.termux.zerocore.config.mainmenu.dialog.MenuPackagePickDialog;
-import com.termux.zerocore.config.mainmenu.view.adapter.MainMenuPackageAdapter;
-import com.termux.zerocore.dialog.YesNoDialog;
-import com.termux.zerocore.config.other.ZTGitHubVersion;
-import com.termux.zerocore.config.ztcommand.config.XmlMenuConfig;
-import com.termux.zerocore.ai.deepseek.DeepSeekTransitFragment;
-import com.termux.zerocore.ai.deepseek.markdown.MarkDownAPI;
-import com.termux.zerocore.dialog.BeautifySettingDialog;
-import com.termux.zerocore.dialog.CommonCommandsDialog;
-import com.termux.zerocore.dialog.DownLoadDialogBoom;
-import com.termux.zerocore.dialog.KeyWordFunDialog;
-import com.termux.zerocore.dialog.LoadingDialog;
-import com.termux.zerocore.dialog.ProtocolDialog;
-import com.termux.zerocore.dialog.SwitchDialog;
-import com.termux.zerocore.ftp.utils.UserSetManage;
-import com.termux.zerocore.http.HTTPIP;
-import com.termux.zerocore.otg.OTGManager;
-import com.termux.zerocore.settings.ZtSettingsActivity;
-import com.termux.zerocore.config.ztcommand.ZTSocketService;
-import com.termux.zerocore.config.ztcommand.config.ZTKeyConstants;
-import com.termux.zerocore.config.ztcommand.navigation.ZtForegroundActivityHolder;
-import com.termux.zerocore.config.ztcommand.navigation.ZtNavigationHelper;
-import com.termux.zerocore.config.ztcommand.navigation.ZtNavigationHost;
-import com.termux.zerocore.url.FileUrl;
-import com.termux.zerocore.utils.BitmapUtils;
-import com.termux.zerocore.utils.FileHttpUtils;
-import com.termux.zerocore.utils.FileIOUtils;
-import com.termux.zerocore.utils.IsInstallCommand;
-import com.termux.zerocore.utils.PhoneUtils;
-import com.termux.zerocore.utils.SingletonCommunicationUtils;
-import com.termux.zerocore.ai.agent.ZtAiAgentPanelHelper;
-import com.termux.zerocore.ai.config.ZtAiConfigSideEffects;
-import com.termux.zerocore.ai.config.ZtBeautifyUiEffects;
-import com.termux.zerocore.utils.SmsUtils;
-import com.termux.zerocore.utils.UUUtils;
-import com.termux.zerocore.utils.BackgroundBlurUtils;
-import com.termux.zerocore.utils.VideoUtils;
-import com.termux.zerocore.utils.WindowUtils;
-import com.termux.zerocore.view.BoomWindow;
-import com.termux.zerocore.zero.engine.ZeroCoreManage;
+import com.termux.ai.ai.shared.logger.Logger;
+import com.termux.ai.ai.shared.termux.TermuxUtils;
+import com.termux.ai.ai.shared.termux.crash.TermuxCrashUtils;
+import com.termux.ai.ai.shared.termux.extrakeys.ExtraKeysView;
+import com.termux.ai.ai.shared.termux.interact.TextInputDialogUtils;
+import com.termux.ai.ai.shared.termux.settings.preferences.TermuxAppSharedPreferences;
+import com.termux.ai.ai.shared.termux.settings.properties.TermuxAppSharedProperties;
+import com.termux.ai.ai.shared.termux.theme.TermuxThemeUtils;
+import com.termux.ai.ai.shared.theme.NightMode;
+import com.termux.ai.ai.shared.view.KeyboardUtils;
+import com.termux.ai.ai.shared.view.ViewUtils;
+import com.termux.ai.ai.terminal.TerminalSession;
+import com.termux.ai.ai.terminal.TerminalSessionClient;
+import com.termux.ai.ai.view.TerminalRenderer;
+import com.termux.ai.ai.view.TerminalView;
+import com.termux.ai.ai.view.TerminalViewClient;
+import com.termux.ai.ai.x11.MainActivity;
+import com.termux.ai.ai.zerocore.activity.EditTextActivity;
+import com.termux.ai.ai.zerocore.ai.llm.LLMTransitFragment;
+import com.termux.ai.ai.zerocore.background.FireworkView;
+import com.termux.ai.ai.zerocore.bean.EditPromptBean;
+import com.termux.ai.ai.zerocore.bean.ZDYDataBean;
+import com.termux.ai.ai.zerocore.bean.ZTUserBean;
+import com.termux.ai.ai.zerocore.broadcast.LocalReceiver;
+import com.termux.ai.ai.zerocore.code.CodeString;
+import com.termux.ai.ai.zerocore.config.ZTConstantConfig;
+import com.termux.ai.ai.zerocore.config.mainmenu.MainMenuPackageInfo;
+import com.termux.ai.ai.zerocore.config.mainmenu.MainMenuPackageManager;
+import com.termux.ai.ai.zerocore.config.mainmenu.ProgramMainMenuConfig;
+import com.termux.ai.ai.zerocore.config.mainmenu.XMLMainMenuConfig;
+import com.termux.ai.ai.zerocore.config.mainmenu.data.MainMenuCategoryData;
+import com.termux.ai.ai.zerocore.config.mainmenu.view.adapter.MainMenuAdapter;
+import com.termux.ai.ai.zerocore.config.mainmenu.dialog.MenuPackagePickDialog;
+import com.termux.ai.ai.zerocore.config.mainmenu.view.adapter.MainMenuPackageAdapter;
+import com.termux.ai.ai.zerocore.dialog.YesNoDialog;
+import com.termux.ai.ai.zerocore.config.other.ZTGitHubVersion;
+import com.termux.ai.ai.zerocore.config.ztcommand.config.XmlMenuConfig;
+import com.termux.ai.ai.zerocore.ai.deepseek.DeepSeekTransitFragment;
+import com.termux.ai.ai.zerocore.ai.deepseek.markdown.MarkDownAPI;
+import com.termux.ai.ai.zerocore.dialog.BeautifySettingDialog;
+import com.termux.ai.ai.zerocore.dialog.CommonCommandsDialog;
+import com.termux.ai.ai.zerocore.dialog.DownLoadDialogBoom;
+import com.termux.ai.ai.zerocore.dialog.KeyWordFunDialog;
+import com.termux.ai.ai.zerocore.dialog.LoadingDialog;
+import com.termux.ai.ai.zerocore.dialog.ProtocolDialog;
+import com.termux.ai.ai.zerocore.dialog.SwitchDialog;
+import com.termux.ai.ai.zerocore.ftp.utils.UserSetManage;
+import com.termux.ai.ai.zerocore.http.HTTPIP;
+import com.termux.ai.ai.zerocore.otg.OTGManager;
+import com.termux.ai.ai.zerocore.settings.ZtSettingsActivity;
+import com.termux.ai.ai.zerocore.config.ztcommand.ZTSocketService;
+import com.termux.ai.ai.zerocore.config.ztcommand.config.ZTKeyConstants;
+import com.termux.ai.ai.zerocore.config.ztcommand.navigation.ZtForegroundActivityHolder;
+import com.termux.ai.ai.zerocore.config.ztcommand.navigation.ZtNavigationHelper;
+import com.termux.ai.ai.zerocore.config.ztcommand.navigation.ZtNavigationHost;
+import com.termux.ai.ai.zerocore.url.FileUrl;
+import com.termux.ai.ai.zerocore.utils.BitmapUtils;
+import com.termux.ai.ai.zerocore.utils.FileHttpUtils;
+import com.termux.ai.ai.zerocore.utils.FileIOUtils;
+import com.termux.ai.ai.zerocore.utils.IsInstallCommand;
+import com.termux.ai.ai.zerocore.utils.PhoneUtils;
+import com.termux.ai.ai.zerocore.utils.SingletonCommunicationUtils;
+import com.termux.ai.ai.zerocore.ai.agent.ZtAiAgentPanelHelper;
+import com.termux.ai.ai.zerocore.ai.config.ZtAiConfigSideEffects;
+import com.termux.ai.ai.zerocore.ai.config.ZtBeautifyUiEffects;
+import com.termux.ai.ai.zerocore.utils.SmsUtils;
+import com.termux.ai.ai.zerocore.utils.UUUtils;
+import com.termux.ai.ai.zerocore.utils.BackgroundBlurUtils;
+import com.termux.ai.ai.zerocore.utils.VideoUtils;
+import com.termux.ai.ai.zerocore.utils.WindowUtils;
+import com.termux.ai.ai.zerocore.view.BoomWindow;
+import com.termux.ai.ai.zerocore.zero.engine.ZeroCoreManage;
 import com.zp.z_file.ui.ZFileListFragment;
 import com.zp.z_file.zerotermux.ZTConfig;
 
@@ -962,13 +962,13 @@ public final class TermuxActivity extends AppCompatActivity implements ServiceCo
                     TermuxActivity.this, requestCode, !isPermissionCallback)) {
                     if (isPermissionCallback)
                         Logger.logInfoAndShowToast(TermuxActivity.this, LOG_TAG,
-                            getString(com.termux.shared.R.string.msg_storage_permission_granted_on_request));
+                            getString(com.termux.ai.shared.R.string.msg_storage_permission_granted_on_request));
 
                     TermuxInstaller.setupStorageSymlinks(TermuxActivity.this);
                 } else {
                     if (isPermissionCallback)
                         Logger.logInfoAndShowToast(TermuxActivity.this, LOG_TAG,
-                            getString(com.termux.shared.R.string.msg_storage_permission_not_granted_on_request));
+                            getString(com.termux.ai.shared.R.string.msg_storage_permission_not_granted_on_request));
                 }
             }
         }.start();
@@ -1783,18 +1783,18 @@ public final class TermuxActivity extends AppCompatActivity implements ServiceCo
 
                             } else {
                                 // UUtils.showMsg(("获取部分权限成功，但部分权限未正常授予"));
-                                com.termux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal("echo " + UUtils.getString(R.string.无权限读取) + "! \n");
+                                com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal("echo " + UUtils.getString(R.string.无权限读取) + "! \n");
                             }
                         }
 
                         @Override
                         public void onDenied(List<String> permissions, boolean never) {
                             if (never) {
-                                com.termux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal("echo " + UUtils.getString(R.string.无权限读取) + "! \n");
+                                com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal("echo " + UUtils.getString(R.string.无权限读取) + "! \n");
                                 // 如果是被永久拒绝就跳转到应用权限系统设置页面
                                 XXPermissions.startPermissionActivity(TermuxActivity.this, permissions);
                             } else {
-                                com.termux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal("echo " + UUtils.getString(R.string.无权限读取) + "! \n");
+                                com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal("echo " + UUtils.getString(R.string.无权限读取) + "! \n");
                             }
                         }
                     });
@@ -1824,7 +1824,7 @@ public final class TermuxActivity extends AppCompatActivity implements ServiceCo
                                                 public void run() {
                                                     isPhoneRun = false;
                                                     loadingDialog.dismiss();
-                                                    com.termux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal("cd ~ && cd ~ && vim phone.txt \n");
+                                                    com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal("cd ~ && cd ~ && vim phone.txt \n");
                                                 }
                                             }), 100);
                                         }).start();
@@ -1832,7 +1832,7 @@ public final class TermuxActivity extends AppCompatActivity implements ServiceCo
                                     } else {
                                         isPhoneRun = false;
                                         // UUtils.showMsg(("获取部分权限成功，但部分权限未正常授予"));
-                                        com.termux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal("echo " + UUtils.getString(R.string.无权限读取) + "! \n");
+                                        com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal("echo " + UUtils.getString(R.string.无权限读取) + "! \n");
                                     }
                                 }
 
@@ -1840,11 +1840,11 @@ public final class TermuxActivity extends AppCompatActivity implements ServiceCo
                                 public void onDenied(List<String> permissions, boolean never) {
                                     isPhoneRun = false;
                                     if (never) {
-                                        com.termux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal("echo " + UUtils.getString(R.string.无权限读取) + "! \n");
+                                        com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal("echo " + UUtils.getString(R.string.无权限读取) + "! \n");
                                         // 如果是被永久拒绝就跳转到应用权限系统设置页面
                                         XXPermissions.startPermissionActivity(TermuxActivity.this, permissions);
                                     } else {
-                                        com.termux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal("echo " + UUtils.getString(R.string.无权限读取) + "! \n");
+                                        com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal("echo " + UUtils.getString(R.string.无权限读取) + "! \n");
                                     }
                                 }
                             });
@@ -1853,7 +1853,7 @@ public final class TermuxActivity extends AppCompatActivity implements ServiceCo
                     }
                 }
             } else {
-                com.termux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal("echo " + UUtils.getString(R.string.请等待) + "! \n");
+                com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal("echo " + UUtils.getString(R.string.请等待) + "! \n");
             }
         }
         if (msg.equals("left")) {
@@ -3007,13 +3007,13 @@ public final class TermuxActivity extends AppCompatActivity implements ServiceCo
         }
         if (ztUserBean.isZtWorkstationEnabled()) {
             if (ztUserBean.isZtWorkstationAutoStart()) {
-                com.termux.zerocore.workstation.ZtWorkstationManager.ensureRunningIfEnabled(this);
+                com.termux.ai.zerocore.workstation.ZtWorkstationManager.ensureRunningIfEnabled(this);
             } else {
-                com.termux.zerocore.workstation.ZtWorkstationManager.ensureRunningForActiveSession(this);
+                com.termux.ai.zerocore.workstation.ZtWorkstationManager.ensureRunningForActiveSession(this);
             }
         }
         if (ztUserBean.isZtAiDebugEnabled()) {
-            com.termux.zerocore.aidebug.ZtAiDebugManager.ensureRunningForActiveSession(this);
+            com.termux.ai.zerocore.aidebug.ZtAiDebugManager.ensureRunningForActiveSession(this);
         }
     }
     //@}
@@ -3071,16 +3071,16 @@ public final class TermuxActivity extends AppCompatActivity implements ServiceCo
 
     private void onActivityResultZtInit(int requestCode, int resultCode, @Nullable Intent data) {
         //导入SSH密钥
-        if (requestCode == com.termux.zerocore.view.BoomWindow.REQUEST_CODE_IMPORT_KEY && resultCode == RESULT_OK && data != null) {
+        if (requestCode == com.termux.ai.zerocore.view.BoomWindow.REQUEST_CODE_IMPORT_KEY && resultCode == RESULT_OK && data != null) {
             Uri uri = data.getData();
             if (uri != null) {
-                String alias = com.termux.zerocore.view.BoomWindow.PENDING_IMPORT_ALIAS;
+                String alias = com.termux.ai.zerocore.view.BoomWindow.PENDING_IMPORT_ALIAS;
                 if (TextUtils.isEmpty(alias)) {
                     UUtils.showMsg(UUtils.getString(R.string.zt_ssh_improt_fail));
                     return;
                 }
                 try {
-                    File targetKeyFile = com.termux.zerocore.utils.SSHKeyUtils.getKeyFile(alias);
+                    File targetKeyFile = com.termux.ai.zerocore.utils.SSHKeyUtils.getKeyFile(alias);
                     File sshDir = targetKeyFile.getParentFile();
                     if (!sshDir.exists()) sshDir.mkdirs();
 

@@ -1,4 +1,4 @@
-package com.termux.zerocore.ai.agent
+package com.termux.ai.ai.zerocore.ai.agent
 
 import android.text.Spannable
 import android.text.method.LinkMovementMethod

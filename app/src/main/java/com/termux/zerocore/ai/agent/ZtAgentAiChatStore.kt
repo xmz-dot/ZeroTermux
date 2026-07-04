@@ -1,8 +1,8 @@
-package com.termux.zerocore.ai.agent
+package com.termux.ai.ai.zerocore.ai.agent
 
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.termux.zerocore.ftp.utils.UserSetManage
+import com.termux.ai.ai.zerocore.ftp.utils.UserSetManage
 
 object ZtAgentAiChatStore {
 

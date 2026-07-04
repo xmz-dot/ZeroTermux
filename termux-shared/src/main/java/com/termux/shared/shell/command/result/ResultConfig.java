@@ -1,11 +1,11 @@
-package com.termux.shared.shell.command.result;
+package com.termux.ai.ai.shared.shell.command.result;
 
 import android.app.PendingIntent;
 
 import androidx.annotation.NonNull;
 
-import com.termux.shared.logger.Logger;
-import com.termux.shared.markdown.MarkdownUtils;
+import com.termux.ai.ai.shared.logger.Logger;
+import com.termux.ai.ai.shared.markdown.MarkdownUtils;
 
 import java.util.Formatter;
 

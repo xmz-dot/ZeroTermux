@@ -1,4 +1,4 @@
-package com.termux.zerocore.back
+package com.termux.ai.ai.zerocore.back
 
 import android.content.Context
 import android.text.TextUtils
@@ -9,19 +9,19 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.xh_lib.utils.LogUtils
 import com.example.xh_lib.utils.UUtils
-import com.termux.R
-import com.termux.app.TermuxActivity
-import com.termux.zerocore.back.adapter.RestoreAdapter
-import com.termux.zerocore.back.bean.DataBean
-import com.termux.zerocore.back.listener.BackupStoreDialogCloseListener
-import com.termux.zerocore.back.listener.CreateConversationListener
-import com.termux.zerocore.back.listener.RestoreFileDataListener
-import com.termux.zerocore.back.listener.RestoreRefreshFileListener
-import com.termux.zerocore.data.CommendShellData
-import com.termux.zerocore.dialog.LoadingDialog
-import com.termux.zerocore.dialog.YesNoDialog
-import com.termux.zerocore.utils.FileIOUtils
-import com.termux.zerocore.utils.QZUtils
+import com.termux.ai.ai.R
+import com.termux.ai.ai.app.TermuxActivity
+import com.termux.ai.ai.zerocore.back.adapter.RestoreAdapter
+import com.termux.ai.ai.zerocore.back.bean.DataBean
+import com.termux.ai.ai.zerocore.back.listener.BackupStoreDialogCloseListener
+import com.termux.ai.ai.zerocore.back.listener.CreateConversationListener
+import com.termux.ai.ai.zerocore.back.listener.RestoreFileDataListener
+import com.termux.ai.ai.zerocore.back.listener.RestoreRefreshFileListener
+import com.termux.ai.ai.zerocore.data.CommendShellData
+import com.termux.ai.ai.zerocore.dialog.LoadingDialog
+import com.termux.ai.ai.zerocore.dialog.YesNoDialog
+import com.termux.ai.ai.zerocore.utils.FileIOUtils
+import com.termux.ai.ai.zerocore.utils.QZUtils
 import kotlinx.coroutines.*
 import kotlinx.coroutines.selects.whileSelect
 
@@ -156,7 +156,7 @@ class RestoreViewModel {
 
     private fun sendTextToTerminal(text: String) {
         LogUtils.d(TAG, "sendTextToTerminal text to:$text")
-        com.termux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(text)
+        com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(text)
     }
 
     private fun isShowData(isShow: Boolean) {

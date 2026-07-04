@@ -1,4 +1,4 @@
-package com.termux.zerocore.activity;
+package com.termux.ai.ai.zerocore.activity;
 
 import android.content.Intent;
 import android.graphics.Typeface;
@@ -15,15 +15,15 @@ import androidx.core.content.ContextCompat;
 import com.example.xh_lib.activity.BaseThemeActivity;
 import com.example.xh_lib.statusBar.StatusBarCompat;
 import com.example.xh_lib.utils.UUtils;
-import com.termux.R;
-import com.termux.app.TermuxService;
-import com.termux.shared.termux.TermuxConstants;
-import com.termux.zerocore.activity.adapter.ListBaseAdapter;
-import com.termux.zerocore.activity.view_holder.ViewHolder;
-import com.termux.zerocore.dialog.SwitchDialog;
-import com.termux.zerocore.ftp.utils.UserSetManage;
-import com.termux.zerocore.url.FileUrl;
-import com.termux.zerocore.utils.FileIOUtils;
+import com.termux.ai.ai.R;
+import com.termux.ai.ai.app.TermuxService;
+import com.termux.ai.ai.shared.termux.TermuxConstants;
+import com.termux.ai.ai.zerocore.activity.adapter.ListBaseAdapter;
+import com.termux.ai.ai.zerocore.activity.view_holder.ViewHolder;
+import com.termux.ai.ai.zerocore.dialog.SwitchDialog;
+import com.termux.ai.ai.zerocore.ftp.utils.UserSetManage;
+import com.termux.ai.ai.zerocore.url.FileUrl;
+import com.termux.ai.ai.zerocore.utils.FileIOUtils;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -38,7 +38,7 @@ public class FontActivity extends BaseThemeActivity {
     private ListView list_view;
     private File fontFile;
     private ArrayList<FondDatdBean> arrayList;
-    private File termuxFontFile = new File("/data/data/com.termux/files/home/.termux/font.ttf");
+    private File termuxFontFile = new File("/data/data/com.termux.ai/files/home/.termux/font.ttf");
     private FontAdapter fontAdapter;
 
     @Override
@@ -48,7 +48,7 @@ public class FontActivity extends BaseThemeActivity {
         setContentView(R.layout.activity_font);
         list_view = findViewById(R.id.list_view);
         getBaseTitle().setVisibility(View.GONE);
-        File file1 = new File("/data/data/com.termux/files/home/.termux/");
+        File file1 = new File("/data/data/com.termux.ai/files/home/.termux/");
         if(!file1.exists()){
             file1.mkdirs();
         }
@@ -82,7 +82,7 @@ public class FontActivity extends BaseThemeActivity {
     }
 
     private File getFontPath() {
-        return com.termux.zerocore.utils.XinhaoStoragePath.getFontDir(this);
+        return com.termux.ai.zerocore.utils.XinhaoStoragePath.getFontDir(this);
     }
 
     @Override

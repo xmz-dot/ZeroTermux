@@ -1,9 +1,9 @@
-package com.termux.zerocore.editor
+package com.termux.ai.ai.zerocore.editor
 
-import com.termux.terminal.TerminalSession
+import com.termux.ai.ai.terminal.TerminalSession
 
 /**
- * Forwards terminal screen updates from [com.termux.app.terminal.TermuxTerminalSessionActivityClient]
+ * Forwards terminal screen updates from [com.termux.ai.app.terminal.TermuxTerminalSessionActivityClient]
  * to the editor's embedded terminal while it is visible.
  */
 object EditorTerminalSessionRelay {

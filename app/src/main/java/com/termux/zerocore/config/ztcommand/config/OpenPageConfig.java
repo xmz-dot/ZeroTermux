@@ -1,11 +1,11 @@
-package com.termux.zerocore.config.ztcommand.config;
+package com.termux.ai.ai.zerocore.config.ztcommand.config;
 
-import static com.termux.zerocore.config.ztcommand.config.ZTKeyConstants.ZT_ID_OPEN_PAGE;
+import static com.termux.ai.zerocore.config.ztcommand.config.ZTKeyConstants.ZT_ID_OPEN_PAGE;
 
 import android.content.Context;
 import android.text.TextUtils;
 
-import com.termux.zerocore.config.ztcommand.navigation.ZtNavigationHelper;
+import com.termux.ai.ai.zerocore.config.ztcommand.navigation.ZtNavigationHelper;
 
 public class OpenPageConfig extends BaseOkJsonConfig {
     @Override

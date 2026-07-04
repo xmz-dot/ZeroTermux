@@ -1,4 +1,4 @@
-package com.termux.shared.android;
+package com.termux.ai.ai.shared.android;
 
 import android.app.ActivityManager;
 import android.app.admin.DevicePolicyManager;
@@ -16,11 +16,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 
-import com.termux.shared.R;
-import com.termux.shared.data.DataUtils;
-import com.termux.shared.interact.MessageDialogUtils;
-import com.termux.shared.logger.Logger;
-import com.termux.shared.reflection.ReflectionUtils;
+import com.termux.ai.ai.shared.R;
+import com.termux.ai.ai.shared.data.DataUtils;
+import com.termux.ai.ai.shared.interact.MessageDialogUtils;
+import com.termux.ai.ai.shared.logger.Logger;
+import com.termux.ai.ai.shared.reflection.ReflectionUtils;
 
 import java.lang.reflect.Field;
 import java.security.MessageDigest;
@@ -682,7 +682,7 @@ public class PackageUtils {
      * {@code
      * <manifest
      *     <queries>
-     *         <package android:name="com.termux" />
+     *         <package android:name="com.termux.ai" />
      *    </queries>
      *
      *    <application

@@ -1,4 +1,4 @@
-package com.termux.app.terminal;
+package com.termux.ai.ai.app.terminal;
 
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
@@ -18,32 +18,32 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.termux.R;
-import com.termux.app.TermuxActivity;
-import com.termux.shared.file.FileUtils;
-import com.termux.shared.interact.MessageDialogUtils;
-import com.termux.shared.interact.ShareUtils;
-import com.termux.shared.shell.ShellUtils;
-import com.termux.shared.termux.TermuxBootstrap;
-import com.termux.shared.termux.terminal.TermuxTerminalViewClientBase;
-import com.termux.shared.termux.extrakeys.SpecialButton;
-import com.termux.shared.android.AndroidUtils;
-import com.termux.shared.termux.TermuxConstants;
-import com.termux.shared.activities.ReportActivity;
-import com.termux.shared.models.ReportInfo;
-import com.termux.app.models.UserAction;
-import com.termux.app.terminal.io.KeyboardShortcut;
-import com.termux.shared.termux.settings.properties.TermuxPropertyConstants;
-import com.termux.shared.data.DataUtils;
-import com.termux.shared.logger.Logger;
-import com.termux.shared.markdown.MarkdownUtils;
-import com.termux.shared.termux.TermuxUtils;
-import com.termux.shared.termux.data.TermuxUrlUtils;
-import com.termux.shared.view.KeyboardUtils;
-import com.termux.shared.view.ViewUtils;
-import com.termux.terminal.KeyHandler;
-import com.termux.terminal.TerminalEmulator;
-import com.termux.terminal.TerminalSession;
+import com.termux.ai.ai.R;
+import com.termux.ai.ai.app.TermuxActivity;
+import com.termux.ai.ai.shared.file.FileUtils;
+import com.termux.ai.ai.shared.interact.MessageDialogUtils;
+import com.termux.ai.ai.shared.interact.ShareUtils;
+import com.termux.ai.ai.shared.shell.ShellUtils;
+import com.termux.ai.ai.shared.termux.TermuxBootstrap;
+import com.termux.ai.ai.shared.termux.terminal.TermuxTerminalViewClientBase;
+import com.termux.ai.ai.shared.termux.extrakeys.SpecialButton;
+import com.termux.ai.ai.shared.android.AndroidUtils;
+import com.termux.ai.ai.shared.termux.TermuxConstants;
+import com.termux.ai.ai.shared.activities.ReportActivity;
+import com.termux.ai.ai.shared.models.ReportInfo;
+import com.termux.ai.ai.app.models.UserAction;
+import com.termux.ai.ai.app.terminal.io.KeyboardShortcut;
+import com.termux.ai.ai.shared.termux.settings.properties.TermuxPropertyConstants;
+import com.termux.ai.ai.shared.data.DataUtils;
+import com.termux.ai.ai.shared.logger.Logger;
+import com.termux.ai.ai.shared.markdown.MarkdownUtils;
+import com.termux.ai.ai.shared.termux.TermuxUtils;
+import com.termux.ai.ai.shared.termux.data.TermuxUrlUtils;
+import com.termux.ai.ai.shared.view.KeyboardUtils;
+import com.termux.ai.ai.shared.view.ViewUtils;
+import com.termux.ai.ai.terminal.KeyHandler;
+import com.termux.ai.ai.terminal.TerminalEmulator;
+import com.termux.ai.ai.terminal.TerminalSession;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -153,7 +153,7 @@ public class TermuxTerminalViewClient extends TermuxTerminalViewClientBase {
     }
 
     /**
-     * Should be called when {@link com.termux.view.TerminalView#mEmulator} is set
+     * Should be called when {@link com.termux.ai.view.TerminalView#mEmulator} is set
      */
     @Override
     public void onEmulatorSet() {
@@ -763,8 +763,8 @@ public class TermuxTerminalViewClient extends TermuxTerminalViewClientBase {
 
         MessageDialogUtils.showMessage(mActivity, TermuxConstants.TERMUX_APP_NAME + " Report Issue",
             mActivity.getString(R.string.msg_add_termux_debug_info),
-            mActivity.getString(com.termux.shared.R.string.action_yes), (dialog, which) -> reportIssueFromTranscript(transcriptText, true),
-            mActivity.getString(com.termux.shared.R.string.action_no), (dialog, which) -> reportIssueFromTranscript(transcriptText, false),
+            mActivity.getString(com.termux.ai.shared.R.string.action_yes), (dialog, which) -> reportIssueFromTranscript(transcriptText, true),
+            mActivity.getString(com.termux.ai.shared.R.string.action_no), (dialog, which) -> reportIssueFromTranscript(transcriptText, false),
             null);
     }
 

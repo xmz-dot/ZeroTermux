@@ -1,12 +1,12 @@
-package com.termux.zerocore.ai.config
+package com.termux.ai.ai.zerocore.ai.config
 
 import android.content.Context
 import com.example.xh_lib.utils.UUtils
-import com.termux.zerocore.utils.ZtLocaleStrings
-import com.termux.R
-import com.termux.zerocore.code.CodeString
-import com.termux.zerocore.url.FileUrl
-import com.termux.zerocore.utils.SingletonCommunicationUtils
+import com.termux.ai.ai.zerocore.utils.ZtLocaleStrings
+import com.termux.ai.ai.R
+import com.termux.ai.ai.zerocore.code.CodeString
+import com.termux.ai.ai.zerocore.url.FileUrl
+import com.termux.ai.ai.zerocore.utils.SingletonCommunicationUtils
 import org.json.JSONArray
 import org.json.JSONObject
 import java.io.File

@@ -1,4 +1,4 @@
-package com.termux.zerocore.ai.llm;
+package com.termux.ai.ai.zerocore.ai.llm;
 
 import android.content.Context;
 import android.content.Intent;
@@ -23,17 +23,17 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.xh_lib.utils.LogUtils;
 import com.example.xh_lib.utils.UUtils;
-import com.termux.R;
-import com.termux.zerocore.ai.llm.data.ChatDatabaseHelper;
-import com.termux.zerocore.ai.llm.data.ChatMessage;
-import com.termux.zerocore.ai.llm.data.ChatMessageAdapter;
-import com.termux.zerocore.ai.llm.data.ChatSession;
-import com.termux.zerocore.ai.llm.model.Config;
-import com.termux.zerocore.ai.llm.model.RequestMessageItem;
-import com.termux.zerocore.ai.model.AIClient;
-import com.termux.zerocore.ai.model.ProviderProfile;
-import com.termux.zerocore.ai.provider.AIProvider;
-import com.termux.zerocore.ftp.utils.UserSetManage;
+import com.termux.ai.ai.R;
+import com.termux.ai.ai.zerocore.ai.llm.data.ChatDatabaseHelper;
+import com.termux.ai.ai.zerocore.ai.llm.data.ChatMessage;
+import com.termux.ai.ai.zerocore.ai.llm.data.ChatMessageAdapter;
+import com.termux.ai.ai.zerocore.ai.llm.data.ChatSession;
+import com.termux.ai.ai.zerocore.ai.llm.model.Config;
+import com.termux.ai.ai.zerocore.ai.llm.model.RequestMessageItem;
+import com.termux.ai.ai.zerocore.ai.model.AIClient;
+import com.termux.ai.ai.zerocore.ai.model.ProviderProfile;
+import com.termux.ai.ai.zerocore.ai.provider.AIProvider;
+import com.termux.ai.ai.zerocore.ftp.utils.UserSetManage;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -393,7 +393,7 @@ public class ChatFragment extends Fragment {
         }
 
         if (isLlmVisibleTerminal) {
-            String terminalCommands = com.termux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().getTextToTerminal()
+            String terminalCommands = com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().getTextToTerminal()
                 .replace("$", "")
                 .replace("~", "")
                 .replace("\n", "")

@@ -1,20 +1,20 @@
-package com.termux.zerocore.editor
+package com.termux.ai.ai.zerocore.editor
 
 import android.app.Activity
 import android.view.View
 import com.google.android.material.button.MaterialButton
-import com.termux.shared.interact.ShareUtils
-import com.termux.shared.logger.Logger
-import com.termux.shared.termux.extrakeys.ExtraKeyButton
-import com.termux.shared.termux.extrakeys.ExtraKeysConstants
-import com.termux.shared.termux.extrakeys.ExtraKeysInfo
-import com.termux.shared.termux.extrakeys.ExtraKeysView
-import com.termux.shared.termux.extrakeys.SpecialButton
-import com.termux.shared.termux.settings.properties.TermuxAppSharedProperties
-import com.termux.shared.termux.settings.properties.TermuxPropertyConstants
-import com.termux.shared.termux.settings.properties.TermuxSharedProperties
-import com.termux.shared.termux.terminal.io.TerminalExtraKeys
-import com.termux.view.TerminalView
+import com.termux.ai.ai.shared.interact.ShareUtils
+import com.termux.ai.ai.shared.logger.Logger
+import com.termux.ai.ai.shared.termux.extrakeys.ExtraKeyButton
+import com.termux.ai.ai.shared.termux.extrakeys.ExtraKeysConstants
+import com.termux.ai.ai.shared.termux.extrakeys.ExtraKeysInfo
+import com.termux.ai.ai.shared.termux.extrakeys.ExtraKeysView
+import com.termux.ai.ai.shared.termux.extrakeys.SpecialButton
+import com.termux.ai.ai.shared.termux.settings.properties.TermuxAppSharedProperties
+import com.termux.ai.ai.shared.termux.settings.properties.TermuxPropertyConstants
+import com.termux.ai.ai.shared.termux.settings.properties.TermuxSharedProperties
+import com.termux.ai.ai.shared.termux.terminal.io.TerminalExtraKeys
+import com.termux.ai.ai.view.TerminalView
 import org.json.JSONException
 
 class EditorTerminalExtraKeys(

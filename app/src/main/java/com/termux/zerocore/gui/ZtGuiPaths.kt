@@ -1,6 +1,6 @@
-package com.termux.zerocore.gui
+package com.termux.ai.ai.zerocore.gui
 
-import com.termux.shared.termux.TermuxConstants
+import com.termux.ai.ai.shared.termux.TermuxConstants
 import java.io.File
 
 object ZtGuiPaths {

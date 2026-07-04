@@ -1,4 +1,4 @@
-package com.termux.zerocore.popuwindow
+package com.termux.ai.ai.zerocore.popuwindow
 
 import android.content.Context
 import android.util.AttributeSet
@@ -9,7 +9,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.xh_lib.utils.UUtils
-import com.termux.R
+import com.termux.ai.ai.R
 
 public class MenuLeftPopuListWindow :BasePuPuWindow{
 

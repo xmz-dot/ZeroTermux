@@ -1,6 +1,6 @@
-package com.termux.zerocore.config.mainmenu.data;
+package com.termux.ai.ai.zerocore.config.mainmenu.data;
 
-import com.termux.zerocore.config.mainmenu.config.MainMenuClickConfig;
+import com.termux.ai.ai.zerocore.config.mainmenu.config.MainMenuClickConfig;
 
 import java.util.ArrayList;
 

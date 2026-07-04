@@ -1,4 +1,4 @@
-package com.termux.zerocore.workstation
+package com.termux.ai.ai.zerocore.workstation
 
 import fi.iki.elonen.NanoHTTPD
 import fi.iki.elonen.NanoWSD

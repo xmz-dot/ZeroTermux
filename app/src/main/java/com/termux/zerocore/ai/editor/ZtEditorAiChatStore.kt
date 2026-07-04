@@ -1,9 +1,9 @@
-package com.termux.zerocore.ai.editor
+package com.termux.ai.ai.zerocore.ai.editor
 
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.termux.zerocore.ai.agent.ZtAgentAiChatClient
-import com.termux.zerocore.ftp.utils.UserSetManage
+import com.termux.ai.ai.zerocore.ai.agent.ZtAgentAiChatClient
+import com.termux.ai.ai.zerocore.ftp.utils.UserSetManage
 
 object ZtEditorAiChatStore {
 

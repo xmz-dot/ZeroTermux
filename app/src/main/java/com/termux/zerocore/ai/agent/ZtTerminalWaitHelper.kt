@@ -1,6 +1,6 @@
-package com.termux.zerocore.ai.agent
+package com.termux.ai.ai.zerocore.ai.agent
 
-import com.termux.zerocore.ai.config.ZtAiStrings
+import com.termux.ai.ai.zerocore.ai.config.ZtAiStrings
 
 /**
  * 等待终端命令完成：在 shell 提示符、确认提示或达到 maxWaitMs 时返回。
@@ -85,11 +85,11 @@ object ZtTerminalWaitHelper {
 
     fun formatTimedOutNotice(waitedMs: Long): String {
         val seconds = waitedMs / 1000
-        return ZtAiStrings.str(com.termux.R.string.zt_ai_terminal_wait_timeout).format(seconds)
+        return ZtAiStrings.str(com.termux.ai.R.string.zt_ai_terminal_wait_timeout).format(seconds)
     }
 
     fun formatConfirmationNotice(): String {
-        return ZtAiStrings.str(com.termux.R.string.zt_ai_terminal_wait_confirm)
+        return ZtAiStrings.str(com.termux.ai.R.string.zt_ai_terminal_wait_confirm)
     }
 
     fun formatCommandResult(

@@ -1,4 +1,4 @@
-package com.termux.terminal;
+package com.termux.ai.terminal;
 
 
 public class HistoryTest extends TerminalTestCase {

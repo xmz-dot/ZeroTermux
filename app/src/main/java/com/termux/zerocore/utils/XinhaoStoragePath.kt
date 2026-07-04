@@ -1,12 +1,12 @@
-package com.termux.zerocore.utils
+package com.termux.ai.ai.zerocore.utils
 
 import android.content.Context
 import android.os.Environment
 import com.example.xh_lib.utils.UUtils
-import com.termux.R
-import com.termux.zerocore.ftp.utils.UserSetManage
-import com.termux.zerocore.url.FileUrl
-import com.termux.shared.termux.TermuxConstants
+import com.termux.ai.ai.R
+import com.termux.ai.ai.zerocore.ftp.utils.UserSetManage
+import com.termux.ai.ai.zerocore.url.FileUrl
+import com.termux.ai.ai.shared.termux.TermuxConstants
 import java.io.File
 
 /**
@@ -14,7 +14,7 @@ import java.io.File
  *
  * 根据用户选择的存储模式返回对应目录：
  * - 内部存储：/storage/emulated/0/xinhao/...
- * - Android/data：/Android/data/com.termux/files/xinhao/...
+ * - Android/data：/Android/data/com.termux.ai/files/xinhao/...
  */
 object XinhaoStoragePath {
 
@@ -132,7 +132,7 @@ object XinhaoStoragePath {
 
     /**
      * 已安装菜单包（解压后）及切换状态文件，固定为应用私有目录。
-     * /data/data/com.termux/files/menu
+     * /data/data/com.termux.ai/files/menu
      */
     @JvmStatic @JvmOverloads
     fun getMenuInstallDir(context: Context = UUtils.getContext()): File {
@@ -253,7 +253,7 @@ object XinhaoStoragePath {
     @JvmStatic
     fun getTerminalSharedBase(): String {
         return if (isAndroidDataMode()) {
-            "./storage/shared/Android/data/com.termux/files/xinhao"
+            "./storage/shared/Android/data/com.termux.ai/files/xinhao"
         } else {
             "./storage/shared/xinhao"
         }
@@ -272,7 +272,7 @@ object XinhaoStoragePath {
     fun getTerminalWindowsAbsoluteDir(): String {
         val sharedBase = "${TermuxConstants.TERMUX_FILES_DIR_PATH}/home/storage/shared"
         val xinhaoBase = if (isAndroidDataMode()) {
-            "$sharedBase/Android/data/com.termux/files/xinhao"
+            "$sharedBase/Android/data/com.termux.ai/files/xinhao"
         } else {
             "$sharedBase/xinhao"
         }
@@ -292,15 +292,15 @@ object XinhaoStoragePath {
             R.string.backup_success
         }
         return "cd ~ && cd ~ && tar -$tarOption ${getTerminalDataPath()}/$systemName " +
-            "/data/data/com.termux/files && echo \"${UUtils.getString(successRes)}\" \n"
+            "/data/data/com.termux.ai/files && echo \"${UUtils.getString(successRes)}\" \n"
     }
 
     @JvmStatic
     fun getShellRestore(command: String, archiveName: String, containerDirName: String): String {
         val archive = archiveName.replace(" ", "")
         return "cd ~ && cd ~ && tar -v -$command ${getTerminalDataPath()}/$archive " +
-            "-C ../../$containerDirName && mv ../../$containerDirName/data/data/com.termux/files/home " +
-            "../../$containerDirName && mv ../../$containerDirName/data/data/com.termux/files/usr " +
+            "-C ../../$containerDirName && mv ../../$containerDirName/data/data/com.termux.ai/files/home " +
+            "../../$containerDirName && mv ../../$containerDirName/data/data/com.termux.ai/files/usr " +
             "../../$containerDirName && rm -rf ../../$containerDirName/data && " +
             "echo \"${UUtils.getString(R.string.system_restore_success)}\" \n"
     }

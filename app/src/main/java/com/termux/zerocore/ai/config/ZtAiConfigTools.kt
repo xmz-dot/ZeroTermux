@@ -1,4 +1,4 @@
-package com.termux.zerocore.ai.config
+package com.termux.ai.ai.zerocore.ai.config
 
 import org.json.JSONArray
 import org.json.JSONObject
@@ -15,7 +15,7 @@ object ZtAiConfigTools {
                     "category",
                     JSONObject()
                         .put("type", "string")
-                        .put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_category))
+                        .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_category))
                 )
             ).put("required", JSONArray())
         ))
@@ -29,14 +29,14 @@ object ZtAiConfigTools {
                         "group",
                         JSONObject()
                             .put("type", "string")
-                            .put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_group))
+                            .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_group))
                     )
                     .put(
                         "keys",
                         JSONObject()
                             .put("type", "array")
                             .put("items", JSONObject().put("type", "string"))
-                            .put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_keys))
+                            .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_keys))
                     )
             ).put("required", JSONArray())
         ))
@@ -50,13 +50,13 @@ object ZtAiConfigTools {
                         "key",
                         JSONObject()
                             .put("type", "string")
-                            .put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_config_key))
+                            .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_config_key))
                     )
                     .put(
                         "value",
                         JSONObject()
                             .put("type", "string")
-                            .put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_config_value))
+                            .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_config_value))
                     )
             ).put("required", JSONArray().put("key").put("value"))
         ))
@@ -70,13 +70,13 @@ object ZtAiConfigTools {
                         "page_id",
                         JSONObject()
                             .put("type", "string")
-                            .put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_page_id))
+                            .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_page_id))
                     )
                     .put(
                         "extras",
                         JSONObject()
                             .put("type", "object")
-                            .put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_page_extras))
+                            .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_page_extras))
                     )
             ).put("required", JSONArray())
         ))
@@ -89,7 +89,7 @@ object ZtAiConfigTools {
                     "command",
                     JSONObject()
                         .put("type", "string")
-                        .put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_zt_command))
+                        .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_zt_command))
                 )
             ).put("required", JSONArray().put("command"))
         ))
@@ -107,30 +107,30 @@ object ZtAiConfigTools {
                     .put(
                         "menu_package_id",
                         JSONObject().put("type", "string")
-                            .put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_menu_package_id))
+                            .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_menu_package_id))
                     )
                     .put(
                         "xml_content",
-                        JSONObject().put("type", "string").put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_xml_content))
+                        JSONObject().put("type", "string").put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_xml_content))
                     )
                     .put(
                         "append_group_xml",
-                        JSONObject().put("type", "string").put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_append_group))
+                        JSONObject().put("type", "string").put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_append_group))
                     )
                     .put(
                         "create_menu_package",
                         JSONObject().put("type", "string")
-                            .put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_create_menu))
+                            .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_create_menu))
                     )
                     .put(
                         "switch_to_menu",
                         JSONObject().put("type", "string")
-                            .put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_switch_menu))
+                            .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_switch_menu))
                     )
                     .put(
                         "create_tab_name",
                         JSONObject().put("type", "string")
-                            .put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_create_tab_alias))
+                            .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_create_tab_alias))
                     )
                     .put(
                         "items",
@@ -150,12 +150,12 @@ object ZtAiConfigTools {
                                             .put("autoRunShell", JSONObject().put("type", "string"))
                                     )
                             )
-                            .put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_menu_items))
+                            .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_menu_items))
                     )
                     .put(
                         "switch_to_tab",
                         JSONObject().put("type", "string")
-                            .put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_switch_tab))
+                            .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_switch_tab))
                     )
             ).put("required", JSONArray())
         ))
@@ -173,12 +173,12 @@ object ZtAiConfigTools {
                     .put(
                         "source_id",
                         JSONObject().put("type", "string")
-                            .put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_source_id))
+                            .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_source_id))
                     )
                     .put(
                         "user_confirmed",
                         JSONObject().put("type", "string")
-                            .put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_user_confirmed))
+                            .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_user_confirmed))
                     )
             ).put("required", JSONArray().put("source_id").put("user_confirmed"))
         ))
@@ -201,17 +201,17 @@ object ZtAiConfigTools {
                     .put(
                         "container_name",
                         JSONObject().put("type", "string")
-                            .put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_container_create_name))
+                            .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_container_create_name))
                     )
                     .put(
                         "switch_after_create",
                         JSONObject().put("type", "string")
-                            .put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_switch_after_create))
+                            .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_switch_after_create))
                     )
                     .put(
                         "restart_app",
                         JSONObject().put("type", "string")
-                            .put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_restart_app))
+                            .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_restart_app))
                     )
             ).put("required", JSONArray().put("container_name"))
         ))
@@ -224,17 +224,17 @@ object ZtAiConfigTools {
                     .put(
                         "container_id",
                         JSONObject().put("type", "string")
-                            .put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_container_id))
+                            .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_container_id))
                     )
                     .put(
                         "container_name",
                         JSONObject().put("type", "string")
-                            .put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_container_name))
+                            .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_container_name))
                     )
                     .put(
                         "restart_app",
                         JSONObject().put("type", "string")
-                            .put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_restart_app))
+                            .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_restart_app))
                     )
             ).put("required", JSONArray())
         ))
@@ -247,17 +247,17 @@ object ZtAiConfigTools {
                     .put(
                         "container_id",
                         JSONObject().put("type", "string")
-                            .put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_container_id))
+                            .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_container_id))
                     )
                     .put(
                         "container_name",
                         JSONObject().put("type", "string")
-                            .put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_container_name))
+                            .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_container_name))
                     )
                     .put(
                         "user_confirmed",
                         JSONObject().put("type", "string")
-                            .put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_user_confirmed))
+                            .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_user_confirmed))
                     )
             ).put("required", JSONArray().put("user_confirmed"))
         ))
@@ -273,11 +273,11 @@ object ZtAiConfigTools {
                 "properties",
                 JSONObject()
                     .put("name", JSONObject().put("type", "string")
-                        .put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_cmd_def_name)))
+                        .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_cmd_def_name)))
                     .put("command", JSONObject().put("type", "string")
-                        .put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_cmd_def_command)))
+                        .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_cmd_def_command)))
                     .put("append_newline", JSONObject().put("type", "string")
-                        .put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_cmd_def_append_newline)))
+                        .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_cmd_def_append_newline)))
             ).put("required", JSONArray().put("name").put("command"))
         ))
         tools.put(tool(
@@ -287,15 +287,15 @@ object ZtAiConfigTools {
                 "properties",
                 JSONObject()
                     .put("command_id", JSONObject().put("type", "string")
-                        .put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_cmd_def_id)))
+                        .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_cmd_def_id)))
                     .put("name", JSONObject().put("type", "string")
-                        .put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_cmd_def_name_lookup)))
+                        .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_cmd_def_name_lookup)))
                     .put("new_name", JSONObject().put("type", "string")
-                        .put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_cmd_def_new_name)))
+                        .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_cmd_def_new_name)))
                     .put("command", JSONObject().put("type", "string")
-                        .put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_cmd_def_command)))
+                        .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_cmd_def_command)))
                     .put("append_newline", JSONObject().put("type", "string")
-                        .put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_cmd_def_append_newline)))
+                        .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_cmd_def_append_newline)))
             ).put("required", JSONArray())
         ))
         tools.put(tool(
@@ -305,11 +305,11 @@ object ZtAiConfigTools {
                 "properties",
                 JSONObject()
                     .put("command_id", JSONObject().put("type", "string")
-                        .put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_cmd_def_id)))
+                        .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_cmd_def_id)))
                     .put("name", JSONObject().put("type", "string")
-                        .put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_cmd_def_name_lookup)))
+                        .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_cmd_def_name_lookup)))
                     .put("user_confirmed", JSONObject().put("type", "string")
-                        .put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_user_confirmed)))
+                        .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_user_confirmed)))
             ).put("required", JSONArray().put("user_confirmed"))
         ))
         tools.put(tool(
@@ -319,9 +319,9 @@ object ZtAiConfigTools {
                 "properties",
                 JSONObject()
                     .put("command_id", JSONObject().put("type", "string")
-                        .put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_cmd_def_id)))
+                        .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_cmd_def_id)))
                     .put("name", JSONObject().put("type", "string")
-                        .put("description", ZtAiStrings.str(com.termux.R.string.zt_ai_tool_param_cmd_def_name_lookup)))
+                        .put("description", ZtAiStrings.str(com.termux.ai.R.string.zt_ai_tool_param_cmd_def_name_lookup)))
             ).put("required", JSONArray())
         ))
     }

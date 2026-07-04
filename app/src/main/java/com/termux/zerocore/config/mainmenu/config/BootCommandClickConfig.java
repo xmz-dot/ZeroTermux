@@ -1,6 +1,6 @@
-package com.termux.zerocore.config.mainmenu.config;
+package com.termux.ai.ai.zerocore.config.mainmenu.config;
 
-import static com.termux.zerocore.config.mainmenu.MainMenuConfig.CODE_ZT_FEATURES;
+import static com.termux.ai.zerocore.config.mainmenu.MainMenuConfig.CODE_ZT_FEATURES;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -8,8 +8,8 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.example.xh_lib.utils.LogUtils;
-import com.termux.R;
-import com.termux.zerocore.utils.StartRunCommandUtils;
+import com.termux.ai.ai.R;
+import com.termux.ai.ai.zerocore.utils.StartRunCommandUtils;
 
 public class BootCommandClickConfig extends BaseMenuClickConfig {
     private static final String TAG = BootCommandClickConfig.class.getSimpleName();

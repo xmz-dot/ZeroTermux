@@ -1,14 +1,14 @@
-package com.termux.zerocore.aidebug
+package com.termux.ai.ai.zerocore.aidebug
 
 import com.google.gson.Gson
-import com.termux.zerocore.ai.agent.ZtAgentAiChatClient
-import com.termux.zerocore.ai.agent.ZtAgentAiToolExecutor
-import com.termux.zerocore.ai.config.ZtAiConfigRegistry
-import com.termux.zerocore.ai.config.ZtAiZtSocketClient
-import com.termux.zerocore.ai.config.ZtBeautifyClearHelper
-import com.termux.zerocore.ai.config.ZtBeautifyColorHelper
-import com.termux.zerocore.ai.config.ZtAiContainerHelper
-import com.termux.zerocore.command.ZtCommandDefHelper
+import com.termux.ai.ai.zerocore.ai.agent.ZtAgentAiChatClient
+import com.termux.ai.ai.zerocore.ai.agent.ZtAgentAiToolExecutor
+import com.termux.ai.ai.zerocore.ai.config.ZtAiConfigRegistry
+import com.termux.ai.ai.zerocore.ai.config.ZtAiZtSocketClient
+import com.termux.ai.ai.zerocore.ai.config.ZtBeautifyClearHelper
+import com.termux.ai.ai.zerocore.ai.config.ZtBeautifyColorHelper
+import com.termux.ai.ai.zerocore.ai.config.ZtAiContainerHelper
+import com.termux.ai.ai.zerocore.command.ZtCommandDefHelper
 import org.json.JSONArray
 import org.json.JSONObject
 

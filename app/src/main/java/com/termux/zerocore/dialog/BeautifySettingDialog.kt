@@ -1,4 +1,4 @@
-package com.termux.zerocore.dialog
+package com.termux.ai.ai.zerocore.dialog
 
 import android.app.Activity
 import android.content.Context
@@ -17,15 +17,15 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.example.xh_lib.utils.SaveData
 import com.example.xh_lib.utils.UUtils
 import com.rtugeek.android.colorseekbar.ColorSeekBar
-import com.termux.R
-import com.termux.shared.logger.Logger
-import com.termux.zerocore.activity.ImageActivity
-import com.termux.zerocore.ai.config.ZtBeautifyColorHelper
-import com.termux.zerocore.data.UsbFileData
-import com.termux.zerocore.ftp.utils.UserSetManage
-import com.termux.zerocore.url.FileUrl
-import com.termux.zerocore.ai.config.ZtBeautifyClearHelper
-import com.termux.zerocore.utils.FileIOUtils
+import com.termux.ai.ai.R
+import com.termux.ai.ai.shared.logger.Logger
+import com.termux.ai.ai.zerocore.activity.ImageActivity
+import com.termux.ai.ai.zerocore.ai.config.ZtBeautifyColorHelper
+import com.termux.ai.ai.zerocore.data.UsbFileData
+import com.termux.ai.ai.zerocore.ftp.utils.UserSetManage
+import com.termux.ai.ai.zerocore.url.FileUrl
+import com.termux.ai.ai.zerocore.ai.config.ZtBeautifyClearHelper
+import com.termux.ai.ai.zerocore.utils.FileIOUtils
 import java.io.File
 import java.io.FileInputStream
 

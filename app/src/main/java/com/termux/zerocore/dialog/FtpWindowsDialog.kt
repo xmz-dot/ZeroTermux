@@ -1,4 +1,4 @@
-package com.termux.zerocore.dialog
+package com.termux.ai.ai.zerocore.dialog
 
 import android.content.Context
 import android.os.Environment
@@ -13,13 +13,13 @@ import com.example.xh_lib.utils.LogUtils
 import com.example.xh_lib.utils.UUtils
 import com.github.iielse.switchbutton.SwitchView
 import com.github.iielse.switchbutton.SwitchView.OnStateChangedListener
-import com.termux.R
-import com.termux.zerocore.bean.SaveDataZeroEngine
-import com.termux.zerocore.ftp.FsService
-import com.termux.zerocore.ftp.new_ftp.Constants
-import com.termux.zerocore.ftp.new_ftp.config.FTP_CONFIG
-import com.termux.zerocore.ftp.new_ftp.services.FtpService
-import com.termux.zerocore.url.FileUrl.mainFilesUrl
+import com.termux.ai.ai.R
+import com.termux.ai.ai.zerocore.bean.SaveDataZeroEngine
+import com.termux.ai.ai.zerocore.ftp.FsService
+import com.termux.ai.ai.zerocore.ftp.new_ftp.Constants
+import com.termux.ai.ai.zerocore.ftp.new_ftp.config.FTP_CONFIG
+import com.termux.ai.ai.zerocore.ftp.new_ftp.services.FtpService
+import com.termux.ai.ai.zerocore.url.FileUrl.mainFilesUrl
 import kotlinx.coroutines.*
 
 class FtpWindowsDialog : BaseDialogCentre {
@@ -268,7 +268,7 @@ class FtpWindowsDialog : BaseDialogCentre {
         }
         val stringData =
             SaveDataZeroEngine.getStringData(UUtils.getContext(), SaveDataZeroEngine.FTP_CHROOT)
-        if (stringData.contains("com.termux")) {
+        if (stringData.contains("com.termux.ai")) {
             switchIndex(FtpWindowsDialogConstant.ROOT_PATH_ZERO_HOME, false)
         } else {
             switchIndex(FtpWindowsDialogConstant.ROOT_PATH_SDCARD, false)

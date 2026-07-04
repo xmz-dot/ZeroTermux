@@ -1,4 +1,4 @@
-package com.termux.zerocore.zero.engine;
+package com.termux.ai.ai.zerocore.zero.engine;
 
 import android.content.Context;
 import android.os.Handler;

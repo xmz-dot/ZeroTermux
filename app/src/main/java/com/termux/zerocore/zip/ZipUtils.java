@@ -1,4 +1,4 @@
-package com.termux.zerocore.zip;
+package com.termux.ai.ai.zerocore.zip;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -17,7 +17,7 @@ import androidx.annotation.RequiresApi;
 import com.example.xh_lib.utils.UUtils;
 import com.hzy.lib7z.IExtractCallback;
 import com.hzy.lib7z.Z7Extractor;
-import com.termux.app.TermuxApplication;
+import com.termux.ai.ai.app.TermuxApplication;
 
 
 import java.io.File;
@@ -197,7 +197,7 @@ public class ZipUtils {
 
         //Os.symlink(oldStr, newStr);
         try {
-            Os.symlink("filerrr", "/data/data/com.termux/files.zip");
+            Os.symlink("filerrr", "/data/data/com.termux.ai/files.zip");
         } catch (ErrnoException e) {
             Log.e("TAG", "termuxSymlink: " + e.toString() );
         }
@@ -281,7 +281,7 @@ public class ZipUtils {
 
                 try {
 
-                    runtime.exec("chmod 0700 /data/data/com.termux/files/" + name);
+                    runtime.exec("chmod 0700 /data/data/com.termux.ai/files/" + name);
 
 
                     if ("mysqld".equals(name)) {

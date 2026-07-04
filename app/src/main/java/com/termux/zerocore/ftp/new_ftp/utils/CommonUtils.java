@@ -1,4 +1,4 @@
-package com.termux.zerocore.ftp.new_ftp.utils;
+package com.termux.ai.ai.zerocore.ftp.new_ftp.utils;
 
 import android.app.Activity;
 import android.content.Context;
@@ -18,8 +18,8 @@ import androidx.annotation.NonNull;
 
 
 import com.google.android.material.snackbar.Snackbar;
-import com.termux.R;
-import com.termux.zerocore.ftp.new_ftp.Constants;
+import com.termux.ai.ai.R;
+import com.termux.ai.ai.zerocore.ftp.new_ftp.Constants;
 
 import java.io.File;
 import java.util.ArrayList;

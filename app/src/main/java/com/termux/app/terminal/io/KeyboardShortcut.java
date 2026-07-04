@@ -1,4 +1,4 @@
-package com.termux.app.terminal.io;
+package com.termux.ai.ai.app.terminal.io;
 
 public class KeyboardShortcut {
 

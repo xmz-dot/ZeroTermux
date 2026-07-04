@@ -1,4 +1,4 @@
-package com.termux.zerocore.utils
+package com.termux.ai.ai.zerocore.utils
 
 import android.content.Context
 import android.os.Environment
@@ -7,14 +7,14 @@ import android.widget.Toast
 import com.example.xh_lib.utils.LogUtils
 import com.example.xh_lib.utils.UUtils
 import com.google.gson.Gson
-import com.termux.R
-import com.termux.zerocore.bean.ClipboardBean
-import com.termux.zerocore.bean.CreateSystemBean
-import com.termux.zerocore.bean.MinLBean
-import com.termux.zerocore.bean.MinLBean.DataNum
-import com.termux.zerocore.command.ZtCommandDefHelper
-import com.termux.zerocore.ftp.utils.UserSetManage
-import com.termux.zerocore.url.FileUrl
+import com.termux.ai.ai.R
+import com.termux.ai.ai.zerocore.bean.ClipboardBean
+import com.termux.ai.ai.zerocore.bean.CreateSystemBean
+import com.termux.ai.ai.zerocore.bean.MinLBean
+import com.termux.ai.ai.zerocore.bean.MinLBean.DataNum
+import com.termux.ai.ai.zerocore.command.ZtCommandDefHelper
+import com.termux.ai.ai.zerocore.ftp.utils.UserSetManage
+import com.termux.ai.ai.zerocore.url.FileUrl
 import java.io.*
 import java.nio.file.Files
 import java.nio.file.StandardCopyOption
@@ -32,9 +32,9 @@ object FileIOUtils {
     public const val TAG = "FileIOUtils"
 
     //环境
-    public const val TERMUX_CHROOT = "/data/data/com.termux/files/usr/bin/termux-chroot"
-    public const val TERMUX_WGET = "/data/data/com.termux/files/usr/bin/wget"
-    public const val TERMUX_QEMU = "/data/data/com.termux/files/usr/bin/qemu-system-x86_64"
+    public const val TERMUX_CHROOT = "/data/data/com.termux.ai/files/usr/bin/termux-chroot"
+    public const val TERMUX_WGET = "/data/data/com.termux.ai/files/usr/bin/wget"
+    public const val TERMUX_QEMU = "/data/data/com.termux.ai/files/usr/bin/qemu-system-x86_64"
 
     public fun getConfigFilePath(): String {
         return XinhaoStoragePath.getConfigDir(UUtils.getContext()).absolutePath + "/"
@@ -242,7 +242,7 @@ object FileIOUtils {
         return mContext.filesDir.absolutePath + "/home/storage"
     }
     public fun getTermuxPathFile(mContext: Context): File {
-        return File("/data/data/com.termux/")
+        return File("/data/data/com.termux.ai/")
     }
 
     public fun isStoragePath(mContext: Context): Boolean {
@@ -281,7 +281,7 @@ object FileIOUtils {
     }
 
     public fun createSystem(mContext: Context, name: String): File? {
-        return com.termux.zerocore.activity.utils.CreateSystemUtils.createContainerReturningDir(name)
+        return com.termux.ai.zerocore.activity.utils.CreateSystemUtils.createContainerReturningDir(name)
     }
 
     @Deprecated("Use CreateSystemUtils", ReplaceWith("CreateSystemUtils"))

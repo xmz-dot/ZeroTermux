@@ -1,4 +1,4 @@
-package com.termux.zerocore.scrcpy;
+package com.termux.ai.ai.zerocore.scrcpy;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -34,8 +34,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.xh_lib.utils.UUtils;
-import com.termux.R;
-import com.termux.zerocore.dialog.LoadingDialog;
+import com.termux.ai.ai.R;
+import com.termux.ai.ai.zerocore.dialog.LoadingDialog;
 
 import java.io.IOException;
 import java.io.InputStream;

@@ -1,9 +1,9 @@
-package com.termux.zerocore.dialog.view_holder
+package com.termux.ai.ai.zerocore.dialog.view_holder
 
 import android.view.View
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.termux.R
+import com.termux.ai.ai.R
 
 class CommonCommandsHolder: RecyclerView.ViewHolder {
     public var line_tv:TextView? = null

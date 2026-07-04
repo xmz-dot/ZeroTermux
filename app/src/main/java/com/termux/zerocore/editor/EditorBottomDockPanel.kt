@@ -1,4 +1,4 @@
-package com.termux.zerocore.editor
+package com.termux.ai.ai.zerocore.editor
 
 import android.app.Activity
 import android.view.MotionEvent
@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewConfiguration
 import android.widget.ImageView
 import android.widget.TextView
-import com.termux.R
+import com.termux.ai.ai.R
 import java.io.File
 import kotlin.math.abs
 

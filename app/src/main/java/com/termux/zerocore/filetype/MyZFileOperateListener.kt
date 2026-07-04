@@ -1,4 +1,4 @@
-package com.termux.zerocore.filetype
+package com.termux.ai.ai.zerocore.filetype
 
 import android.content.Context
 import android.widget.EditText

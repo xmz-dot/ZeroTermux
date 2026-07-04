@@ -1,4 +1,4 @@
-package com.termux.zerocore.ai.deepseek.model;
+package com.termux.ai.ai.zerocore.ai.deepseek.model;
 
 public class RequestMessageItem {
     public String role;

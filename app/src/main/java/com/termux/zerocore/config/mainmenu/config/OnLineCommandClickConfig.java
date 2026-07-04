@@ -1,14 +1,14 @@
-package com.termux.zerocore.config.mainmenu.config;
+package com.termux.ai.ai.zerocore.config.mainmenu.config;
 
-import static com.termux.zerocore.config.mainmenu.MainMenuConfig.CODE_ONLINE_FEATURES;
+import static com.termux.ai.zerocore.config.mainmenu.MainMenuConfig.CODE_ONLINE_FEATURES;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.view.View;
 
-import com.termux.R;
-import com.termux.app.TermuxActivity;
-import com.termux.zerocore.dialog.OnLineShDialog;
+import com.termux.ai.ai.R;
+import com.termux.ai.ai.app.TermuxActivity;
+import com.termux.ai.ai.zerocore.dialog.OnLineShDialog;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -32,7 +32,7 @@ public class OnLineCommandClickConfig extends BaseMenuClickConfig {
     public void onClick(View view, Context context) {
         OnLineShDialog mOnLineShDialog = new OnLineShDialog(context);
         mOnLineShDialog.setOnItemClickListener(msg -> {
-            com.termux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(msg + "\n");
+            com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(msg + "\n");
             mOnLineShDialog.dismiss();
         });
         mOnLineShDialog.connection();
@@ -45,7 +45,7 @@ public class OnLineCommandClickConfig extends BaseMenuClickConfig {
         mOnLineShDialog.setUrl(url);
         mOnLineShDialog.connection();
         mOnLineShDialog.setOnItemClickListener(msg -> {
-            com.termux.zerocore.utils.SingletonCommunicationUtils.getInstance()
+            com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance()
                 .getmSingletonCommunicationListener().sendTextToTerminal(msg + "\n");
             mOnLineShDialog.dismiss();
         });

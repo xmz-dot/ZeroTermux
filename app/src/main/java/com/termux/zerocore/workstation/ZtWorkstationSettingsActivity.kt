@@ -1,4 +1,4 @@
-package com.termux.zerocore.workstation
+package com.termux.ai.ai.zerocore.workstation
 
 import android.os.Bundle
 import android.view.View
@@ -11,9 +11,9 @@ import com.example.xh_lib.utils.UUtils
 import com.hjq.permissions.OnPermissionCallback
 import com.hjq.permissions.Permission
 import com.hjq.permissions.XXPermissions
-import com.termux.R
-import com.termux.zerocore.ftp.utils.UserSetManage
-import com.termux.zerocore.settings.BaseTitleActivity
+import com.termux.ai.ai.R
+import com.termux.ai.ai.zerocore.ftp.utils.UserSetManage
+import com.termux.ai.ai.zerocore.settings.BaseTitleActivity
 
 class ZtWorkstationSettingsActivity : BaseTitleActivity() {
 
@@ -176,7 +176,7 @@ class ZtWorkstationSettingsActivity : BaseTitleActivity() {
     private fun applyFeatureSwitch(
         kind: SwitchKind,
         enabled: Boolean,
-        setter: (com.termux.zerocore.bean.ZTUserBean) -> Unit
+        setter: (com.termux.ai.zerocore.bean.ZTUserBean) -> Unit
     ) {
         if (!enabled) {
             updateBean { setter(it) }
@@ -215,7 +215,7 @@ class ZtWorkstationSettingsActivity : BaseTitleActivity() {
         }
     }
 
-    private fun updateBean(block: (com.termux.zerocore.bean.ZTUserBean) -> Unit) {
+    private fun updateBean(block: (com.termux.ai.zerocore.bean.ZTUserBean) -> Unit) {
         val bean = UserSetManage.get().getZTUserBean()
         block(bean)
         UserSetManage.get().setZTUserBean(bean)

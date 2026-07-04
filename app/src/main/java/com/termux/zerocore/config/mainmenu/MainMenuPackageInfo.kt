@@ -1,4 +1,4 @@
-package com.termux.zerocore.config.mainmenu
+package com.termux.ai.ai.zerocore.config.mainmenu
 
 import java.io.File
 

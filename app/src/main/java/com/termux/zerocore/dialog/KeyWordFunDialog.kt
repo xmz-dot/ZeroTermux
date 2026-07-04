@@ -1,12 +1,12 @@
-package com.termux.zerocore.dialog
+package com.termux.ai.ai.zerocore.dialog
 
 import android.content.Context
 import android.view.View
 import android.widget.TextView
 import androidx.cardview.widget.CardView
 import com.example.xh_lib.utils.UUtils
-import com.termux.R
-import com.termux.zerocore.ftp.utils.UserSetManage
+import com.termux.ai.ai.R
+import com.termux.ai.ai.zerocore.ftp.utils.UserSetManage
 
 class KeyWordFunDialog : BaseDialogCentre {
     companion object {

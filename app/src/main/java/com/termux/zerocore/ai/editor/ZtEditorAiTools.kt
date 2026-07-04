@@ -1,4 +1,4 @@
-package com.termux.zerocore.ai.editor
+package com.termux.ai.ai.zerocore.ai.editor
 
 import org.json.JSONArray
 import org.json.JSONObject

@@ -1,4 +1,4 @@
-package com.termux.filepicker;
+package com.termux.ai.filepicker;
 
 import org.junit.Assert;
 import org.junit.Test;

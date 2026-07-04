@@ -1,14 +1,14 @@
-package com.termux.zerocore.config.mainmenu.config
+package com.termux.ai.ai.zerocore.config.mainmenu.config
 
 import android.content.Context
 import android.content.Intent
 import android.graphics.drawable.Drawable
 import android.view.View
 import com.example.xh_lib.utils.UUtils
-import com.termux.R
-import com.termux.zerocore.activity.EditTextActivity
-import com.termux.zerocore.config.mainmenu.MainMenuConfig
-import com.termux.zerocore.editor.EditorHelloProjectCreator
+import com.termux.ai.ai.R
+import com.termux.ai.ai.zerocore.activity.EditTextActivity
+import com.termux.ai.ai.zerocore.config.mainmenu.MainMenuConfig
+import com.termux.ai.ai.zerocore.editor.EditorHelloProjectCreator
 
 class OpenProjectClickConfig : BaseMenuClickConfig() {
 

@@ -1,4 +1,4 @@
-package com.termux.zerocore.dialog
+package com.termux.ai.ai.zerocore.dialog
 
 import android.app.Activity
 import android.content.Context
@@ -7,12 +7,12 @@ import android.widget.LinearLayout
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.blockchain.ub.util.custom.dialog.BaseDialogDown
-import com.termux.R
-import com.termux.zerocore.bean.ZeroRunCommandBean
-import com.termux.zerocore.data.LinuxCommandData
-import com.termux.zerocore.dialog.adapter.BoomZeroTermuxAdapter
-import com.termux.zerocore.popuwindow.NginxPopuWindow
-import com.termux.zerocore.popuwindow.WebStartPopuWindow
+import com.termux.ai.ai.R
+import com.termux.ai.ai.zerocore.bean.ZeroRunCommandBean
+import com.termux.ai.ai.zerocore.data.LinuxCommandData
+import com.termux.ai.ai.zerocore.dialog.adapter.BoomZeroTermuxAdapter
+import com.termux.ai.ai.zerocore.popuwindow.NginxPopuWindow
+import com.termux.ai.ai.zerocore.popuwindow.WebStartPopuWindow
 
 class BoomZeroTermuxDialog : BaseDialogDown {
 

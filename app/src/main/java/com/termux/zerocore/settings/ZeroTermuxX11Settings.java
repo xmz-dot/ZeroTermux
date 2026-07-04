@@ -1,4 +1,4 @@
-package com.termux.zerocore.settings;
+package com.termux.ai.ai.zerocore.settings;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,16 +14,16 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
 import com.example.xh_lib.utils.UUtils;
-import com.termux.R;
-import com.termux.app.TermuxService;
-import com.termux.x11.LoriePreferences;
-import com.termux.zerocore.activity.SwitchActivity;
-import com.termux.zerocore.bean.ZTUserBean;
-import com.termux.zerocore.dialog.LoadingDialog;
-import com.termux.zerocore.dialog.SwitchDialog;
-import com.termux.zerocore.ftp.utils.UserSetManage;
-import com.termux.zerocore.url.FileUrl;
-import com.termux.zerocore.utils.UUUtils;
+import com.termux.ai.ai.R;
+import com.termux.ai.ai.app.TermuxService;
+import com.termux.ai.ai.x11.LoriePreferences;
+import com.termux.ai.ai.zerocore.activity.SwitchActivity;
+import com.termux.ai.ai.zerocore.bean.ZTUserBean;
+import com.termux.ai.ai.zerocore.dialog.LoadingDialog;
+import com.termux.ai.ai.zerocore.dialog.SwitchDialog;
+import com.termux.ai.ai.zerocore.ftp.utils.UserSetManage;
+import com.termux.ai.ai.zerocore.url.FileUrl;
+import com.termux.ai.ai.zerocore.utils.UUUtils;
 import com.zp.z_file.util.ZFileUUtils;
 
 import java.io.File;
@@ -270,7 +270,7 @@ public class ZeroTermuxX11Settings extends BaseTitleActivity {
         SwitchDialog switchDialog = new SwitchDialog(this);
         switchDialog.createSwitchDialog(getString(R.string.x11_dialog_reset));
         switchDialog.getOk().setOnClickListener(view -> {
-            new Intent(ZeroTermuxX11Settings.this, TermuxService.class).setAction("com.termux.service_stop");
+            new Intent(ZeroTermuxX11Settings.this, TermuxService.class).setAction("com.termux.ai.service_stop");
             System.exit(0);
             finish();
         });

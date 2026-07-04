@@ -1,13 +1,13 @@
-package com.termux.zerocore.config.mainmenu.config;
+package com.termux.ai.ai.zerocore.config.mainmenu.config;
 
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.view.View;
 
-import com.termux.R;
-import com.termux.zerocore.activity.SwitchActivity;
-import com.termux.zerocore.config.mainmenu.MainMenuConfig;
+import com.termux.ai.ai.R;
+import com.termux.ai.ai.zerocore.activity.SwitchActivity;
+import com.termux.ai.ai.zerocore.config.mainmenu.MainMenuConfig;
 
 // 容器切换
 public class ContainerSwitchClickConfig extends BaseMenuClickConfig {

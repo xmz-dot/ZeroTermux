@@ -1,4 +1,4 @@
-package com.termux.zerocore.scrcpy.model;
+package com.termux.ai.ai.zerocore.scrcpy.model;
 
 import java.math.BigInteger;
 import java.nio.ByteBuffer;

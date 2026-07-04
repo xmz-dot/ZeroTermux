@@ -1,4 +1,4 @@
-package com.termux.zerocore.ai.agent
+package com.termux.ai.ai.zerocore.ai.agent
 
 object ZtAgentAiProvider {
     const val DEEPSEEK = "deepseek"

@@ -1,4 +1,4 @@
-package com.termux.zerocore.activity.adapter;
+package com.termux.ai.ai.zerocore.activity.adapter;
 
 import android.app.Activity;
 import android.view.View;
@@ -9,13 +9,13 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.xh_lib.utils.UUtils;
 import com.google.gson.Gson;
-import com.termux.R;
-import com.termux.app.TermuxActivity;
-import com.termux.zerocore.activity.view_holder.MinLViewHolder;
-import com.termux.zerocore.bean.MinLBean;
-import com.termux.zerocore.dialog.MingLShowDialog;
-import com.termux.zerocore.dialog.MinglingDialog;
-import com.termux.zerocore.utils.SaveData;
+import com.termux.ai.ai.R;
+import com.termux.ai.ai.app.TermuxActivity;
+import com.termux.ai.ai.zerocore.activity.view_holder.MinLViewHolder;
+import com.termux.ai.ai.zerocore.bean.MinLBean;
+import com.termux.ai.ai.zerocore.dialog.MingLShowDialog;
+import com.termux.ai.ai.zerocore.dialog.MinglingDialog;
+import com.termux.ai.ai.zerocore.utils.SaveData;
 
 import java.util.List;
 
@@ -66,9 +66,9 @@ public class MinLAdapter extends RecyclerView.Adapter<MinLViewHolder> {
                     mCloseLiftListener.close();
                 }
                 if(dataNum.get(position).isChecked){
-                    com.termux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(dataNum.get(position).value + " \n");
+                    com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(dataNum.get(position).value + " \n");
                 }else{
-                    com.termux.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(dataNum.get(position).value );
+                    com.termux.ai.zerocore.utils.SingletonCommunicationUtils.getInstance().getmSingletonCommunicationListener().sendTextToTerminal(dataNum.get(position).value );
                 }
 
             }

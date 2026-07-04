@@ -1,9 +1,9 @@
-package com.termux.zerocore.utils
+package com.termux.ai.ai.zerocore.utils
 
 import android.app.Activity
 import android.content.Intent
 import com.google.gson.Gson
-import com.termux.zerocore.bean.JoinBean
+import com.termux.ai.ai.zerocore.bean.JoinBean
 import java.util.*
 
 object  SendJoinUtils {

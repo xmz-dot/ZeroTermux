@@ -1,4 +1,4 @@
-package com.termux.app.terminal;
+package com.termux.ai.ai.app.terminal;
 
 import android.content.Context;
 import android.graphics.Rect;
@@ -19,19 +19,19 @@ import androidx.annotation.Nullable;
 import androidx.core.view.WindowInsetsCompat;
 
 import com.example.xh_lib.utils.UUtils;
-import com.termux.app.TermuxActivity;
-import com.termux.shared.logger.Logger;
-import com.termux.shared.view.ViewUtils;
-import com.termux.R;
-import com.termux.x11.MainActivity;
-import com.termux.zerocore.view.ZeroTermuxBackLayout;
+import com.termux.ai.ai.app.TermuxActivity;
+import com.termux.ai.ai.shared.logger.Logger;
+import com.termux.ai.ai.shared.view.ViewUtils;
+import com.termux.ai.ai.R;
+import com.termux.ai.ai.x11.MainActivity;
+import com.termux.ai.ai.zerocore.view.ZeroTermuxBackLayout;
 
 /**
  * The {@link TermuxActivity} relies on {@link android.view.WindowManager.LayoutParams#SOFT_INPUT_ADJUST_RESIZE)}
  * set by {@link TermuxTerminalViewClient#setSoftKeyboardState(boolean, boolean)} to automatically
  * resize the view and push the terminal up when soft keyboard is opened. However, this does not
  * always work properly. When `enforce-char-based-input=true` is set in `termux.properties`
- * and {@link com.termux.view.TerminalView#onCreateInputConnection(EditorInfo)} sets the inputType
+ * and {@link com.termux.ai.view.TerminalView#onCreateInputConnection(EditorInfo)} sets the inputType
  * to `InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD | InputType.TYPE_TEXT_FLAG_NO_SUGGESTIONS`
  * instead of the default `InputType.TYPE_NULL` for termux, some keyboards may still show suggestions.
  * Gboard does too, but only when text is copied and clipboard suggestions **and** number keys row

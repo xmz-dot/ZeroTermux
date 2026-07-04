@@ -1,10 +1,10 @@
-package com.termux.zerocore.editor
+package com.termux.ai.ai.zerocore.editor
 
 import android.view.KeyEvent
 import android.view.View
 import android.view.inputmethod.BaseInputConnection
-import com.termux.terminal.TerminalSession
-import com.termux.view.TerminalView
+import com.termux.ai.ai.terminal.TerminalSession
+import com.termux.ai.ai.view.TerminalView
 
 class EditorTerminalInputConnection(
     hostView: View,

@@ -1,4 +1,4 @@
-package com.termux.zerocore.utermux_windows.qemu.dialog;
+package com.termux.ai.ai.zerocore.utermux_windows.qemu.dialog;
 
 import android.content.Context;
 import android.os.Environment;
@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 
 import com.blockchain.ub.util.custom.dialog.BaseDialogCentre;
 import com.example.xh_lib.utils.UUtils;
-import com.termux.R;
+import com.termux.ai.ai.R;
 
 import java.io.File;
 
@@ -34,7 +34,7 @@ public class FileNameDialog extends BaseDialogCentre {
 
     @Override
    public void initViewDialog(View mView) {
-        mWinConfig = com.termux.zerocore.utils.XinhaoStoragePath.getWindowsConfigDir(mContext);
+        mWinConfig = com.termux.ai.zerocore.utils.XinhaoStoragePath.getWindowsConfigDir(mContext);
         edit_text = mView.findViewById(R.id.edit_text);
         commit = mView.findViewById(R.id.commit);
         cancel = mView.findViewById(R.id.cancel);

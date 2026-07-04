@@ -1,4 +1,4 @@
-package com.termux.zerocore.editor
+package com.termux.ai.ai.zerocore.editor
 
 import android.os.SystemClock
 import android.view.KeyEvent

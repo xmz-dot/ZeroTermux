@@ -1,4 +1,4 @@
-package com.termux.zerocore.activity.utils;
+package com.termux.ai.ai.zerocore.activity.utils;
 
 import android.content.Context;
 import android.content.res.AssetManager;
@@ -6,13 +6,13 @@ import android.content.res.AssetManager;
 import com.example.xh_lib.utils.LogUtils;
 import com.example.xh_lib.utils.UUtils;
 import com.google.gson.Gson;
-import com.termux.R;
-import com.termux.app.TermuxInstaller;
-import com.termux.shared.termux.TermuxConstants;
-import com.termux.zerocore.bean.CreateSystemBean;
-import com.termux.zerocore.bean.ReadSystemBean;
-import com.termux.zerocore.shell.ExeCommand;
-import com.termux.zerocore.url.FileUrl;
+import com.termux.ai.ai.R;
+import com.termux.ai.ai.app.TermuxInstaller;
+import com.termux.ai.ai.shared.termux.TermuxConstants;
+import com.termux.ai.ai.zerocore.bean.CreateSystemBean;
+import com.termux.ai.ai.zerocore.bean.ReadSystemBean;
+import com.termux.ai.ai.zerocore.shell.ExeCommand;
+import com.termux.ai.ai.zerocore.url.FileUrl;
 
 import java.io.BufferedReader;
 import java.io.File;

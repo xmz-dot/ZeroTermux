@@ -1,4 +1,4 @@
-package com.termux.zerocore.dialog
+package com.termux.ai.ai.zerocore.dialog
 
 import android.content.Context
 import android.os.Message
@@ -16,14 +16,14 @@ import com.blockchain.ub.utils.httputils.HttpResponseListenerBase
 import com.example.xh_lib.utils.UUtils
 import com.google.gson.Gson
 import com.lzy.okgo.model.Response
-import com.termux.R
-import com.termux.app.TermuxActivity
-import com.termux.shared.logger.Logger
-import com.termux.zerocore.bean.online_sh.Data
-import com.termux.zerocore.bean.online_sh.OnLineShBean
-import com.termux.zerocore.data.DownLoadShEntey
-import com.termux.zerocore.http.HTTPIP
-import com.termux.zerocore.url.FileUrl
+import com.termux.ai.ai.R
+import com.termux.ai.ai.app.TermuxActivity
+import com.termux.ai.ai.shared.logger.Logger
+import com.termux.ai.ai.zerocore.bean.online_sh.Data
+import com.termux.ai.ai.zerocore.bean.online_sh.OnLineShBean
+import com.termux.ai.ai.zerocore.data.DownLoadShEntey
+import com.termux.ai.ai.zerocore.http.HTTPIP
+import com.termux.ai.ai.zerocore.url.FileUrl
 
 class OnLineShDialog : BaseDialogDown {
     private var recycler_view:RecyclerView? = null

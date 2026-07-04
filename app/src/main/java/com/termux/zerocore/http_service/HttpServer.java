@@ -1,4 +1,4 @@
-package com.termux.zerocore.http_service;
+package com.termux.ai.ai.zerocore.http_service;
 
 import static android.os.Build.VERSION_CODES.R;
 
@@ -6,10 +6,10 @@ import android.os.Environment;
 import android.util.Log;
 
 import com.example.xh_lib.utils.UUtils;
-import com.termux.R;
-import com.termux.shared.termux.TermuxConstants;
-import com.termux.zerocore.url.FileUrl;
-import com.termux.zerocore.utils.FileIOUtils;
+import com.termux.ai.ai.R;
+import com.termux.ai.ai.shared.termux.TermuxConstants;
+import com.termux.ai.ai.zerocore.url.FileUrl;
+import com.termux.ai.ai.zerocore.utils.FileIOUtils;
 
 import org.apache.commons.fileupload.FileItemIterator;
 import org.apache.commons.fileupload.FileItemStream;
@@ -149,23 +149,23 @@ public class HttpServer extends NanoHTTPD {
                     );
                 }
               /*  answer += "<a id=\"btn2\" href=\"" + rootFile.getParentFile().getAbsolutePath()
-                    + "\" alt = \"\">" + UUtils.getString(com.termux.R.string.open_ttyd_http)
+                    + "\" alt = \"\">" + UUtils.getString(com.termux.ai.R.string.open_ttyd_http)
                     + "</a>";
                 answer += "<a id=\"btn2\" href=\"" + rootFile.getParentFile().getAbsolutePath()
-                    + "\" alt = \"\">" + UUtils.getString(com.termux.R.string.open_file_http)
+                    + "\" alt = \"\">" + UUtils.getString(com.termux.ai.R.string.open_file_http)
                     + "</a>";*/
                 answer += "<a id=\"btn2\" href=\"" + rootFile.getParentFile().getAbsolutePath()
                     + "\" alt = \"\">..."
                     + "</a>";
                 for (File file : files) {
 
-                    String isFile = UUtils.getString(com.termux.R.string.http_folder);
+                    String isFile = UUtils.getString(com.termux.ai.R.string.http_folder);
                     String isFileLink = "";
                     if (file.isDirectory()) {
-                        isFile = UUtils.getString(com.termux.R.string.http_folder);
+                        isFile = UUtils.getString(com.termux.ai.R.string.http_folder);
                         isFileLink = file.getName() + "/";
                     } else {
-                        isFile = UUtils.getString(com.termux.R.string.http_file);
+                        isFile = UUtils.getString(com.termux.ai.R.string.http_file);
                         isFileLink = file.getName();
                     }
                     answer += "<a id=\"btn2\" href=\"" + file.getAbsolutePath()
