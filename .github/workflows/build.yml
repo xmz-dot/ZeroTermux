@@ -76,8 +76,8 @@ jobs:
         uses: actions/cache@v5
         with:
           path: app/src/main/cpp/bootstrap-*.zip
-          key: bootstrap-${{ hashFiles('app/build.gradle') }}
-          restore-keys: bootstrap-
+          key: bootstrap-v2-${{ hashFiles('app/build.gradle') }}
+          restore-keys: bootstrap-v2-
 
       - name: 给 gradlew 执行权限
         run: chmod +x gradlew
