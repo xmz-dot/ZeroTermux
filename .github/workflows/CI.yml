@@ -17,7 +17,7 @@ jobs:
     if: ${{ github.event_name != 'push' || !startsWith(github.event.head_commit.message, '[skip ci]') }}
     strategy:
       matrix:
-        arch: [universal, arm, arm64, x86, x86_64]
+        arch: [arm64]
       fail-fast: false
     uses: ./.github/workflows/build.yml
     with:
@@ -28,4 +28,3 @@ jobs:
       KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
       KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
       STORE_PASSWORD: ${{ secrets.STORE_PASSWORD }}
-
